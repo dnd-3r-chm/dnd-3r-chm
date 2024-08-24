@@ -1,0 +1,841 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<title>熵力生物</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-alt:SimHei;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+h1
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:1;
+	font-size:24.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+h2
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:2;
+	font-size:18.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h3
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:3;
+	font-size:13.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h4
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:4;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h5
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:5;
+	font-size:10.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h6
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:6;
+	font-size:7.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-unhide:no;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-unhide:no;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+p
+	{mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+pre
+	{mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.1Char
+	{mso-style-name:"标题 1 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.3Char
+	{mso-style-name:"标题 3 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.4Char
+	{mso-style-name:"标题 4 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.5Char
+	{mso-style-name:"标题 5 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.6Char
+	{mso-style-name:"标题 6 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.HTMLChar
+	{mso-style-name:"HTML 预设格式 Char";
+	mso-style-unhide:no;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;}
+span.10
+	{mso-style-name:10;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.95pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style="tab-interval: 21.0pt"><div class=WordSection1 style="LAYOUT-GRID:  15.6pt none"><p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><b><span
+
+ style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #984807; LINE-HEIGHT: 150%'>熵力生物 （<span lang=EN-US> Entropic Creature</span>）</span></b><span
+ lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>熵力生物居住在负能量位面。除了大量不死生物，熵力生物理论上还适合于任何居住在该位面的负能量环境中的生物。<span
+ lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><b><span
+ lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></span></b>&nbsp;</p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>创造熵力生物</span></b><span lang=EN-US
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>“熵力”是可以添加在任何实体异怪，动物，龙类，精类，巨人，类人生物，魔法兽，人形怪物，异界生物，植物，不死生物或虫类（被提及的这些会被用作基础生物）上的可遗传的模板。<span
+ lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>熵力生物使用所有基础生物的数据和能力除了以下注明的这些。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>体型和类型：除非生物为不死生物，否则其类型变为异界生物。无需重新计算该生物的<span lang=EN-US>HD</span>，基础攻击加值或是豁免。体型不变。该生物还会获得跨位面子类。<span
+ lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>特殊攻击：熵力生物保留所有基础生物的特殊攻击并还会获得以下特殊攻击。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+ lang=EN-US style="FONT-FAMILY: Wingdings">l</span><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>负能量射线（<span
+ lang=EN-US>Sp</span>）：熵力生物每<span lang=EN-US>1d4</span>轮可以发出一道射程<span
+ lang=EN-US>60</span>尺的负能量射线。通过成功的远程碰触攻击，熵力生物可以对目标造成等同于<span lang=EN-US>1d4+</span>其魅力修正值的负能量伤害。该攻击将伤害活物并医疗不死生物。<span
+ lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>特性：熵力生物拥有基础生物所有的特性并加上以下的特性。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+ lang=EN-US style="FONT-FAMILY: Wingdings">l</span><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>有限法术抗力（正能量）（<span
+ lang=EN-US>Ex</span>）：熵力生物在对抗任何使用正能量的法术或类法术能力，包括治疗伤害法术上有等同于<span lang=EN-US>15+HD</span>（最大<span
+ lang=EN-US>35</span>）的法术抗力。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+ lang=EN-US style="FONT-FAMILY: Wingdings">l</span><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>适应负能量（<span
+ lang=EN-US>Ex</span>）：熵力生物不会因在负能量主导的环境中而失去生命值或是做强韧豁免。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+ lang=EN-US style="FONT-FAMILY: Wingdings">l</span><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>负能量灵气（<span
+ lang=EN-US>Sp</span>）：任何在熵力生物周围<span lang=EN-US>10</span>尺内的生物每轮会因周围的负能量灵气而失去<span
+ lang=EN-US>1</span>点生命值。免疫负能量效果的角色以及其他的熵力生物不受该效果影响。熵力生物可以以一个标准动作主动抑制该灵气，但该灵气每受抑制整分钟其就要受到<span
+ lang=EN-US>1</span>点力量伤害。当熵力生物失去意识时该灵气将持续起效。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>异界生物特性：熵力生物无法被复苏，复活或是复生（通过有限祈愿术，祈愿术，神迹术或是完全复生术法术可以将其复活）。它还有<span
+ lang=EN-US>60</span>尺黑暗视觉。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>驱散抗力（<span lang=EN-US>Ex</span>）：熵力不死生物有<span lang=EN-US>+4</span>驱散抗力。<span
+ lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>属性：按照以下提高基础生物的属性：体质<span lang=EN-US>+2</span>，魅力<span
+ lang=EN-US>+2</span>，智力至少<span lang=EN-US>3</span>。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>环境：负能量位面或和基础生物相同。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>组织：单独。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+ lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>CR</span><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>：<span
+ lang=EN-US>3HD</span>或更低，基础生物<span lang=EN-US>+1</span>；<span lang=EN-US>4</span>到<span
+ lang=EN-US>7HD</span>，基础生物<span lang=EN-US>+2</span>；<span lang=EN-US>8</span>或更多<span
+ lang=EN-US>HD</span>，基础生物<span lang=EN-US>+3</span>。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>等级调整：<span lang=EN-US>+2</span>。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+ lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></span>&nbsp;</p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><b><span style='FONT-SIZE:
+
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #c00000; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>熵力巫师食人魔（<span lang=EN-US>Entropic Ogre Mage</span>）<span
+ lang=EN-US> CR 10</span></span></b><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'><br>
+</span><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>大型异界生物（增强巨人，跨位面）<span lang=EN-US></span></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style="mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm; mso-cellspacing: 0cm">
+ <tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >生命<span
+  class=grame><span style="FONT-FAMILY: 黑体; mso-bidi-font-family: 宋体" 
+     >骰</span></span>：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span lang=EN-US style="FONT-FAMILY: 黑体" 
+     >5d8+20</span><span
+  style="FONT-FAMILY: 黑体" 
+     >（<span lang=EN-US>42hp</span>）</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 1">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >先攻：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span lang=EN-US style="FONT-FAMILY: 黑体" 
+     >+4</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 2">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >速度：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span lang=EN-US style="FONT-FAMILY: 黑体" 
+     >40</span><span
+  style="FONT-FAMILY: 黑体" 
+     >尺（<span lang=EN-US>8</span>格），飞行<span lang=EN-US>40</span>尺（良好）</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 3">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >防御等级：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span lang=EN-US style="FONT-FAMILY: 黑体" 
+     >18</span><span
+  style="FONT-FAMILY: 黑体" 
+     >（<span lang=EN-US>-1</span>体型，<span lang=EN-US>+5</span>天生，<span
+  lang=EN-US>+4</span><span class=grame><span style="FONT-FAMILY:
+  黑体; mso-bidi-font-family: 宋体" 
+     >链甲衫</span></span>），碰触<span lang=EN-US>9</span>，措手不及<span lang=EN-US>18</span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 4">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >基本攻击／擒抱：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span lang=EN-US style="FONT-FAMILY: 黑体" 
+     >+3/+12</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 5">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >攻击：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >巨剑<span lang=EN-US>+7</span>近战（<span
+  lang=EN-US>3d6+7/19-20</span>）或长弓<span lang=EN-US>+2</span>远程（<span
+  lang=EN-US>2d6/*3</span>）或负能量射线<span lang=EN-US>+2</span>远程（<span lang=EN-US>1d4+4</span>负能量）</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 6">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >全力攻击：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >巨剑<span lang=EN-US>+7</span>近战（<span
+  lang=EN-US>3d6+7/19-20</span>）或长弓<span lang=EN-US>+2</span>远程（<span
+  lang=EN-US>2d6/*3</span>）</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 7">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >面宽／触及：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span lang=EN-US style="FONT-FAMILY: 黑体" 
+     >10</span><span
+  style="FONT-FAMILY: 黑体" 
+     >尺<span lang=EN-US>/10</span>尺</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 8">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >特殊攻击：</span>
+  </b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >类法术能力</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 9">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >特殊能力：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >黑暗视觉<span lang=EN-US>90</span>尺，昏暗视觉，适应负能量，负能量灵气，<span
+  class=grame><span style="FONT-FAMILY: 黑体; mso-bidi-font-family: 宋体" 
+     >异界生物</span></span>特性，再生<span
+  lang=EN-US>5</span>，法术抗力<span lang=EN-US>19</span>（对抗正能量<span lang=EN-US>20</span>）</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 10">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >豁免：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >强韧<span lang=EN-US>+7</span>，反射<span
+  lang=EN-US>+1</span>，意志<span lang=EN-US>+3</span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 11">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >属性：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >力量<span lang=EN-US>21</span>，敏捷<span
+  lang=EN-US>10</span>，体质<span lang=EN-US>19</span>，智力<span lang=EN-US>14</span>，感知<span
+  lang=EN-US>14</span>，魅力<span lang=EN-US>19</span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 12">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >技能：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >专注<span lang=EN-US>+14</span>，聆听<span
+  lang=EN-US>+10</span>，辨识法术<span lang=EN-US>+10</span>，侦察<span lang=EN-US>+10</span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 13">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >专长：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >寓守于攻，精通先攻</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 14">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >地域：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >负能量位面</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 15">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >组织：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >单独</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 16">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >挑战等级：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span lang=EN-US style="FONT-FAMILY: 黑体" 
+     >10</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 17">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >宝物：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >双倍标准</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 18">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >阵营：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >通常守序邪恶</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 19">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >进化：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span style="FONT-FAMILY: 黑体" 
+     >根据角色职业</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 20; mso-yfti-lastrow: yes">
+  <td width=151 valign=top style="WIDTH: 113.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char"><b><span style="FONT-FAMILY: 黑体; COLOR: #0000cc" 
+     >等级调整：</span></b></p>
+  </td>
+  <td width=699 valign=top style="WIDTH: 524.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE:
+  char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph" 
+     ><span lang=EN-US style="FONT-FAMILY: 黑体" 
+     >+9</span></p>
+  </td>
+ </tr>
+</table>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>这个生物看上去像是大型的恶魔一样的人类。它有着绿色的皮肤，深色的头发和一对从其前额长出的白色短角。它深色的眼睛有着显眼的白色瞳孔，它的牙齿和爪子漆黑如墨。<span
+ lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>熵力巫师食人魔和标准的巫师食人魔看上去很像，但更加致命。它所拥有的负能量能力使其更加沉溺于其残忍和贪婪的天性。<span
+ lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>熵力巫师食人魔和它物质界的表亲在体型上一模一样。它站立时有<span lang=EN-US>10</span>尺高并重达<span
+ lang=EN-US>700</span>磅。它的皮肤颜色从浅绿色到亮蓝色不定，它的发色或黑或深棕。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>巫师食人魔喜欢宽松舒适的衣物和轻型的护甲。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>巫师食人魔说巨人语和通用语。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>战斗：</span></b><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>熵力巫师食人魔和普通的巫师食人魔一样会依靠类法术能力，但更容易因其强大的负能量灵气而依赖武力战斗。然而，当面对明显更强的敌人时，它会利用气化形体撤退而非打一场没有胜率的战斗。<span
+ lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>类法术能力：</span></b><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>任意<span lang=EN-US>--</span>黑暗术，隐形；<span
+ lang=EN-US>1/</span>天<span lang=EN-US>- </span>魅惑人类（<span lang=EN-US>DC 14</span>），寒冰锥（<span
+ lang=EN-US>DC 18</span>），气化形体，睡眠术（<span lang=EN-US>DC 14</span>）。施法者等级<span
+ lang=EN-US>9</span>级。豁免<span lang=EN-US>DC</span>基于魅力。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>飞行（<span lang=EN-US>Su</span>）：</span></b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>食人魔巫师可以使用一个自由动作停止或继续飞行，当它使用气化形体后它可以以正常速度飞行并且机动性完美。<span
+ lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>再生（<span lang=EN-US>Ex</span>）：</span></b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>火焰和强酸可以对食人魔巫师造成正常伤害。<span lang=EN-US></span></span></p>
+
+<p style="LAYOUT-GRID-MODE:
+ char; MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>食人魔巫师若失去一部分身体或肢干，只需要将断裂的部分贴在断口上即可接起来。整个接续过程持续<span
+ lang=EN-US>1</span>分钟。如果它的头部或者其他重要身体器官被切断，必须在<span lang=EN-US>10</span>分钟内接续回来否则该食人魔巫师会死亡。食人魔巫师无法长出它失去的身体部分。<span
+ lang=EN-US></span></span></p></div></body>
+
+</html>

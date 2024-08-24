@@ -1,0 +1,329 @@
+<html>
+
+<head>
+<title>600层无尽迷宫</title>
+
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document><style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"批注框文本 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char1
+	{mso-style-name:"批注框文本 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style="tab-interval: 21.0pt"><div class=WordSection1><p><strong><span style='FONT-FAMILY:
+ "微软雅黑","sans-serif"; COLOR: maroon; mso-bidi-font-family: 宋体'>无尽迷宫（<span lang=EN-US>The Endless Maze</span>）</span></strong><span
+ lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><br>
+</span><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>层数：<span lang=EN-US>600<br>
+</span>统治者：巴菲门特<span lang=EN-US><br>
+</span>特性：空间无限</span><span lang=EN-US style="FONT-SIZE:
+ 11pt; mso-bidi-font-size: 12.0pt"></span></p>
+
+<p class=MsoNormal style="LINE-HEIGHT:
+ 150%; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0"><span lang=EN-US style="FONT-SIZE:
+ 11pt; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt; mso-no-proof: yes"><IMG id=_x0000_i1026 alt="说明: 说明:&#13;&#10;&#13;&#10; 说明:&#13;&#10;&#13;&#10; C:\Users\Administrator\AppData\Roaming\Tencent\Users\2210488337\QQ\WinTemp\RichOle\AQ5W4)331GN97L5S]P`(B`6.png" src ="600层_无尽迷宫.files/image0001.jpg" width=712 height=492 ></span><span
+ lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>巴菲门特，兽嚎主君，居住在一片无尽的扭曲长廊和陷阱拐角组成的迷宫的中心。这些无尽的通道连接着一些其他层面上的迷宫地带，例如莎戴拉的迷乱树篱或是桑纳托斯上的墓穴山谷。这些连接为无尽迷宫带来了众多的访客（通常是无意进入的），在这里它们很快会完全绝望，甚至会期盼着由巴菲门特派出来清理闯入者们的饥饿野兽快些到来。<span
+ lang=EN-US></span></span></p>
+
+<p class=MsoNormal style="LINE-HEIGHT:
+ 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>许多牛头人部落居住在迷宫中，通常由半炼狱牛头人或是从血战中逃出来的流浪布雷祖魔所领导。这些生物将巴菲门特作为守护神崇拜，而它们的奉献就是其中一些牛头人最终会走出迷宫向物质界的牛头人传播野兽主君的教义。除了羊头的布雷祖魔，一些出自巴菲门特的理学之塔的“标志性货物”恶魔品种也常出没在该层面，包括以被称为角魔的残忍有角食人魔以及恶魔领主经常向外出售的创造物，巨牛魔。许多饥饿的巨牛魔徘徊在无尽迷宫废弃的廊道中，保护大型的走廊和通道免受闯入者的打扰（并且经常因为取乐而偷偷地干掉同盟的巴菲门特仆人）。巴菲门特偶尔会允许迷诱魔组成的奇袭部队绑架这种生物强迫其为遥远的恶魔领主服务，因为巴菲门特知道巨牛魔的强壮体格和战斗能力能够将其威名散播到整个深渊的每个角落。<span
+ lang=EN-US></span></span></p>
+
+<p class=MsoNormal style="LINE-HEIGHT:
+ 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>在充满着恶魔和尖啸的恐怖迷宫中还居住着许多能够给前来的冒险者提供援助或是带来麻烦的凡人。这些行动诡秘，对别人毫无信赖可言的生物便是迷失（<span
+ lang=EN-US>the Lost</span>），通常是从莱克什的巴菲门特宫殿下的地宫里面逃出来的豺狼人或人类。巴菲门特和它的仆从们随意的狩猎着这些可怜的生物以打发无聊或是保持对更加重要的战役的热情。当恶魔领主或是强大的凡人施法者盟友冀图获取野兽主君的支援时，巴菲门特会命令其寻找迷失中的某个特殊成员，并且经常以将该人物带给它作为继续讨论下去的条件。在该层面偏远的角落里迷失的成员们杂乱的聚集成堆以提高生存几率并拼命的寻找逃脱的方法。<span
+ lang=EN-US></span></span></p>
+
+<p class=MsoNormal style="LINE-HEIGHT:
+ 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>巴菲门特愤怒的与其它恶魔领主开展着斗争，特别是耶诺古和格拉兹特，在无尽迷宫中的大多数武装冲突皆由此引发，它们派遣了大批的恶魔和凡人勇士军团蜂拥入无尽迷宫的通道中以试图在野兽主君的老巢中将其毁灭。很少有侵略者能够在应付好那无尽的迷宫后对巴菲门特产生威胁，况且它们在见到巴菲门特这个主人前首先还必须要击败巴菲门特的众多造物。至于耶诺古，二者之间的仇恨持续时间如此之长以至于没人还能够记起最初是因为什么而结怨的。<span
+ lang=EN-US></span></span></p>
+
+<p class=MsoNormal style="LINE-HEIGHT:
+ 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>无尽迷宫中大多数走廊都是由打磨光滑的墙壁组成的约<span
+ lang=EN-US>10</span>尺宽的通道，天花板位于其平滑的石质地板上方<span lang=EN-US>10</span>尺或<span
+ lang=EN-US>20</span>尺高的地方。各处的廊道有的通向广阔的穹顶大厅有的缩紧为直径仅约<span lang=EN-US>1</span>尺的狭窄通道。在靠近莱克什（<span
+ lang=EN-US>Lyktion</span>）和巴菲门特其他的堡垒的地方，迷宫构造变得复杂，干净和保养良好，墙壁也由象牙白的大理石，花岗石和斑岩建成。迷宫洁净的状况经常因巨大的血痕，残破的尸体和其他恶魔们，冒险者们和其他迷失的灵魂之间的战斗留下的恐怖遗迹而破坏。离这些地域更远的地方则经常都由巴菲门特亲自巡查，越远迷宫越逐渐变得破碎失修而最终呈现为未经修饰的天然洞穴。在靠近通往其他层面的传送门的地方，迷宫有时会采用源自传送门另一侧的层面上的古老建筑或艺术装饰。在无尽迷宫层面上没有自然光源，永不熄灭的火炬保持着主要通道上的照明以方便巴菲门特的受害者能够看到它们的捕猎者的扭曲面容。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt"></span></p>
+
+<p style="LINE-HEIGHT: 150%; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0"><span
+ lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt; mso-no-proof: yes'><IMG id=_x0000_i1025 alt="说明: 说明:&#13;&#10;&#13;&#10; E:\文件原档\未完成版\魔族法典（FC）\深渊堕群（FC1）\深渊地理\600层_无尽迷宫.files\image001.jpg" src="600层_无尽迷宫.files/image001.jpg" width =487 height=626 ></span><span
+ lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></span></p>
+
+<p style="LINE-HEIGHT: 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>无尽迷宫层面上的关键地点概述如下。<span lang=EN-US></span></span></p>
+
+<p style="LINE-HEIGHT: 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><b
+ style="mso-bidi-font-weight: normal"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>苍夜的骨堡</span></b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>（<span lang=EN-US>The Bone Castle of Pale Night</span>）：恶魔之母，奥比里斯的苍夜，远在和其他大多数塔那里都有着古老联系的巴菲门特到来之前就已经居住在了深渊的第<span
+ lang=EN-US>600</span>层。当残忍的兽角君王来到这片奥比里斯的衰败国度时，苍夜以某种方法成功的抑制它的愤怒足够到能够同意一个延续至今的协约的程度。<span
+ lang=EN-US></span></span></p>
+
+<p style="LINE-HEIGHT: 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>当巴菲门特的无尽迷宫占据了这个无尽层面的大多数区域时，一片相当大的区域仍控制在苍夜手中，它居住在一座建立在一片广阔的布满骨骼的圆形平原中心的一座恐怖城堡中。骨堡看上去极其古老和易碎，如同组成其纠缠表面的那些脆弱手骨和指骨随时都会零落成尘一般。和外表不同的是，这座城堡仍然十分坚固且在深渊现有的历史中从未被攻取过。在城堡内部众多的展示厅内安放的巨大壁龛中，苍夜展示着那些被其杀死的受害者的破碎阴影。<span
+ lang=EN-US></span></span></p>
+
+<p style="LINE-HEIGHT: 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>迷宫在骨堡围墙附近近乎消失，巴菲门特从来不会干涉苍夜在其古老领域内的事物。作为回报，神秘的女恶魔也很少敢于进入野兽主君的领域，除非是为了使用该层面通往安卓林纳（<span
+ lang=EN-US>Androlynno</span>）的单向传送门，在那里她和一整个世代的被困住的爱刺天族孩子们玩得很愉快。<span
+ lang=EN-US></span></span></p>
+
+<p style="LINE-HEIGHT: 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><b
+ style="mso-bidi-font-weight: normal"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>黄铜之域</span></b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>（<span lang=EN-US>The Fields of Brass</span>）：当不在他的理学之塔（<span
+ lang=EN-US>Tower of Science</span>）中工作或是在莱克什谋划有关物质界的事物时，巴菲门特喜欢在黄铜之域，一座建立在碗状火山口上的数个纪元来不断散发着四溢的鲜血的庞大角斗场中发泄自己的欲望。球形的战斗场直径近乎<span
+ lang=EN-US>1000</span>尺，且都是由巨大的黄铜平板重叠建成。因为参与战斗的经常是身高惊人的巨大野兽和兽性恶魔，战斗经常会散溢到分层的竞技场的上层建筑中，一系列严重受限制的露天迷宫为在大角斗场中的战斗增添了致命的空间因素。通常只有很少的座位能够俯视整个迷宫和战斗场地，最尊贵的巴菲门特的由黄铜和骨骼制成的壮丽王座矗立于黄铜之域边缘的最高处。<span
+ lang=EN-US></span></span></p>
+
+<p style="LINE-HEIGHT: 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><b
+ style="mso-bidi-font-weight: normal"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>莱克什</span></b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>（<span lang=EN-US>The Lyktion</span>）：拥有着上千房间的巴菲门特的宫殿本身就是一个迷宫，杂章无序的弯曲走廊和房间配备着勤勉的夸塞魔厨师和清洁工组成的军队。一道一里宽的护城河环绕着蹲伏的宫殿，隐藏着令人发狂的众多水下阶梯，通道和房间，它们通往堡垒更深处的厅堂，而这些地方除了这些水下通路外别无常路可以进入。巴菲门特最残忍的野蛮守卫们居住在护城河深处，不断从诸如耶诺古或是格拉兹特那相当频繁的攻击下护卫着莱克什。<span
+ lang=EN-US></span></span></p>
+
+<p style="LINE-HEIGHT: 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><b
+ style="mso-bidi-font-weight: normal"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>理学之塔</span></b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>（<span lang=EN-US>The Tower of Science</span>）：一座金属板铸成的复杂塔楼完全占据了这个庞大的圆柱形厅堂，该建筑的外壁和巴菲门特那无尽的迷宫的尚未完成的墙壁之间的距离不超过<span
+ lang=EN-US>15 </span>尺。在和地面接壤的部分这座<span lang=EN-US>200</span>尺高的高塔并没有可以进入的入口，但在几个不同的高度上有许多桥梁使高塔连接着厅堂伸出的隧道。塔楼的圆形顶部，会令人联想起天文台，上面有的宽阔凹槽会暴露出内部的圆形房间。这个房间能够通过旋转和伸出一套梯子到达通往迷宫其他地方的十三个不同通道中的任意一个。高塔直径<span
+ lang=EN-US>80</span>尺。<span lang=EN-US></span></span></p>
+
+<p style="LINE-HEIGHT: 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>塔楼的十六层分别研究巴菲门特感兴趣的不同技艺，包括研究拷问，死亡，剥皮，剥制，活体解剖，解剖，肉体移植，繁育实验和通过混合和拼接来自数百个不同供体生物的骨骼构建新的骨架。在高塔下的房间中，巴菲门特利用他失败的实验丢弃的骨骼和血肉制造完全独创的恶魔品种，因此诞生的独创品种包括布雷祖魔，牛魔，巨牛魔和更糟糕的一些物种。这些最不可信任和最暴力的生物们很快就发现自己被束缚在地下的鄙弃迷宫（<span
+ lang=EN-US>Maze of the Misbegotten</span>）中。被驱逐出高塔的强大存在反过来成为了它们最初诞生地的保护者。巴菲门特在理学之塔中花费的时间比其他地方都多，包括它的寝宫莱克什。<span
+ lang=EN-US></span></span></p>
+
+<p style="LINE-HEIGHT: 150%; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span
+ lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></span>&nbsp;</p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>表<span
+ lang=EN-US>5-19</span>：无尽迷宫遭遇<span lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>d%&nbsp;&nbsp;&nbsp;</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>遭遇<span
+ lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>01-30&nbsp;&nbsp;&nbsp;</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>八只炼狱牛头人（怪物图鉴<span
+ lang=EN-US>107,188</span>页）转过转角出现在<span lang=EN-US>PC</span>们视线中。这只队伍的首领是只强大的布雷祖魔（见第<span
+ lang=EN-US>33</span>页）。<span lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>31-50&nbsp;&nbsp;&nbsp;</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>一名迷路的旅行者蹒跚着从约<span
+ lang=EN-US>40</span>尺远的旁侧通道走入走廊中。掷骰从遭遇列表中获取其来自以下一个层面：安卓林纳（<span lang=EN-US>01-20</span>），阿兹格拉特（<span
+ lang=EN-US>21-40</span>），帕祖尼亚（<span lang=EN-US>41-50</span>），莎戴拉（<span
+ lang=EN-US>51-60</span>），桑纳托斯（<span lang=EN-US>61-80</span>）或耶诺古的领域（<span
+ lang=EN-US>81-100</span>）。假如得到的遭遇与该迷宫的境况不相符合，则再次掷骰或者选择一个更合适的遭遇。<span
+ lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>51-60&nbsp;&nbsp;&nbsp;</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>迷宫通向了一个被一只接受命令阻挡闯入者进程的<span
+ lang=EN-US>12</span>头蛇蜥（怪物图鉴<span lang=EN-US>155</span>）所占据的宽阔高顶房间。<span
+ lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>61-70&nbsp;&nbsp;&nbsp;PC</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>们遇到了一个在迷宫中迷路最终饿死的受害者被吃剩下后的遗体。用和团队等级相等的<span
+ lang=EN-US>NPC</span>适合的魔法装备配备给死去的<span lang=EN-US>NPC</span>。<span lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>71-80&nbsp;&nbsp;&nbsp;</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>三只粗野的牛魔（<span
+ lang=EN-US>ghour</span>）（费伦失落的帝国第<span lang=EN-US>168</span>页（<span lang=EN-US>Lost
+Empires of Faer?n 168 </span>））欺凌着一只没有武装的豺狼人逃亡者。假如被救下，豺狼人会告知它是格拉科林（混乱邪恶雄性 豺狼人<span
+ lang=EN-US> 11</span>级术士），耶诺古的一个重要个人随从。假如<span lang=EN-US>PC</span>们同意让其返回耶诺古的领域，感激的豺狼人还会邀请<span
+ lang=EN-US>PC</span>们到其位于豺狼人王子那不断漫游的宅邸上的家里坐客。<span lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>81-90&nbsp;&nbsp;&nbsp;</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>一只孤独的深渊潜魔（怪物图鉴Ⅱ第<span
+ lang=EN-US>57</span>页）潜入迷宫中搜寻会动的食物。<span lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>91-100&nbsp;&nbsp;&nbsp;</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'>当<span
+ lang=EN-US>PC</span>们进入一个宽阔的，有许多圆柱子的走廊中时，一只巨大的巨牛魔（见第<span lang=EN-US>40</span>页）给他们带来了一场残酷的挑战。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt; mso-bidi-font-size: 12.0pt"></span></p></div></body>
+
+</html>

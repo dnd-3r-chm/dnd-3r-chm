@@ -1,0 +1,637 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>渗透者</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=ProgId content=Word.Document>
+<STYLE>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"批注框文本 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.p, li.p, div.p
+	{mso-style-name:p;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char
+	{mso-style-name:"批注框文本 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char1
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY lang=ZH-CN style="tab-interval: 21.0pt">
+<DIV class=WordSection1>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'></SPAN><SPAN 
+style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: maroon; LINE-HEIGHT: 150%'><STRONG>渗透者</STRONG></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>渗透者是由闪耀的密银环所组成的链甲杉，主要是用于军事上但也不欠缺工艺上的精巧。</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; LINE-HEIGHT: 150%'>非传古数据：</SPAN></B><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>+1</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>密银链甲杉；价值<SPAN 
+lang=EN-US>2100</SPAN>金币。</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; LINE-HEIGHT: 150%'>征兆：</SPAN></B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>当穿戴渗透者时，会增强角色的视力，获得如同放大镜或是望远镜的视觉效果。</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>(</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>放大镜：放大镜可以用仔细观察物品，也可以取代燧石、铁片与火绒来生火（但必须在有如阳光直射强度的光线下才能聚焦引火，使用放大镜生火至少要花一整轮的时间）。若使用放大镜，对小型或精制物品（如：宝石）进行（估价）技能检定时有<SPAN 
+lang=EN-US>+2</SPAN>环境加值。望远镜：透过望远镜可看到两倍大的物体影像。<SPAN lang=EN-US>) 
+</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN 
+lang=EN-US><U1:P></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-no-proof: yes'><IMG id=_x0000_i1025 
+alt="说明: C:\Users\Administrator\Desktop\未完成版\传古武器（WoL）\3传古道具\渗透者.png" 
+src="渗透者.jpg" width=268 height=298></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; LINE-HEIGHT: 150%'>传古仪式</SPAN></B><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·战线之后：</SPAN></B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>你必须获得三项秘密的知识，而且不能是你用正常方法获取的，而需要做一个<SPAN 
+lang=EN-US>DC20</SPAN>的信息<SPAN 
+lang=EN-US>(information)</SPAN>检定来获得它们。如果检定失败，那么该仪式也跟着失败。然后你得花一整天，穿着渗透者来冥思。花费：<SPAN 
+lang=EN-US>4300</SPAN>金币。获得低级传古专长。</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·内幕追踪：</SPAN></B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>你必须藉由聆听检定来成功窃听一个私下的谈话<SPAN 
+lang=EN-US>(DC15</SPAN>或更高<SPAN lang=EN-US>)</SPAN>并且清楚地明白他们到底说了些什么，而代表其难度的<SPAN 
+lang=EN-US>DC</SPAN>是<SPAN lang=EN-US>10</SPAN>或更高<SPAN lang=EN-US>(represented 
+by beating the DC by 10 or more)</SPAN>。花费：<SPAN 
+lang=EN-US>12700</SPAN>金币。获得次级传古专长。</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·战线之间：</SPAN></B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>在社会情境中，你必须成功地藉由察言观色检定来辨别某一个至少有着<SPAN 
+lang=EN-US>+20</SPAN>以上唬骗技能的生物是否在欺骗你。花费：<SPAN 
+lang=EN-US>40500</SPAN>金币。获得高级传古专长。</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "Calibri","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-family: "Times New Roman"'><SPAN 
+style="mso-spacerun: yes"></SPAN><U1:P></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>等级<SPAN 
+lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN></SPAN>反射<SPAN 
+lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN></SPAN>技能检定<SPAN 
+lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN></SPAN>生命值<SPAN 
+lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN></SPAN>技能点<SPAN 
+lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp;&nbsp; 
+</SPAN></SPAN>能力</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'><SPAN 
+style="mso-spacerun: yes">&nbsp;</SPAN>5<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>昏暗视觉</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'><SPAN 
+style="mso-spacerun: yes">&nbsp;</SPAN>6<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-2<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-3<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>搜集真相<SPAN 
+lang=EN-US>+5</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'><SPAN 
+style="mso-spacerun: yes">&nbsp;</SPAN>7<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>-1<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-1<SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>当地服饰</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'><SPAN 
+style="mso-spacerun: yes">&nbsp;</SPAN>8<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-3<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>彻底扫视<SPAN 
+lang=EN-US>+5</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'><SPAN 
+style="mso-spacerun: yes">&nbsp;</SPAN>9<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>10<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-2<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>更高的优势</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>11<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>黑暗视觉</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>12<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>-2<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>+3</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>秘银链甲杉</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>13<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-3<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>当地语言</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>14<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-2<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>15<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>无孔不入</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>16<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-3<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>诛心</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>17<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>盲感</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>18<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-3<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>搜集真相<SPAN 
+lang=EN-US>+15</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>19<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-3<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>彻底扫视<SPAN 
+lang=EN-US>+15</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>20<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN>-3<SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>回避侦测</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'><SPAN 
+style="mso-spacerun: yes"></SPAN><U1:P></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; LINE-HEIGHT: 150%'>使用者要求</SPAN></B><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN 
+class=15><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: purple; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>·</SPAN></B></SPAN><SPAN 
+class=15><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>搜集信息<SPAN 
+lang=EN-US>2</SPAN>级</SPAN></B></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN 
+class=15><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>·聆听<SPAN 
+lang=EN-US>2</SPAN>级</SPAN></B></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN 
+class=15><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>·察言观色<SPAN 
+lang=EN-US>2</SPAN>级</SPAN></B></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN 
+class=15><B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'><SPAN 
+style="mso-spacerun: yes"></SPAN><U1:P></SPAN></B></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; LINE-HEIGHT: 150%'>传古能力</SPAN></B><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·昏暗视觉<SPAN 
+lang=EN-US>(SU)</SPAN>：</SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>5</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，角色获得昏暗视觉。</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·搜集真相<SPAN 
+lang=EN-US>(SU)</SPAN>：</SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>6</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，渗透者赋予角色在侦查检定上<SPAN 
+lang=EN-US>+5</SPAN>的技能加值<SPAN lang=EN-US>(competence bonus)</SPAN>。<SPAN 
+lang=EN-US>18</SPAN>级时该加值增加到<SPAN lang=EN-US>+15</SPAN>。</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·当地服饰<SPAN 
+lang=EN-US>(SU)</SPAN>：</SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>7</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，你可以改变渗透者的外观与形式让其看起来像是一件普通的衣服。该装甲使用该魔力时会保留其所有的能力特性<SPAN 
+lang=EN-US>(</SPAN>包含重量<SPAN 
+lang=EN-US>)</SPAN>。你也可以用这项能力去触碰他人的服饰，来复制他或她的衣着。只有真实视觉或是其他相同效果的魔法能够看穿该盔甲伪装过后的真实型态。</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·彻底扫视<SPAN 
+lang=EN-US>(SU)</SPAN>：<SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; 
+</SPAN></SPAN></SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>8</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，渗透者赋予角色在搜索检定上<SPAN 
+lang=EN-US>+5</SPAN>的技能加值。<SPAN lang=EN-US>19</SPAN>级时该加值增加到<SPAN 
+lang=EN-US>+15</SPAN>。</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·更高的优势<SPAN 
+lang=EN-US>(SU)</SPAN>：</SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>10</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，你获得<SPAN 
+lang=EN-US>20</SPAN>尺的攀爬速度。你也可以在垂直平面以及天花板上移动，就如同法术蛛行术的效果一样，该能力一天能使用<SPAN 
+lang=EN-US>10</SPAN>分钟。该时间不需要连续使用。施法者等级<SPAN lang=EN-US>5</SPAN>。</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·黑暗视觉<SPAN 
+lang=EN-US>(SU)</SPAN>：<SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; 
+</SPAN></SPAN></SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>11</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，角色获得获得<SPAN 
+lang=EN-US>60</SPAN>尺的黑暗视觉。如果角色原本就有黑暗视觉的能力，则其范围额外增加<SPAN 
+lang=EN-US>30</SPAN>尺。</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·当地语言<SPAN 
+lang=EN-US>(SU)</SPAN>：<SPAN lang=EN-US><SPAN style="mso-spacerun: yes">&nbsp; 
+</SPAN></SPAN></SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>13</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，你可以说并且理解任何生物所说的语言。</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·无孔不入<SPAN 
+lang=EN-US>(SP)</SPAN>：</SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>15</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，你可以随意使用法术隐形术。施法者等级<SPAN 
+lang=EN-US>10</SPAN>。</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·诛心<SPAN 
+lang=EN-US>(SP)</SPAN>：</SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>16</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，你可以随意使用法术侦测思想。其豁免检定<SPAN 
+lang=EN-US>DC</SPAN>为<SPAN lang=EN-US>13</SPAN>或是<SPAN 
+lang=EN-US>12+</SPAN>角色的魅力调整值，取其高者。施法者等级<SPAN lang=EN-US>11</SPAN>。</SPAN><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·盲感<SPAN 
+lang=EN-US>(SU)</SPAN>：</SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>17</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，角色获得<SPAN 
+lang=EN-US>30</SPAN>尺的盲感能力。</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>·回避侦测<SPAN 
+lang=EN-US>(SU)</SPAN>：</SPAN></B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>20</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，角色持续处于法术回避侦测的效果之下。施法者等级<SPAN 
+lang=EN-US>5</SPAN>。</SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'><SPAN 
+style="mso-spacerun: yes"></SPAN><U1:P></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P class=p style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; LINE-HEIGHT: 150%'>历史</SPAN></B><SPAN 
+lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p 
+style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>作为某人年轻时候的错误，<SPAN 
+lang=EN-US>Dekarius Daystorm</SPAN>是一个私生子，其家族是一个为其国家军队制造攻城器械的富有商人家族。<SPAN 
+lang=EN-US>Dekarius</SPAN>被迫学习该家族所有的黑暗秘密，且他为自己总能在不经意间窃听到他人的秘密而感到沾沾自喜。据说其父亲，那个放荡不羁的人拥有着对该技巧高超的天赋。因为这件事其家族的成员总是离<SPAN 
+lang=EN-US>Dekarius</SPAN>远远的。整个家族都畏惧他那永不满足的好奇心以及推论的能力<SPAN 
+lang=EN-US>-</SPAN>纵贯该家族历史上曾做过的勒索、不贞甚至是杀人逃逸，都被这个无所事事的年轻人所发现。因此，在告知他儿子之前，<SPAN 
+lang=EN-US>Dekarius</SPAN>的父亲将他送入贵族军队中服役，希望在军事上能能好好利用其犀利的技巧。<SPAN 
+lang=EN-US>Dekarius</SPAN>被送往其路途时所穿的密银炼甲衫，日后也被称为渗透者。<SPAN 
+lang=EN-US>(DC15)</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p 
+style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>Dekarius</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>对于其父亲偷偷地使其入伍军队的做法感到烦恼及愤怒，但他却未对此采取任何对抗的手段。他被雇用于日常文书的工作。怀着对于父亲的怨恨，<SPAN 
+lang=EN-US>Dekarius</SPAN>在所有分配给他的任务中表现优异并且迅速地展现天生对于搜集敌人情报的天赋。结果，他被更深入地送往敌人的领土范围，即使是最少的情况下，也总是带回有关敌军军备、部署以及军队数目的详细资料。然而<SPAN 
+lang=EN-US>Dekarius</SPAN>并不仅仅满足于其表面的职务。他总是打扮成敌方军队的成员之一，并大胆地前往其营地，特别是书记官，对其个性进行评估并且特别关注其指挥风格。<SPAN 
+lang=EN-US>Dekarius</SPAN>甚至设法去窃听高级军官们所讨论的特定战略。这些成就让他成为贵族军队中价值非凡的重要成员。<SPAN 
+lang=EN-US>(d20</SPAN>；战线之后<SPAN lang=EN-US>)</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p 
+style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>Dekarius</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>在其上司眼中相当地出名，因为他们总是得依靠其所提供的情报。他的间谍情报可靠到一场战役总是会延迟在他盗取情报回来后才开打。最终，<SPAN 
+lang=EN-US>Dekarius</SPAN>遇到了他所做过最为隐蔽的任务。他必须渗透进一个正在撤退的敌方军队中，得到那些领导位阶的军官们的信任，并且作为他们的侦查兵为其服役。只有<SPAN 
+lang=EN-US>Dekarius</SPAN>以及其上司对该计划知情。<SPAN 
+lang=EN-US>Dekarius</SPAN>被允许向敌方的领导者们提供有用的情报，只为了获取他们的信任。而在其中也会暗地加入一些假情报。这项行动十分完美地进行，使<SPAN 
+lang=EN-US>Dekarius</SPAN>可以定期将一些重要的情报传给他的领导者们。然而在敌方的首都中，<SPAN 
+lang=EN-US>Dekarius</SPAN>猝不及防地在街道中认出了他的父亲。他尾随其父穿过城市的大道及小径。这位老者进入了军事基地之中，<SPAN 
+lang=EN-US>Dekarius</SPAN>这才了解到他同时为战争中的双方提供攻城器械。<SPAN 
+lang=EN-US>(DC25</SPAN>；内幕追踪<SPAN lang=EN-US>)</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'><U1:P></SPAN></P>
+<P class=p 
+style="MARGIN: 0cm 0cm 0.5pt; LINE-HEIGHT: 150%; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>当<SPAN 
+lang=EN-US>Dekarius</SPAN>发现他的父亲是个两面派，他的爱国心与对家族的忠诚有了冲突。当他的父亲暴露出其已经秘密地在这场战争中的两个阵营来来回回地奔波好几年时，这位年轻的士兵开始质疑他。<SPAN 
+lang=EN-US>Daystorm</SPAN>家族的商会甚至努力去维持一个人为的力量平衡来保证其生意的存续。<SPAN 
+lang=EN-US>Dekarius</SPAN>的父亲清楚地表示，如果停止这种两面派的交易，则整个家族将会受到伤害。这样的交易是让家族像现在这样富有的主因。<SPAN 
+lang=EN-US>Dekarius</SPAN>将这些话语以及他所知道有关其亲戚的一切、深深贯穿其家族的腐败勾当进行权衡。认为金钱只会带给他们不幸。当<SPAN 
+lang=EN-US>Dekarius</SPAN>叫他父亲快逃并且不要在他们的家乡出现时，他感觉到其父的保镳们自后方接近。当他转身去面对这些恶汉时，突然感觉到一阵冰冷与疼痛，铁制武器自其后背穿心而出。<SPAN 
+lang=EN-US>Daystorm</SPAN>家族的生意得到了保障。<SPAN lang=EN-US>(DC30</SPAN>；战线之间<SPAN 
+lang=EN-US>)</SPAN></SPAN><!--EndFragment--><SPAN lang=EN-US 
+style='FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></DIV></BODY></HTML>

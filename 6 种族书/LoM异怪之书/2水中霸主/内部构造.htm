@@ -1,0 +1,532 @@
+<html>
+
+<head>
+<title>内部构造</title>
+
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document><style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:1;
+	font-size:24.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:2;
+	font-size:18.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:3;
+	font-size:13.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h4
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:4;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h5
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:5;
+	font-size:10.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h6
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:6;
+	font-size:7.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+pre
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:21.0pt;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.1Char
+	{mso-style-name:"标题 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.3Char
+	{mso-style-name:"标题 3 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.4Char
+	{mso-style-name:"标题 4 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.5Char
+	{mso-style-name:"标题 5 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.6Char
+	{mso-style-name:"标题 6 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.Char
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"批注框文本 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char1
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.HTMLChar
+	{mso-style-name:"HTML 预设格式 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+p.p1Char, li.p1Char, div.p1Char
+	{mso-style-name:"p1 Char";
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.10
+	{mso-style-name:10;
+	mso-style-unhide:no;
+	font-family:Wingdings;
+	mso-ascii-font-family:Wingdings;
+	mso-hansi-font-family:Wingdings;}
+span.15
+	{mso-style-name:15;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+span.16
+	{mso-style-name:16;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+span.17
+	{mso-style-name:17;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style="tab-interval: 21.0pt"><div class=WordSection1><p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><b><span style='FONT-SIZE:
+ 13.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: maroon; LINE-HEIGHT: 150%'>内部生理构造</span></b><span
+ lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>和其他异怪不同，底栖魔鱼的内部器官非常类似普通生物<span lang=EN-US>--</span>或者说，鱼类。而除了这些相似之处以外，底栖魔鱼的很多内脏看起来都是对逻辑与解剖学的挑战。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>骨骼系统</span></b><span lang=EN-US style='FONT-SIZE:
+ 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>底栖魔鱼的骨骼系统也许是其内部器官中最简单的部分了。至少有三分之一的骨骼构成了其庞大的头骨，很大一块骨骼延伸从其前端延伸构成了三块颌骨（为了支持其三角形的嘴部的活动），然后集中于在其背部的中心点汇集。从头骨向后延伸的是底栖魔鱼的脊椎，由一串拥有惊人灵活性的联锁骨骼构成。如果需要的话，底栖魔鱼可以像蛇一样盘绕起来。而从脊椎延伸出无数长长的肋骨，每个都占据了脊椎中独立的一节并且在底栖魔鱼的身体底部联合成一块长而扁平的骨头以保护其腹部与内部器官。肋骨区域一直延伸到尾骨开始的部分，其尾骨由一条大幅度延长的脊椎骨构成。底栖魔鱼的鳍没有骨骼，仅仅由厚实的软骨支持。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>消化系统</span></b><span lang=EN-US style='FONT-SIZE:
+ 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>底栖魔鱼的消化系统同样简单，包括一张嘴，一个食道，一个独特的特大号胃囊，以及一堆肠子。虽然它的牙齿很小，但数量庞大，从食道（<span
+ lang=EN-US>4</span>）一直延伸到胃囊（<span lang=EN-US>5</span>）。底栖魔鱼要花费几分钟的时间来吞咽食物，吞下的一口食物在穿过食道时会被沿途的大量牙齿切碎，等到胃里时已经变成了一堆碎渣。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>胃囊会将食物进一步消化，并将其中某些部分吸入肋骨底部一个长而扁平的凿形器官里。该器官是其呼吸系统的一部分，用来生成黏液的黏液分泌脏器（<span
+ lang=EN-US>milathast</span>）（<span lang=EN-US>6</span>）。真正开始将食物的营养物质提取出来的过程发生在其肠子里（<span
+ lang=EN-US>7</span>）。底栖魔鱼能够消化血肉，骨骼以及植物。至于其他不能吃的东西，要么被马上吐出来，要么在穿过肠子时带来剧痛。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 28pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'><span
+ style="mso-spacerun: yes">&nbsp;</span></span><span lang=EN-US><span
+ style="mso-no-proof: yes"><IMG id=_x0000_i1025 alt="说明: E:\文件原档\未完成版\异怪之书（LoM）\2水中霸主\内部构造.files\内部构造761.png" src="内部构造.files/内部构造761.jpg" width=674 height=507 ></span></span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>呼吸系统</span></b><span lang=EN-US style='FONT-SIZE:
+ 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>虽然大多数人都认为，底栖魔鱼是像鱼类那样用腮呼吸，但实际上并非如此。虽然它们同样需要以呼吸来为血液和身体提供动力，但它们的呼吸器官既不是肺也不是腮。无论它们在哪里呼吸，呼吸的是什么，都可以归结于一种东西：它们的身体持续产生并由腮孔排出的粘稠液体。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>这种黏液由底栖魔鱼的专用分泌脏器（<span lang=EN-US>milathast</span>）生成，这是底栖魔鱼身体中最接近肺的器官。这个分泌脏器会不断从身体各处的导管吸入水分，混合以从腹部抽取的特殊物质，然后排出体外。这种混合物与周围的水体中的氧发生反应，变成了一团笼罩在底栖魔鱼身体周围的黏液云团，以供其呼吸。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>另一个类似的器官位于底栖魔鱼的腹部，在其两个心脏之间。这个器官，以及黏液分泌脏器，会将液体状态的黏液转化为一种闻起来很臭的气体。通过调整储藏在鱼鳔状器官中黏液与气体的比例，底栖魔鱼可以很迅速地增加或减少身体的浮力，以及在游泳时能更容易地调整垂直方向。同时，这种气体也被用来支持底栖魔鱼在陆地环境中的呼吸机能。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>循环系统</span></b><span lang=EN-US style='FONT-SIZE:
+ 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>底栖魔鱼的循环系统最有趣的地方就是它有两个心脏。主心脏（<span lang=EN-US>9</span>）位于其身体后半部分肠子的上方。和一般生物的心脏一样，用来将血液输送到全身以及维持血压。主心脏与副心脏（<span
+ lang=EN-US>10</span>）以一条主动脉和一条主静脉相联；这条主动脉途中经过了其黏液分泌脏器，在那里介入了呼吸系统的运转。副心脏负责向庞大的脑组织供血，并促使血液与某种仅仅被大脑需要的神秘化学物质或酶发生反应。底栖魔鱼的血液拥有两种颜色；为身体部分提供能量的血液呈鲜红色，而当血液从副心脏流向脑部时，则呈现出一种近乎于黑色的，极深的紫色。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>生殖系统</span></b><span lang=EN-US style='FONT-SIZE:
+ 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>底栖魔鱼兼有雌性与雄性生殖器官。对于底栖魔鱼来说，繁衍后代是一件非常私人的事情，要尽量单独进行。一条典型的底栖魔鱼通常每<span
+ lang=EN-US>5</span>年就有一次产卵期，在此期间它会单独隐居于一个比较僻静的区域。一次产卵<span lang=EN-US>1</span>到<span
+ lang=EN-US>3</span>枚，然后迅速以黏液包裹，并以自己尾部释放出的液体授精。这些液体会附着在黏液上，慢慢渗入并使卵受精。当卵受精完成，黏液会固化，几乎与卵融为一体。底栖魔鱼一般会将这些卵粘在石墙或地板上，如果没有合适的场所，它也会让卵在水中随波逐流。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><b><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>中央神经系统</span></b><span lang=EN-US
+ style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>底栖魔鱼身体中最发达的部分就是其中央神经系统<span lang=EN-US>--</span>特别是它的大脑。底栖魔鱼的大脑非常庞大，其质量可以接近其总体重的五分之一。底栖魔鱼的大脑呈多种层次的紫色，其形状看起来有些底栖魔鱼的躯体本身（除了没有尾巴以外）。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><IMG hspace=12 alt="说明: E:\文件原档\未完成版\异怪之书（LoM）\2水中霸主\内部构造.files\内部构造1762.png" src="内部构造.files/内部构造1762.jpg" width=399 height=494 v:shapes ="图片_x0020_2"></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 24pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>其大脑包含了五个主要部分，每个部分的介绍见下。</span><span lang=EN-US
+ style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>前脑叶（<span lang=EN-US>1</span>）：位于大脑前半部分，这个圆锥形部分呈淡紫色，由数以千计的微小角状结构覆盖。该脑叶有两个主要功能：首先，它使底栖魔鱼可以用纯粹的意念力来奴役其他生物的思想。其次，它是一个精神传感器，可以使底栖魔鱼能够与被它支配思想的奴隶以精神感应的方式发生联系。和一般的精神感应不同，奴隶绝对无法乘机感知底栖魔鱼的任何思想，只能被动地接受其冰冷的奴役与控制的指令。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>主叶（<span lang=EN-US>2</span>）：主叶位于前脑叶的正后方，腹侧叶的上方。它是底栖魔鱼的主要大脑功能之所在，负责思考，逻辑推理，智力，理性以及任何其他生物的大脑所要做的。底栖魔鱼的三条视觉神经与此部分相联。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>腹侧叶（<span lang=EN-US>3</span>）：虽然看起来这个部分像是四条从主叶伸展开来的触手，但它实际上是一个单独的脑叶，与脑的下半部分相联。它的四条触手状组织遍布色彩变换，从黑色到淡紫色的纹路。腹侧叶存储着底栖魔鱼自身的记忆以及从出生时就有的种族记忆。这些触手状组织会随着底栖魔鱼的年龄的增长而增长，在最年长的专家体内，这些组织能够生长到接近尾巴的部分。在其伸出头骨以外的部分，其会被结实但富有韧性的鞘状组织保护。和触手一样，腹侧叶本身也如同骨骼般坚硬，并且极富韧性。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>后背叶（<span lang=EN-US>4</span>）：虽然腹侧叶是底栖魔鱼大脑中最大的部分，那么后背叶就是最令人吃惊的部分了。在主叶的背后，该组织看起来似乎是由大量盘绕蠕动，并且闪耀着五颜六色的闪光和能量脉冲的紫色触手。这种闪光与电弧在触手之间跃动，根据底栖魔鱼的指令释放出庞大的灵能与魔法能量。这种能量显然由后背叶产生，再经过主叶集中，从而产生各种幻象。这也是底栖魔鱼臭名卓著的能力。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=p1Char style="MARGIN: 15pt 11.3pt 15.8pt 0cm; LINE-HEIGHT: 150%; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 15.0pt; mso-para-margin-right: .94gd; mso-para-margin-bottom: 15.8pt; mso-para-margin-left: 0cm"><span
+
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%'>后脑叶（<span lang=EN-US>5</span>）：这是底栖魔鱼大脑中最小的一个部分，由六条长长的触手状组织构成，汇集于后背叶最末端中枢组织中。该部分负责整个身体的自动动作，例如呼吸、血液循环、消化，以及其他类似的基本生理机能的运转。</span><span
+ lang=EN-US style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p></div></body>
+
+</html>

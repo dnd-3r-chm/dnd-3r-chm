@@ -1,0 +1,803 @@
+<html>
+
+<head>
+<title>蛇蝎魔</title>
+
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document><style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 684670032 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 684670032 22 0 262175 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:12.0pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-link:"批注框文本 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.Char1
+	{mso-style-name:"批注框文本 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style="TEXT-JUSTIFY-TRIM: punctuation; tab-interval: 21.0pt"><div class=WordSection1 style="LAYOUT-GRID:  15.6pt none"><span style='FONT-SIZE:
+ 12pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'><span
+ lang=EN-US><P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt 0pt 7.85pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-para-margin-bottom: 0.5000gd"><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(192,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>蛇蝎魔</FONT></SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(192,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">(</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(192,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">Paeliryon</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(192,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">)&nbsp;</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(192,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">CR&nbsp;</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(192,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">18</SPAN></B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt 0pt 7.85pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-para-margin-bottom: 0.5000gd"><I><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: italic; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>这个臃肿的魔鬼腰上长着一个很大的肚子。他的黑色的外袍下有着有瘤的粉色皮肤</FONT></SPAN></I><I><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: italic; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN></I><I><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: italic; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>他出现的地方常常伴有恶臭的云雾的升起。他的头又大又畸形。在他的充满尖牙的大嘴之上长着两只黄色的像猪一样的眼睛。两条骨脊使他的头顶皱起。像个妓女一样</FONT></SPAN></I><I><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: italic; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN></I><I><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: italic; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>他的嘴唇被涂成了反光的红色</FONT></SPAN></I><I><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: italic; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN></I><I><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: italic; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>眼睛周围有着蓝色的眼影。</FONT></SPAN></I><I><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: italic; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"></SPAN></I></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt 0pt 7.85pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-para-margin-bottom: 0.5000gd"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>大型异界生物</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">(</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>巴特祖</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>邪恶</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>跨位面</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>守序</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">)</SPAN><!--EndFragment--><!--EndFragment--></span></span></P>
+
+<p class=MsoNormal align=left style="LAYOUT-GRID-MODE:
+ char; TEXT-ALIGN: left; LINE-HEIGHT: 150%"><span lang=EN-US style='FONT-SIZE:
+ 12pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-no-proof: yes'><IMG id=_x0000_i1026 alt=paeliryon src="蛇蝎魔.files/image002.jpg" width=553 height=368 ></span><span
+ lang=EN-US style='FONT-SIZE: 12pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></span></p>
+
+<p class=MsoNormal align=left style="LAYOUT-GRID-MODE:
+ char; TEXT-ALIGN: left; LINE-HEIGHT: 150%; mso-pagination: widow-orphan"><span style='FONT-SIZE:
+ 12pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'>
+<TABLE class=MsoNormalTable 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: auto auto auto 5.4pt; mso-padding-alt: 0.0000pt 0.0000pt 0.0000pt 0.0000pt; mso-table-layout-alt: fixed" 
+cellSpacing=0 border=0>
+  
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">生命骰:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;18d8+162(243hp)</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">先攻:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;+7</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">速度:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;20尺(8格),20尺掘穴,飞行100尺(不良)</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">防御等级:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;35(-1 
+      体型,+3敏捷,+3盔甲,+20天生),碰触12,措手不及32</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">基本攻击/擒抱:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;+18/+29</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">攻击:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;近战 
+      &nbsp;爪抓+24(1d6+7/18-20/×3加1d4魅力伤害)或噬咬+19(1d8+3)</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">全力攻击:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;近战 
+      &nbsp;2爪抓+24(1d6+7/18-20/×3加1d4魅力伤害)和噬咬+19(1d8+3)</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">面宽/触及:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;10尺/10尺(爪子20尺)</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">特殊攻击:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;扩展重击,贬低,毁容, 
+      醉人体香, 召唤巴特祖</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">特殊能力:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;嗅觉灵敏;黑暗视觉;识破隐形;心灵感应100尺;巧言术;伤害减免15/善良或银;免疫:火焰,毒素;抗力:酸液10,寒冷20;法术抗力26</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">豁免:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;强韧+20,反射+14,意志+16</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">属性:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;力量25,敏捷16,体质28,智力24,感知21,魅力21</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">技能:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;唬骗+26,专注+30,交涉+30,易容+26(+28 
+      表演中),伪造文书+28,收集信息+31,躲藏+20,威吓+28,神秘知识+28,本地知识+31,位面知识+28,聆听+28,潜行+24,察言观色+26,侦察+28,生存+5(+7在其他位面)</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">专长:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;警觉,类法术能力强效(流星爆),盘旋,精通先攻,类法术能力瞬发(怪物定身术),技能专攻(收集信息),技能专攻(本地知识)</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">地域:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;见下文</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">组织:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;单独;阴谋(2-4);共谋(1个蛇蝎魔,1d3+2个角魔,1d6+2个尖刺魔和1d10+4个针刺魔)</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">挑战等级:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;18</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">宝物:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;见下文</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">阵营:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;总是守序邪恶</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">进化:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;19-27HD(大型);28-54HD(超大型)</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 79.85pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=159>
+      <P class=p 
+      style="LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,204); LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">等级调整:</SPAN></B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 515.45pt; BACKGROUND: rgb(255,255,255); BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 0pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 0pt"     vAlign=top width=1030>
+      <P class=MsoNormal 
+      style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: left; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; TEXT-TRANSFORM: none; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;-</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 1.0000pt"></SPAN></P></TD></TR></TABLE></p>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>蛇蝎魔是狡猾的巴特祖</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>他们管理着覆盖整个位面的巨大间谍网络。蛇蝎魔说天界语</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>通用语</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>龙语和深渊语。</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>战斗</FONT>:</SPAN></B><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"></SPAN></B></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>一个蛇蝎魔能快速地在战斗中首先使用他的防活物护罩接着使用怪物定身术来建立防御</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>然后他会攻击远程攻击者和施法者</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>考虑到他们有手段去击破自己的结界。一旦远程攻击者和施法者被处理掉了</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">,</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><FONT face=微软雅黑>他便会盘旋在只能在地上的近程攻击者之上并且使用它的可伸缩的爪子来撕碎它的敌人。</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; BACKGROUND: rgb(255,255,255); TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>巧言术</FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">(Su): 
+如同巧言术咒语;总是生效;施法者等级18。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>识破隐形</FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">(Su):如同识破隐形;总是生效;施法者等级18</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>毁容</FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">(Ex):被蛇蝎魔爪子击中的生物1d4点魅力伤害</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>扩展重击</FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">(Ex):蛇蝎魔的爪子的重击范围是18-20,成功暴击造成3倍伤</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>贬低</FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">(Su):以一个标准动作,蛇蝎魔能发出一连串的悼文和侮辱。所有不是巴特祖的在60尺圆锥范围内的生物必须通过一个DC24的意志豁免,否则被震慑1轮,之后战栗1d4轮。豁免DC基于魅力。一个成功豁免的生物在24小时内不能再被同一个蛇蝎魔的影响。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>迷醉体香</FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">(Su):如同心灵迷雾咒语一般,但效果集中在蛇蝎魔身上,任意施放,DC 
+24,施法者等级18,豁免DC取决于魅力。成功豁免的生物在24小时内不会被任何蛇蝎魔的迷醉体香影响。巴特祖对这项能力免疫。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>伸缩尖爪</FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">(Ex):以一个自由动作,一个蛇蝎魔可以伸出或收起他的爪子。但他们伸出的时候,蛇蝎魔爪子的触及距离提升10尺。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>召唤巴特祖</FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">(sp)每天一次,一个蛇蝎魔可以召唤4个劣魔,2个骨魔或倒钩魔,或者1个欲魔或角魔或冰魔。这个能力相当于8环法术(</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">CL</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;18)</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>类法术能力</FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">(</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>施法者等级</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;18)</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>任意</FONT>——魅惑怪物(DC 
+19),锐耳术/鹰眼术,高等解除魔法,高级隐形术,高等传送术(只有自身加上50磅重的物品),怪物定身术(DC 20),强效幻影(DC 
+19),流星爆,心灵屏障,变形术,暗示术(DC 18)</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">3/天——防活物护罩,渎神之语(DC 
+22),弱能术(+20远程触及),强效命令术(DC 20),强效窥视魔眼</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>典型遭遇</FONT></SPAN></B><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></B></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>蛇蝎魔很少屈尊去向物质界生物暴露自己</FONT>,取而代之的,依靠中间人来为自己工作。PC们会寻找这些魔鬼中的一个来取得信息或者由于与这些信息中间人起矛盾而寻求复仇。蛇蝎魔有着很多忠诚的守卫去保护他们。如果一个袭击者不知如何接近了他们,他们总是有着一条脱逃路线。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>单独</FONT>(EL 18)遭遇单体蛇蝎魔是不常见的,考虑到他们依赖他们的仆人提供的保护。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>阴谋</FONT>(EL 20-22)阴谋包含2至4只蛇蝎魔。他们一般是聚集来交换秘密的。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>共谋</FONT>(EL 
+20-22)这个小组包括1个蛇蝎魔,1d3+2个角魔,1d6+2个尖刺魔和1d10+4个针刺魔。这是最普遍的遭遇。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>生态</FONT></SPAN></B><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></B></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>蛇蝎魔居住在舒适的环境之中。位于地狱的城市中心之中</FONT>,他们吃着美味的血肉和灵魂,在巨大的镜子面前梳妆打扮,并且在混有从他们臃肿的身体上滴落的有毒的油秽恶的水中洗澡。他们颓废且令人厌恶的过度给予自己华丽的服饰和过量的享受。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>环境</FONT>:蛇蝎魔是巴托九狱的原住民,纵使他们在大部分的邪恶位面都有据点。许多蛇蝎魔服务着欲魔女王格莱西雅。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>典型物理特征</FONT>:典型的蛇蝎魔站高16尺重约4000磅。所有的蛇蝎魔都如同妓女一般化妆,并且他们表现出来的</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>像</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>女性</FONT>,但他们</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>却是</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>无性别的。</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 0pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>社会</FONT></SPAN></B><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></B></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>信息是力量的钥匙。他们是告密者</FONT>,敲诈者,勒索者的中介人,蛇蝎魔交易知识。他们的触及范围很广,甚至延伸到了其他异界位面甚至物质位面。他们坐在一张巨大的流动的情报网的中心,找出那些提供给他们大部分权利的思想片段。他们威胁那些很大程度上被这些知识影响的人,勒索它们廉价地卖出自己的灵魂。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>蛇蝎魔主要捕食人类。他们也偷听其他魔鬼甚至是其他蛇蝎魔。从小小的尖刺魔到大魔鬼他们自己</FONT>,蛇蝎魔有九狱里所有人的丑闻。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>阵营</FONT>:蛇蝎魔是通常邪恶守序生物。纵使他们使用邪恶的方法取得权利,他们说的都是真的。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=MsoNormal 
+style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph; MARGIN: 0pt; LINE-HEIGHT: 150%; mso-pagination: none" 
+Align=left><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-bidi-font-family: 'Times New Roman'; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-font-kerning: 1.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN></P>
+<P class=MsoNormal 
+style="LAYOUT-GRID-MODE: char; TEXT-ALIGN: justify; TEXT-JUSTIFY: inter-ideograph; MARGIN: 0pt; LINE-HEIGHT: 150%; mso-pagination: none" 
+Align=left><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-bidi-font-family: 'Times New Roman'; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri; mso-font-kerning: 1.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt; mso-spacerun: 'yes'"><o:p><IMG alt="" src="蛇蝎魔.files/image004.jpg"></o:p></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>巢穴例子</FONT></SPAN></B><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></B></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>这张地图展示了典型的蛇蝎魔巢穴。这些场所被藏起来了并且很好的保护起来</FONT>,只有用魔法才能到达。这个巢穴被埋在深渊城市的1000尺下。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>小巷之镜</FONT>(下左):藏在城市的中心,埋在最贫穷的地区,是一条狭窄的走形于老旧楼房之中小巷。充满着残骸和污物,这条路线散发出这个城市中出现的每一种恶臭。走入的人需要做一个DC 
+25的侦察检定来注意到在用血写在墙面上的周期性的标记。那些说深渊语的人能认出这些记号代表的意思是:忠诚,顺从和责任。这条小路突然的终止在一面实心的墙上。这墙是假的。这是一个永恒幻影(意志DC20,</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>通过则</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>不相信</FONT>)。一个高高的有着铁锈的黑曜石镜子矗立在这之上。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>一个蛇蝎魔用一个永久的魔法警报监视着镜子和周边的</FONT>20尺内的一切,由于一个被敲诈的魔鬼给予的祈愿术。每当任何生物进入这个区域的时候,蛇蝎魔就会感觉到。他立即释放鹰眼术/锐耳术,把感觉集中在镜子上来听闯入者在说些什么。这个魔鬼的特工也通过这个镜子来向他们的主人报告他们的发现。在他的间谍来访时,蛇蝎魔总是能意识到。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>邪恶之屋</FONT>(上右)就在这个小巷的1000尺下是一个大房间。在这,一个蛇蝎魔躺在潮湿的枕头上,被拷问的俘虏挂在笼子里,等待地面上的特工带来的情报。这个房间充满着奇怪的宝藏,从地球仪到织锦,造成怪物雕像的巨大棋子。一个巨大的盆充满了覆盖着一层污物有毒的水静静的放在那里。在南墙的边上是通往以太位面的入口,通过这里恶魔位面的随从来报告他们的发现并且投送新鲜的囚犯。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>典型财宝</FONT></SPAN></B><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></B></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>蛇蝎魔拥有大概</FONT>94000gp的宝藏,远远大于他挑战等级的平均财宝。 
+由于行贿的需要,一个典型的蛇蝎魔有16000gp的各式各样的硬币和32000gp的宝石。剩余的财宝包含个人所有物,例如魔法斗篷和防御护腕+3。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>对于玩家角色</FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>欲魔女王格莱西雅的牧师当他们释放高等异界盟约的时候得到蛇蝎魔。</FONT></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>蛇蝎魔的学识</FONT></SPAN></B><B><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></B></P>
+<P class=p 
+style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21pt; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none; mso-char-indent-count: 0.0000"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=微软雅黑>拥有知识</FONT>(位面)的角色可以获得更多有关蛇蝎魔的知识。当一名角色进行一次成功的技能检定,将会显示下面的传闻知识,包括那些更低的检定难度的信息。</SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></P>
+
+<p class=MsoNormal align=left style="LAYOUT-GRID-MODE:
+ char; TEXT-ALIGN: left; LINE-HEIGHT: 150%; mso-pagination: widow-orphan">
+<TABLE class=MsoTableGrid 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-padding-alt: 0.0000pt 5.4000pt 0.0000pt 5.4000pt; mso-border-left-alt: 0.5000pt solid windowtext; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext; mso-border-insideh: 0.5000pt solid windowtext; mso-border-insidev: 0.5000pt solid windowtext" 
+cellSpacing=0 border=1>
+  
+  <TR>
+    <TD                                                          style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 31.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-border-left-alt: 0.5000pt solid windowtext; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext"     vAlign=top width=62>
+      <P class=p 
+      style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; TEXT-ALIGN: center; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none" 
+      align=center><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">DC</SPAN></B><B><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri; FONT-WEIGHT: bold; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 0.0000pt"></SPAN></B></P></TD>
+    <TD                                                      style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 575.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-border-left-alt: none; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext"     vAlign=top width=1150>
+      <P class=p 
+      style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><B><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">结果</SPAN></B><B><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri; FONT-WEIGHT: bold; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 0.0000pt"></SPAN></B></P></TD></TR>
+  <TR>
+    <TD                                                        style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 31.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-border-left-alt: 0.5000pt solid windowtext; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext"     vAlign=top width=62>
+      <P class=p 
+      style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; TEXT-ALIGN: center; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none" 
+      align=center><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">28</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 575.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-border-left-alt: none; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext"     vAlign=top width=1150>
+      <P class=p 
+      style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">这个生物是蛇蝎魔,一个巴托九狱的异界生物。</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 0.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                                        style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 31.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-border-left-alt: 0.5000pt solid windowtext; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext"     vAlign=top width=62>
+      <P class=p 
+      style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; TEXT-ALIGN: center; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none" 
+      align=center><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">33</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 575.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-border-left-alt: none; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext"     vAlign=top width=1150>
+      <P class=p 
+      style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">蛇蝎魔是难以对付的敌人。他们伸出爪子,使他们的触及变为双倍范围。他们更倾向于盘旋在上方,袭击只能在地上的敌人</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 0.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                                        style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 31.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-border-left-alt: 0.5000pt solid windowtext; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext"     vAlign=top width=62>
+      <P class=p 
+      style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; TEXT-ALIGN: center; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none" 
+      align=center><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">38</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 575.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-border-left-alt: none; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext"     vAlign=top width=1150>
+      <P class=p 
+      style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">不要靠近蛇蝎魔。这些魔鬼散发这九狱的恶臭,这烟气如此之强以至于他们能撕扯思想。</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 0.0000pt"></SPAN></P></TD></TR>
+  <TR>
+    <TD                                                        style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 31.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-border-left-alt: 0.5000pt solid windowtext; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext"     vAlign=top width=62>
+      <P class=p 
+      style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; TEXT-ALIGN: center; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none" 
+      align=center><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">43</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 0.0000pt"></SPAN></P></TD>
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 575.05pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0pt; PADDING-TOP: 0pt; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: 0.5000pt solid windowtext; mso-border-left-alt: none; mso-border-top-alt: 0.5000pt solid windowtext; mso-border-right-alt: 0.5000pt solid windowtext"     vAlign=top width=1150>
+      <P class=p 
+      style="BACKGROUND: rgb(255,255,255); LAYOUT-GRID-MODE: char; MARGIN: 0pt; TEXT-AUTOSPACE: ideograph-numeric; mso-pagination: widow-orphan; mso-line-height-alt: 0pt; mso-layout-grid-align: none"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 微软雅黑; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">蛇蝎魔有着邪恶的语言并且可以很快的发出一系列的侮辱。很少人能不受损害地从他们残酷的话语中逃离。</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-fareast-font-family: 宋体; mso-font-kerning: 0.0000pt"></SPAN></P></TD></TR></TABLE><!--EndFragment--></SPAN></p></div></body>
+
+</html>

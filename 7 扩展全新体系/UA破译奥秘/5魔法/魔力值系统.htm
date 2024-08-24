@@ -1,0 +1,646 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>魔力值系统</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=ProgId content=Word.Document>
+<STYLE>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY lang=ZH-CN style="tab-interval: 21.0pt">
+<DIV class=WordSection1><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: maroon; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>魔力值系统　</SPAN></B><B 
+style="mso-bidi-font-weight: normal"><SPAN lang=EN-US 
+style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></B></P></SPAN>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>魔力值系统允许施法者们更加自由灵活的挑选和使用他们每日的法术。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>所有施法者都储备有一定的魔力值，数量取决于他们的职业和等级（见表<SPAN 
+lang=EN-US>5-3</SPAN>：每日的魔力值）。人物也会凭借较高的关键属性获得额外的奖励魔力值（就像普通规则中施法者可以凭借较高的关键属性获得额外施法次数一样），这些魔力值为施法者的法术提供魔法能量，他必须花费跟法术等级相匹配的一定数量的魔力值来施放法术。一旦被花费掉，这些魔力值就不会恢复，除非施法者进行充分的休息并准备新的法术。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>表<SPAN 
+lang=EN-US>5-3</SPAN>：每日的魔力值</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>　　　　　　　　　牧师、德鲁伊　　圣骑士</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>等级　　吟游诗人　　　　　法师　　巡林客　　术士</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１　　　　　　０　　　　　　２　　　　０　　　３</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>２　　　　　　０　　　　　　４　　　　０　　　５</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>３　　　　　　１　　　　　　７　　　　０　　　８</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>４　　　　　　５　　　　　１１　　　　０　　１４</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>５　　　　　　６　　　　　１６　　　　０　　１９</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>６　　　　　　９　　　　　２４　　　　１　　２９</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>７　　　　　１４　　　　　３３　　　　１　　３７</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>８　　　　　１７　　　　　４４　　　　１　　５１</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>９　　　　　２２　　　　　５６　　　　１　　６３</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１０　　　　２９　　　　　７２　　　　４　　８１</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１１　　　　３４　　　　　８８　　　　４　　９７</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１２　　　　４１　　　　１０４　　　　９　１１５</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１３　　　　５０　　　　１２０　　　　９　１３１</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１４　　　　５７　　　　１３６　　　１０　１４９</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１５　　　　６７　　　　１５２　　　１７　１６５</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１６　　　　８１　　　　１６８　　　２０　１８３</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１７　　　　９５　　　　１８４　　　２５　１９９</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１８　　　１１３　　　　２００　　　２６　２１７</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１９　　　１３３　　　　２１６　　　４１　２３３</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>２０　　　１４４　　　　２３２　　　４８　２４９</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>准备法术</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>在这个变体规则中，施法者仍然像正常规则中那样准备法术（这里谈的显然是那些必须准备法术的施法者）。他们需要从自己的已知法术列表中选取当日要用的法术，但不必将同一个法术准备多份，因为他们可以从自己当天已准备的法术列表中选取任意法术施放（直到魔力值耗尽）。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>例如，４级法师米娅莉的智力属性是１６。使用魔力值系统，他可以准备４个０级法术，４个１级法术（本来是３个，再加上她因较高的智力而获得的额外法术），以及３个２级法术（２个加上额外法术）。这些法术构成了她当天能施展法术的列表，她可以随意施放其中任何法术，只要她还有足够的魔力值。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>额外魔力值和额外法术</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>能够凭借高属性值获得额外施法次数的职业，在本规则中将获得额外的魔力值以替代施法次数，这可以使游戏人物每天能使用的法术增多。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>要计算额外魔力值，首先，你需要先在“表５－４：额外魔力值”中找到人物属性值所对应的那一行，使用哪种属性取决于人物职业（牧师和德鲁伊使用感知，法师使用智力，等等）。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>然后，找到人物当前能施放的最高法术等级所在的那一列（即使她的关键属性不足以施放这个等级的法术）。与刚才找到的那行相交，得到你的人物应获得的额外魔力值，每当人物获得永久性的属性提升时（比如通过升级或是通过许愿术获得的属性提升），这个数值也会相应的改变。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>例如，４级法师米娅莉的智力属性是１６，能够施放２级法术。查找表格可知她每天的额外魔力值是４（要跟她作为４级法师本来拥有的１１点魔力值相加），如果米娅莉的智力属性因为法术“狐之狡诈”或智力头带＋４提升到了２０，她不会获得更多额外魔力值，因为这些效果带来的是临时加值，而非永久性的提升。不过，当她升到５级后，她的额外魔力值将从４增加到９（因为她现在能施放３级法术），这时她的总魔力值从１５增加到２５。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>表５－４：额外魔力值</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>　　　　　　　　　　　　　　　　<SPAN 
+lang=EN-US>- </SPAN>能施放的最高法术等级<SPAN lang=EN-US> -</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　属性　　　　一　　　二　　　三　　　四　　　五　　　六　　　七　　　八　　　九</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１２－１３<SPAN 
+lang=EN-US>--</SPAN>１　　　１　　　１　　　１　　　１　　　１　　　１　　　１　　　１　</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１４－１５<SPAN 
+lang=EN-US>--</SPAN>１　　　４　　　４　　　４　　　４　　　４　　　４　　　４　　　４</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１６－１７<SPAN 
+lang=EN-US>--</SPAN>１　　　４　　　９　　　９　　　９　　　９　　　９　　　９　　　９</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>１８－１９<SPAN 
+lang=EN-US>--</SPAN>１　　　４　　　９　　１６　　１６　　１６　　１６　　１６　　１６</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>２０－２１<SPAN 
+lang=EN-US>--</SPAN>２　　　５　　１０　　１７　　２６　　２６　　２６　　２６　　２６</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>２２－２３<SPAN 
+lang=EN-US>--</SPAN>２　　　８　　１３　　２０　　２９　　４０　　４０　　４０　　４０</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>２４－２５<SPAN 
+lang=EN-US>--</SPAN>２　　　８　　１８　　２５　　３４　　４５　　５８　　５８　　５８</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>２６－２７<SPAN 
+lang=EN-US>--</SPAN>２　　　８　　１８　　３２　　４１　　５２　　６５　　８０　　８０</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>２８－２９<SPAN 
+lang=EN-US>--</SPAN>３　　　９　　１９　　３３　　５１　　６２　　７５　　９０　１０７</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>３０－３１<SPAN 
+lang=EN-US>--</SPAN>３　　１２　　２２　　３６　　５４　　７６　　８９　１０４　１２１</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>３２－３３<SPAN 
+lang=EN-US>--</SPAN>３　　１２　　２４　　３８　　５６　　７８　１０４　１１９　１３６</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>３４－３５<SPAN 
+lang=EN-US>--</SPAN>３　　１２　　２７　　４８　　６６　　８８　１１４　１４４　１６１</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>３６－３７<SPAN 
+lang=EN-US>--</SPAN>４　　１３　　２８　　４９　　７６　　９８　１２４　１５４　１８８</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>３８－３９<SPAN 
+lang=EN-US>--</SPAN>４　　１６　　３１　　５２　　７７　１１０　１３６　１６６　２００</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>４０－４１<SPAN 
+lang=EN-US>--</SPAN>４　　１６　　３６　　５７　　８４　１１７　１５６　１８６　２２０</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>４２－４３<SPAN 
+lang=EN-US>--</SPAN>４　　１６　　３６　　６４　　９１　１２４　１６３　２０８　２４２</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>４４－４５<SPAN 
+lang=EN-US>--</SPAN>５　　１７　　３７　　６５　１０１　１３４　１７３　２１８　２６７</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>４６－４７<SPAN 
+lang=EN-US>--</SPAN>５　　２０　　４０　　６８　１０４　１４８　１８７　２３２　２８３</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>４８－４９<SPAN 
+lang=EN-US>--</SPAN>５　　２０　　４５　　７３　１０９　１５３　２０５　２５０　３０１</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>５０－５１<SPAN 
+lang=EN-US>--</SPAN>５　　２０　　４５　　８０　１１６　１６０　２１２　２７２　３２３</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>那些在普通规则中可以通过职业特性获得额外施法次数的人物（比如专精法师，或选择了领域的牧师），在本规则中可以额外准备相应等级、学派、领域的法术。这些人物不会获得额外的魔力值（因此他们不能比普通人物施放更多法术），但他们获得了更多的灵活性，每天能使用更多种类的法术。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>具体来说，一个专精法师能够在每法术等级都多准备一个所选学派的法术。一个牧师能在每个神术等级多准备一个领域法术。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>再举一个例子：在１级时，牧师乔森获得一个额外的１级神术，它必须来自乔森所掌握的两个领域，当乔森准备这个神术后，它就能够像使用其他神术一样使用这个领域神术，直到他的魔力值耗光。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>某些职业特性会使人物获得等级不固定的额外法术（比如龙脉术士的额外法术），在本规则中，这些人物获得的将是一定数量的额外魔力值，每次当人物达到应当获得额外法术的等级时，他就能获得等于该人物能施放的最高法术等级<SPAN 
+lang=EN-US>*</SPAN>２－１（最小为１）的魔力值，这个奖励是固定的<SPAN 
+lang=EN-US>--</SPAN>以前获得的奖励不会随着等级提升而增加。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>例如，一个４级战士／４级术士，在升级时选择进阶１级龙脉术士，这样他本应获得一个额外法术，因为这个人物最高能施放２级法术，所以他可以获得３点额外魔力值（２<SPAN 
+lang=EN-US>*</SPAN>２<SPAN lang=EN-US>-</SPAN>１＝３）</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>自发施法</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>通过自发施法来使用法术的游戏人物<SPAN 
+lang=EN-US>--</SPAN>比如吟游诗人和术士<SPAN 
+lang=EN-US>--</SPAN>不用准备法术。他们可以花费一定的魔力值来施放自己已知的任何法术。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>可以通过自发施法使用一定数量法术的游戏人物（如德鲁伊，可以将同等级的其他法术转换成自发施法的召唤盟友术），被视作总是准备了那些法术，这些法术不占用他的法术位。因此，这些人物任何时候都可以随意施放这些法术，只要他们还有足够魔力值。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>在这个系统中，善良阵营的牧师会发现治疗领域是一个相对较弱的选择，因为他们能从这个领域得到的好处很少。请参考本书“第二章：职业”里的<SPAN 
+lang=EN-US>Spontaneous Divine Casters</SPAN>部分。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>回复魔力值</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>施法者们可以通过往常获取法术的方法回复魔力值。这需要花费相同的休息时间和准备法术的时间。缺乏休息和精神上的准备，施法者的心智就难以为恢复原有的力量。使用魔力值会造成精神上的疲劳，没有经过必要的休息，魔力值就不会重生。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>施放法术</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>每个法术在施放时都会消耗一定数量的魔力值。法术等级越高，所需的魔力值越多。具体数值见“表<SPAN 
+lang=EN-US>5-5</SPAN>：魔力值消耗”</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>表<SPAN 
+lang=EN-US>5-5</SPAN>：魔力值消耗</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>法术等级 
+需消耗的魔力值</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　　　０　　　　　　　　０（注）</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　　　１　　　　　　　　１</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　　　２　　　　　　　　３</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　　　３　　　　　　　　５</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　　　４　　　　　　　　７</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　　　５　　　　　　　　９</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　　　６　　　　　　　１１</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　　　７　　　　　　　１３</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　　　８　　　　　　　１５</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-size: 12.0pt'>　　　９　　　　　　　１７</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>注：零级法术在施放时不消耗魔力值，施法者每天只能使用一定数量的零级法术，数量等于他在１级时拥有的魔力值＋３</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>本系统中，施法者依然使用施法者等级来决定法术的效果，但是有一个重要的不同点，那些由施法者等级来决定伤害骰数量的法术（如魔法飞弹、灼热光辉、闪电束）在计算伤害时，要使用最低的施法者等级（即能施放此法术的最低等级）。有些法术造成的伤害，部分的取决于施法者等级，但不需要根据施法者等级来使用伤害骰（如燃火术、造成伤害法术），计算这些法术的伤害时使用正常的施法者等级。在计算其他法术效果，如射程、持续时间时，仍然使用正常的施法者等级。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>例如，火球术的伤害骰数量取决于施法者等级，所以当法师使用本系统时，他的火球术造成的伤害为<SPAN 
+lang=EN-US>5d6</SPAN>（施放火球术的最低等级是５级，所以此法术被视作由一个５级法师施放）。一个术士施放同样的法术，造成的伤害是<SPAN 
+lang=EN-US>6d6</SPAN>，因为术士要到６级才能施放火球术。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>游戏人物可以花费额外的魔力值来增加法术的伤害骰。每一点额外魔力值可以使施法者等级＋１，但提升后的施法者等级不能超过人物自身的施法者等级，也不能超过这个法术所允许的上限。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>例如，７级时，如果不花费额外的魔力值，米娅莉的闪电束造成的伤害是<SPAN 
+lang=EN-US>5d6</SPAN>（就像她是５级法师）。如果她花费１点额外魔力值（这样闪电束消耗的魔力值就是６），这个法术就能造成<SPAN 
+lang=EN-US>6d6</SPAN>的伤害。再多花费１点额外魔力值，伤害就提升到<SPAN 
+lang=EN-US>7d6</SPAN>，但她不能再花费更多的额外魔力值，因为她的施法者等级只有７，当她升到１０级或更高级别后，她可以花费最多５点额外魔力值来施放此法术，将伤害提升到<SPAN 
+lang=EN-US>10d6</SPAN>，这也是闪电束所允许的最大伤害。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>同样的，如果不花费额外魔力值，她的魔法飞弹法术只能射出一颗飞弹，额外花费２点魔力值将使施法者等级从１提高到３，使她能多射出一颗飞弹，通过这种方式她最多能消耗６点魔力值，使法术的有效施法者等级提高到７，产生４颗飞弹。如果她升到９级或更高等级，她就能花费８点额外魔力值，产生５颗飞弹。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>超魔和魔力值</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>在魔力值系统中，ＤＭ有两种方法来处理超魔效果。一种方法是，施法者不需要在准备法术时选择特定的超魔专长<SPAN 
+lang=EN-US>--</SPAN>他们可以在施法时直接附加超魔效果。完成这个动作不会增加施法时间。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>在第一种方法里，需要花费额外的魔力值来应用超魔专长。这使得游戏人物在施法选择上获得最大程度的灵活性。这些人物需要为法术付出更多魔力值，根据超魔专长的调整，把它们当作更高等级的法术来施展。如果应用超魔专长后，某法术的有效等级提升到超过该人物现在能施放的最高法术等级，那么他就不能通过这种方式施法。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>例如，７级时，米娅莉能施放４级法术，她可以把一个２级法术强效施放，或是定发一个３级法术，也可以定发一个强效的１级法术。她不能使用强效的３级法术或是定发４级法术（因为这么做会使法术等级提升到５）。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>用来计算伤害的施法者等级不会因此提高，即使超魔专长提升了某法术所需的最低施法者等级。具体来说，一个瞬发的火球造成的伤害仍然等同于５级法师施放它所能造成的伤害，除非施法者愿意花费更多魔力值来提升此法术的施法者等级。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>例如，如果米娅莉使用强效的魔法飞弹，这会花费她５点魔力值（相当于施放３级法术），但只能产生一颗飞弹，造成<SPAN 
+lang=EN-US>1d4+1*1.5</SPAN>点伤害。如果她花费额外的６点魔力值（总共花费１１点），魔法飞弹的施法者等级就能提高到７，产生４颗飞弹，造成总共<SPAN 
+lang=EN-US>4d4+4*1.5</SPAN>点伤害。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>第二种方法更加简单，但缺少灵活性。按照这种方法，施法者每天可以使用３次超魔专长，无需花费额外魔力值。对超魔后的法术等级的限制仍然存在（比如７级法师不能在任何２级以上的法术上使用法术强效）。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>你也可以结合这两种方法，每天只允许施法者使用３次超魔专长，无须额外魔力值，如果在同一日内还要使用超魔专长，就需要花费额外魔力值。如果你希望游戏人物能掷出一大堆超魔法术，这种混合方法会比较合适。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>拥有多种职业的施法者</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>如果游戏人物拥有关键属性不同的多个职业（如牧师／法师），那么他将从不同的施法职业中，获取互不相关的魔力值，他只能用相应的魔力值来施放某职业赋予的法术。高属性奖励的额外魔力值要分别加到相应职业的魔力值储备中，即使某属性与多个职业相对应。一种比较少见的情况是，游戏人物会在不同的法术位上准备同一个法术（比如德鲁伊／巡林客，分别在德鲁伊的２级法术位和巡林客的１级法术位上准备了法术“减缓毒发”），该人物可以使用任一种魔力值来施放这个法术，但是施法等级将由被汲取魔力的职业决定。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>例如，一个５级牧师／２级吟游诗人，他的牧师法术拥有１５点魔力值（额外魔力值由感知决定），吟游诗人法术的魔力值为０点（额外魔力值由魅力决定）。当他使用法术“治疗中度伤”时，花费的魔力值必须来自牧师职业，如果他已学会吟游诗人法术“治疗轻伤”，又把这个法术作为牧师的神术来准备，那么他既能作为吟游诗人施放此法术也能作为牧师施放，作为牧师神术时，这个法术视作由５级人物施放，产生<SPAN 
+lang=EN-US>1d8+5</SPAN>点治疗效果，如果作为吟游诗人法术，它将被视作由２级人物施放，产生<SPAN 
+lang=EN-US>1d8+2</SPAN>点治疗效果</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>其他问题</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>在普通规则中，会使游戏人物失去法术位的效果（比如获得负向等级），在本规则中将使人物失去施展最高等级法术所需的魔力值。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>普通规则中有些法术，能让游戏人物重新回忆或再次施放一个法术，它们在本规则中不起作用。（将那些法术的效果转化成使你获得魔力值是没有意义的，因为你为此消耗的魔力值将更多）功能类似的物品可以运作，但有点区别<SPAN 
+lang=EN-US>--</SPAN>它们储存的法术改为施放该等级法术所需的魔力值。一颗３级的法力再生珍珠储存５点魔力值，使用时会将这些魔力值给予游戏人物。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>魔力值系统的变体：施法活力</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>在施法活力系统中，施法者每天都拥有施展大量法术的潜力，但每次施法都会给施法者的健康和生命力带来负担，获取和引导魔法能量是一件非常危险并且劳累的事情，就像繁重的劳动或长时间努力工作一样消耗体力。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>这种魔力值系统的变体规则并不改变游戏人物准备法术、施法、回复魔力的方式，也不影响其他规则，但它规定游戏人物的魔力来自肉体，而非精神，这会对施法者的力量起到一定限制作用。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>当一个施法者的魔力值消耗到最大值的一半或更低时，他会进入疲乏状态。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>当一个施法者的魔力值消耗到最大值的四分之一或更低时，他会进入力竭状态。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>例如，１级时，牧师乔森拥有３点魔力值（该职业等级拥有２点，较高的感知使他获得１点额外魔力值）。他在战斗中对盟友使用了祝福术，花费１点魔力值，这不会对他造成任何负面影响，因为他的魔力值仍然高于最大值的一半。如果在战斗中，他又施放了神恩，又消耗了一点魔力值，他将变成疲乏状态。战斗结束后，他使用自发施法，对托达克使用治疗轻伤，用掉他最后一点魔力值，这时他不但用光了当天的法术，也使自己的身体进入力竭状态。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>恢复魔力</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>在这个变体规则中，施法者必须通过休息恢复他们的魔力值和身体活力。人物的总魔力值直接跟他的疲劳等级相关联。如果一个力竭状态的人物休息一小时，他会恢复成疲乏状态，他的总魔力值也会回复到最大值的１／３（小数四舍五入）。经过第二个小时的休息后，他的魔力值回复到２／３。接下来需要６个小时的休息，来回复余下的１／３魔力值。那些能除去疲劳和力竭效果的法术（如医疗术和复原术）会使施法对象回复２／３的魔力值。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>与标准规则中一样，施法者必须在准备新法术前休息８小时，即使一个力竭的施法者恢复了身体活力和魔力值，他依然无法更换自己的法术，除非休息满８小时。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>现实疲劳：如果一个施法者受到其他效果的影响，进入疲乏或力竭状态，他将因此失去魔力值，变成疲乏状态会使他的魔力值降到最大值的一半，如果变成力竭状态，他的魔力值会降低到最大值的１／４。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>可选的施法活力规则</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>作为这个系统更进一步的变体，此规则根据所有施法者的体质属性来计算他们应获得的额外魔力值，这种变体规则体现了施法力量来自施法者身体活力的观念。它实际上要求所有施法者都必须具备２项高属性，虽然多数施法者原本就喜欢拥有较高的体质属性，无论有没有这条规则。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>另一条可选的变体规则是，允许施法者超额使用自己的魔力值，但要冒很大的个人风险，这种行为需要进行成功的体质属性检定（ＤＣ２０＋法术等级）。每当人物在没有充足魔力值的情况下施展法术，并且未通过体质检定，他将同时受到等同于法术等级的致命伤害和非致命伤害，在这种情况下，一个亡命（或是粗心）的施法者可能会使自己陷入失去意识的状态。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>边栏：</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>_______________________________________________________________</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>帷幕之后：魔力值</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>魔力值系统显著的增强了施法者的灵活性，他们不再依赖于使用数量有限的法术位，因而更容易适应实际形势，不管怎样，魔力值系统让所有职业操作起来都更像术士，甚至让术士更像术士。施法者会变的更强<SPAN 
+lang=EN-US>--</SPAN>虽然依然不能使用过去不能施放的法术，但他们现在每天都能够使用更多的高级法术，以及他们在冒险中需要的法术。一个<SPAN 
+lang=EN-US>15</SPAN>级牧师现在能够根据需要，在冒险中使用十几次医疗术。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>为了维持平衡性，法师必须为了法术伤害的提高付出更多魔力值，如果你使用<SPAN 
+lang=EN-US>9d6</SPAN>闪电束的花费跟<SPAN lang=EN-US>5d6</SPAN>闪电束一样（后者是一个<SPAN 
+lang=EN-US>3</SPAN>级法术，需要花费<SPAN lang=EN-US>5</SPAN>点魔力值），那么施放<SPAN 
+lang=EN-US>9d6</SPAN>闪电束所需要的魔力值仅仅相当于<SPAN lang=EN-US>9d6</SPAN>冰锥术（<SPAN 
+lang=EN-US>5</SPAN>级法术，花费<SPAN 
+lang=EN-US>9</SPAN>点魔力值）的一半，即使它们造成的伤害相同。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'>如果你使用这套变体规则，要考虑到其他游戏元素会影响到魔力值，比如魔法物品，它们可能会给予（或消耗）魔力值，某些专长会使人物获得额外的魔力值（或是让某些法术消耗更少的魔力值），某些能力会从施法者身上吸取魔力值，以及诸如此类的影响……</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%; mso-bidi-font-size: 12.0pt'></SPAN></P></DIV></BODY></HTML>

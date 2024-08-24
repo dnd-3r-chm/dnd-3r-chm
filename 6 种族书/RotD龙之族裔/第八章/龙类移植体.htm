@@ -1,0 +1,1311 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>龙类移植体</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=ProgId content=Word.Document>
+<STYLE>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+h1
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:1;
+	font-size:24.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+h2
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:2;
+	font-size:18.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h3
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:3;
+	font-size:13.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h4
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:4;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h5
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:5;
+	font-size:10.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h6
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:6;
+	font-size:7.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-unhide:no;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-unhide:no;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+p
+	{mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+pre
+	{mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.1Char
+	{mso-style-name:"标题 1 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.3Char
+	{mso-style-name:"标题 3 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.4Char
+	{mso-style-name:"标题 4 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.5Char
+	{mso-style-name:"标题 5 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.6Char
+	{mso-style-name:"标题 6 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.HTMLChar
+	{mso-style-name:"HTML 预设格式 Char";
+	mso-style-unhide:no;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;}
+span.10
+	{mso-style-name:10;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.15
+	{mso-style-name:15;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.16
+	{mso-style-name:16;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.95pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY lang=ZH-CN style="tab-interval: 21.0pt">
+<DIV class=WordSection1>
+<P class=MsoNormal style="BACKGROUND: white; LINE-HEIGHT: 150%"><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><SPAN 
+style="FONT-SIZE: 14pt; BACKGROUND: white; COLOR: maroon; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial; mso-bidi-font-size: 18.0pt"><FONT 
+size=4><STRONG>龙类移植体（<SPAN lang=EN-US>Draconic 
+Graft</SPAN>）</STRONG></FONT></SPAN></SPAN></P>
+<P class=MsoNormal style="BACKGROUND: white; LINE-HEIGHT: 150%"><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">龙源生物中有许多产生于使用类人生物形态的龙与真正的类人生物的结合。然而<SPAN 
+lang=EN-US>,</SPAN>有些生物把事情掌握在自己手中<SPAN 
+lang=EN-US>,</SPAN>控制龙类血统并取得惊人的成果。这些存在捕获活的龙蛋并用未出生的雏龙做实验，强化自身或他人的能力，制造新形态的生命，或者给邪恶带来“拯救”。这些个体被称为龙类移植者。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">许多龙类移植者有一些魔法天赋，然而这样的天赋不是能够制造移植体的要求。龙类移植体的“怪异科学”吸引所有专门研究秘密知识者。许多龙类移植者有龙类血统，但他们可能来自任何种族和文化。有些是相信他们的工作能够改变恶龙的否则就注定了的生活方式的理想主义者<SPAN 
+lang=EN-US>(</SPAN>或狂热者<SPAN lang=EN-US>)</SPAN>。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">龙类移植者是一个奇怪的群体，一般来说每个都不清楚其他遵循这一追求者。对于研究和在候选生物身上的实验，每个都有自己的行事方式。尽管缺乏支配一切的组织，但对深奥知识的吞噬一切的渴望确实使龙类移植者不时与彼此接触。偶尔，某个龙类移植者会赞助一次志同道合者的聚会，在赞助者的活动基地或者附近的会所或酒店举办的为时一周的活动。这些活动一般包括点缀着休闲活动的讲座和实践示范。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: blue; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">移植</SPAN></B><B><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">制造移植体涉及取得已有的生物的一部分并把它移植到另一个活物的体内或体表。移植在本质上是物品制造的替代方法，它的效果有许多。携带者获得魔法物品的效果而不实际穿戴物品。许多移植体难以在随便的观察下发现，这给予它们的携带者在得不到其它强大物品时的无形的优势。某些玩家觉得移植体比传统的魔法物品更合胃口和有趣—戴一副魔法手套在一定程度上是平凡的，而真得把你的手变成龙爪是发表真正的声明。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">本书中的龙类移植体有以下通用规则。（它们遵循<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>《艾伯伦的魔法》</SPAN></SPAN>中提供的修订过的移植体规则。）</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial'>只有拥有龙类移植者专长的人才能制造和应用龙类移植体。</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">虽然移植体的制造和应用理论上类似于奇物的制造所涉及的原理，但移植体涉及对生物学过程和结构的魔法操作。移植者必须能够在小尺度上操纵龙的生命能量。关于制造移植体的更多信息见下文。龙类移植者专长在本书的<SPAN 
+lang=EN-US>101</SPAN>页描述。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial'>一个个体的身上可以有总计<SPAN 
+lang=EN-US>5</SPAN>个移植体，而且所有移植体都必须属于同一类型。</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">一个身体只能支撑这么多的生长，再多它就会被相互矛盾的生物魔法信号压倒，导致死亡或者<SPAN 
+lang=EN-US>-</SPAN>更为常见的情况<SPAN lang=EN-US>-</SPAN>彻底的疯狂。没有一个身体部分<SPAN 
+lang=EN-US>(</SPAN>头部，皮肤，肌肉，腿和胳膊<SPAN 
+lang=EN-US>)</SPAN>能够拥有多于一个的移植体。此外，没有角色能够拥有多于一类的移植体—例如，一个龙类移植体和一个亡灵移植体<SPAN 
+lang=EN-US>(</SPAN>在<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>《死者之书》</SPAN></SPAN><SPAN 
+lang=EN-US>70</SPAN>页或<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>《魔物大全》</SPAN></SPAN><SPAN 
+lang=EN-US>214</SPAN>页描述<SPAN lang=EN-US>)</SPAN>。有许多关于绕开这些生物学限制的传言，但这样的畸形<SPAN 
+lang=EN-US>-</SPAN>这样的生物会成为的样子<SPAN lang=EN-US>-</SPAN>极少长期存活。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial'>移植体需要宿主的牺牲。</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">这里提供的龙类移植体对生物的身体产生负面影响。在大多数情况下，移植体只是造成角色的总<SPAN 
+lang=EN-US>hp</SPAN>的永久减少。这不是伤害，不能被治疗。在其它情况下，移植体可能造成属性值的永久减少或者某些检定或豁免的永久减值。拥有移植体的生物不能摆脱这种减值或移植体的其它成本，除非去除移植体。移植体的特殊的额外成本和每个移植体的描述一起给出，在牺牲条目下。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial'>所有龙类移植体都生长自从一个以上的生物取得的组织。</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">一般来说，这涉及从未孵化的雏龙身上拿下一份肉体样本，并让它在活物身上生长。每个移植体都有供体条目，它描述了移植体的来源。如果取自供体生物，那么移植体的制造开始时，移植体组织不能老于<SPAN 
+lang=EN-US>7</SPAN>天。这种捐献一般不伤害供体生物，然而，为了自己的安全，某些龙类移植者喜欢从死亡的供体身上获得捐赠。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial'>移植体难以去除。</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">移植体没有自己的属性，不能被独立于它们所移植到的生物地攻击或伤害。拥有龙类移植者专长的角色能够安全地从活物上去除龙类移植体；这需要在安静环境中的<SPAN 
+lang=EN-US>8</SPAN>小时的工作<SPAN lang=EN-US>(</SPAN>类似于制造移植体<SPAN 
+lang=EN-US>)</SPAN>。被安全地取下的移植体能够应用于另一个角色，然而这种应用必须发生在取下它后的<SPAN 
+lang=EN-US>24</SPAN>小时之内，并对接受它的角色造成<SPAN 
+lang=EN-US>4d6</SPAN>点体质伤害。如果没有适当的专长，就只有去除移植体所移植到的身体部分才能去除移植体<SPAN 
+lang=EN-US>(</SPAN>诚然是可怕的任务<SPAN 
+lang=EN-US>)</SPAN>；即使如此，移植体组织也会立刻死亡，不能重新使用。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">类似地，被杀死的生物上的移植体也会立刻死亡，不能回收并再次使用。除了其它效果以外，这还意味着非玩家角色的移植体也许不能被作为财宝取得。关于在游戏中处理此事的技巧，<SPAN 
+lang=EN-US>DM</SPAN>应当查阅作为财宝的龙类移植体边栏<SPAN lang=EN-US>(</SPAN>见<SPAN 
+lang=EN-US>129</SPAN>页<SPAN 
+lang=EN-US>)</SPAN>。然而，在用于复活时，移植体应当视为生物的一部分，所以被杀死和复生的角色带着完整无缺的移植体返回。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial'>移植体不是魔法物品。</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">完成之后，它不发出魔法灵光，它不像魔法物品那样在身体上占据位置。不能用<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>解除魔法</SPAN></SPAN>压制移植体，它也不受<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>反魔法力场</SPAN></SPAN>或类似效果的影响。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial'>多个龙类移植体给予宿主累计的效果。</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">拥有至少两个龙类移植体的角色获得伤害减免<SPAN 
+lang=EN-US>x/</SPAN>魔法，<SPAN lang=EN-US>x</SPAN>等于他拥有的龙类移植体的数量减<SPAN 
+lang=EN-US>1(</SPAN>两个龙类移植体是伤害减免<SPAN lang=EN-US>1/</SPAN>魔法，三个是伤害减免<SPAN 
+lang=EN-US>2/</SPAN>魔法，依此类推<SPAN 
+lang=EN-US>)</SPAN>。此外，如果角色至少拥有两个龙类移植体，用于克服伤害减免时，他的天生攻击就视为魔法武器。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: blue; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">制造龙类移植体</SPAN></B><B><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">龙类移植体的制造必须在安静而舒适的环境中完成，而且要求材料的支持，包括捐赠的组织样本或身体部分<SPAN 
+lang=EN-US>(</SPAN>见下文<SPAN 
+lang=EN-US>)</SPAN>。材料的成本包括在制造移植体的成本中。在其它方面，制造移植体的工作类似于制造奇物，包括制造成本，所需时间，所需法术的准备，和法术所需的成分、器材或经验值的支出<SPAN 
+lang=EN-US>(</SPAN>除了下文说明的之外<SPAN 
+lang=EN-US>)</SPAN>。如果移植体在材料成分或经验值方面引发额外的成本<SPAN 
+lang=EN-US>-</SPAN>如同其描述中的说明<SPAN 
+lang=EN-US>-</SPAN>那么这些成本在源于移植体的基础价格的那些之外。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">不同于制造普通的魔法物品，龙类移植体无需在连续的几天中制造。龙类移植者可以偶尔支付一天来注意生长中的移植体。在完成该移植体所必需的总时间支付完毕之前，它不起作用。然而，在致力于未完成的移植体期间，他不能跳过多于<SPAN 
+lang=EN-US>7</SPAN>天；这样做意味着未完成的移植体死亡，他失去一部分涉及移植体的制造的金币，数量等于已支付的致力于它的时间量。完成移植体之前，不失去经验值。在龙类移植者致力于移植体的任何日子，他必须专心于该任务<SPAN 
+lang=EN-US>8</SPAN>小时。未能这样做意味着当天的工作被浪费，不支付金币或经验值。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial">龙类移植体的接受者不引发任何涉及获得移植体的成本，直到它在该过程的第二阶段被安上为止。完成的移植体可以在一个需要<SPAN 
+lang=EN-US>8</SPAN>小时的过程中安在接受者上，在这段时间内，移植者和接受者都必须在场。如果移植体在完成后的一天之内没有安在接受者上，那么在此后的每天中，它需要龙类移植者<SPAN 
+lang=EN-US>1</SPAN>小时的照顾以免于死亡。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: Arial'>龙类移植体</SPAN></SPAN></P>
+<TABLE class=MsoNormalTable 
+style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; BORDER-BOTTOM: windowtext 1pt solid; MARGIN-LEFT: 3.15pt; BORDER-LEFT: windowtext 1pt solid; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-yfti-tbllook: 1184; mso-border-alt: solid windowtext .5pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext; mso-cellspacing: 1.5pt" 
+cellPadding=0 border=1>
+  <TBODY>
+  <TR style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=15><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>移植体</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN class=15><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>市价</SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 1">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=16><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>龙骨之腿</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">8,000</SPAN><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">金币</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 2">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=16><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>闪烁之鳞</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">9,000</SPAN><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">金币</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 3">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=16><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>凝视之眼</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">10,000</SPAN><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">金币</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 4">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=16><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>龙心之势</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">12,000</SPAN><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">金币</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 5">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=16><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>凶猛之冠</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">28,000</SPAN><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">金币</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 6">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=16><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>粉碎之尾</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">30,000</SPAN><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">金币</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 7">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=16><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>有爪之臂</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">34,000</SPAN><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">金币</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 8">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=16><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>代谢之火</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">56,000</SPAN><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">金币</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 9">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=16><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>抗力之鳞</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">70,000</SPAN><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">金币</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 10; mso-yfti-lastrow: yes">
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 65.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=87>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial"><SPAN 
+      style="mso-spacerun: yes">&nbsp; </SPAN></SPAN><SPAN class=16><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; mso-bidi-font-family: Arial'>抖振之翼</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 89.5pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0.75pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 0.75pt; mso-border-alt: solid windowtext .5pt" 
+    width=119>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">100,000</SPAN><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: Arial">金币</SPAN></P></TD></TR></TBODY></TABLE>
+<P class=MsoNormal style="BACKGROUND: white"><B><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal style="BACKGROUND: white"><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">抖振之翼<SPAN 
+lang=EN-US>(BUFFETING WINGS)</SPAN></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你的胳膊长出有纹理的膜，给予你飞行的能力，并允许你攻击你的敌人。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>位置：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">胳膊。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>描述：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你的每条胳膊都长出辐射状的支撑着鳍的软骨<SPAN 
+lang=EN-US>(</SPAN>如果来自金属龙<SPAN lang=EN-US>)</SPAN>或者与绷紧的肌肉相连的长长的骨质突起<SPAN 
+lang=EN-US>(</SPAN>如果来自彩色龙<SPAN lang=EN-US>)</SPAN>。你的<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>抖振之翼</SPAN></SPAN>的膜在不用时向下折叠。你仍然能穿和受益于服装与盔甲，然而佩戴护盾会限制你的翅膀的有效性<SPAN 
+lang=EN-US>(</SPAN>见下文<SPAN lang=EN-US>)</SPAN>。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>激活：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">使用<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>抖振之翼</SPAN></SPAN>飞行需要一个移动动作，和任何正常移动一样。用翼进行挥击攻击是一个攻击动作或者全攻击动作的一部分，如果你在使用两个翼或额外的天生武器的话。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>效果：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你获得等于你的基础陆地速度的飞行速度，机动性一般。你不能携带轻载以上的负重升空。如果你已经有翅膀了，该效果取代你原来的飞行速度和机动性。如果你在使用护盾<SPAN 
+lang=EN-US>(</SPAN>小圆盾除外<SPAN lang=EN-US>)</SPAN>，就不能用<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>抖振之翼</SPAN></SPAN>飞行。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你也能使用<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>抖振之翼</SPAN></SPAN>进行至多两次次要的挥击攻击，但只能在站在地面上时。每次攻击造成的伤害如同和你一样体型的龙进行的翼击<SPAN 
+lang=EN-US>(</SPAN>中型生物<SPAN lang=EN-US>1d4</SPAN>点<SPAN 
+lang=EN-US>)</SPAN>。在你使用了<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>抖振之翼</SPAN></SPAN>的回合，你不能用握在手里的武器攻击<SPAN 
+lang=EN-US>(</SPAN>然而你能使用其它天生攻击<SPAN lang=EN-US>)</SPAN>。而且如果佩盾<SPAN 
+lang=EN-US>,</SPAN>佩盾的那条胳膊就不能用翼攻击<SPAN lang=EN-US>(</SPAN>小圆盾除外<SPAN 
+lang=EN-US>)</SPAN>。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">除了<SPAN 
+lang=EN-US>hp</SPAN>消耗之外，这种翼还降低你整体的灵活性，导致永久的敏捷<SPAN 
+lang=EN-US>-2</SPAN>减值。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>制造<SPAN 
+lang=EN-US>:</SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植者<SPAN 
+lang=EN-US>,</SPAN><SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>洲际飞行</SPAN></SPAN>或<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>龙之飞行</SPAN></SPAN><SPAN 
+lang=EN-US>*,50,000</SPAN>金币<SPAN lang=EN-US>,4,000</SPAN>经验值，<SPAN 
+lang=EN-US>100</SPAN>天。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><SPAN 
+style="COLOR: black">*</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">在<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>《巨龙之书》</SPAN></SPAN><SPAN 
+lang=EN-US>113</SPAN>页描述的法术。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>供体：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">来自未孵化的雏龙的组织样本。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>牺牲：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">8hp</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">，<SPAN 
+lang=EN-US>-2</SPAN>敏捷。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>价格：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">100,000</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">金币。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙骨之腿（<SPAN 
+lang=EN-US>DRAGONBONE LEGS</SPAN>）</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">强壮的龙类腿骨被移植进你的每条腿里，给予你在运动任务方面的更强的物理力量。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>位置：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">腿。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>描述：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">随着新的骨骼固定下来，你的腿变得更粗，肌肉更发达。由于移植的组织在内部，你的皮相不改变。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>激活：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">宿主把<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>龙骨之腿</SPAN></SPAN>作为用于使用所提到的技能<SPAN 
+lang=EN-US>(</SPAN>攀爬，跳跃或游泳<SPAN 
+lang=EN-US>)</SPAN>的适当动作的一部分使用。无需特别的激活。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>效果：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你的攀爬、跳跃和游泳检定获得<SPAN 
+lang=EN-US>+4</SPAN>加值。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>制造：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植者，<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>牛之力量</SPAN></SPAN>，<SPAN 
+lang=EN-US>4,000</SPAN>金币，<SPAN lang=EN-US>320</SPAN>经验值，<SPAN 
+lang=EN-US>8</SPAN>天。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>供体：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">来自活龙的骨骼样本。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>牺牲：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">4hp</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>价格：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">8,000</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">金币。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙心之势（<SPAN 
+lang=EN-US>DRAGONHEART PRESENCE</SPAN>）</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙的一点儿心脏组织被移植进你的胸部，这给予你龙的一部分不屈灵魂。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>位置：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">肌肉。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>描述：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">虽然你的外表没有经历任何明显的物理变化，但你散发出自信和骄傲。如果供体是彩色龙，这种态度就带有傲慢和对胜利的确信。如果该肌肉来自金属龙，你就散发出警惕的耐心的气氛。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>激活：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">安装移植体之后，龙心之势就总是激活。对你而言，无需用动作激活或撤销它。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>效果：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你获得对麻痹效果和龙类的气势凶猛的免疫。此外，你进行的涉及拥有龙血亚种的生物的唬骗、交涉、搜集信息和威吓检定获得<SPAN 
+lang=EN-US>+2</SPAN>加值。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>制造：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植者<SPAN 
+lang=EN-US>,</SPAN><SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>移除麻痹</SPAN></SPAN>，<SPAN 
+lang=EN-US>6,000</SPAN>金币<SPAN lang=EN-US>,480</SPAN>经验值，<SPAN 
+lang=EN-US>12</SPAN>天。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>供体：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">来自未孵化的雏龙的心脏的一片肌肉。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>牺牲：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">4hp</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>价格：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">12,000</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">金币。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">凶猛之冠（<SPAN 
+lang=EN-US>FRIGHTFUL CREST</SPAN>）</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你的头部装饰着供体龙的冠、刺或角的一部分。你获得类似于龙的气势凶猛的恐惧灵光。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>位置：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">头部。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>描述：</SPAN></SPAN><SPAN 
+class=16><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>凶猛之冠</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">以它所取自的龙的主要头部装饰的形式出现；例如，来自黑龙的移植体有它特有的有皱的角，而来自银龙的是放射状的鳍。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=16><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>凶猛之冠</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">无缝地融入周围的肉体，逐渐融入你的天生肤色。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>激活：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">每当你攻击或冲锋时，<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>凶猛之冠</SPAN></SPAN>就激活。你不能选择压制该效果。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>效果：</SPAN></SPAN><SPAN 
+class=16><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>凶猛之冠</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">激活时，<SPAN 
+lang=EN-US>30</SPAN>英尺内的任何活的非龙类敌人如果生命骰少于你，就恐慌<SPAN 
+lang=EN-US>1</SPAN>回合；生命骰等于或大于你的生物改为战栗<SPAN 
+lang=EN-US>1</SPAN>回合。成功的意志豁免否定该效果并使该生物免疫你的<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>凶猛之冠</SPAN></SPAN><SPAN 
+lang=EN-US>24</SPAN>小时；豁免<SPAN lang=EN-US>DC</SPAN>为<SPAN 
+lang=EN-US>10+1/2</SPAN>你的生命骰<SPAN 
+lang=EN-US>+</SPAN>你的魅力调整值。这是一个影响心灵的恐惧效果。免疫龙的气势凶猛的角色也免疫<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>凶猛之冠</SPAN></SPAN>。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>制造：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植者<SPAN 
+lang=EN-US>,</SPAN><SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>恐惧术</SPAN></SPAN><SPAN 
+lang=EN-US>,14,000</SPAN>金币<SPAN lang=EN-US>,1,120</SPAN>经验值<SPAN 
+lang=EN-US>,28</SPAN>天。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>供体：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">来自龙的冠或角。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>牺牲：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">6hp</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>价格：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">28,000</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">金币。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">凝视之眼（<SPAN 
+lang=EN-US>GLARING EYE</SPAN>）</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙眼的瞳孔成长为你自己的。因此，你获得龙的敏锐感官和警觉。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>位置：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">头部。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>描述：</SPAN></SPAN><SPAN 
+class=16><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>凝视之眼</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">的颜色与它所生长自的龙眼的相同，而且有类似于鳄鱼的纵裂的瞳孔。它没有眼睑，不能闭眼。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>激活：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">安装移植体之后，<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>凝视之眼</SPAN></SPAN>就总是激活。对你而言，无需用动作来激活或撤销它。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>效果：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你获得距离至多<SPAN 
+lang=EN-US>30</SPAN>英尺的盲感和在搜索与侦察检定上的<SPAN 
+lang=EN-US>+2</SPAN>加值。你还获得对魔法的睡眠效果的免疫。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>制造：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植者<SPAN 
+lang=EN-US>,</SPAN><SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>龙之感知</SPAN></SPAN><SPAN 
+lang=EN-US>*</SPAN>，<SPAN lang=EN-US>5,000</SPAN>金币，<SPAN 
+lang=EN-US>400</SPAN>经验值，<SPAN lang=EN-US>10</SPAN>天。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><SPAN 
+style="COLOR: black">*</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">在<SPAN 
+lang=EN-US>117</SPAN>页描述的新法术。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>供体：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">来自未孵化的雏龙的眼组织的样本或来自龙的眼睛。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>牺牲：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">2hp</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>价格：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">10,000</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">金币。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">闪烁之鳞（<SPAN 
+lang=EN-US>GLEAMING SCALES</SPAN>）</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你的皮肤以生长自从活龙取得的样本的鳞加固，这允许你长出覆盖易受伤害的区域的防护板。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>位置：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">皮肤。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>描述：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">坚固、闪烁的龙鳞覆盖着你的躯干和肢体的皮肤。鳞的颜色与供体龙的相同。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=16><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>闪烁之鳞</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">有光滑的纹理，可以有脊，这取决于龙的类型。它们随着你移动，毫不妨碍你的移动。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>激活：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">安装移植体之后，<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>闪烁之鳞</SPAN></SPAN>就总是激活。对你来说，无需用动作激活或撤销该移植体。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>效果：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你的防御等级上的天生护甲加值增加<SPAN 
+lang=EN-US>1</SPAN>。因为该移植体提高的是你的天生护甲，所以给予你的天生护甲增强加值的效果<SPAN 
+lang=EN-US>(</SPAN>例如<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>天生护甲护符</SPAN></SPAN><SPAN 
+lang=EN-US>)</SPAN>与<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>闪烁之鳞</SPAN></SPAN>累计。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=16><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>闪烁之鳞</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">还给予<SPAN 
+lang=EN-US>5</SPAN>抗力，能量类型与供体龙的免疫或抗力相同，或者使你已有的对那种能量类型的抗力<SPAN 
+lang=EN-US>(</SPAN>无论其源头如何<SPAN lang=EN-US>)</SPAN>增加<SPAN 
+lang=EN-US>5</SPAN>。如果供体龙免疫或抵抗的能量多于一种，选择你抵抗的那一种能量类型。如果供体龙对能量没有免疫或抗力，该移植体就不给予抗力。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>制造：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植者，<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>龙肤术</SPAN></SPAN><SPAN 
+lang=EN-US>*</SPAN>，<SPAN lang=EN-US>4,500</SPAN>金币，<SPAN 
+lang=EN-US>360</SPAN>经验值，<SPAN lang=EN-US>9</SPAN>天。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><SPAN 
+style="COLOR: black">*</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">在<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>《巨龙之书》</SPAN></SPAN><SPAN 
+lang=EN-US>111</SPAN>页描述的法术。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>供体：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">来自未孵化的雏龙的有鳞的皮肤样本。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>牺牲：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">4hp</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>价格：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">9,000</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">金币。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">代谢之火（<SPAN 
+lang=EN-US>METABOLIC FIRE</SPAN>）</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你获得龙用来喷吐能量的毁灭性能力。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>位置：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">肌肉。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>描述：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">把这种移植体植入你的胸部不留下可以轻易看到的效果。然而<SPAN 
+lang=EN-US>,</SPAN>暴露于你身体内部的能量使你的牙齿变黑，直到变成纯黑色，像黑曜石那样为止。微弱的火花、白霜、噼啪的电火花或酸性唾液的闪光可能在你露出牙齿时萦绕着它们。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>先决条件：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">在能够获得<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>代谢之火</SPAN></SPAN>之前，你必须拥有至少一个其它龙类移植体。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>激活：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">使用<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>代谢之火</SPAN></SPAN>是一个标准动作。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>效果：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你获得喷吐武器，每<SPAN 
+lang=EN-US>1d4</SPAN>回合可用一次，其运作如同<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>《怪物图鉴》</SPAN></SPAN><SPAN 
+lang=EN-US>306</SPAN>页的描述。该武器的形式<SPAN lang=EN-US>(</SPAN>线形或锥形<SPAN 
+lang=EN-US>)</SPAN>与供体龙的相同；锥形喷吐武器的长度为<SPAN 
+lang=EN-US>30</SPAN>英尺，而线形喷吐武器的长度为<SPAN lang=EN-US>60</SPAN>英尺。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=16><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>代谢之火</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">给予的喷吐武器造成<SPAN 
+lang=EN-US>6d8</SPAN>点伤害；成功的反射豁免<SPAN lang=EN-US>(DC10+1/2</SPAN>你的生命骰<SPAN 
+lang=EN-US>+</SPAN>你的体质调整值<SPAN 
+lang=EN-US>)</SPAN>使伤害减半。伤害类型与供体龙造成的能量伤害的类型一致。尽管该移植体名称如此，但它能造成与供体龙有关的任何类型的能量伤害。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>制造：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植者<SPAN 
+lang=EN-US>.</SPAN>龙之喷吐<SPAN lang=EN-US>*,28,000</SPAN>金币<SPAN 
+lang=EN-US>,2,240</SPAN>经验值，<SPAN lang=EN-US>56</SPAN>天。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><SPAN 
+style="COLOR: black">*</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">在<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>《巨龙之书》</SPAN></SPAN><SPAN 
+lang=EN-US>111</SPAN>页描述的法术。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>供体：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">来自龙的基血管的组织<SPAN 
+lang=EN-US>(</SPAN>产生龙的喷吐武器的器官<SPAN lang=EN-US>,</SPAN>在<SPAN class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>《巨龙之书》</SPAN></SPAN>第<SPAN 
+lang=EN-US>8</SPAN>页描述<SPAN lang=EN-US>),</SPAN>取自未孵化的雏龙。没有喷吐武器<SPAN 
+lang=EN-US>(</SPAN>或者喷吐武器不造成能量伤害<SPAN 
+lang=EN-US>)</SPAN>的供体龙不能用作移植体的供体。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>牺牲：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">6hp</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>价格：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">56,000</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">金币。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">抗力之鳞（<SPAN 
+lang=EN-US>RESILIENT SCALES</SPAN>）</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">通过应用成熟的龙鳞，你有鳞的皮肤给予你对某种能量类型的免疫。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>位置：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">皮肤。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>描述：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">厚而坚韧的龙鳞覆盖你的全身。它们的颜色深而纯，类似于供体龙的。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>激活：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">安装移植体之后，<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>抗力之鳞</SPAN></SPAN>就总是激活。对你而言，无需用动作来激活或撤销它。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>效果：</SPAN></SPAN><SPAN 
+class=16><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>抗力之鳞</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">给予<SPAN 
+lang=EN-US>30</SPAN>抗力，能量类型与供体龙的免疫相同。如果供体龙免疫的能量多于一种，由制造者选择移植体给予对抗哪种能量类型的抗力。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">如果你至少另有一个龙类移植体，在用于确定你的龙类移植体给予的伤害减免时，<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>抗力之鳞</SPAN></SPAN>就视为两个移植体。例如，如果你有<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>抗力之鳞</SPAN></SPAN>和<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>龙心之势</SPAN></SPAN>，你就有伤害减免<SPAN 
+lang=EN-US>2/</SPAN>魔法<SPAN lang=EN-US>(</SPAN>如同你有<SPAN 
+lang=EN-US>3</SPAN>个龙类移植体<SPAN lang=EN-US>)</SPAN>。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>制造：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植者，<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>抵抗能量</SPAN></SPAN><SPAN 
+lang=EN-US>,35,000</SPAN>金币<SPAN lang=EN-US>,2,800</SPAN>经验值，<SPAN 
+lang=EN-US>70</SPAN>天。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>供体：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">来自免疫某种能量类型的活龙的有鳞皮肤的样本。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">粉碎之尾（<SPAN 
+lang=EN-US>SMASHING TAIL</SPAN>）</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你长出肌肉发达的有鳞尾巴，你能用它粉碎敌人。要获得<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>粉碎之尾</SPAN></SPAN>移植体，你的体型必须在中型以上。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>位置：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">腿。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>描述：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">这种尾巴的颜色与该移植体所取自的龙的相同。它也具备那种尾巴的正常装饰<SPAN 
+lang=EN-US>(</SPAN>鳍，刺，等等<SPAN lang=EN-US>)</SPAN>。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>激活：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">在战斗中使用<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>粉碎之尾</SPAN></SPAN>需要一个攻击动作，或者是一个全攻击动作的一部分，如果你在使用多件武器的话。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>效果：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你的尾巴能够进行次要的挥击攻击，如同体型比你大一级的龙那样造成伤害<SPAN 
+lang=EN-US>(</SPAN>中型生物<SPAN lang=EN-US>1d8)</SPAN>，把你的力量加值的<SPAN 
+lang=EN-US>3/2</SPAN>加在该伤害上。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你的尾巴还给予你的平衡检定和游泳检定<SPAN 
+lang=EN-US>+2</SPAN>加值。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>制造：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植者，<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>牛之力量</SPAN></SPAN><SPAN 
+lang=EN-US>,15,000</SPAN>金币，<SPAN lang=EN-US>750</SPAN>经验值，<SPAN 
+lang=EN-US>30</SPAN>天。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>供体：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">来自未孵化的雏龙的组织样本。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>牺牲：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">4hp</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>价格：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">30,000</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">金币。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">有爪之臂（<SPAN 
+lang=EN-US>TALONED ARM</SPAN>）</SPAN></B><B><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你的胳膊之一包在龙的肌肉中，这给予你天生的爪抓攻击。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>位置：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">胳膊。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>描述：</SPAN></SPAN><SPAN 
+class=16><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>有爪之臂</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">有尖锐、弯曲的爪子，它的鳞的颜色与提供移植体的龙相同。它看上去比你原来的胳膊更粗壮，然而该移植体事实上不提高你的力量。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=16><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>有爪之臂</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">的鳞越靠近你的上臂，就越小、越细，在肩部完全融入周围的肤色。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>激活：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">在战斗中使用这种龙类移植体需要一个攻击动作，或者是一个全攻击动作的一部分，如果你在使用多件武器的话。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>效果：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">你能使用<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>有爪之臂</SPAN></SPAN>进行次要的爪抓攻击，如同体型与你相同的龙那样造成伤害<SPAN 
+lang=EN-US>(</SPAN>中型生物<SPAN 
+lang=EN-US>1d6)</SPAN>。进行全攻击时，你能在你进行的任何其它攻击之外用你的爪攻击。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>制造：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植者，<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>魔牙术</SPAN></SPAN><SPAN 
+lang=EN-US>,17,000</SPAN>金币，<SPAN lang=EN-US>1,360</SPAN>经验值，<SPAN 
+lang=EN-US>34</SPAN>天。</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>供体：</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">来自龙的一只爪子。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>牺牲：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">2hp</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+class=15><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial'>价格：</SPAN></SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">34,000</SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">金币。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">——————————————————————————</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">作为财宝的龙类移植体</SPAN></B><B><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: teal; mso-bidi-font-family: Arial"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">龙类移植体强化角色的能力的方式非常像是魔法装备，但它们不那么容易得到。因为它们像装备那样影响角色的能力，所以它们有等价的金币价值。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">给予非玩家角色龙类移植体时，<SPAN 
+lang=EN-US>DM</SPAN>应当视移植体的金币价值为非玩家角色的装备的总价值的一部分。毕竟，移植体给予的能力直接包括在非玩家角色的挑战等级中，就像魔法物品那样。然而，由于非玩家角色的移植体几乎一定不会被称为财宝，击败这样的非玩家角色的货币奖励被人为降低了。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">如果你预计这是个问题，就考虑给该非玩家角色的宝库增加财宝<SPAN 
+lang=EN-US>-</SPAN>其数量介于移植体的金币成本的<SPAN lang=EN-US>50%</SPAN>与<SPAN 
+lang=EN-US>100%</SPAN>之间<SPAN lang=EN-US>-</SPAN>以弥补损失。例如，如果玩家角色击败了安装着<SPAN 
+class=16><SPAN 
+style='FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Arial'>凝视之眼</SPAN></SPAN>的非玩家角色但他们不能称该移植体为财宝，就考虑给该非玩家角色的宝库添加价值<SPAN 
+lang=EN-US>5,000</SPAN>到<SPAN lang=EN-US>10,000</SPAN>金币之间的财宝<SPAN 
+lang=EN-US>(</SPAN>以珠宝、宝石或硬币的形式，但不是额外的装备<SPAN 
+lang=EN-US>)</SPAN>。这个范围的下限描述玩家角色通过出售等价的魔法物品应当得到的价值，而上限是他们应当为购买等价的魔法物品支付多少。</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; BACKGROUND: white; mso-bidi-font-family: Arial"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial">——————————————————————————</SPAN><SPAN 
+lang=EN-US></SPAN></P></DIV></BODY></HTML>

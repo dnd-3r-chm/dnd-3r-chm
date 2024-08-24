@@ -1,0 +1,812 @@
+<html>
+
+<head>
+<title>颤动蠕虫</title>
+
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char1";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char1";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"批注框文本 Char1";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char1
+	{mso-style-name:"批注框文本 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.msopapdefault, li.msopapdefault, div.msopapdefault
+	{mso-style-name:msopapdefault;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.msochpdefault1, li.msochpdefault1, div.msochpdefault1
+	{mso-style-name:msochpdefault1;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.a
+	{mso-style-name:"页眉 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.a0
+	{mso-style-name:"页脚 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.a1
+	{mso-style-name:"批注框文本 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char10
+	{mso-style-name:"页眉 Char1";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char11
+	{mso-style-name:"页脚 Char1";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char12
+	{mso-style-name:"批注框文本 Char1";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.char110
+	{mso-style-name:char11;
+	mso-style-unhide:no;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body bgcolor=white lang=ZH-CN style="tab-interval: 21.0pt"><div class=WordSection1><p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><b><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #c00000; mso-bidi-font-size: 10.5pt'>颤动蠕虫（<span lang=EN-US>Thrum
+Worm</span>）<span lang=EN-US> CR 2 </span></span></b><span lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>中型魔法兽<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><i style="mso-bidi-font-style: normal"><span
+ style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>这个粗壮的，蠕虫一样的生物比一名成年人还要长。当它准备攻击时会把头猛地抬起，但是马上它的牙就缩回了。</span></i></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><i style="mso-bidi-font-style: normal"><span
+ style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'><span
+ lang=EN-US><o:p><IMG alt="" src="../0插图/颤动蠕虫.jpg"></o:p></span></span></i></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style="mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm">
+ <tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >生命骰：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;2d10+4(15hp)</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 1">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >先攻：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;+1</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 2">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >速度：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;20</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >尺，掘地<span
+  lang=EN-US>20</span>尺<span lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 3">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >防御等级：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;14</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >（<span lang=EN-US>+1</span>敏捷，<span
+  lang=EN-US>+3</span>天生），接触<span lang=EN-US>11</span>，措手不及<span lang=EN-US>13</span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 4">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >基本攻击／擒抱：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;+2/+3</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 5">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >攻击：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >啮咬<span lang=EN-US>+3</span>近战（<span
+  lang=EN-US>1d4+1</span>）或音波射线<span lang=EN-US>+3</span>远程接触（<span lang=EN-US>1d8</span>音波）<span
+  lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 6">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >全力攻击：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >啮咬<span lang=EN-US>+3</span>近战（<span
+  lang=EN-US>1d4+1</span>）或音波射线<span lang=EN-US>+3</span>远程接触（<span lang=EN-US>1d8</span>音波）<span
+  lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 7">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >面宽／触及：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;5</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >尺<span lang=EN-US>/5</span>尺<span
+  
+      lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 8">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >特殊攻击：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >音波射线<span
+  lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 9">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >特殊能力：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >黑暗视觉<span
+  lang=EN-US>60</span>尺，昏暗视觉，易于训练，震颤感知<span lang=EN-US>60</span>尺<span
+  lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 10">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >豁免：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >强韧<span lang=EN-US>+5</span>，反射<span
+  lang=EN-US>+4</span>，意志<span lang=EN-US>+1</span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 11">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >属性：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >力量<span lang=EN-US>13</span>，敏捷<span
+  lang=EN-US>13</span>，体质<span lang=EN-US>15</span>，智力<span lang=EN-US>2</span>，感知<span
+  lang=EN-US>12</span>，魅力<span lang=EN-US>6</span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 12">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >技能：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >躲藏<span lang=EN-US>+3</span>，聆听<span
+  lang=EN-US>+3</span>，潜行<span lang=EN-US>+3</span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 13">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >专长：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >盲斗<span lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 14">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >地域：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >地下<span lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 15">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >组织：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >单独或成对<span
+  lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 16">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >挑战等级：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;2</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 17">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >宝物：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >无<span lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 18">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >阵营：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >总是中立<span
+  lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 19">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >进化：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;3-4HD</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >（中型）<span
+  lang=EN-US>5-6HD</span>（大型）<span lang=EN-US></span></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 20; mso-yfti-lastrow: yes">
+  <td width=123 valign=top style="WIDTH: 92.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p style="LAYOUT-GRID-MODE: char; MARGIN: 0cm 0cm 0pt" 
+     ><b><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >等级调整：</span></b><span
+  lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ></span></p>
+  </td>
+  <td width=431 valign=top style="WIDTH: 323.15pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >&nbsp;</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >—<span lang=EN-US></span></span></p>
+  </td>
+ </tr>
+</table>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><span lang=EN-US style='FONT-SIZE:
+ 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp;</span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>震颤蠕虫是罕见的，缓慢的蠕虫种，经常被专业的侏儒骑兵使用。侏儒可以从这种蠕虫的掘地能力中在多个方面获益。在和平时期，他们使用特质的鞍座寻找矿藏，在战争时期，他们挖地洞绕过防线潜入到敌人的营地中去。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>震颤蠕虫完全长成时长约<span
+ lang=EN-US>8-10</span>尺，重<span lang=EN-US>200</span>磅，他们有着干燥，有弹性的棕黄色皮肤和对大地的嗅觉（<span
+ lang=EN-US>smell of soil</span>）。一只大地蠕虫的嘴中有两排很小的牙，它们在射击音波射线时可以缩进嘴中。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><b><span lang=EN-US style='FONT-SIZE:
+ 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp;</span></b></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><b><span style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>战斗：<span
+ lang=EN-US></span></span></b></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>震颤蠕虫经常尽他们所能避免战斗。当碰到拥有掘地能力的捕食者或是被骑手或是驯兽师投入战斗时，震颤蠕虫依靠他们的音波射线作为首要攻击方式。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>音波射线</span></b><span
+ style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>（<span lang=EN-US>Sonic
+Ray</span>）（<span lang=EN-US>Su</span>）：一只震颤蠕虫可以每轮一次从嘴中发射这种射线，射程<span
+ lang=EN-US>30</span>尺并且没有射程增量。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>易于训练</span></b><span
+ style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>（<span lang=EN-US>Trainable</span>）（<span
+ lang=EN-US>Ex</span>）：一只震颤蠕虫比其他魔法兽更容易训练。在训练或饲养震颤蠕虫的驯养动物检定<span lang=EN-US>DC</span>不必增加<span
+ lang=EN-US>5</span>，侏儒在训练或饲养震颤蠕虫的驯养动物检定中有<span lang=EN-US>+2</span>环境加值。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><b><span lang=EN-US style='FONT-SIZE:
+ 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc'>&nbsp;</span></b></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><b><span style='FONT-SIZE:
+ 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc'>训练一只震颤蠕虫<span lang=EN-US></span></span></b></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>震颤蠕虫可以被驯养动物技能训练。骑乘一只震颤蠕虫需要一个异种鞍座或是特殊的掘地鞍座（在第<span
+ lang=EN-US>7</span>章：魔法与装备有更多细节）<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>每个震颤蠕虫幼虫在公开市场上价值<span
+ lang=EN-US>1500GP</span>，少年虫价值<span lang=EN-US>2500GP</span>，专业训练师要求<span
+ lang=EN-US>125GP</span>来培养或训练一只震颤蠕虫。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-bottom: .5gd; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>负重能力：虽然它不是四足生物，震颤蠕虫依然可以比类似力量的生物携带更多东西。一只震颤蠕虫的轻载范围是<span
+ lang=EN-US>0~75</span>磅，中载<span lang=EN-US>76-150</span>磅，重载<span lang=EN-US>151-225</span>磅。一只震颤蠕虫可以拖动<span
+ lang=EN-US>1125</span>磅。<span lang=EN-US></span></span></p></div></body>
+
+</html>

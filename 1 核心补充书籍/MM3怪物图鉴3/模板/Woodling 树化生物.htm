@@ -1,0 +1,1476 @@
+<html>
+
+<head>
+<title>树化生物</title>
+
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document><style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"批注框文本 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char1
+	{mso-style-name:"批注框文本 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style="tab-interval: 21.0pt"><div class=WordSection1>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>树化生物是和大自然的结合体；在很大程度上，它们变成了植物生物。这些生物都有着和普通生物不同的心智，更近似于树人。它们是一种能和大自然和谐共处的生命。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 12pt 0cm 6pt; mso-para-margin-top: 1.0gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; mso-bidi-font-family: 宋体'>创造一个树化生物</span></strong><strong><span
+ lang=EN-US style="FONT-FAMILY: 宋体; COLOR: blue; mso-bidi-font-family: 宋体"></span></strong></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>树化是一个可以添加倒任何有肉体的动物，龙，精类生物，巨人，类人生物，魔法兽，以及人形怪物上的模板（以下将它简称为“基本生物”）。</span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>树化生物将沿用基本生物的所有资料以及能力，除了以下几点：<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>体型和类型</span></b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>：树化生物的类型不会改变，但它也同时会拥有植物的特质（见下文）。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>防御等级</span></b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>：基本生物的天生防御提升<span
+ lang=EN-US>+7</span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>攻击</span></b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>：树化生物保留基本生物的所有攻击方式，同时若基本生物没有挥击，则其获得挥击的能力。若基本生物能使用武器，该树化生物依然保留此能力。具有天生武器的生物依然保留其天生武器。没有武器的树化生物可以使用其挥击或原本的天生武器（若它有的话）攻击。持有武器的树化生物则可以自由选择使用武器或挥击来攻击。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>全回合攻击</span></b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>：没有武器的树化生物使用其挥击（见上）或其天生武器（若它有的话）来攻击。若它持有武器，则往往会以武器为主要武器来攻击，并将挥击或其他天生武器作为天生的次要武器来攻击。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>伤害</span></b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>：树化生物拥有挥击的能力。若基本生物没有这种攻击模式，则根据其体型使用下面的伤害表。拥有该天生武器的生物保留其原有伤害或参考下表资料，取其数值较高者。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>体型　　　　伤害<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>超微型　　　　１<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>微型　　　　１ｄ２<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>超小型　　　１ｄ３<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>小型　　　　１ｄ４<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>中型　　　　１ｄ６<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>大型　　　　１ｄ８<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>超大型　　　２ｄ６<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>巨型　　　　２ｄ８<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>超巨型　　　４ｄ６<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>类法术能力：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>感知到达<span lang=EN-US>8</span>或更高的树化生物根据其<span
+ lang=EN-US>HD</span>不同会拥有以下类法术能力，这些能力可以累加。例如，一个树化奇美拉（<span lang=EN-US>9HD</span>）可以使用纠缠术每天一次，二级召唤盟友术每天一次，与植物交谈每天一次，以及四级召唤盟友术每天一次。施法者等级等同于生物<span
+ lang=EN-US>HD</span>，其豁免<span lang=EN-US>DC</span>基于魅力。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>HD</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　　　　　　　　　能力<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>1-2</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　　　　　　　 纠缠术 每天一次<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>3-5</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　　　　　　　 二级召唤盟友术 每天一次<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>6-7</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　　　　　　　 与植物交谈 每天三次<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>8-10</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　　　　　　<span
+ lang=EN-US><span style="mso-spacerun: yes">? </span></span>四级召唤盟友术 每天一次<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>11-12</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　　　　　　命令植物 每天一次<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>13-15</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　　　　　　六级召唤盟友术 每天一次<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>16-18</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　　　　　　活化植物 每天一次<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>19-20</span><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　　　　　　八级召唤盟友术 每天一次<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN: 0cm 0cm 0pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .0001pt; mso-para-margin-left: 2.0gd"><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>21+
+</span><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　　　　　　<span
+ lang=EN-US><span style="mso-spacerun: yes">? </span></span>操控植物 每天一次 以及九级召唤盟友术每天一次<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>特性</span></b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>：树化生物拥有基本生物的所有特性，同时也获得下列特性：<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 2.0gd"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>伤害减免（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>树化生物获得<span
+ lang=EN-US>5/</span>挥砍的伤害减免。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 2.0gd"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>昏暗视觉（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>生物获得昏暗视觉，在星光，月光，火把或类似的弱光情况下，其视觉距离是人类的两倍。同时，在这种状况下，他们依然能分辨色彩和物体的细节。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 2.0gd"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>植物特质：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>树化生物对毒素、魔法睡眠效果、麻痹、变形、震慑和影响心灵（魅惑<span
+ lang=EN-US>[charm]</span>、胁迫<span lang=EN-US>[compulsion]</span>、魅影幻觉<span
+ lang=EN-US>[phantasm]</span>、心灵幻觉<span lang=EN-US>[pattern]</span>、以及士气效果<span
+ lang=EN-US>[morale effect]</span>）的法术和能力免疫，且不受到重击的效果。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 2.0gd"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>技能奖励（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>树化生物的皮肤和毛发与树皮和树叶类似。这些生物的翅膀一般也和树叶或其他植物体的形态相似，且生物的每个部分都具有会随着季节变化而更替的植物般的外表。早春时为亮绿色，夏季时颜色开始转深。秋季则会开始发黄，变成橙色，最终转成类似落叶的红色，并且到了冬天变成淡棕色。树化生物在地表的自然环境中躲藏和潜行技能有<span
+ lang=EN-US>+4</span>的加值。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt 24pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 2.0gd"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>畏火（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>树化生物拥有畏火的特性。火焰会对一个树化生物造成比一般多一半（<span
+ lang=EN-US>50%</span>）的伤害，无论是否有豁免和是否通过了豁免。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>环境：</span></b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>任何自然地表<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>挑战等级</span></b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>：基本生物<span lang=EN-US>+2</span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>组织</span></b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>：与基本生物相同，但大多数基本生物的族群通常只有一个树化生物。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>等级调整</span></b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>：<span lang=EN-US>+3</span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span>&nbsp;</p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; mso-bidi-font-family: 宋体'>树化生物范例</span></strong><strong><span
+ lang=EN-US style="FONT-FAMILY: 宋体; COLOR: blue; mso-bidi-font-family: 宋体"></span></strong></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>此范例使用一个蜥蜴首领为基本生物</span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: maroon; mso-bidi-font-family: 宋体'>树化蜥蜴首领<span
+ lang=EN-US> CR 4</span></span></strong><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>中型动物</span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-no-proof: yes'><IMG id=_x0000_i1026 alt="说明: 说明:&#13;&#10; 说明:&#13;&#10; 说明:&#13;&#10; C:\Users\Administrator\Desktop\未完成版\怪物图鉴Ⅲ(MM3)\0插图\树化蜥蜴首领.jpg" src ="../0插图/树化蜥蜴首领.jpg" width=400 height=553 ></span><span
+ lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style="BACKGROUND:
+ white; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm; mso-cellspacing: 0cm">
+ <tr style="HEIGHT: 5.95pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes"  >
+  <td width=142 valign=top style="HEIGHT: 5.95pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="mso-line-height-alt:
+  5.95pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >生命骰：</span></b><span lang=EN-US
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 5.95pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="mso-line-height-alt: 5.95pt" 
+     ><span lang=EN-US
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >3d8+9</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >（<span lang=EN-US>22hp</span>）<span
+  lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 1">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >先攻：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >+2<u1:p></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 2">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >速度：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >30</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >英尺（<span lang=EN-US>6</span>格），游泳<span
+  lang=EN-US>30</span>英尺<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 3">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >防御等级：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >22</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >（<span lang=EN-US>+2</span>敏捷，<span
+  lang=EN-US>+10</span>天生），接触<span lang=EN-US>12</span>，措手不及<span lang=EN-US>20</span></span></p>
+  </td>
+ </tr>
+ <u1:p>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 4">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >基本攻击／擒抱：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >+2/+5</span></p>
+  </td>
+ </tr>
+ <u1:p>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 5">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >攻击：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >啮咬<span lang=EN-US>+5</span>近战（<span
+  lang=EN-US>1d8+4</span>），或挥击<span lang=EN-US>+5</span>近战（<span lang=EN-US>1d6+4</span>）<span
+  lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 6">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >全力攻击：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >啮咬<span lang=EN-US>+5</span>近战（<span
+  lang=EN-US>1d8+4</span>），或挥击<span lang=EN-US>+5</span>近战（<span lang=EN-US>1d6+4</span>）<span
+  lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 7">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >面宽／触及：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >5</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >英尺<span lang=EN-US>/5</span>英尺<span
+  lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 8">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >特殊攻击：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >类法术能力<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 9">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >特殊能力：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >伤害减免<span lang=EN-US>5/</span>挥砍，昏暗视觉，植物特质，畏火<span
+  lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 10">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >豁免：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >强韧<span lang=EN-US>+6</span>，反射<span
+  lang=EN-US>+2</span>，意志<span lang=EN-US>+1</span></span></p>
+  </td>
+ </tr>
+ <u1:p>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 11">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >属性：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >力量<span lang=EN-US>17</span>，敏捷<span
+  lang=EN-US>15</span>，体质<span lang=EN-US>17</span>，智力<span lang=EN-US>1</span>，感知<span
+  lang=EN-US>12</span>，魅力<span lang=EN-US>2</span></span></p>
+  </td>
+ </tr>
+ <u1:p>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 12">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >技能：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >攀爬<span lang=EN-US>+7</span>，躲藏<span
+  lang=EN-US>+6*</span>，聆听<span lang=EN-US>+4</span>，潜行<span lang=EN-US>+6*</span>，侦察<span
+  lang=EN-US>+4</span>，游泳<span lang=EN-US>+11</span></span></p>
+  </td>
+ </tr>
+ <u1:p>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 13">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >专长：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >警觉，战斗反射，强韧加强，追踪<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 14">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >地域：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >温暖森林<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 15">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >组织：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >单独<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 16">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >挑战等级：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >4<u1:p></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 17">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >宝物：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >无<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 18">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >阵营：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >总是中立<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 19">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >进化：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 11.35pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >4-5HD</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >（中型）<span
+  lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 5.55pt; mso-yfti-irow: 20; mso-yfti-lastrow: yes"  >
+  <td width=142 valign=top style="HEIGHT: 5.55pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="mso-line-height-alt:
+  5.55pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >等级调整：</span></b><span lang=EN-US
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=813 valign=top style="HEIGHT: 5.55pt; WIDTH: 609.5pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="mso-line-height-alt: 5.55pt" 
+     ><span lang=EN-US
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >-<u1:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span>&nbsp;</p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>这种<span
+ lang=EN-US>4</span>英尺左右长的蜥蜴拥有树皮状的皮肤，而身上的鳞片颜色和外观也都有着树叶的特征。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>树化蜥蜴首领偶尔可以在树人居住的地方被发现。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>战斗</span></strong><span
+ lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>树化蜥蜴首领相当好斗，它们使用其强有力的下颚撕咬猎物或敌人。同时，它们也会攻击任何威胁到它们领地的家伙。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>类法术能力：每天一次——纠缠术（<span
+ lang=EN-US>DC7</span>），二级召唤盟友术<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>技能：树化蜥蜴首领在表演特殊动作和逃避危险的游泳检定上获得<span
+ lang=EN-US>+8</span>的种族加值，它也可以在游泳检定上取<span lang=EN-US>10</span>，即使在分心或是受威胁的状态下也一样。如果游泳路线是一条直线，那么它可以在游泳时使用奔跑动作。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>　　<span
+ lang=EN-US><span style="mso-spacerun: yes">?? </span></span>树化蜥蜴在躲藏和潜行检定中获得<span
+ lang=EN-US>+4</span>的种族加值。<span lang=EN-US>*</span>在地表的自然区域中，躲藏加值提升至<span
+ lang=EN-US>+12</span>，同时潜行加值提升至<span lang=EN-US>+8</span>。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span>&nbsp;</p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: blue; mso-bidi-font-family: 宋体'>树化生物范例</span></strong><strong><span
+ lang=EN-US style="FONT-FAMILY: 宋体; COLOR: blue; mso-bidi-font-family: 宋体"></span></strong></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>此范例使用一个<span
+ lang=EN-US>9</span>级人类德鲁伊为基本生物。</span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: maroon; mso-bidi-font-family: 宋体'>秋子，<span lang=EN-US>9</span>级人类德鲁伊<span
+ lang=EN-US> CR 11</span></span></strong><b><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: maroon'></span></b></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>中型类人生物（人类）</span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt 12pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 1.0gd"><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-no-proof: yes'><IMG id=_x0000_i1025 alt="说明: 说明: 说明: 说明: C:\Users\Administrator\Desktop\未完成版\怪物图鉴Ⅲ(MM3)\0插图\树化德鲁伊.jpg" src ="../0插图/树化德鲁伊.jpg" width=258 height=500 ></span><span
+ lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style="BACKGROUND:
+ white; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm; mso-cellspacing: 0cm">
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes"  >
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="mso-line-height-alt:
+  5.95pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc; mso-bidi-font-size: 11.0pt' 
+     >生命骰：</span></b><span
+  lang=EN-US style='FONT-SIZE:
+  10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 11.0pt' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="mso-line-height-alt: 5.95pt" 
+     ><span lang=EN-US
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 11.0pt' 
+     >9d8+9</span><span
+  
+      style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 11.0pt' 
+     >（<span
+  lang=EN-US>49hp</span>）<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 1">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >先攻：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >+3<u1:p></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 2">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >速度：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >30</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >英尺（<span lang=EN-US>6</span>格）<span
+  lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 3">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >防御等级：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >28</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >（<span lang=EN-US>+3</span>敏捷，<span
+  lang=EN-US>+4 +2</span>皮甲，<span lang=EN-US>+4 +2</span>大木盾，<span lang=EN-US>+7</span>天生），接触<span
+  lang=EN-US>13</span>，措手不及<span lang=EN-US>25</span></span></p>
+  </td>
+ </tr>
+ <u1:p>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 4">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >基本攻击／擒抱：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >+6/+7</span></p>
+  </td>
+ </tr>
+ <u1:p>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 5">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >攻击：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >+1</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >弯刀<span lang=EN-US>+9</span>近战（<span
+  lang=EN-US>1d6+2/18-20</span>），或挥击<span lang=EN-US>+7</span>近战（<span
+  lang=EN-US>1d6+1</span>）<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 6">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >全力攻击：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >+1</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >弯刀<span lang=EN-US>+9/+4</span>近战（<span
+  lang=EN-US>1d6+2/18-20</span>）和挥击<span lang=EN-US>+7</span>近战（<span
+  lang=EN-US>1d6+1</span>）<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 7">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >面宽／触及：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >5</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >英尺<span lang=EN-US>/5</span>英尺<span
+  lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 8">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >特殊攻击：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >类法术能力，法术<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 9">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >特殊能力：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >动物伙伴，伤害减免<span lang=EN-US>5/</span>挥砍，昏暗视觉，自然智识，植物特质，抗自然诱惑，无踪步，生物毒免疫，畏火，野性认同，野性变身<span
+  
+      lang=EN-US>3</span>次<span lang=EN-US>/</span>日，穿林<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 10">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >豁免：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >强韧<span lang=EN-US>+7</span>，反射<span
+  lang=EN-US>+8</span>，意志<span lang=EN-US>+12</span></span></p>
+  </td>
+ </tr>
+ <u1:p>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 11">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >属性：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >力量<span lang=EN-US>12</span>，敏捷<span
+  lang=EN-US>16</span>，体质<span lang=EN-US>13</span>，智力<span lang=EN-US>10</span>，感知<span
+  lang=EN-US>19</span>，魅力<span lang=EN-US>8</span></span></p>
+  </td>
+ </tr>
+ <u1:p>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 12">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >技能：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >驯养动物<span lang=EN-US>+11</span>（对动物伙伴<span
+  lang=EN-US>+15</span>），躲藏<span lang=EN-US>+3*</span>，知识（自然）<span lang=EN-US>+13</span>，聆听<span
+  lang=EN-US>+15</span>，潜行<span lang=EN-US>+3*</span>，骑术<span lang=EN-US>+5</span>，侦察<span
+  lang=EN-US>+15</span>，生存<span lang=EN-US>+15</span>（在地表自然环境<span lang=EN-US>+17</span>）<span
+  lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 13">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >专长：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >警觉，钢铁意志，闪电反射，追踪，专攻武器（弯刀）<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 14">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >地域：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >温暖森林<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 15">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >组织：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >单独<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 16">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >挑战等级：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span lang=EN-US
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >11<u1:p></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 17">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >宝物：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >标准<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 18">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >阵营：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >中立善良<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 11.35pt; mso-yfti-irow: 19">
+  <td width=142 valign=top style="HEIGHT: 11.35pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT:
+  11.35pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >进化：</span></b><span lang=EN-US style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 11.35pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="LINE-HEIGHT: 11.35pt"><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >根据职业等级<span lang=EN-US><u1:p></span></span></p>
+  </td>
+ </tr>
+ <tr style="HEIGHT: 5.55pt; mso-yfti-irow: 20; mso-yfti-lastrow: yes"  >
+  <td width=142 valign=top style="HEIGHT: 5.55pt; WIDTH: 106.35pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="mso-line-height-alt:
+  5.55pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" 
+     ><b><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0000cc' 
+     >等级调整：</span></b><span lang=EN-US
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     ><u1:p></span></p>
+  </td>
+  <td width=1115 valign=top style="HEIGHT: 5.55pt; WIDTH: 836.3pt;  BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; PADDING-RIGHT: 0cm"    >
+  <p class=MsoNormal style="mso-line-height-alt: 5.55pt" 
+     ><span lang=EN-US
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >-<u1:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span>&nbsp;</p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>你看见的是一位人类女子和一棵植物的混合体。她的皮肤如同树皮，无数的叶子从她的头发中长出并舒展开来。她的双手分别持着一把弯刀和一个投石索，身上的衣物由简单的叶子缝制而成。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>树化人类偶尔会出现在偏僻的树林中。他们一般都是德鲁伊或巡林客，但树化生物也可以是其他任何职业。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>战斗</span></strong><span
+ lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>秋子在对付敌人时总会尽量拉开距离。她会使用许多强大的法术，例如<span
+ lang=EN-US>baleful polymorph</span>和冰风暴，以尽快结束战斗。。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>类法术能力：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>每天三次——与植物交谈；每天一次——纠缠术（<span
+ lang=EN-US>DC10</span>），二级召唤盟友术，四级召唤盟友术。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>动物伙伴：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>秋子拥有一只名为“灰影”的凶暴狼獾为动物伙伴。秋子和灰影拥有链接，且可以共享法术的特殊效果（见下文）。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>链接（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'> 秋子可以以即时动作来驾驭灰影，也可以以一个移动动作来激励它，而不管她是否有驯养动物技能等级。秋子在做和她的动物伙伴相关的野性认同或驯养动物检定时都有<span
+ lang=EN-US>+4</span>环境加值。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>自然智识（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'> 秋子在知识（自然）和生存检定时获得<span
+ lang=EN-US>+2</span>加值。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>抗自然诱惑（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'> 秋子在对抗精类生物（<span
+ lang=EN-US>fey</span>）的类法术能力时豁免有<span lang=EN-US>+4</span>加值。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>法术共享（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'> 若动物伙伴在施法时处在她周围<span
+ lang=EN-US>5</span>英尺内，秋子可以让她施放给自己的法术同样影响自己的动物伙伴。她也可以将目标为“你”的法术释放在她的动物伙伴身上。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>无踪步（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'> 秋子在自然环境下不会留下任何痕迹，也无法被追踪。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>毒免疫（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'> 秋子免疫所有毒素。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>野性认同（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'> 秋子可以改善动物的态度。该能力类似在改善人的态度时所做的交涉检定。秋子掷一个<span
+ lang=EN-US>1d20+10</span>以决定野性认同的结果（也可以掷<span lang=EN-US>1d20+6</span>以尝试感化一个智力为<span
+ lang=EN-US>1</span>或<span lang=EN-US>2</span>的魔法兽）。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>野性变身（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'> 秋子可以将自身形体变形成小型、中型或大型动物，每天三次，每次至多<span
+ lang=EN-US>9</span>小时。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><strong><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: 宋体'>穿林（<span lang=EN-US>EX</span>）：</span></strong><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'> 秋子可以以正常速度通过任何矮树丛（例如自然的荆棘丛，石南丛，茂密的灌木丛，以及其他类似地形），并且不会受到伤害或者其他损失。但是用魔法生成的这类地形还是会阻碍她的行动。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>已准备的德鲁伊法术（<span
+ lang=EN-US>6/5/5/4/3/1</span>）：<span lang=EN-US>0</span>级——造水术，治疗微伤，侦测魔法，侦测毒性，光亮术，修复术；<span
+ lang=EN-US>1</span>级——魅惑动物（<span lang=EN-US>DC15</span>），忍受元素伤害，<span
+ lang=EN-US>longstrider</span>，妖火，魔石术；<span lang=EN-US>2</span>级——蛮力术，火焰刀，灼热金属（<span
+ lang=EN-US>DC16</span>），蛛行术，树皮术；<span lang=EN-US>3</span>级——昼明术，高等魔牙，融身入石，荆棘丛生（<span
+ lang=EN-US>DC17</span>）；<span lang=EN-US>4</span>级——解除魔法，行动自如，冰风暴；<span
+ lang=EN-US>5</span>级——<span lang=EN-US>baleful polymorph</span>（<span
+ lang=EN-US>DC19</span>）<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>拥有物品：<span
+ lang=EN-US>+1</span>弯刀，<span lang=EN-US>+2</span>皮甲，<span lang=EN-US>+2</span>大木盾，感知护符<span
+ lang=EN-US>+2</span>，敏捷手套<span lang=EN-US>+2</span>，治疗中度伤害法杖（<span lang=EN-US>25</span>发），<span
+ lang=EN-US>10pp</span>，<span lang=EN-US>18gp</span>。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span>&nbsp;</p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>灰影（<span
+ lang=EN-US>Grayshadow</span>），动物伙伴：凶暴狼獾<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>CR 5</span><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>；大型动物；生命骰<span
+ lang=EN-US> 7d8+31</span>；<span lang=EN-US>hp 62</span>；先攻<span lang=EN-US> +3</span>；速度<span
+ lang=EN-US> 30ft</span>，攀爬<span lang=EN-US> 10ft</span>；<span lang=EN-US>AC 19</span>，接触<span
+ lang=EN-US>13</span>，措手不及<span lang=EN-US>15</span>；基本攻击<span lang=EN-US>+3</span>；擒抱<span
+ lang=EN-US>+13</span>；面宽<span lang=EN-US>/</span>触及<span lang=EN-US> 10ft/5ft </span>；攻击爪抓<span
+ lang=EN-US>+8</span>近战（<span lang=EN-US>1d6+6</span>）；全回合 爪抓<span lang=EN-US>+8</span>近战（<span
+ lang=EN-US>1d6+6</span>）以及啮咬<span lang=EN-US>+3</span>近战（<span lang=EN-US>1d8+3
+</span>）；特殊攻击狂暴；特性 反射闪避，链接，嗅觉灵敏，共享法术，两项奖励技巧；阵营 中立；豁免 强韧<span lang=EN-US>+8</span>，反射<span
+ lang=EN-US>+8</span>，意志<span lang=EN-US>+5</span>；力量<span lang=EN-US>23</span>，敏捷<span
+ lang=EN-US>18</span>，体质<span lang=EN-US>19</span>，智力<span lang=EN-US>2</span>，感知<span
+ lang=EN-US>12</span>，魅力<span lang=EN-US>10</span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>技能和专长：攀爬<span
+ lang=EN-US>+14</span>，聆听<span lang=EN-US>+7</span>，侦察<span lang=EN-US>+7</span>；警觉，健壮，追踪<span
+ lang=EN-US>*</span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>狂暴（<span
+ lang=EN-US>Rage</span>，<span lang=EN-US>EX</span>）凶暴狼獾如果在战斗中受伤，在下一轮就会进入狂暴状态，疯狂地用爪抓和啮咬公鸡，直到自己或对手死为止。狂暴时凶暴狼獾得到<span
+ lang=EN-US>+4</span>力量，<span lang=EN-US>+4</span>体质，<span lang=EN-US>-2AC</span>。该生物无法自行中止狂暴状态。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>反射闪避（<span
+ lang=EN-US>Evasion</span>，<span lang=EN-US>EX</span>）：有些攻击效果若通过反射检定可以减少一半伤害，如果动物伙伴遭到此类攻击，在通过反射检定后它将不受伤害。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>链接（<span
+ lang=EN-US>Link</span>，<span lang=EN-US>EX</span>）：秋子可以以即时动作来驾驭灰影，也可以以一个移动动作来激励它，而不管她是否有驯养动物技能等级。秋子在做和她的动物伙伴相关的野性认同（<span
+ lang=EN-US>wild empathy</span>）或驯养动物检定时都有<span lang=EN-US>+4</span>环境加值。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>法术共享（<span
+ lang=EN-US>Share Spells</span>，<span lang=EN-US>EX</span>）：若动物伙伴在施法时处在她周围<span
+ lang=EN-US>5</span>英尺内，秋子可以让她施放给自己的法术同样影响自己的动物伙伴。她也可以将目标为“你”的法术释放在她的动物伙伴身上。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>技能：凶暴狼獾可以在攀爬技能上获得<span
+ lang=EN-US>+8</span>种族加值，它可以在攀爬技能检定上取<span lang=EN-US>10</span>，即使在分心或是受威胁的状态下也一样。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+
+ 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span>&nbsp;</p>
+
+<p style="MARGIN:
+ 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'>艾伯伦的树化生物<span
+ lang=EN-US></span></span></b></p>
+
+<p style="MARGIN:
+ 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'>树化生物居住于在<span lang=EN-US>Khorvaire</span>和<span
+ lang=EN-US>Aerenal</span>遍布的森林和丛林地中。<span lang=EN-US>Aerenal</span>的精灵将树化猿和狒狒当作宠物般饲养，而<span
+ lang=EN-US>Valenar</span>的精灵则将狩猎树化蜥蜴作为一项运动（使用它们的皮来做时尚衣装和盔甲）。<span lang=EN-US>Xen'drik</span>的丛林中居住着一个被称为<span
+ lang=EN-US>Feryk</span>的树化半身人部落。<span lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+ 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'>Feryk</span><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'>们崇拜着一群被称为<span lang=EN-US>Viridian
+Grove</span>的远古树人，他们曾经热情地接待来访者并和他们交易过，然而由于一场不明原因的瘟疫的爆发，使得<span lang=EN-US>Viridian
+Grove</span>被大面积污染，<span lang=EN-US>Feryk</span>开始变得凶恶，并开始使用暴力对付外来者。<span
+ lang=EN-US></span></span></p>
+
+<p style="MARGIN:
+ 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><b style="mso-bidi-font-weight: normal"><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'>费伦的树化生物<span
+ lang=EN-US></span></span></b></p>
+
+<p style="MARGIN:
+ 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'>民间传说，拖瑞尔的那片为西凡那斯所接触过的土地，不仅肥沃，而且充满了祝福。西凡那斯在那里等待了许久并积蓄了越来越多的魔力，使那里生长出许多庞大的树木和坚韧的植物。这个传说还说道，一个在那片土地上被怀上或诞生的孩子，都有可能得到橡树之父的祝福，并且成为自然的一份子：树化生物。
+<span lang=EN-US></span></span></p></div></body>
+
+</html>

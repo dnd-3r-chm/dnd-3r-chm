@@ -1,0 +1,834 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>陷阱补丁</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=ProgId content=Word.Document>
+<STYLE>
+<!--h1
+	{mso-out1ine-1evel:1;}
+h2
+	{mso-out1ine-1evel:2;}
+h3
+	{mso-out1ine-1evel:3;}
+h4
+	{mso-out1ine-1evel:4;}
+h5
+	{mso-out1ine-1evel:5;}
+h6
+	{mso-out1ine-1evel:6;}
+
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:515 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 718224464 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 718224464 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:515 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 1 Char";
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	line-height:240%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:22.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 2 Char";
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 3 Char";
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h4
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 4 Char";
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h5
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 5 Char";
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:10.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h6
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 6 Char";
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	font-size:7.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+pre
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"HTML 预设格式 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.1Char
+	{mso-style-name:"标题 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 1";
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 2";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.3Char
+	{mso-style-name:"标题 3 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 3";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.4Char
+	{mso-style-name:"标题 4 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 4";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.5Char
+	{mso-style-name:"标题 5 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 5";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.6Char
+	{mso-style-name:"标题 6 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 6";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.HTMLChar
+	{mso-style-name:"HTML 预设格式 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"HTML 预设格式";
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.msolistparagraph0, li.msolistparagraph0, div.msolistparagraph0
+	{mso-style-name:msolistparagraph;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:21.0pt;
+	mso-char-indent-count:2.0;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.msochpdefault1, li.msochpdefault1, div.msochpdefault1
+	{mso-style-name:msochpdefault1;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.10
+	{mso-style-name:10;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.15
+	{mso-style-name:15;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.16
+	{mso-style-name:16;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+span.17
+	{mso-style-name:17;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+span.18
+	{mso-style-name:18;
+	mso-style-unhide:no;
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.19
+	{mso-style-name:19;
+	mso-style-unhide:no;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.20
+	{mso-style-name:20;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+span.21
+	{mso-style-name:21;
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	font-weight:bold;}
+span.22
+	{mso-style-name:22;
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.23
+	{mso-style-name:23;
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.24
+	{mso-style-name:24;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+span.25
+	{mso-style-name:25;
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	font-weight:bold;}
+span.26
+	{mso-style-name:26;
+	mso-style-unhide:no;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	font-weight:bold;}
+span.27
+	{mso-style-name:27;
+	mso-style-unhide:no;
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.28
+	{mso-style-name:28;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+span.29
+	{mso-style-name:29;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+span.30
+	{mso-style-name:30;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.31
+	{mso-style-name:31;
+	mso-style-unhide:no;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.32
+	{mso-style-name:32;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<P><FONT size=4 face=微软雅黑>沙尘陷阱（cr4）</FONT></P>
+<P><BR><FONT size=4 
+face=微软雅黑>当这种陷阱被触发时，该地区就会出现一团旋转的、致盲的、具有破坏性的沙尘。陷阱比任何东西都更具刺激性，但对其效果免疫的生物发现它特别有用。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>沙尘有几个效果。该区域内的生物必须进行强韧豁免，否则当它们停留在沙尘中时它们将失明，离开后持续3个回合。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>沙尘中的生物在该区域停留的每个回合还会受到2d6点的伤害。任何类型的伤害减少都会减少沙尘造成的伤害。沙尘内的生物对5英尺内的其他生物隐蔽；对远处的生物具有全隐蔽。在沙尘中或穿过沙尘的远程攻击被偏转（弓、弩或投石索），就像它们通过了风墙术一样，在沙尘中施法需要专注检定（DC 
+15+法术等级）。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>沙尘陷阱在不需要依靠正常视觉来追踪入侵者的生物中很常见，而在具有伤免的生物中也很常见。石盲蛮族，尤其是野蛮人部落，喜欢使用这种陷阱。他们的盲视使他们能够直接走进沙尘，并发现敌人，尽管敌人躲藏着。这样的部落喜欢“跳跃攻击”这一专长，它可以最大限度地减少他们所受的伤害，或者他们可以在沙尘的边缘使用长触及武器进行战斗。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>龙也喜欢这种陷阱。它们的鳞片足够坚硬，足以抵消沙尘的伤害，而它们的盲感使它们能够准确地定位敌人，以使用喷涂武器或区域法术。任何有盲视的生物都可以使用这个陷阱来守卫巢穴，尤其是那些喜欢近战攻击的生物，因为沙尘对远程攻击或攻击法术非常具有破坏性的效果。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>沙尘陷阱：CR 
+4</STRONG></FONT>；魔法陷阱；位置触发；自动复位；魔法效果（召唤出的旋转的沙云持续5轮，在沙尘中失明，之后持续3轮，强韧DC14 
+移除失明，2d6点伤害，任何类型的伤害减免都适用，沙尘中生物在5英尺范围内具有隐蔽，超过全隐蔽，沙尘中远程攻击被偏转，施放法术需要专注检定（DC 
+15+法术等级）；CL5；搜索DC 28；解除装置 DC 28。费用：3200 gp，282 XP。</FONT></P>
+<P><FONT size=4 face=微软雅黑>弱能/吸能 陷阱（CR可变）</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>弱能术及其高级版本，能量吸取，是强大而致命的法术效果。因此，一个有进取心的巫师或巫师创造了一个陷阱来展示他们强大的魔法，这并不奇怪。最基本的形式是单一的弱能术射线。从那里开始，向多个目标发射的多重削弱射线会使陷阱更加致命，直到其最强大的能量吸取取代弱能效果。这些陷阱中的一些使用位置触发器，而另一些则具有接近或触摸触发器。喜欢这种陷阱的生物通常会对负能量产生免疫力，这使它成为智能亡灵在巢穴中使用的主要设备。尤其是巫妖和吸血鬼，他们喜欢这个陷阱，因为在不死族面对强大的敌人之前，削弱效果会削弱他们。</FONT></P>
+<P><FONT size=4 face=微软雅黑>弱能/能量吸取 陷阱<BR>CR&nbsp;&nbsp;&nbsp;&nbsp; 
+法术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 射线数量 
+负等级&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+制作者施法等级<BR>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+弱能术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1D4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+7CL<BR>7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+弱能术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1D4(两个目标）&nbsp;&nbsp;&nbsp;&nbsp; 7CL<BR>7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+强效弱能术&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1D4+1/2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+11CL<BR>9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 链式弱能术*&nbsp;&nbsp; 
+1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1D4(主目标）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+15CL<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1D2(次目标）<BR>10&nbsp;&nbsp;&nbsp;&nbsp; 
+吸能术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+2D4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+17CL<BR>12&nbsp;&nbsp;&nbsp;&nbsp; 吸能术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2D4（两个目标）&nbsp;&nbsp;&nbsp; 17CL</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>*虽然这个版本的陷阱只发射一条射线，在正常影响第一个目标后随即转向距离第一个目标30英尺以内的所有其他生物。这些次要目标如果被击中，其承受的效果仅为主要目标的一半。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>弱能陷阱：CR 
+5；</STRONG></FONT>魔法陷阱；接近触发（目标在40英尺以内）；自动复位；法术效果（弱能术，7CL，Atk+10远程接触，1d4负面等级）；搜索DC 
+29；解除装置DC 29。成本：12000 gp，1120 XP。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>链式弱能陷阱：CR 
+9；</STRONG></FONT>魔法陷阱；接近触发（目标在60英尺以内）；自动复位；法术效果（弱能术，15CL，Atk+14 
+远程接触，第一目标1d4负等级，Atk+14 远程接触，距离第一个目标30英尺内的每个生物1d2负等级）；搜索DC 29；解除装置DC 29。成本：30000 
+gp，2400 XP。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>吸能陷阱：CR 
+10；</STRONG></FONT>魔法陷阱；接近触发（目标在65英尺以内）；自动复位；法术效果（吸能术，17CL，Atk+15远程接触，2d4负等级）；搜索DC 
+34；接触装置DC 34。成本：76500 gp，6120 XP。</FONT></P>
+<P><FONT size=4 face=微软雅黑>精类生物的法阵（CR 4、7、10）</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>妖精法阵是一种混乱而危险的、持续性的、不可预测的魔法阵，只有在经常遇到精类生物的地区才会发现。法阵通常表现为生长在半径30英尺的圆环中的小而苍白的蘑菇。具有自然感受能力（Nature 
+Sense）的角色可以通过知识（自然）或生存检定来识别妖精法阵，就像她是一个使用搜索来寻找陷阱的游荡者一样。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>法阵会对任何进入其范围内的人产生随机、强大的魔法效果。更糟糕的是，它散发出一种奇怪的精神诱惑，距离300英尺；任何接近300英尺范围内的生物都必须做出DC 
+20意志豁免，或者被迫走向法阵并进入法阵。一旦受害者进入法阵，这种强制就会消失，直到下一天日出时才能再次影响到他。如果一个非精类角色进入了法阵，则掷d10并参考下表，以确定该角色获得的魔法效果。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>进入妖精法阵的精类生物充满有益能量，（包括具有至少一级德鲁伊等级的任何生物，该生物对妖精法阵随机确定的魔法效果进行豁免投掷）并在1d6小时内获得+4神圣加值。生物在24小时内只能获得一次此奖励。</FONT></P>
+<P><BR><FONT size=4 
+face=微软雅黑>法阵产生的随机魔法效果取决于魔法阵的性质。次级法阵相当于5CL时的2环法术效果；中级法阵相当于10CL时的5环法术；高级法阵相当于20CL时的8环法术。通常影响某个区域的法术效果只影响该生物。你可以很容易地为其他法术等级生成随机效果的备选列表。</FONT></P>
+<P><FONT size=4 face=微软雅黑>妖精法阵<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+次级法阵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+中级法阵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 高级法阵<BR>D10&nbsp;&nbsp; 
+(DC13)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+（DC17）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+(DC22)<BR>1&nbsp;&nbsp;&nbsp; 目盲/耳聋术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+心灵迷雾&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 死亡一指<BR>2&nbsp;&nbsp;&nbsp; 
+恐吓术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5级召唤自然盟友&nbsp; 
+反重力术<BR>3&nbsp;&nbsp;&nbsp; 怪物晕眩术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+狂乱之歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 旋风术<BR>4&nbsp;&nbsp;&nbsp; 
+人类定身术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+恶意变形术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 迷宫术<BR>5&nbsp;&nbsp;&nbsp; 
+催眠图纹&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+疫病虫群&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 奥图迷舞<BR>6&nbsp;&nbsp;&nbsp; 
+冻寒金属&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+荆棘之墙&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 真言术：震&nbsp; 
+<BR>7&nbsp;&nbsp;&nbsp; 飞虫走兽&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+焰击术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+闪光图纹<BR>8&nbsp;&nbsp;&nbsp; 
+造风术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+异界传送&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 凋死术<BR>9&nbsp;&nbsp;&nbsp; 
+2级召唤自然盟友&nbsp; 杀生术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+8级召唤自然盟友<BR>10&nbsp;&nbsp; 
+音鸣爆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+弱智术&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 永恒静滞</FONT></P>
+<P><FONT size=4 face=微软雅黑>为每种类型的法阵提供的DC表示如果允许豁免，豁免DC可以抵抗法术的效果。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>妖精法阵：CR 
+4、7或10；</STRONG></FONT>魔法陷阱；位置触发；自动复位；随机决定的魔法效果；搜索DC 20；接触装置DC 30。成本（次级）：3000 
+gp，240 XP。成本（中级）：22500 gp，1800 XP。成本（高级）：60000 gp，4800 XP。</FONT></P>
+<P><FONT size=4 face=微软雅黑>火焰召唤陷阱（CR变量）</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>这种危险的魔法和机械混合的陷阱通常布置于整个房间或走廊。最基本的陷阱由两种元素组成。第一种是从地板上隐藏的通风口排出的可燃气体。隐藏在地板下的小型炼金术打火机也会在陷阱打开时点燃，气体释放，导致被困区域爆发出火焰。火焰在整个区域持续翻滚至5英尺高，持续至少1分钟（10轮），此时气体供应通常耗尽。该区域内的目标有权获得每回合的反射豁免，以将火焰伤害减半。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>陷阱的第二个因素也构成了巨大的威胁。在房间中的火焰点燃后的一轮中，一个火元素（或多个火元素）被召唤进入房间。召唤装置由释放气体的相同机制触发。因此，禁用气体机制也会阻止元素被召唤。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>下表提供了陷阱的多个版本的详细信息。CR假设PC可以逃出火焰范围，而不需要简单地站立并承受1分钟的火焰伤害。如果PC无法逃离火焰，或逃生困难（例如，陷阱位于坑底），则CR应显著增加（至少增加2，甚至更多）。</FONT></P>
+<P><FONT size=4 face=微软雅黑>火焰召唤陷阱</FONT></P>
+<P><FONT size=4 face=微软雅黑>CR&nbsp;&nbsp; 伤害&nbsp; 反射DC&nbsp; 
+召唤元素&nbsp;&nbsp;&nbsp;&nbsp; CL<BR>5&nbsp;&nbsp;&nbsp; 5D6&nbsp;&nbsp;&nbsp; 
+14&nbsp;&nbsp;&nbsp;&nbsp; 1小型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+5&nbsp; <BR>6&nbsp;&nbsp;&nbsp; 7D6&nbsp;&nbsp;&nbsp; 15&nbsp;&nbsp;&nbsp;&nbsp; 
+1D3 小型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9<BR>7&nbsp;&nbsp;&nbsp; 
+8D6&nbsp;&nbsp;&nbsp; 15&nbsp;&nbsp;&nbsp;&nbsp; 
+1中型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9<BR>8&nbsp;&nbsp;&nbsp; 
+8D6&nbsp;&nbsp;&nbsp; 15&nbsp;&nbsp;&nbsp;&nbsp; 1D3 中型&nbsp;&nbsp;&nbsp;&nbsp; 
+11<BR>9&nbsp;&nbsp;&nbsp; 11D6&nbsp;&nbsp; 16&nbsp;&nbsp;&nbsp;&nbsp; 
+1大型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11<BR>10&nbsp;&nbsp; 
+11D6&nbsp;&nbsp; 16&nbsp;&nbsp;&nbsp;&nbsp; 1D3 大型&nbsp;&nbsp;&nbsp;&nbsp; 
+13<BR>11&nbsp;&nbsp; 13D6&nbsp;&nbsp; 17&nbsp;&nbsp;&nbsp;&nbsp; 
+1超大&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13<BR>12&nbsp;&nbsp; 
+13D6&nbsp;&nbsp; 17&nbsp;&nbsp;&nbsp;&nbsp; 1D3 超大&nbsp;&nbsp;&nbsp;&nbsp; 
+15<BR>13&nbsp;&nbsp; 15D6&nbsp;&nbsp; 18&nbsp;&nbsp;&nbsp;&nbsp; 
+1巨型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15<BR>14&nbsp;&nbsp; 
+15D6&nbsp;&nbsp; 18&nbsp;&nbsp;&nbsp;&nbsp; 1D3 巨型&nbsp;&nbsp;&nbsp;&nbsp; 
+17<BR>15&nbsp;&nbsp; 17D6&nbsp;&nbsp; 19&nbsp;&nbsp;&nbsp;&nbsp; 1 
+元素长老&nbsp;&nbsp; 17</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>火焰召唤陷阱：CR 
+5；魔法和机械混合；</STRONG></FONT>位置触发；手动复位；炼金效果（5d6火焰，20英尺半径持续10轮，DC 14反射 
+减半）和法术效果（1轮后召唤小型火元素，持续5轮）；搜索DC 28；解除装置DC 28。成本：15000 gp，600 XP。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>火焰召唤陷阱：CR 
+9；魔法和机械混合；位置触发；</STRONG></FONT>手动复位；炼金效果（11d6火焰，20英尺半径持续10轮，DC 16反射 
+减半）和法术效果（1轮后召唤出大型火元素，持续11轮）；搜索DC 32；解除装置DC 32。成本：49500 gp，2640 XP。</FONT></P>
+<P><FONT color=#800000 size=4 face=微软雅黑><STRONG>幽魂陷阱（cr5）</STRONG></FONT></P>
+<P><FONT size=4 
+face=微软雅黑>幽魂陷阱通常出现在发现亡灵的地区：墓地、鬼屋、邪恶的废弃寺庙等。它们从来都不是有意识地创造出来的。相反，它们是强大情感的结果，这些情感为一个地区注入了原始的精神力量。由于幽魂陷阱会影响心智，因此对这些效果具有免疫力的生物（如智能构造、不死生物等）会利用它们来获得对猎物的优势。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>幽魂陷阱是魔法陷阱，在某种程度上，它们也是不死的。侦测魔法和侦测亡灵都可以揭示出幽魂陷阱的灵光（中等强度灵光），但这些法术并不能揭示灵光的来源，因为它完全覆盖了整个区域。幽魂陷阱也与阵营有关（大多数但并非所有幽魂陷阱都是守序邪恶），因此侦测阵营的适当法术也可以用来识别陷阱的灵光。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>一个幽魂陷阱通常覆盖30英尺的半径，呈半球形，停在地面上，但有时呈以空间中某一点为中心的球体。当处于特别强烈情感和痛苦中的生物被杀死时，就会产生一个幽魂陷阱，因此，除非陷阱特别古老或有生物将该区域用作狩猎场，否则该区域内通常会出现某种尸体。</FONT></P>
+<P><FONT size=4 face=微软雅黑>任何在幽魂陷阱区域内的生物都会立即注意到温度的突然下降。此外，该生物必须进行DC 
+20意志豁免检定，否则会受到鬼魂情感力量的影响。每个鬼魂都专注于特定的情感，但游戏效果总是重复以下法术效果之一：困惑术、极度绝望、注目术、恐惧术或塔莎狂笑术。罕见的幽魂陷阱会产生狂暴术甚至强大希望等有益效果，但大多数都会产生负面效果。这些效果CL10。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>即使陷阱是善良阵营的，幽魂陷阱也能守护亡灵。处于幽魂陷阱影响范围内的不死生物，其护甲等级和意志豁免检定获得+2洞察加值，不死生物拥有的任何影响心灵的特殊攻击DC获得+2。由于幽魂陷阱本身在某种程度上是不死的，因此可以被运用正能量的神职人员驱散或摧毁。将幽魂陷阱视为10HD的亡灵；如果一个牧师成功地将其驱散，陷阱将在1分钟内失效。如果牧师摧毁了它，陷阱将永远解除。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>幽魂陷阱：CR 
+5；</STRONG></FONT>魔法陷阱；位置触发；自动复位；困惑术、极度绝望、注目术、恐惧术或塔莎狂笑术（意志DC 20）；搜索DC 25；解除装置DC 
+25或 驱散（见上文）。成本：14000 gp，1120 XP。</FONT></P>
+<P><FONT color=#800000 size=4 face=微软雅黑><STRONG>地刺陷阱（CR 6）</STRONG></FONT></P>
+<P><FONT size=4 
+face=微软雅黑>这种机械陷阱是少数对受害者有持久影响的陷阱之一。当它被触发时（总是通过压力板或类似的触发器，基于一个步行生物通过陷阱），10英寸长的尖刺从地板上刺到被困区域的人的脚上。被尖刺击中的生物会受到伤害，倒钩会将它们固定在适当的位置。被钉住的生物无法移动，但并非无助，对它们的AC处以-4的惩罚。只有在目标区域内的每个生物移动后，陷阱才会重置。最常见的是，陷阱的触发器被放置在被困区域的中间，这样可以影响尽可能多的生物。</FONT></P>
+<P><FONT size=4 face=微软雅黑>拔出刺是痛苦的，需要力量检定（DC 
+20，目标每多命中一个刺DC+1）。当倒刺在它的脚上撕裂时，一个挣脱束缚的生物会从每一个再次伤害它的刺中受到伤害。此外，任何被蹒跚陷阱伤害的生物都会因为脚受伤而减速到一半。此移动惩罚持续24小时，直到该生物受到治疗（DC 
+15医疗检定）或至少获得1点魔法治疗。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>这个版本的陷阱的特点是尖刺由特殊材料制成，如金精或炼银，这取决于创造者的制作目的。其他版本的特色是魔法增强的尖刺，具有更高的攻击和伤害加成、增加重击威胁的范围，甚至是魔法武器的特殊能力，即使在生物挣脱束缚后也会造成持续的伤害。这些变异的CR可以从+1增加到+3。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>不需要行走的怪物在它们的巢穴中利用这个陷阱。眼魔尤其喜欢在家中安装一些陷阱，龙也是如此。具有发出警报能力的生物通常会在触发陷阱的同时设置魔法警报，这样当有人触发陷阱时，它们就可以得到警报。这样生物就有机会对被尖刺钉在地板上的目标进行攻击。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>地刺陷阱：CR 
+6；</STRONG></FONT>机械装置；位置触发；自动复位；地板刺（Atk 
++16近战，每个目标1d4刺，每个1d4+4）；倒钩（被尖刺伤害的生物被钉住，必须进行力量检定，每损坏一个尖刺，DC 
+20+1才能挣脱；受损的生物被铁蒺藜伤害一样步履蹒跚）；搜索DC 20；解除装置DC 20。市场价格：8200 gp。</FONT></P>
+<P><FONT size=4 face=微软雅黑>隔离墙陷阱（CR变量）</FONT></P>
+<P><BR><FONT size=4 
+face=微软雅黑>这种机械装置本身并不是一个陷阱，而是其他陷阱的一个补充，使它们更致命。隔离墙陷阱只是一个相当厚（通常不超过1英尺）的石墙或铁墙，当触发时，它会迅速滑动到位。它用于分离入侵的群体，在激活它的生物后面触发，并将该生物与其同伴分离。陷阱还可以封闭出口，以防止入侵者从另一个威胁中寻求安全。可以建造隔离墙，从墙壁、地板或房间的天花板上滑出，当激活时，它总是与周围通道或房间的其他表面齐平。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>隔离墙：CR 
+1*；</STRONG></FONT>机动的位置触发；手动复位；滑动墙（用于分离群体或使其他陷阱更致命，DC 20反射 
+允许相邻生物在封闭之前跳到墙的对面）；搜索DC 20*；解除DC 20*。市场价格：1000 gp。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>一种更糟糕的隔离墙陷阱，其特点是长而锋利的尖刺或刀片，一旦撞击到位，就会从墙上弹出。它们可能会影响隔离墙附近方格上的任何生物。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>剑刃隔离墙：CR 
+3*；</STRONG></FONT>机动的位置触发；手动复位；滑动墙（用于分离群体或使其他陷阱更致命，DC 20反射 
+允许相邻生物在封闭之前跳到墙的对面）和刀刃（Atk +10近战，每个目标1d4刀刃，每个1d4+2）；搜索DC 20*；解除陷阱DC 20*。市场价格：3200 
+gp。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>*如果与另一个陷阱一起使用，请增加基础陷阱的CR，而不是将其视为单独的遭遇。CR应至少增加1，但如果基础陷阱的危险性显著增加，则添加隔离墙可能会使CR增加4（例如，如果它与《DMG》第74页所述的挤压墙陷阱或CR 
+15的火焰召唤陷阱一起使用）。此外，如果与另一个陷阱一起使用，隔离墙的搜索和解除装置DC等于基础陷阱的或20，以较高者为准。</FONT></P>
+<P><FONT size=4 face=微软雅黑>陷阱武器（cr2+）</FONT></P>
+<P><BR><FONT size=4 
+face=微软雅黑>在怪物的窖藏中发现强大的魔法武器是《龙与地下城》的主要内容。不幸的是，更聪明的怪物通常会发现这一点，并设置陷阱来打击他们的宝藏被盗。一些怪物用被做了手脚的物品守护他们的宝藏。其他人则使用诸如守卫铭文之类的法术来保护他们喜爱的物品。特别卑鄙的生物（如狗头人），更进一步，自己制作陷阱武器。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>除非陷阱被发现，否则武器本身看起来正常且功能完美。第一次使用（通常在战斗中）时，陷阱会触发。武器会戏剧性地分崩离析，不会对他们用来攻击的生物造成任何伤害：一把剑碎裂成碎片，一把弓在弦被拉时断成两半，一把斧头裂开并粉碎。当武器断裂时，手柄也会断裂，从而使大量弹簧加载的尖刺和钩子爆裂并伤害持用者。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>下面详述的陷阱武器是一个标准示例。如果陷阱制造者能负担得起，在陷阱武器的隐藏尖刺和钩子上涂抹毒药是提高其杀伤力的一种非常有效的方法。陷阱武器通常是精致武器；只有极少数是魔法武器，因为陷阱的激活会摧毁武器。涅斯图伪装灵光是一种有效的方式，可以让陷阱武器看起来很神奇。具有特定类型伤免的怪物通常会收藏适当材料的武器，并将其放置在其巢穴中的明显位置，作为战利品。例如，狼人可能会在他的小屋里摆上陷阱武器（炼银长剑）。如果一个游荡者成功解除了陷阱武器的机关，它可以作为该类型的标准武器。重置陷阱武器需要第二次成功的解除装置检定。</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>陷阱武器：CR 
+2；</STRONG></FONT>机械装置；触摸触发；修复重置；尖刺（2d6伤害，反射DC20 通过则无效）；搜索DC 25；解除装置 DC 
+20。市场价格：3000 gp。</FONT></P>
+<P><FONT size=4 face=微软雅黑>注水陷阱（CR变量）</FONT></P>
+<P><BR><FONT size=4 
+face=微软雅黑>像上面描述的火焰召唤陷阱一样，这个陷阱结合了非逻辑和魔法的元素。在最基本的情况下，一个注水陷阱一旦被触发，就会迅速将房间充满水。根据陷阱的构造（和CR），房间可能只充满了部分水，减缓了不习惯水环境的生物的移动，也可能完全充满了水，正如《DMG》第73页所述的充满水的房间陷阱。这些陷阱总是影响封闭的房间或下沉的房间，因此水不会逸出。它们经常与隔离墙陷阱组合（见上文）。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>除了水，每个版本的注水陷阱都会召唤一个或多个水元素。这些生物在召唤期间持续攻击直到被杀死。召唤的元素的大小和数量各不相同，这取决于陷阱中的水深和陷阱的挑战等级。如上表所示，这些陷阱中的水通常会将被困区域填充到四个深度之一：1英尺、4英尺、10英尺或天花板。在一个有10英尺高的天花板的房间里，10英尺深的陷阱和水充满房间直到天花板的陷阱没有区别。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>10英尺深的版本假设它位于一个天花板足够高的区域，中等或更小的生物可以踩着水，仍然可以呼吸。不同水深的影响如下。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>1英尺深：就像在浅水沼泽中一样（见《DMG》第88页），在这个深度的水域中，每穿越一个方格就要花费2个方格的移动力，而在这样的区域，翻滚检定的DC增加2。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>4英尺深：就像在深沼泽中一样（见《DMG》第88页），中型生物要移动4格才能在这样深的水域移动。小型或更小的生物必须游泳，翻滚是不可能的。水为中型生物提供掩蔽，而较小的生物获得高等掩蔽（+8AC，反射豁免+4）。中型或大型的生物可以蹲伏以获得这种高等掩蔽，但任何获得高等掩蔽的生物在攻击非水下生物时都会受到-10的惩罚。</FONT></P>
+<P><FONT size=4 face=微软雅黑>10英尺深：这种深度的水被视为平静的水。中型或更小的生物必须每回合进行DC 
+10游泳检定才能通过。检定失败的角色必须屏住呼吸或开始溺水（参见《DMG》第304页）。在水下时，角色可以向任何方向移动，就像飞行一样具有完美的机动性。在如此深度的水中战斗的生物使用水下战斗调整中的战斗调整，即使他们的对手不在水中（向飞行的对手或站在陆地上的对手挥剑与向水中的对手挥刀一样困难）。水外生物对水中生物获得高地优势（近战攻击骰+1加成）。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>天花板：这个陷阱的功能与《DMG》第73页中充满水的房间陷阱完全相同，但召唤的生物更加复杂。下表提供了多个版本的陷阱的详细信息，下表列出了一组样本统计数据。</FONT></P>
+<P><FONT size=4 
+face=微软雅黑>注水陷阱<BR>召唤元素体型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>小型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+5CL<BR>中型或1D3小型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+9CL<BR>大型或1D3中型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+11CL<BR>超大或1D3大型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+13CL<BR>巨型或1D3超大&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+15CL<BR>元素长老或1D3巨型&nbsp;&nbsp; 17CL</FONT></P>
+<P><FONT size=4 face=微软雅黑>水深&nbsp;&nbsp;&nbsp;&nbsp; 小型 中型或1D3小型 大型或1D3中型 
+超大或1D3大型 巨型或1D3超大 元素长老或1D3巨型&nbsp;&nbsp;&nbsp;&nbsp; <BR>1英尺&nbsp;&nbsp;&nbsp; 
+CR5&nbsp;&nbsp;&nbsp; 
+CR7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR11<BR>4英尺&nbsp;&nbsp;&nbsp; CR6&nbsp;&nbsp;&nbsp; 
+CR8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR12<BR>10英尺&nbsp;&nbsp; CR6&nbsp;&nbsp;&nbsp; 
+CR9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR13<BR>天花板&nbsp;&nbsp; CR7&nbsp;&nbsp;&nbsp; 
+CR10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+CR14</FONT></P>
+<P><FONT size=4 face=微软雅黑><FONT color=#800000><STRONG>注水陷阱：CR 
+8；</STRONG></FONT>魔法和机械混合；位置触发；手动复位；多个目标（10英尺×10英尺房间内的所有目标，填充到4英尺深）和法术效果（1轮后1d3召唤小水元素，停留9轮）；搜索DC 
+30；解除装置DC 30。成本：22500 gp，1800 XP。</FONT></P>
+<P><FONT face=微软雅黑><BR><FONT size=4></FONT></FONT>&nbsp;</P></BODY></HTML>

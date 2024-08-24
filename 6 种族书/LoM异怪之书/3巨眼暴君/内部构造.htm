@@ -1,0 +1,508 @@
+<html>
+
+<head>
+<title>内部构造</title>
+
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document><style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+h1
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:1;
+	font-size:24.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+h2
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:2;
+	font-size:18.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h3
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:3;
+	font-size:13.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h4
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:4;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h5
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:5;
+	font-size:10.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h6
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:6;
+	font-size:7.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-unhide:no;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-unhide:no;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+p
+	{mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+pre
+	{mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:21.0pt;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-unhide:no;
+	mso-style-link:"批注框文本 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+span.1Char
+	{mso-style-name:"标题 1 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.3Char
+	{mso-style-name:"标题 3 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.4Char
+	{mso-style-name:"标题 4 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.5Char
+	{mso-style-name:"标题 5 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.6Char
+	{mso-style-name:"标题 6 Char";
+	mso-style-unhide:no;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+p.HTMLChar, li.HTMLChar, div.HTMLChar
+	{mso-style-name:"HTML 预设格式 Char";
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.pChar, li.pChar, div.pChar
+	{mso-style-name:"p Char";
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-bidi-font-family:宋体;}
+span.HTMLChar1
+	{mso-style-name:"HTML 预设格式 Char1";
+	mso-style-unhide:no;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.10
+	{mso-style-name:10;
+	mso-style-unhide:no;
+	font-family:Wingdings;
+	mso-ascii-font-family:Wingdings;
+	mso-hansi-font-family:Wingdings;}
+span.15
+	{mso-style-name:15;
+	mso-style-unhide:no;
+	font-family:Wingdings;
+	mso-ascii-font-family:Wingdings;
+	mso-hansi-font-family:Wingdings;}
+span.Char
+	{mso-style-name:"批注框文本 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页眉 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;}
+span.Char1
+	{mso-style-name:"页脚 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"微软雅黑","sans-serif";
+	mso-ascii-font-family:微软雅黑;
+	mso-fareast-font-family:微软雅黑;
+	mso-hansi-font-family:微软雅黑;
+	mso-bidi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.95pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style="tab-interval: 21.0pt"><div class=WordSection1><p style="MARGIN: 0cm 0cm 0pt; TEXT-AUTOSPACE: ideograph-numeric"><b><span
+ style="FONT-SIZE: 13.5pt; COLOR: maroon">内部生理构造</span></b></p>
+
+<p class=MsoNormal style="MARGIN:
+
+ 0cm 11.3pt 10pt; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 21.1pt; mso-char-indent-count: 2.0"><b><span lang=EN-US style="FONT-SIZE:
+ 10.5pt; FONT-FAMILY: 宋体; BACKGROUND: white; mso-font-kerning: 1.0pt"><span
+ style="mso-spacerun: yes"></span></span></b><span lang=EN-US
+ style="FONT-SIZE: 10.5pt"></span>&nbsp;</p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">眼魔的外部尽管看上去奇形怪状，但至少还符合逻辑，其内脏结构才是远超想象之外的怪异与荒谬。它的内脏色泽鲜艳，导管、液囊和腺体往往纠缠混杂在一起，还有很多在类人生物身上极为罕见或毫无相似之处的器官。贤哲们企图通过排除法或试喂法来搞清楚某些器官的作用。但除了明显的消化系统（以及循环和呼吸系统）外，认得出来的器官就只剩下生殖器和大脑了。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">或许眼魔内脏最违反常理的特征就是莫名其妙的飘浮能力。这些内脏从身体单独剥离出来后依然能在空中飘浮，而实际上除了肺部以外其余器官内含的气体极少。从眼魔身体上分离出来的脏器能维持不低于</span><span
+ lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "Tahoma","sans-serif"; BACKGROUND: white'>12</span><span style="FONT-SIZE: 11pt; BACKGROUND: white">个小时的浮力，通过遗体防腐之类的魔法还能保持更长时间。天生的浮力让眼魔能够飞行，并通过数以千计的气门喷发气体操控方向和速度。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span lang=EN-US
+ style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; BACKGROUND: white; mso-font-kerning: 1.0pt"><span
+ style="mso-spacerun: yes"></span></span><span lang=EN-US style="FONT-SIZE:
+ 11pt"></span>&nbsp;</p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><b><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">骨骼系统</span></b><span lang=EN-US
+ style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">虽然眼魔的骨骼不外乎就是个大骨球，但严格来说它依然是内骨骼生物。眼魔的头骨并非由普通的钙化骨质组成，事实上，它的成分与其外壳是如此相似，以至于无法精确区分外壳与骨骼的分界线。眼魔的头骨非常坚硬且不可弯折，最重要的是重量极轻。尽管上面微孔的数量多得让人难以置信（将一杯水倒在眼魔的</span><span
+
+ style="FONT-SIZE: 11pt; BACKGROUND: white; mso-ascii-font-family: Tahoma; mso-hansi-font-family: Tahoma">“骨头”上，只要几秒钟就能全部渗下去），但其刚性却不亚于钢铁。只可惜这种材质在眼魔死后没多久就开始分崩离析。有炼金术士曾设法让其在眼魔死后维持强度，但由于采集此材质是如此危险的行为，而其强度不过是与钢铁相若而已，因此用眼魔骨制作武器和盔甲目前还停留在好奇心的程度。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span lang=EN-US
+ style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; BACKGROUND: white; mso-font-kerning: 1.0pt"><span
+ style="mso-spacerun: yes"></span></span><span lang=EN-US style="FONT-SIZE:
+ 11pt"></span>&nbsp;</p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><b><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">循环和消化系统</span></b><span lang=EN-US
+ style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">眼魔最容易辨认的内脏器官就是消化道，口部后方的强力括约肌</span><span
+
+ style="FONT-SIZE: 11pt; BACKGROUND: white; mso-ascii-font-family: Tahoma; mso-hansi-font-family: Tahoma">①组成短短的食道②，直达又大又扁的胃部③，整套器官大部分都塞在下颚内部的空洞里。胃部后面盘卷着很多与肠道相似的叉管④，将食物消化成营养液。它们不断分叉，最终分裂到比头发丝还细的程度，弯弯曲曲地穿过一个充满许许多多微型气管的扇形大器官⑤，这就是眼魔的肺部。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">强健有力的肺部肌肉有节奏地扩张收缩，由外壳上的气门吸入和排出气体，气管不断将空气与消化后的营养液混合成粉红色的泡沫状流体。数以十万计的微细血管从肺部延伸到到其他器官，脉动的肺部将流质混合营养液泵到全身各处。当营养和氧分被吸干榨净后，残余的废液将重新回到胃部，随即被吐出口外，或者索性成为恶臭的口涎沿着嘴角淌下来。若眼魔停止进食，身体会开始失水并逐渐昏昏欲睡。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">无法吸收的食物不外乎两种处理途径：直接吐掉，或者积存在胃袋底部最终转化为</span><span
+
+ style="FONT-SIZE: 11pt; BACKGROUND: white; mso-ascii-font-family: Tahoma; mso-hansi-font-family: Tahoma">“骨骼”的一部分。</span><span lang=EN-US style="FONT-SIZE:
+ 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span lang=EN-US
+ style="FONT-SIZE: 11pt"><span style="mso-spacerun: yes">&nbsp;</span></span><span
+ lang=EN-US><span style="mso-no-proof: yes"><IMG id=_x0000_i1025 alt="说明: E:\文件原档\未完成版\异怪之书（LoM）\3巨眼暴君\内部构造.files\内部构造1102.png" src="内部构造.files/内部构造1102.jpg" width=749 height=526 ></span></span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><b><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">生殖系统</span></b><span lang=EN-US
+ style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">眼魔并无性别区分，它们终其一生只会生育一次。眼魔在四十岁前进入繁殖期，它开始逐渐举止失常，情绪不稳。一个奇异的卵形器官</span><span
+
+ style="FONT-SIZE: 11pt; BACKGROUND: white; mso-ascii-font-family: Tahoma; mso-hansi-font-family: Tahoma">⑥出现在它的舌头后面，并逐渐增大肿胀，这就是它的子宫。一只典型的眼魔能在六个月内孕育最多</span><span
+ lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "Tahoma","sans-serif"; BACKGROUND: white'>12</span><span style="FONT-SIZE: 11pt; BACKGROUND: white">名后裔，此期间它的脾气和攻击性也越来越强。在怀孕初期的四个月里，眼魔的食量会猛增至平时的四倍，并将食物存贮在胃、肠甚至肺部。因为在怀孕终期的两个月里，肿胀的子宫将会增大至咽喉无法吞咽食物、肠胃将舌头顶出口外的程度。眼魔的偏执、焦躁、疑忌、多虑也会在此时达至顶点，它会把自己深藏在巢穴中直到分娩。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">几乎从未有人亲眼目睹过眼魔的分娩，该过程据说看了会让人恨不得把自己的眼睛挖掉。届时，眼魔会把下颚脱开，将子宫自口中反刍出来咬断，脱落的子宫会自行在空中漂浮。刚出生的眼魔幼崽得从里面嚼一条血路出来，它们立即就能飞行，但眼睛的超能力还得晚些时候才能发育。尽管眼魔一次能生下一打后裔，但能活下来却不多。饥渴的母体会审视所有幼崽，只保留外观看上去与自己最接近的，其余的连同脱落的子宫一起当场吃掉。幸存的幼崽将被赶出巢穴外面任其自生自灭。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span lang=EN-US
+ style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; BACKGROUND: white; mso-font-kerning: 1.0pt"><span
+ style="mso-spacerun: yes"></span></span><span lang=EN-US style="FONT-SIZE:
+ 11pt"></span>&nbsp;</p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><b><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">中枢神经系统</span></b><span lang=EN-US
+ style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">眼魔负责聚集和管理魔法能量的器官是神经系统和大脑</span><span
+
+ style="FONT-SIZE: 11pt; BACKGROUND: white; mso-ascii-font-family: Tahoma; mso-hansi-font-family: Tahoma">⑦。有人认为眼魔体内的魔法能量来自于被它们吃掉的施法者，有人则相信是从周围环境吸收来的。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">事实上，眼魔巨大的魔力直接来自于它们的眼睛。就像将光线用视神经传输到大脑以获取视觉那样，眼球也可以把魔力转化并增强贮藏在大脑中。眼魔可以通过在战斗中观察魔法效果、注视魔像或施法者之类的魔法生物、凝望远古遗迹或魔法物品乃至直接阅读学习魔法书籍等方式吸取魔力。它们甚至能通过注视自己的眼球射线来吸收魔力，将能量循环再用。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">眼魔通过眼球每次只能吸收很少一点魔法能量，研读一张魔法飞弹卷轴并把它完全耗尽，需时可能长达一个月之久。更强力持久的魔法物品吸收时间还会更长。此外，眼魔难以忍受长年累月对着同一种魔法，同样是一周时间，盯着一双飞翼靴远不如研究一座奥法图书馆。如果魔法物品没有时常更新的话，眼魔的焦虑、暴躁、偏执和多疑会越来越严重。这种超越一般贪婪心理的饥渴，驱使眼魔占有并收集魔法物品，努力寻找遗迹、地下城及其他可能藏有魔法物品的地方。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal style="MARGIN: 0cm 11.3pt 10pt 0cm; TEXT-AUTOSPACE: ideograph-numeric; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-para-margin-top: 0cm; mso-para-margin-right: .94gd; mso-para-margin-bottom: 10.0pt; mso-para-margin-left: 0cm"><span
+ style="FONT-SIZE: 11pt; BACKGROUND: white">眼魔的脑部体积非常大，大部分由左右两个分裂的角状的脑叶组成，这个被称为多魔酚（</span><span
+ lang=EN-US
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "Tahoma","sans-serif"; BACKGROUND: white'>dweomerlobes</span><span style="FONT-SIZE:
+ 11pt; BACKGROUND: white">）的组织负责储存和放大魔法能量。</span><span lang=EN-US style="FONT-SIZE: 11pt"></span></p></div></body>
+
+</html>

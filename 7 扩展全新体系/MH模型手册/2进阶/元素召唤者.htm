@@ -1,0 +1,908 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>元素召唤者</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=ProgId content=Word.Document>
+<STYLE>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY lang=ZH-CN style="tab-interval: 21.0pt">
+<DIV class=WordSection1><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN>
+<P 
+style="MARGIN: 0cm 0cm 6pt; mso-para-margin-top: 0cm; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><STRONG><SPAN 
+style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #c00000; mso-bidi-font-family: 宋体; mso-bidi-font-size: 10.5pt'>元素召唤者<SPAN 
+lang=EN-US> Bonded Summoner</SPAN></SPAN></STRONG><SPAN lang=EN-US 
+style='FONT-SIZE: 14pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-BOTTOM: 6pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-para-margin-bottom: .5gd"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>传闻中，那些懂得如何制约元素位面的怒火的人被称作是元素召唤者，这些位面中诸多力量里最强大的是元素。而元素召唤者非常了解元素。他研究了元素的生活方式，手段，起源和形成。仅凭直觉他就可以知道一个元素的力量，并与一个强大的元素伙伴建立起牢不可破的关系。随着时间的推移，元素召唤者和他控制的元素之间的亲密关系不断加深，召唤者与被召唤者之间的界限变得模糊。最终，这场发现之旅使他拥有了自己的能力，他之前只能从召唤物身上看到的能力。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-BOTTOM: 6pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-para-margin-bottom: .5gd"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>学习外层位面的秘密所需要的知识本质上是神秘的，因此这个进阶职业大部分都是法师和术士——尽管其他符合条件的人也可以选择走元素召唤者的路。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-BOTTOM: 6pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0; mso-para-margin-bottom: .5gd"><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>NPC</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>元素召唤师通常是孤军作战，但在受到威胁时，他们也可以与元素召唤者专家或同事组队。其他</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-family: Tahoma'>NPC</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'>元素召唤者乐于和冒险者团队一起探索所有元素的途径。因为元素召唤者会是一个强大的盟友，所以大多数群体都很对他们的加入表示欢迎。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0611f2'></SPAN></B>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0611f2'>进阶要求</SPAN></B><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>技能：知识<SPAN 
+lang=EN-US>(</SPAN>位面<SPAN lang=EN-US>)8</SPAN>级，语言<SPAN 
+lang=EN-US>(</SPAN>风土水火族语任一个<SPAN lang=EN-US>)</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>法术：必须能够施展<SPAN 
+lang=EN-US>2</SPAN>级奥术</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>特殊：必须拥有一个魔宠</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt"><B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0611f2'></SPAN></B>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0611f2'>职业特征<SPAN 
+lang=EN-US></SPAN></SPAN></B></P>
+<P 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>生命骰：<SPAN 
+lang=EN-US>D4</SPAN></SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P>
+<P 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>技能：<SPAN 
+lang=EN-US>2+</SPAN>智力调整<SPAN lang=EN-US></SPAN></SPAN></P>
+<P 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'>本职技能：专注，手艺，解读文书，所有知识，专业，法术辨识<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 21pt; mso-char-indent-count: 2.0"><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black'></SPAN>&nbsp;</P>
+<TABLE class=MsoNormalTable 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; MARGIN-LEFT: 24pt; BORDER-LEFT: medium none; mso-padding-alt: 1.5pt 1.5pt 1.5pt 1.5pt; mso-yfti-tbllook: 1184; mso-border-alt: outset black .75pt" 
+cellSpacing=0 cellPadding=0 border=1>
+  <TBODY>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD 
+    style="BORDER-TOP: black 1pt inset; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+      style="mso-bidi-font-weight: normal"><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>等级<SPAN 
+      lang=EN-US></SPAN></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt inset; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+      style="mso-bidi-font-weight: normal"><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>基本攻击<SPAN 
+      lang=EN-US></SPAN></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt inset; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+      style="mso-bidi-font-weight: normal"><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>强韧<SPAN 
+      lang=EN-US></SPAN></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt inset; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+      style="mso-bidi-font-weight: normal"><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>反射<SPAN 
+      lang=EN-US></SPAN></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt inset; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+      style="mso-bidi-font-weight: normal"><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>意志<SPAN 
+      lang=EN-US></SPAN></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt inset; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+      style="mso-bidi-font-weight: normal"><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>特殊能力<SPAN 
+      lang=EN-US></SPAN></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt inset; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><B 
+      style="mso-bidi-font-weight: normal"><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>施法能力<SPAN 
+      lang=EN-US></SPAN></SPAN></B></P></TD></TR>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 1">
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>1</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+0</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+2</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+0</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+2</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>中型元素伙伴，元素抗力５<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;-</SPAN></P></TD></TR>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 2">
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>2</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+1</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+3</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+0</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+3</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;-</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>＋１奥法施法者等级<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 3">
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>3</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+2</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+3</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+1</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+3</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>大型元素伙伴，元素抗力１０，免疫睡眠<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;-</SPAN></P></TD></TR>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 4">
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>4</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+3</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+4</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+1</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+4</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;-</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>＋１奥法施法者等级<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 5">
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>5</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+3</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+4</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+1</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+4</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>超大型元素伙伴，元素抗力１５，免疫毒素<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;-</SPAN></P></TD></TR>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 6">
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>6</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+4</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+5</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+2</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+5</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;-</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>＋１奥法施法者等级<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 7">
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>7</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+5</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P style="TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+5</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+2</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+5</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>巨型元素伙伴，元素抗力２０，免疫麻痹，震慑<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;-</SPAN></P></TD></TR>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 8">
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>8</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+6</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+6</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+2</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+6</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;-</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>＋１奥法施法者等级<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 9">
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>9</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+6</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+6</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+3</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+6</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>长老元素伙伴，元素免疫，免疫夹击<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;-</SPAN></P></TD></TR>
+  <TR style="HEIGHT: 1pt; mso-yfti-irow: 10; mso-yfti-lastrow: yes">
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>10</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 59.55pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=79>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+7</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+7</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+3</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 42.5pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=57>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>+7</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 242.2pt; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=323>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>元素形态，元素亚种，免疫重击<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; HEIGHT: 1pt; BORDER-RIGHT: black 1pt inset; WIDTH: 5cm; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width=189>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>＋１奥法施法者等级<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR></TBODY></TABLE>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0611f2; LINE-HEIGHT: 150%'>职业能力</SPAN></B><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>施法能力：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>每个偶数等级，元素召唤者获得新的每日奥术量<SPAN 
+lang=EN-US>/</SPAN>可知奥术量，他不获得之前奥术施法职业的其他能力<SPAN 
+lang=EN-US>(</SPAN>奖励专长，魔宠能力<SPAN 
+lang=EN-US>)</SPAN>。如果角色有两个或两个以上的奥术施法职业，他必须选择一个将元素召唤者等级与其累加计算每日奥术量<SPAN 
+lang=EN-US>/</SPAN>可知奥术量。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>元素伙伴<SPAN 
+lang=EN-US>(ex)</SPAN>：</SPAN></STRONG><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>1</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级开始，元素召唤从<SPAN 
+lang=EN-US>4</SPAN>大元素中选择一个元素成为自己的伙伴，一旦决定不能更改。元素召唤者召唤选择种类的中型元素代替魔宠。元素伙伴的其他特性详见边栏，<SPAN 
+lang=EN-US>3</SPAN>级他将获得大型，<SPAN lang=EN-US>5</SPAN>级超大型，<SPAN 
+lang=EN-US>7</SPAN>级巨型，<SPAN 
+lang=EN-US>9</SPAN>级长老的同类元素。如果元素伙伴死亡，元素召唤者受到和元素生命骰相同的伤害，并在所有属性上受到<SPAN 
+lang=EN-US>1d4</SPAN>点伤害。<SPAN 
+lang=EN-US>24</SPAN>小时以后他才能召唤另一个元素。你可以不受惩罚的遣散元素伙伴，但只有<SPAN 
+lang=EN-US>24</SPAN>小时以后你才能够召唤另一个。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>元素抗力<SPAN 
+lang=EN-US>(ex)</SPAN>：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>你获得<SPAN 
+lang=EN-US>5</SPAN>点和你选择的元素相对应的伤害抗力<SPAN lang=EN-US>(</SPAN>风—电，火—火，水—冰，土—酸<SPAN 
+lang=EN-US>)</SPAN>，<SPAN lang=EN-US>3</SPAN>级增加到<SPAN 
+lang=EN-US>10</SPAN>点，<SPAN lang=EN-US>5</SPAN>级增加到<SPAN 
+lang=EN-US>15</SPAN>点，<SPAN lang=EN-US>7</SPAN>级增加到<SPAN 
+lang=EN-US>20</SPAN>点，<SPAN lang=EN-US>9</SPAN>级你对这个能量免疫。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>免疫<SPAN 
+lang=EN-US>(ex)</SPAN>：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>元素召唤者渐渐有了元素的特征，他对以下状态免疫：<SPAN 
+lang=EN-US>3</SPAN>级免疫睡眠，<SPAN lang=EN-US>5</SPAN>级免疫毒素，<SPAN 
+lang=EN-US>7</SPAN>级免疫麻痹和震慑，<SPAN lang=EN-US>10</SPAN>级免疫重击。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>免疫夹击：</SPAN></STRONG><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>9</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级开始，元素召唤者逐渐失去他的类人特征，如同元素一样将不再具有前方和后方，因此他将不再被夹击。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>元素形态<SPAN 
+lang=EN-US>(su)</SPAN>：</SPAN></STRONG><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>10</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级时，每天一次，元素召唤者获得将自己变为元素的能力，他将变为和他所选元素一样的长老元素，这个能力类似于变形输，除了持续<SPAN 
+lang=EN-US>10</SPAN>小时<SPAN lang=EN-US>(</SPAN>或主动取消<SPAN 
+lang=EN-US>)</SPAN>，变化成为元素是一个不引起机会攻击的标准动作。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>元素亚种：</SPAN></STRONG><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>10</SPAN><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>级开始，元素召唤者变成元素种类，其选择的元素种类的亚种，他失去所有他原来拥有的元素亚种<SPAN 
+lang=EN-US>(</SPAN>如果他有<SPAN lang=EN-US>)</SPAN>。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><B><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0611f2; LINE-HEIGHT: 150%'></SPAN></B>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><B><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: #0611f2; LINE-HEIGHT: 150%'>边栏：元素伙伴<SPAN 
+lang=EN-US></SPAN></SPAN></B></P>
+<TABLE class=MsoNormalTable 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 24.86%; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-padding-alt: 1.5pt 1.5pt 1.5pt 1.5pt; mso-yfti-tbllook: 1184; mso-border-alt: outset black .75pt" 
+cellSpacing=0 cellPadding=0 width="24%" border=1>
+  <TBODY>
+  <TR style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD 
+    style="BORDER-TOP: black 1pt inset; BORDER-RIGHT: black 1pt inset; WIDTH: 19.92%; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt" 
+    width="19%">
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN></B><B 
+      style="mso-bidi-font-weight: normal"><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>奥术等级<SPAN 
+      lang=EN-US></SPAN></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt inset; BORDER-RIGHT: black 1pt inset; WIDTH: 80.08%; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt" 
+    width="80%">
+      <P class=MsoNormal><B style="mso-bidi-font-weight: normal"><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN></B><B 
+      style="mso-bidi-font-weight: normal"><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>特殊能力<SPAN 
+      lang=EN-US></SPAN></SPAN></B></P></TD></TR>
+  <TR style="mso-yfti-irow: 1">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt inset; WIDTH: 19.92%; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width="19%">
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>８级以下<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt inset; WIDTH: 80.08%; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width="80%">
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>传递接触法术，忠诚，情感链接，精通反射闪避，共享法术<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 2">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt inset; WIDTH: 19.92%; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width="19%">
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>９～１１级<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt inset; WIDTH: 80.08%; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width="80%">
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>法术抗力<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 3; mso-yfti-lastrow: yes">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt inset; WIDTH: 19.92%; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: black 1pt inset; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width="19%">
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>１２级以上<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt inset; WIDTH: 80.08%; BORDER-BOTTOM: black 1pt inset; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 1.5pt; BORDER-LEFT: medium none; PADDING-RIGHT: 1.5pt; mso-border-alt: inset black .75pt; mso-border-left-alt: inset black .75pt; mso-border-top-alt: inset black .75pt" 
+    width="80%">
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>&nbsp;</SPAN><SPAN 
+      style='FONT-SIZE: 10pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-bidi-font-size: 10.5pt'>高速移动<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR></TBODY></TABLE>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>元素伙伴基础能力</SPAN></STRONG><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>使用怪物图鉴中的数据，除去以下变化：</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>奥术等级：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>将元素召唤者等级和角色其他所有奥术施法职业的等级相加的和</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>传递接触法术<SPAN 
+lang=EN-US>(su)</SPAN>：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>元素伙伴可以替元素召唤者传递接触性法术。如果主人施展接触性法术时元素伙伴和他在一起，他可以指定他的魔宠为“接触者”。元素伙伴之后即可像主人本人一样去传递此接触性法术。和正常情况一样，如果在法术被传递前主人施展了另外一个法术，该接触法术消散。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>忠诚<SPAN 
+lang=EN-US>(ex)</SPAN>：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>在对抗惑控系法术影响时，动物伙伴在意志豁免上有<SPAN 
+lang=EN-US>+4</SPAN>加值。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>情感链接<SPAN 
+lang=EN-US>(su)</SPAN>：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>主人和他的元素伙伴之间有着内心上的连接，情感连接的最远距离为<SPAN 
+lang=EN-US>1</SPAN>英里。主人无法用他元素伙伴的双眼去看，但是他们彼此分享心灵。由于这种连接的天生限制，只有一般的心灵感受可以被传递。因为这种情感链接，主人对那些他的元素伙伴曾经遇上的事物或去过的地点也会建立起相同的关联。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>精通反射闪避<SPAN 
+lang=EN-US>(ex)</SPAN>：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>有些攻击效果若通过反射检定可以减少一半伤害，如果元素伙伴遭到此类攻击，在通过反射检定后它将不受伤害，如果检定失败它也只受到一半伤害。</SPAN><SPAN 
+lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>法术共享<SPAN 
+lang=EN-US>(ex)</SPAN>：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>根据主人的选择，他可以让他施放给自己的法术<SPAN 
+lang=EN-US>(</SPAN>不包括类法术能力<SPAN 
+lang=EN-US>)</SPAN>同样影响自己的元素伙伴。该元素伙伴必须在施法发生效果时处在主人周围<SPAN 
+lang=EN-US>5</SPAN>英尺范围内。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>如果该法术或者法术效果不是瞬间的而是有持续时间，那么在元素伙伴离开<SPAN 
+lang=EN-US>5</SPAN>尺范围后该法术将无法影响此元素伙伴，并且也不会再次影响它，就算它在法术持续时间到期前回到主人身边也是如此。另外，主人可以对元素伙伴施展那些法术目标为“自己”<SPAN 
+lang=EN-US>(</SPAN>“<SPAN lang=EN-US>You</SPAN>”<SPAN 
+lang=EN-US>)</SPAN>的法术<SPAN lang=EN-US>(</SPAN>按照远程接触法术方式<SPAN 
+lang=EN-US>)</SPAN>而不是只能对自己施展。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>法术抗力<SPAN 
+lang=EN-US>(ex)</SPAN>：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>元素获得奥术等级<SPAN 
+lang=EN-US>+5</SPAN>的法术抗力</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0.75pt; LINE-HEIGHT: 150%"><STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%; mso-bidi-font-family: 宋体'>高速移动<SPAN 
+lang=EN-US>(ex)</SPAN>：</SPAN></STRONG><SPAN 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: black; LINE-HEIGHT: 150%'>元素的移动速度增加<SPAN 
+lang=EN-US>10</SPAN>尺。</SPAN><SPAN lang=EN-US 
+style='FONT-SIZE: 10.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; LINE-HEIGHT: 150%'></SPAN></P></DIV></BODY></HTML>

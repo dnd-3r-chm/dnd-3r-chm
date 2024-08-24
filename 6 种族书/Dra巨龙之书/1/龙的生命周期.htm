@@ -1,0 +1,1284 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>龙的生命周期</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=ProgId content=Word.Document>
+<STYLE>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY lang=ZH-CN style="tab-interval: 21.0pt">
+<DIV class=WordSection1>
+<P class=MsoNormal><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "微软雅黑","sans-serif"; COLOR: maroon'><STRONG>龙的生命周期</STRONG></SPAN></P>
+<P class=MsoNormal><I><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>“太古龙出生于微小的蛋。”<SPAN 
+lang=EN-US><BR></SPAN></SPAN></I><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>——狗头人谚语<SPAN 
+lang=EN-US><BR><BR></SPAN>除非遇到某些不幸，龙能期待以良好的健康状态生活<SPAN 
+lang=EN-US>1,200</SPAN>年，甚至可能长得多，这取决于它整体上的健康。然而，所有龙都是从蛋开始，经历<SPAN 
+lang=EN-US>12</SPAN>个明显的生命阶段，每个都以龙的身体、心灵或行为的新发展为标志。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>蛋<SPAN 
+lang=EN-US><BR></SPAN></B>龙蛋的大小随龙的种类而变。它们的颜色一般与生下它们的龙相同，而且与生下它们的龙有相同的能量免疫<SPAN 
+lang=EN-US>(</SPAN>例如，黑龙蛋是黑色或深灰色的，而且不怕酸<SPAN 
+lang=EN-US>)</SPAN>。龙蛋有长卵圆形的外形和坚硬、石质的壳。<SPAN 
+lang=EN-US><BR></SPAN>雌龙从青年阶段开始能够生蛋<SPAN 
+lang=EN-US>,</SPAN>到极老阶段仍可生育。雄龙从青年阶段开始能够使蛋受精<SPAN 
+lang=EN-US>,</SPAN>到上古龙阶段仍可生育。<SPAN 
+lang=EN-US><BR></SPAN>蛋在雌龙体内受精，在孵化期的四分之一的时间之后准备好产下，如同下文表格所示。表格上给出的数量是近似值；实际的时间可以向任何方向改变<SPAN 
+lang=EN-US>10</SPAN>天之久。<SPAN lang=EN-US><BR><BR></SPAN><B>产下龙蛋<SPAN 
+lang=EN-US><BR></SPAN></B>龙蛋每窝二到五颗，每年一窝。排卵始于交配，如果雌龙希望，她能以低得多的频率生蛋，仅仅通过不交配的方式。交配和生蛋几乎可以发生在一年中的任何季节。<SPAN 
+lang=EN-US><BR></SPAN>大多数龙蛋生在雌龙的巢穴里的窝里，亲代中的一方和双方能够在那里保护和照顾它们。典型的窝由一个坑或丘构成，蛋完全埋在沙子或树叶之类的松散材料里。龙蛋的卵状外形给予它强大的抗压能力，雌龙能在窝上行走、战斗或睡眠，而无需担心破坏她的蛋。<SPAN 
+lang=EN-US><BR></SPAN>龙有时丢下它们的蛋不管。在这种情况下，雌龙非常用心地保持窝的隐蔽。她或她的配偶<SPAN 
+lang=EN-US>(</SPAN>或者双方<SPAN 
+lang=EN-US>)</SPAN>可能定期访问窝所在的区域，但它们小心地不离窝太近，除非某些危险危及蛋。<SPAN 
+lang=EN-US><BR><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US><BR></SPAN><B>规则：龙蛋<SPAN 
+lang=EN-US><BR></SPAN></B>虽然龙蛋里包含着活的胚胎，但视它为有以下属性的静物。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<TABLE class=MsoNormalTable 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-yfti-tbllook: 1184; mso-border-alt: solid black .5pt; mso-border-themecolor: text1" 
+cellSpacing=0 cellPadding=0 border=1>
+  <TBODY>
+  <TR style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp;&nbsp;</SPAN><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>蛋的大小</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>长度<SPAN 
+      lang=EN-US>*</SPAN></SPAN></B><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>重量</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>硬度<SPAN 
+      lang=EN-US>/HP</SPAN></SPAN></B><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>破坏<SPAN 
+      lang=EN-US>DC</SPAN></SPAN></B><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 1">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>超小型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>1</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>英尺<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>1</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>磅<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>8/10</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>12</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 2">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>小型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>2</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>英尺<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>8</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>磅<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>10/15</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>13</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 3; mso-yfti-lastrow: yes">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>中型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>3</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>英尺<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>60</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>磅<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>10/20</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>15</SPAN></P></TD></TR></TBODY></TABLE>
+<P class=MsoNormal><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>*</SPAN><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>龙蛋的最大直径大约等于其长度的<SPAN 
+lang=EN-US>1/2</SPAN>。<SPAN 
+lang=EN-US><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US><BR></SPAN><B>表<SPAN lang=EN-US>1-1</SPAN>：龙蛋的属性</B><SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<TABLE class=MsoNormalTable 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-yfti-tbllook: 1184; mso-border-alt: solid black .5pt; mso-border-themecolor: text1" 
+cellSpacing=0 cellPadding=0 border=1>
+  <TBODY>
+  <TR style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp;&nbsp;</SPAN><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>颜色</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>准备生产</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>全孵化期</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>大小</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 1">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>黑<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>120</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>480</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>超小型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 2">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>蓝<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>150</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>600</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>小型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 3">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>黄铜<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>120</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>480</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>超小型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 4">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>青铜<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>150</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>600</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>小型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 5">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>赤铜<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>135</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>540</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>超小型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 6">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>金<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>180</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>720</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>中型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 7">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>绿<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>120</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>480</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>小型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 8">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>红<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>165</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>660</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>中型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 9">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>银<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>165</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>660</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>小型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 10; mso-yfti-lastrow: yes">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>白<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>105</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>420</SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>天<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>超小型<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR></TBODY></TABLE>
+<P class=MsoNormal><B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>孵化龙蛋<SPAN 
+lang=EN-US><BR></SPAN></SPAN></B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>龙蛋最终孵化时<SPAN 
+lang=EN-US>,</SPAN>里面的雏龙必须破坏蛋壳。如果亲代在附近，它们常常通过在蛋壳上柔和轻敲来帮忙。否则<SPAN 
+lang=EN-US>,</SPAN>雏龙就必须自己破壳而出<SPAN lang=EN-US>,</SPAN>在雏龙开始尝试离开蛋之后<SPAN 
+lang=EN-US>,</SPAN>该过程通常需要不多于一两分钟的时间。一窝里的所有蛋大约在同一时间孵化。<SPAN 
+lang=EN-US><BR></SPAN>得到适当的照顾和孵化的龙蛋几乎有<SPAN 
+lang=EN-US>100%</SPAN>的孵化率。受到干扰的蛋<SPAN lang=EN-US>-</SPAN>特别是被从窝里取出并人工孵化的蛋<SPAN 
+lang=EN-US>-</SPAN>生出活的雏龙的可能性可能会小得多。<SPAN 
+lang=EN-US><BR><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US><BR></SPAN><B>规则：孵化（<SPAN lang=EN-US>INCUBATING</SPAN>）龙蛋<SPAN 
+lang=EN-US><BR></SPAN></B>生下之后<SPAN lang=EN-US>,</SPAN>龙蛋如果要孵化<SPAN 
+lang=EN-US>,</SPAN>就需要适当的孵化条件。基本要求取决于龙的种类<SPAN 
+lang=EN-US>,</SPAN>如同下文的描述。龙蛋里的胚胎期雏龙能够在不充分的孵化条件下生存<SPAN 
+lang=EN-US>,</SPAN>但不会长久。每有一个小时未满足孵化条件<SPAN 
+lang=EN-US>,</SPAN>雏龙就必须通过一次体质检定<SPAN 
+lang=EN-US>(DC15+1</SPAN>每次从前的检定；胚胎期雏龙的体质值与孵化后的雏龙相同<SPAN 
+lang=EN-US>)</SPAN>以生存。<SPAN 
+lang=EN-US><BR></SPAN>龙蛋里的胚胎期雏龙在孵化期的最后四分之一里拥有意识。<SPAN 
+lang=EN-US><BR></SPAN>龙蛋的孵化条件如下：<SPAN lang=EN-US><BR></SPAN><B>黑龙<SPAN 
+lang=EN-US>:</SPAN></B>蛋必须浸在强得足以每回合造成<SPAN 
+lang=EN-US>1d4</SPAN>点伤害的酸中，或者沉没在湿地、泥塘或沼泽里。<SPAN 
+lang=EN-US><BR></SPAN><B>蓝龙<SPAN lang=EN-US>:</SPAN></B>在每天的一半时间里，蛋必须在<SPAN 
+lang=EN-US>90</SPAN>°<SPAN lang=EN-US>F</SPAN>到<SPAN lang=EN-US>120</SPAN>°<SPAN 
+lang=EN-US>F</SPAN>之间的温度里，另外半天必须在<SPAN lang=EN-US>40</SPAN>°<SPAN 
+lang=EN-US>F</SPAN>到<SPAN lang=EN-US>60</SPAN>°<SPAN lang=EN-US>F</SPAN>之间。<SPAN 
+lang=EN-US><BR></SPAN><B>黄铜龙<SPAN lang=EN-US>:</SPAN></B>蛋必须放在明火或者至少<SPAN 
+lang=EN-US>140</SPAN>°<SPAN lang=EN-US>F</SPAN>的温度里。<SPAN 
+lang=EN-US><BR></SPAN><B>青铜龙<SPAN 
+lang=EN-US>:</SPAN></B>蛋必须浸在海洋中或潮水每天流过它至少两次的某个地方。<SPAN 
+lang=EN-US><BR></SPAN><B>赤铜龙<SPAN lang=EN-US>:</SPAN></B>蛋必须浸在强得足以每个暴露的回合造成<SPAN 
+lang=EN-US>1d4</SPAN>点伤害的酸中，或者包在凉爽的沙子或粘土中<SPAN lang=EN-US>(40</SPAN>°<SPAN 
+lang=EN-US>F</SPAN>到<SPAN lang=EN-US>60</SPAN>°<SPAN lang=EN-US>F)</SPAN>。<SPAN 
+lang=EN-US><BR></SPAN><B>金龙<SPAN lang=EN-US>:</SPAN></B>蛋必须放在明火或者至少<SPAN 
+lang=EN-US>140</SPAN>°<SPAN lang=EN-US>F</SPAN>的温度里。<SPAN 
+lang=EN-US><BR></SPAN><B>绿龙<SPAN lang=EN-US>:</SPAN></B>蛋必须浸在强得足以每回合造成<SPAN 
+lang=EN-US>1d4</SPAN>点伤害的酸中，或者埋在用雨水弄湿的叶子里。<SPAN lang=EN-US><BR></SPAN><B>红龙<SPAN 
+lang=EN-US>:</SPAN></B>蛋必须放在明火或者至少<SPAN lang=EN-US>140</SPAN>°<SPAN 
+lang=EN-US>F</SPAN>的温度里。<SPAN lang=EN-US><BR></SPAN><B>银龙<SPAN 
+lang=EN-US>:</SPAN></B>蛋必须埋在雪里<SPAN lang=EN-US>,</SPAN>包在冰里<SPAN 
+lang=EN-US>,</SPAN>或放在<SPAN lang=EN-US>0</SPAN>°<SPAN 
+lang=EN-US>F</SPAN>以下的温度中。<SPAN lang=EN-US><BR></SPAN><B>白龙<SPAN 
+lang=EN-US>:</SPAN></B>蛋必须埋在雪里<SPAN lang=EN-US>,</SPAN>包在冰里<SPAN 
+lang=EN-US>,</SPAN>或放在<SPAN lang=EN-US>0</SPAN>°<SPAN 
+lang=EN-US>F</SPAN>以下的温度中。<SPAN lang=EN-US><BR><BR></SPAN><B>规则：孵化（<SPAN 
+lang=EN-US>HATCHING</SPAN>）龙蛋<SPAN 
+lang=EN-US><BR></SPAN></B>要孵化，雏龙需要破壳而出。雏龙不能从它在蛋里的位置咬蛋壳<SPAN 
+lang=EN-US>,</SPAN>而且雏龙的爪子太弱<SPAN lang=EN-US>,</SPAN>不能战胜蛋壳的硬度。要离开蛋，雏龙必须通过<SPAN 
+lang=EN-US>DC20</SPAN>的力量检定破坏蛋壳。对于雏龙来说<SPAN 
+lang=EN-US>,</SPAN>幸运的是它能在该检定中直接取<SPAN lang=EN-US>20,</SPAN>在大约<SPAN 
+lang=EN-US>2</SPAN>分钟之内破坏蛋壳。<SPAN lang=EN-US><BR></SPAN>要确定窝里的蛋在哪一天孵化，掷骰<SPAN 
+lang=EN-US>1d10</SPAN>。是奇数，则蛋比标准<SPAN lang=EN-US>(</SPAN>见表<SPAN 
+lang=EN-US>1-1)</SPAN>早孵化<SPAN lang=EN-US>1d10</SPAN>天。是偶数，则蛋比标准晚孵化<SPAN 
+lang=EN-US>1d10</SPAN>天。<SPAN 
+lang=EN-US><BR></SPAN>如果蛋一直由雏龙的亲代中的至少一方照顾，它就不需要为了生存而进行进一步的检定。<SPAN 
+lang=EN-US><BR></SPAN>然而，如果孵化条件不够理想，雏龙就必须为了生存而进行体质检定。下表提供了环境和用于抵抗不良条件而生存的体质检定的<SPAN 
+lang=EN-US>DC</SPAN>的清单。<SPAN 
+lang=EN-US><BR></SPAN>如果窝受到干扰或者蛋被从窝里取出，那么照顾蛋的生物可以进行一次医疗检定，如果该生物有<SPAN 
+lang=EN-US>5</SPAN>级以上的知识<SPAN lang=EN-US>(</SPAN>神秘<SPAN 
+lang=EN-US>)</SPAN>，检定有<SPAN 
+lang=EN-US>+1</SPAN>加值。雏龙可以使用自己的体质检定结果或医疗检定结果，取更高者。<SPAN 
+lang=EN-US><BR></SPAN>在孵化期的最后四分之一之前打开蛋会使里面的雏龙死亡。如果蛋在孵化期的最后四分之一中被打开，雏龙可以为了生存而进行检定，但如果成功，它受到等于它当前的<SPAN 
+lang=EN-US>hp</SPAN>的非致命伤害。在雏龙的正常孵化期结束之前，该伤害不能被医疗，而且雏龙在整个期间内一直恍惚。在此期间内，为了生存，早产的雏龙必须被按照与未孵化的蛋相同的方式照顾。<SPAN 
+lang=EN-US><BR><BR style="mso-special-character: line-break"><BR 
+style="mso-special-character: line-break"></SPAN></SPAN></P>
+<TABLE class=MsoNormalTable 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-yfti-tbllook: 1184; mso-border-alt: solid black .5pt; mso-border-themecolor: text1" 
+cellSpacing=0 cellPadding=0 border=1>
+  <TBODY>
+  <TR style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp;&nbsp;</SPAN><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>环境</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>体质检定<SPAN 
+      lang=EN-US>DC</SPAN></SPAN></B><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 1">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>窝未受干扰<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>——<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 2">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>窝受到干扰但由亲代修复<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>10</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 3">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>窝受到干扰但由亲代之外的龙修复<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>15</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 4">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>窝受到干扰但由非龙类修复<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>20</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 5">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>从窝取出，由龙照顾<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>20</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 6">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>从窝取出，由非龙类照顾<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>25</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 7; mso-yfti-lastrow: yes">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>过早打开<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>+5</SPAN></P></TD></TR></TBODY></TABLE>
+<P class=MsoNormal><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>——————————————————————————<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P class=MsoNormal><B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>雏龙（<SPAN 
+lang=EN-US>0-5</SPAN>岁）<SPAN lang=EN-US><BR></SPAN></SPAN></B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>从蛋里出来的雏龙完全成型而且准备好了面对生活。它从鼻尖到尾尖的长度大约是容纳它的蛋的两倍<SPAN 
+lang=EN-US>(</SPAN>雏龙的真正尺寸取决于龙的种类；见第<SPAN lang=EN-US>5</SPAN>章<SPAN 
+lang=EN-US>)</SPAN>。<SPAN 
+lang=EN-US><BR></SPAN>刚刚从蛋里孵化出来的龙是蜷缩而湿漉漉的。大约一个小时之后，它为飞行、战斗和推理做好了准备。它继承了充满来自其亲代的实用知识的可观身体，然而这样继承来的知识往往埋在雏龙的记忆里，不被注意和使用，直到需要时为止。<SPAN 
+lang=EN-US><BR></SPAN>与较老的龙相比，雏龙似乎有点儿笨拙。它的头和脚似乎稍微过大，而它的翼和尾在比例上小于成年龙身上的。<SPAN 
+lang=EN-US><BR></SPAN>如果雏龙孵化时亲代之一在场，幼崽就会拥有一个保护者，而且可能会在它生命中的头几十年享受到安全保障。如果不是，雏龙就要面对生存竞争。<SPAN 
+lang=EN-US><BR></SPAN>无论是由其它龙养大还是被丢下照料自己，雏龙的第一项任务都是学习成为一条龙，这包括保卫食物、找到巢穴和理解自己的能力（通常是按照这个顺序）。<SPAN 
+lang=EN-US><BR></SPAN>刚刚孵化的雏龙几乎立刻就会寻找食物。被丢下照顾自己的雏龙的第一顿饭常常是它的蛋壳。这种实践不仅确保了幼崽有足够份量的重要矿物质，而且提供了替代攻击和吃掉它的同窝者的选择。由亲代抚养的雏龙往往被给予一些该种类所青睐的美味。例如，赤铜龙给予它们的后代以变种蜈蚣或蝎子。很多情况下，这顿饭采取活食的形式，而雏龙同时得到它的第一节捕猎课和第一顿饭。<SPAN 
+lang=EN-US><BR></SPAN>充饥之后，雏龙的下一个任务是保卫巢穴。龙寻找某个隐蔽而容易防守的、它能在那里休息、隐藏和储存财宝的洞穴、角落或裂隙。即使是在亲代照顾之下的雏龙，也会在亲代的巢穴里找到一个区域据为己有。<SPAN 
+lang=EN-US><BR></SPAN>在巢穴里感到安全并合理地确保了食物供应之后，雏龙就会专心于磨砺它的天生能力。它常常通过以任何它能够的方式检验自己来这样做。。它与同窝者打斗，寻找危险的生物来战斗，并长时间冥想。如果有亲代在，雏龙将得到关于龙类事务的指导和陪伴亲代进行日常活动的机会。自力更生的雏龙有时找到同类的较老的龙作为导师。在善龙中，这种关系往往是非正式的，而且常常持续几十年<SPAN 
+lang=EN-US>(</SPAN>按龙的标准，这是一段相当短的时间<SPAN lang=EN-US>)</SPAN>。幼者为了建议和信息而定期<SPAN 
+lang=EN-US>(</SPAN>每月，也许每周<SPAN 
+lang=EN-US>)</SPAN>拜访较年长的龙。恶龙也常常对并非它们的后代的雏龙提出忠告——恶龙没有任何意义上的利他主义，但通常理解幼者在延续物种方面扮演的角色。无论涉及什么种类的龙，这种师徒关系都要求较年幼的龙对较年长的龙表现出极度的尊重和顺从，并给导师带来食物、信息和财宝作为礼物。如果较年长的龙开始视学徒为对手，这种关系就会立刻结束；涉及恶龙时，这种结果对于较年幼的龙来说往往是致命的。<SPAN 
+lang=EN-US><BR><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US><BR></SPAN><B>规则：雏龙的属性<SPAN 
+lang=EN-US><BR></SPAN></B>刚刚孵化的雏龙不能飞行，敏捷上有<SPAN 
+lang=EN-US>-2</SPAN>减值，攻击掷骰上有<SPAN lang=EN-US>-2</SPAN>减值。这些减值在<SPAN 
+lang=EN-US>1</SPAN>小时后消失。<SPAN 
+lang=EN-US><BR></SPAN>除此之外，雏龙拥有<I>《怪物图鉴》</I>中为它的种类的雏龙描述的所有属性，包括技能和专长。它对技能和专长的选择类似于其亲代。<SPAN 
+lang=EN-US><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P class=MsoNormal><B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>幼龙（<SPAN 
+lang=EN-US>6-15</SPAN>岁）<SPAN lang=EN-US><BR></SPAN></SPAN></B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>到<SPAN 
+lang=EN-US>6</SPAN>岁时，龙的体长长到足足两倍，但相对于身体的其它部分来说，它的头和脚仍然似乎太大了。它的身体变得更强壮、更结实。龙的更大的体型往往使得找到新的巢穴成为必要。不管怎样，许多龙在这个阶段迁移，特别是在它们没有亲代的支持时。<SPAN 
+lang=EN-US>(</SPAN>龙在一个地区连续捕猎五年之后，最初的巢穴的位置就可能被外人得知<SPAN 
+lang=EN-US>,</SPAN>或者巢穴周围的地区变得缺乏猎物。<SPAN lang=EN-US>)</SPAN>在大部分方面<SPAN 
+lang=EN-US>,</SPAN>幼龙仍然非常像雏龙<SPAN lang=EN-US>,</SPAN>然而它对自己更有信心。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>少年（<SPAN lang=EN-US>16-25</SPAN>岁）<SPAN 
+lang=EN-US><BR></SPAN></B>到<SPAN 
+lang=EN-US>16</SPAN>岁时，大多数龙开始了最终将让它们到达成年体型的新的一次快速生长—然而它们仍然保留了雏龙的过大的头和脚。随着生活经验的获得和天生能力的掌握，它们的思维变得更为敏锐。<SPAN 
+lang=EN-US><BR></SPAN>在这个阶段，龙开始感到收集财宝和建立领地的渴望<SPAN 
+lang=EN-US>(</SPAN>然而它完全可能在更早的时候这样做<SPAN 
+lang=EN-US>)</SPAN>。然而，在某些情况下，少年龙继续与它的同窝者或亲代分享巢穴和领地。在成为少年龙时离开窝的龙往往远离它们的母巢，寻找它们能建立属于自己的家务的地方。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>青少年（<SPAN lang=EN-US>26-50</SPAN>岁）<SPAN 
+lang=EN-US><BR></SPAN></B>到<SPAN 
+lang=EN-US>26</SPAN>岁时，龙已经在通向成年的路上走了很远。它的身体力量没有与成年龙相似之处，但它有成年龙的身体比例。某些物种在这个阶段展现出它们最初的魔法能力。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>青年（<SPAN lang=EN-US>51-100</SPAN>岁）<SPAN 
+lang=EN-US><BR></SPAN></B>作为龙度过半个世纪的标志，它进入成熟期<SPAN 
+lang=EN-US>(</SPAN>然而它的身体继续生长多得多的年份<SPAN 
+lang=EN-US>)</SPAN>。它做好了交配的准备，而且大多数龙不失时机地这样做。<SPAN 
+lang=EN-US><BR></SPAN>到这个年龄时，龙的鳞片长成强大到足以挡开除了魔法武器或其它龙的爪牙之外的一切的护甲。青年龙还掌握了它最初的法术，并表现出强大智慧的迹象。<SPAN 
+lang=EN-US><BR></SPAN>青年龙切断它与同窝者、导师和亲代的关系<SPAN 
+lang=EN-US>(</SPAN>如果它还没有这样做的话<SPAN lang=EN-US>)</SPAN>并建立它自己的巢穴和领地。<SPAN 
+lang=EN-US><BR><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US><BR></SPAN><B>规则：养龙<SPAN 
+lang=EN-US><BR></SPAN></B>成为龙的养父母不是容易的任务。即使是善良阵营的龙，也有优越感和对自由的天生向往。大多数龙本能地服从同类的较老的龙，但它们对其它生物常常有些鄙视。<SPAN 
+lang=EN-US><BR></SPAN>比较老而睿智的龙最终会学会由于非龙类的能力和成就而尊重他们，但刚刚孵化的雏龙往往视非龙类的养父母为绑匪—或者充其量是好心的傻瓜。然而，非龙类角色与刚刚孵化的雏龙建立关系仍然是可能的。达成此事需要使用交涉或威吓，以及<SPAN 
+lang=EN-US>(</SPAN>最终<SPAN lang=EN-US>)</SPAN>驯养动物技能。<SPAN 
+lang=EN-US><BR></SPAN>试图抚养刚刚孵化的雏龙的角色必须以用于说服龙接受角色的指引的交涉或威吓检定开始；<SPAN 
+lang=EN-US>5</SPAN>级以上的知识<SPAN lang=EN-US>(</SPAN>神秘<SPAN 
+lang=EN-US>)</SPAN>给予角色的检定<SPAN 
+lang=EN-US>+2</SPAN>加值。角色的交涉或威吓检定与龙的察言观色检定对抗。龙的检定上有<SPAN 
+lang=EN-US>15</SPAN>种族加值。某些其它条件<SPAN lang=EN-US>-</SPAN>例如在下表中提到的那些<SPAN 
+lang=EN-US>-</SPAN>能够进一步调整雏龙的察言观色检定。<SPAN lang=EN-US></SPAN></SPAN></P>
+<TABLE class=MsoNormalTable 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-yfti-tbllook: 1184; mso-border-alt: solid black .5pt; mso-border-themecolor: text1" 
+cellSpacing=0 cellPadding=0 border=1>
+  <TBODY>
+  <TR style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp;&nbsp;</SPAN><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>条件</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>调整值</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 1">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>角色在孵化期间照顾龙蛋<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>-2</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 2">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>龙孵化时角色在场<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>-5</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 3; mso-yfti-lastrow: yes">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>龙的阵营有一个成分与角色相同<SPAN 
+      lang=EN-US>1</SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>-5</SPAN></P></TD></TR></TBODY></TABLE>
+<P class=MsoNormal><SPAN lang=EN-US 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>1</SPAN><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>：阵营成分为混乱、邪恶、善良、守序和中立。<SPAN 
+lang=EN-US><BR><BR></SPAN>这个对抗检定由<SPAN 
+lang=EN-US>GM</SPAN>暗中掷骰，所以角色的玩家不能立刻知道检定的结果。如果雏龙赢得对抗检定，它就视角色为绑匪，而且尝试以任何它能够的方式获得自由。<SPAN 
+lang=EN-US>(</SPAN>大多数龙<SPAN lang=EN-US>-</SPAN>即使是刚刚孵化的雏龙<SPAN 
+lang=EN-US>-</SPAN>也聪明到足以放弃立刻对更强大的生物进行攻击，而且将等待适当的逃跑机会。<SPAN 
+lang=EN-US>)</SPAN>该角色养该龙的尝试无法成功。该对抗检定不能重试。<SPAN 
+lang=EN-US><BR></SPAN>如果角色赢得该对抗检定，他或她能够尝试养这条龙。该过程需要<SPAN 
+lang=EN-US>5</SPAN>年，但在抚养期开始之后，该角色只需要每周献出一天用于龙的训练。然而，整个抚养期间，龙必须每天消耗<SPAN 
+lang=EN-US>10</SPAN>金币的食宿费用。<SPAN lang=EN-US><BR></SPAN>抚养期顺利结束时，角色尝试驯养动物检定<SPAN 
+lang=EN-US>(DC20+</SPAN>龙在幼龙阶段的生命骰<SPAN lang=EN-US>)</SPAN>。只进行一次掷骰，由<SPAN 
+lang=EN-US>GM</SPAN>暗中进行。失败的检定不能重试。如果角色的驯养动物检定失败，对龙的抚养就不成功，它会尝试离开，如同上文的说明。如果检定成功，角色就能够开始训练龙执行任务<SPAN 
+lang=EN-US>(</SPAN>其中最常见的是充当坐骑；见<SPAN 
+lang=EN-US>136</SPAN>页的作为坐骑的龙和<I>《玩家手册》</I><SPAN 
+lang=EN-US>74</SPAN>页的驯养动物技能。<SPAN lang=EN-US>)</SPAN>对于许多角色来说<SPAN 
+lang=EN-US>,</SPAN>养龙的最终目标是让它可以成为角色的同伴。要为了这个理由而养龙<SPAN 
+lang=EN-US>,</SPAN>角色必须在抚养期结束之前获得领导力专长<SPAN 
+lang=EN-US>(</SPAN>见<I>《城主指南》</I><SPAN lang=EN-US>106</SPAN>页<SPAN 
+lang=EN-US>),</SPAN>而且必须有高得足以在那时吸引龙成为部属的领导力值<SPAN 
+lang=EN-US>(</SPAN>使用龙在幼年阶段的生命骰作为部属等级<SPAN lang=EN-US>)</SPAN>。此外<SPAN 
+lang=EN-US>,</SPAN>龙的阵营必须不与角色的阵营在守序<SPAN lang=EN-US>vs</SPAN>混乱或善良<SPAN 
+lang=EN-US>vs</SPAN>邪恶的轴线上对抗<SPAN lang=EN-US>(</SPAN>例如<SPAN 
+lang=EN-US>,</SPAN>守序善良的角色不能尝试养混乱邪恶的雏龙<SPAN 
+lang=EN-US>)</SPAN>。更多信息见作为部属的龙，<SPAN lang=EN-US>138</SPAN>页。<SPAN 
+lang=EN-US><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P class=MsoNormal><B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>成年（<SPAN 
+lang=EN-US>101-200</SPAN>岁）<SPAN lang=EN-US><BR></SPAN></SPAN></B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>在生命中的第二个世纪，龙的身体发育开始减慢—但它的身体刚刚进入全盛时期。随着最初的快速生长的结束，龙的身体变得甚至更加强大和健康。成年龙继续磨砺它的智力并掌握更多的技能和魔法。<SPAN 
+lang=EN-US><BR></SPAN>龙最可能在生命中的这个阶段获得长期的配偶并与配偶和后代分享其巢穴。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>壮年（<SPAN lang=EN-US>201-400</SPAN>岁）<SPAN 
+lang=EN-US><BR></SPAN></B>龙度过两个世纪时，它的身体和精神的能力继续提高，然而它通常几乎不经历明显的身体变化。到生命的这个阶段，龙真正成为值得注意的力量——而且它知道它是。<SPAN 
+lang=EN-US><BR></SPAN>壮年龙表现出较年轻的龙所缺乏的一定程度的自信。壮年龙极少仅仅为了证明自己而寻找危险<SPAN 
+lang=EN-US>(</SPAN>也许除了对抗其它龙之外<SPAN 
+lang=EN-US>)</SPAN>。相反，它们的行动具有目标和信心，常常启动需要多年时间来完成的计划。<SPAN 
+lang=EN-US><BR></SPAN>由于壮年龙的力量、财富和年龄，它极少仍然不受到更大的世界的注意。它的名字被熟知，至少是在其它龙中间，而且它常常成为敌对的龙或冒险者的目标。壮年龙的首要任务之一是评估与改善它的巢穴的防御。通常，龙审慎对待迁移。龙从不草率地选择新巢穴，而且其计划中常常包括一些弄到更多财宝的方案。吟游诗人的关于龙毁灭王国并占有它们的财宝的传说往往以在壮年龙迁移时发生的真实事件为依据。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>老年（<SPAN lang=EN-US>401-600</SPAN>岁）<SPAN 
+lang=EN-US><BR></SPAN></B>大多数龙在到达这个阶段时，身体的发育就停止了，然而它们变得甚至更强壮，而且它们的思想和魔法能力继续随着岁月的流逝而扩展。<SPAN 
+lang=EN-US><BR></SPAN>老年龙通常开始表现出一些衰老的外部迹象<SPAN 
+lang=EN-US>:</SPAN>它们的鳞片的边缘开始碎裂，而且颜色变深并失去光泽<SPAN 
+lang=EN-US>(</SPAN>然而某些金属龙事实上呈现光洁的外表<SPAN 
+lang=EN-US>)</SPAN>，它们的眼睛中的虹膜开始褪色，以至于它们的眼睛开始类似于无特征的球体。<SPAN 
+lang=EN-US><BR></SPAN>大多数老年龙继续磨砺它们在壮年龙时开始发展的耐心的狡猾。虽然会迅速地保护它们视为己有的东西，但它们极少仓促地进行任何事，相反更喜欢在行动之前了解任何情况下的可能性。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>极老（<SPAN lang=EN-US>601-800</SPAN>岁）<SPAN 
+lang=EN-US><BR></SPAN></B>在经过六个世纪之后，龙变得甚至对身体伤害更有抵抗力。它开始掌握强大的法术和魔法。这是雌龙生命中最后一个仍然有生育能力的阶段，而且大多数雌性尝试在它们的生殖期结束之前生至少两窝蛋。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>古龙（<SPAN lang=EN-US>801-1,000</SPAN>岁）<SPAN 
+lang=EN-US><BR></SPAN></B>到这个阶段，雌龙到达生殖期的末尾。许多雌性通过教导较年轻的龙来补偿，许多雄性也这样做。古龙毫无年轻得多的尚未成年的龙所拥有的畏惧，而且它们拥有许多可供传承的智慧和经验。<SPAN 
+lang=EN-US><BR></SPAN>大多数处于这个阶段的龙有可以与最好、最聪明的人类相比拟的心灵，而且它们能利用大量充满知识的故事<SPAN 
+lang=EN-US>-</SPAN>实用的和深奥的。<SPAN lang=EN-US><BR><BR></SPAN><B>上古龙（<SPAN 
+lang=EN-US>1,001-1,200</SPAN>岁）<SPAN 
+lang=EN-US><BR></SPAN></B>生存一千年以上是一个伟大的成就，即使是对于龙，而且这个阶段在龙的生命中是一个重要的里程碑。即使在敌对的龙中，上古龙也至少应当得到勉强的尊重。这个阶段的雄龙到达了它们的生殖期的末尾<SPAN 
+lang=EN-US>,</SPAN>但它们在龙类中的高贵地位事实上给予它们以配偶。较年轻的雌性常常建立与雄性上古龙相邻的领地，为了交配、保护和让后代容易找到上古龙作为导师。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>太古龙（<SPAN lang=EN-US>1,201+</SPAN>岁）<SPAN 
+lang=EN-US><BR></SPAN></B>龙度过<SPAN 
+lang=EN-US>12</SPAN>个世纪之后，它的精神和身体的发育最终到达终点，龙处于其身体、精神和魔法力量的顶峰。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<P class=MsoNormal><B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>垂暮和死亡<SPAN 
+lang=EN-US><BR></SPAN></SPAN></B><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>在到达太古龙阶段之后，龙究竟能活多长时间是一个有一些争议的问题<SPAN 
+lang=EN-US>(</SPAN>某些学者主张龙能永生<SPAN 
+lang=EN-US>)</SPAN>。不幸的是，在这个问题上，龙们自己毫无帮助。它们不保留出生记录，而且往往夸大它们的年龄。<SPAN 
+lang=EN-US><BR></SPAN>通过认真地记录某些著名<SPAN lang=EN-US>(</SPAN>和臭名昭著<SPAN 
+lang=EN-US>)</SPAN>的龙何时到达它们的上古龙庆典，然后追踪它们在那之后的年龄<SPAN 
+lang=EN-US>,</SPAN>半精灵智者纪尧姆<SPAN lang=EN-US>(Guillaume)</SPAN>和<SPAN 
+lang=EN-US>Cirjon de Cheirdon</SPAN>对龙的年龄进行了研究。后来的一些学者怀疑纪尧姆和<SPAN 
+lang=EN-US>Cirjon</SPAN>是使用半精灵伪装的银龙<SPAN 
+lang=EN-US>,</SPAN>而他们发表的推测事实上是观察笔记。无论如何，这对搭档最终消失了<SPAN 
+lang=EN-US>,</SPAN>而且他们的最后安息之地不为人知。也许他们在龙的攻击中死去，亦或他们仍然在我们身边<SPAN 
+lang=EN-US>-</SPAN>以其它伪装。<SPAN lang=EN-US><BR></SPAN>纪尧姆和<SPAN 
+lang=EN-US>Cirjon</SPAN>确定最短命的真龙<SPAN lang=EN-US>-</SPAN>白龙<SPAN 
+lang=EN-US>-</SPAN>能活<SPAN lang=EN-US>2,100</SPAN>年之久。最长寿的真龙物种是金龙。纪尧姆和<SPAN 
+lang=EN-US>Cirjon</SPAN>估计金龙的最大年龄为<SPAN lang=EN-US>4,400</SPAN>岁。<SPAN 
+lang=EN-US><BR></SPAN>此外，智者们发现龙能通过进入叫做“垂暮”的状态来在一定程度上延长它们的生命。由纪尧姆和<SPAN 
+lang=EN-US>Cirjon</SPAN>创造的这个术语指的是龙的生命中的结束阶段。生长在太古龙阶段的停止预示着死亡的开始<SPAN 
+lang=EN-US>(</SPAN>就像对于大多数终身生长的生物那样<SPAN 
+lang=EN-US>)</SPAN>。到达太古龙阶段之后，龙能生存几个世纪，但龙终有一死，不能永远躲避死亡。龙的岁月的重担最终坍塌，迫使龙的生理机能进入恶性循环时，就是垂暮发生之时。龙的垂暮期能够持续多年，但龙常常在垂暮最初开始时就屈服。<SPAN 
+lang=EN-US><BR><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US><BR></SPAN><B>规则：垂暮和死亡的开始<SPAN 
+lang=EN-US><BR></SPAN></B>龙的最大年龄是它的魅力值的函数。对于彩色龙来说，把龙的魅力值乘以<SPAN 
+lang=EN-US>50</SPAN>，结果加上<SPAN 
+lang=EN-US>1,200</SPAN>。这是这种龙的垂暮期开始的年龄。对于金属龙来说，把龙的魅力值乘以<SPAN 
+lang=EN-US>100</SPAN>，结果加上<SPAN 
+lang=EN-US>1,200</SPAN>。这个差距反映了金属龙比彩色龙长寿的事实。出现在<I>《怪物图鉴》</I>中的龙的最大年龄在下表中给出。<SPAN 
+lang=EN-US></SPAN></SPAN></P>
+<TABLE class=MsoNormalTable 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-yfti-tbllook: 1184; mso-border-alt: solid black .5pt; mso-border-themecolor: text1" 
+cellSpacing=0 cellPadding=0 border=1>
+  <TBODY>
+  <TR style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp;&nbsp;</SPAN><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>颜色</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>到达垂暮的年龄</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>颜色</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-left-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><B><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>到达垂暮的年龄</SPAN></B><SPAN 
+      lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 1">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>黑<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>2,200</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>黄铜<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>3,200</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 2">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>蓝<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>2,300</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>青铜<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>3,800</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 3">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>绿<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>2,300</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>赤铜<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>3,400</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 4">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>红<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>2,500</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>金<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>4,400</SPAN></P></TD></TR>
+  <TR style="mso-yfti-irow: 5; mso-yfti-lastrow: yes">
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>&nbsp; 
+      </SPAN><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>白<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>2,100</SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>银<SPAN 
+      lang=EN-US></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-alt: solid black .5pt; mso-border-left-alt: solid black .5pt; mso-border-top-alt: solid black .5pt; mso-border-themecolor: text1; mso-border-top-themecolor: text1; mso-border-left-themecolor: text1; mso-border-right-themecolor: text1; mso-border-bottom-themecolor: text1" 
+    vAlign=top>
+      <P class=MsoNormal><SPAN lang=EN-US 
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>4,200</SPAN></P></TD></TR></TBODY></TABLE>
+<P class=MsoNormal><SPAN 
+style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>龙的垂暮期开始时，该龙必须进行<SPAN 
+lang=EN-US>DC20</SPAN>的体质检定。如果检定失败，龙就死亡。如果检定成功<SPAN 
+lang=EN-US>,</SPAN>龙活下来，但其体质减少<SPAN lang=EN-US>1</SPAN>。此后每年<SPAN 
+lang=EN-US>,</SPAN>龙必须为了活下来而成功通过另一次体质检定。<SPAN 
+lang=EN-US><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US><BR><BR></SPAN><B>避免垂暮<SPAN 
+lang=EN-US><BR></SPAN></B>许多龙愿意避免缓慢地陷入死亡，并无损于尊严地离开凡间的圈子。许多太古龙似乎只是在生命的尽头消失。没人知道它们究竟去了哪里，但学者们至少确定了三种可能性：离世，守护者和龙巫妖。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>离世<SPAN 
+lang=EN-US><BR></SPAN></B>龙能只希望它的灵魂离开。这样做之后，龙死亡，它的灵魂被释放到来世。龙通过吃掉它的整个宝库来为离世做好准备。大多数龙还前往龙墓并死在那里。<SPAN 
+lang=EN-US><BR></SPAN>龙墓是古迹，其起源甚至在龙的记忆中消失了。一般来说，它们位于山顶、隐蔽的谷地中<SPAN 
+lang=EN-US>(</SPAN>被丛林、沙漠或山脉围绕<SPAN 
+lang=EN-US>)</SPAN>、位于无风的海洋中或飘摇于风暴中的岛屿上、或者地面上的大裂隙里，只有飞行生物能够到达。<SPAN 
+lang=EN-US><BR></SPAN>墓地里充满危险。元素能量的风暴常常冲刷龙墓，元素的漩涡常常出现在随机的位置。其中一些可能喷出成群的有敌意的元素生物，或者把粗心大意者从主物质位面立刻吸到元素位面。龙的尸体或骨架可能自发地活化并漫游，攻击它们遇到的任何活物。<SPAN 
+lang=EN-US><BR></SPAN>龙墓里也徘徊着幽灵龙。<SPAN 
+lang=EN-US><BR></SPAN>尽管有这些危险，龙墓仍然常常引来访问者。根据传说和一些有名的发现，不是所有的离世的龙的被吃掉的宝库都总是被毁灭，为了据说在它们之中的财宝，许多财宝猎人<SPAN 
+lang=EN-US>(</SPAN>表现出龙一般的贪婪<SPAN 
+lang=EN-US>)</SPAN>渴望找到龙墓。其他访问者试图为了魔法或炼金目的而获得龙的遗体。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>守护者<SPAN 
+lang=EN-US><BR></SPAN></B>在正常生活的末尾，龙能选择成为守护者，像字面意思那样转变成风景的一部分。吃掉它的宝库之后，龙把自己变成地理特征<SPAN 
+lang=EN-US>:</SPAN>丘陵、山脉、湖泊、沼泽和树林似乎是最常见的选择。<SPAN 
+lang=EN-US><BR></SPAN>这样的地区是龙最喜爱的生蛋地点。据说，生在这样的地方的龙蛋的窝永远不会被打扰。据说生活在这样的地方的雏龙会与守护者的灵魂建立密切关系，获得成为强壮的成年龙所需要的知识。<SPAN 
+lang=EN-US><BR></SPAN>和龙墓一样<SPAN 
+lang=EN-US>,</SPAN>传说说已故的龙的一些财宝可能仍然藏在该地，这使它们成为财宝猎人的主要目标。获得财宝<SPAN 
+lang=EN-US>(</SPAN>如果它毕竟是存在的<SPAN 
+lang=EN-US>)</SPAN>常常是困难的。生活在该地的较年轻的龙往往厌恶入侵<SPAN 
+lang=EN-US>,</SPAN>在那里生蛋的不在的父母也是如此<SPAN lang=EN-US>(</SPAN>正如我们看到的那样<SPAN 
+lang=EN-US>,</SPAN>丢下它们的蛋不照顾的龙仍然常常留意它们的窝<SPAN 
+lang=EN-US>)</SPAN>。这些地方也吸引了它们那份幽灵龙<SPAN lang=EN-US>,</SPAN>给入侵者增加了新的一部分危险。<SPAN 
+lang=EN-US><BR><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US><BR></SPAN><B>规则：避免垂暮<SPAN 
+lang=EN-US><BR></SPAN></B>任何到达老年以上阶段的龙都能离世、成为守护者或龙巫妖。<SPAN 
+lang=EN-US>(</SPAN>成为龙巫妖的细节可以在<SPAN lang=EN-US>146</SPAN>页找到。<SPAN 
+lang=EN-US>)</SPAN>要离世或成为守护者，龙必须吃掉至少价值<SPAN 
+lang=EN-US>135,000</SPAN>金币的财宝—或者它的宝库的至少<SPAN 
+lang=EN-US>90%</SPAN>，如果龙拥有价值超过<SPAN 
+lang=EN-US>150,000</SPAN>金币的财宝的话。所有财宝都必须在同一天之内吃掉，而且这些财宝中的至少<SPAN 
+lang=EN-US>120,000</SPAN>金币必须在至少<SPAN lang=EN-US>200</SPAN>年里是该龙的宝库的一部分。<SPAN 
+lang=EN-US><BR></SPAN>吃掉所要求的数量的财宝之后，龙必须找到龙墓或适当的地点来守护。到达该墓地或地点之后，龙只需通过希望此事发生来完成该过程。<SPAN 
+lang=EN-US><BR></SPAN>龙离世时，它的身体死亡。龙成为守护者时，它的身体融入风景。吃掉财宝之后，龙能推迟离世或成为守护者，时间不超过<SPAN 
+lang=EN-US>1</SPAN>天每点它所拥有的魅力。如果龙超过了这个时间限制，就会失去机会，而且龙不能进行另一次离世的尝试，直到它再次吃掉所需要的数量的财宝为止。<SPAN 
+lang=EN-US><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US><BR></SPAN><B>规则：龙墓<SPAN 
+lang=EN-US><BR></SPAN></B>龙墓呈现出以死亡为主题的景观<SPAN 
+lang=EN-US>-</SPAN>枯萎的土壤上散落着骨化的龙骨和比较新鲜的龙类遗体。<SPAN 
+lang=EN-US><BR></SPAN>每处龙墓至少有一个负有保护该地的责任的幽灵守护者。墓地的守护者与太古龙<SPAN 
+lang=EN-US>-</SPAN>通常是金龙或者其它守序阵营的龙<SPAN lang=EN-US>-</SPAN>的幽灵龙<SPAN 
+lang=EN-US>(</SPAN>见<SPAN lang=EN-US>161</SPAN>页<SPAN 
+lang=EN-US>)</SPAN>一模一样。守护者只是为了守护墓地<SPAN lang=EN-US>-</SPAN>而不是重新获得失去的宝库<SPAN 
+lang=EN-US>-</SPAN>而存在。不能通过给予守护者财宝来让它安眠。如果在战斗中被击败，守护者会在<SPAN 
+lang=EN-US>1</SPAN>天后重组。<SPAN 
+lang=EN-US><BR></SPAN>也可能存在其它幽灵龙。这些额外的灵魂一般是幽灵龙。<SPAN 
+lang=EN-US><BR></SPAN>龙墓中充满超自然的危险。元素能量的周期性风暴肆虐于整个区域。这些风暴类似于<SPAN 
+lang=EN-US>20</SPAN>级的角色施放的<I>火焰风暴</I>法术<SPAN lang=EN-US>(</SPAN>反射<SPAN 
+lang=EN-US>DC23</SPAN>减半<SPAN 
+lang=EN-US>)</SPAN>，除了它们可能由酸、寒、电、或火组成，而且覆盖整个墓地之外。它们一般每<SPAN 
+lang=EN-US>1d4</SPAN>回合打击一次，但频率可能有广泛的变化。<SPAN 
+lang=EN-US><BR></SPAN>龙墓中也包含着宇宙的结构被削弱的区域。这些不稳定区域的跨度可以在从<SPAN 
+lang=EN-US>5</SPAN>英尺到<SPAN lang=EN-US>50</SPAN>英尺之间的任何地方。每<SPAN 
+lang=EN-US>1d4</SPAN>小时一次，这样的区域以相等的可能性喷出一群元素<SPAN lang=EN-US>(</SPAN>视为<SPAN 
+lang=EN-US>20</SPAN>级角色施放的<I>元素集群</I>法术<SPAN 
+lang=EN-US>)</SPAN>，或者把该不稳定区域内的一切拉入通向某个元素位面的漩涡。这种漩涡持续<SPAN 
+lang=EN-US>1d4</SPAN>分钟。在扰动期触及或进入不稳定区域的生物会被扫到某个元素位面。<SPAN 
+lang=EN-US><BR></SPAN>一个薄弱点总是萦绕着咒法系魔法的灵光<SPAN 
+lang=EN-US>(</SPAN>活跃时，灵光的强度为刺目<SPAN lang=EN-US>)</SPAN>。<SPAN 
+lang=EN-US><BR></SPAN>龙墓还有由被墓地中的超自然力量活化的龙的骷髅和僵尸<SPAN lang=EN-US>(</SPAN>见<SPAN 
+lang=EN-US>192</SPAN>和<SPAN lang=EN-US>197</SPAN>页<SPAN 
+lang=EN-US>)</SPAN>组成的不断变化的人口。这些生物攻击它们遇到的任何活物，来到墓地等死的龙除外。<SPAN 
+lang=EN-US><BR></SPAN>关于龙墓中的财宝的传说是真实的。龙墓里一般有守护者的挑战等级的三倍标准的财宝。虽然幽灵龙一般没有任何财宝，但龙墓里累积了离世的龙留下的零星财宝和来自没有经受住挑战的潜在的抢掠者的装备。<SPAN 
+lang=EN-US><BR><BR></SPAN><B>规则：被守护的地点<SPAN 
+lang=EN-US><BR></SPAN></B>龙成为守护者时，它制造出一片地理特征，龙每有<SPAN 
+lang=EN-US>5</SPAN>点体质，该区域就有大约<SPAN lang=EN-US>1</SPAN>平方英里的面积。<SPAN 
+lang=EN-US><BR></SPAN>所创造的特征总是以某种微妙的方式类似于龙。例如<SPAN 
+lang=EN-US>,</SPAN>丘陵的轮廓可能暗示着睡眠的龙<SPAN 
+lang=EN-US>,</SPAN>或者湖泊可能拥有龙的头或脚印的形状。<SPAN 
+lang=EN-US><BR></SPAN>如果生蛋的雌龙与守护者是同类，生在被守护的区域的龙蛋就被<I>回避侦测</I>和<I>海市蜃楼</I>效果隐藏。这两个效果都持续到蛋孵化为止，而且都没有魔法灵光，但在其它方面，它们的运作如同<SPAN 
+lang=EN-US>20</SPAN>级施法者施放的法术。<SPAN 
+lang=EN-US><BR></SPAN>与守护者是同类而且年龄在青少年以下的任何龙都能每月访问该区域一次并获得一个<I>通神术</I>的效果。与守护者是同类的较老的龙获得同样效果，但只有每年一次。<SPAN 
+lang=EN-US><BR></SPAN>被守护的地点的中心可能真有从守护者的转变遗留下来的少量财宝<SPAN 
+lang=EN-US>(</SPAN>藏在该地区的中心附近<SPAN 
+lang=EN-US>)</SPAN>。这样的财宝只包括硬币和物品，等级等于守护者在转变时的挑战等级的四分之一。财宝的移动不伤害被守护的地点，但大多数龙不赞成这种行为。<SPAN 
+lang=EN-US><BR></SPAN>——————————————————————————<SPAN 
+lang=EN-US><BR><BR></SPAN><B>龙巫妖<SPAN 
+lang=EN-US><BR></SPAN></B>某些恶龙谋得他人的帮助来欺骗死亡。龙和它的仆从制造一个无生命的物体，称之为命匣，它将容纳龙的生命力。<SPAN 
+lang=EN-US><BR></SPAN>接下来，为龙准备一剂特殊的饮料来饮用。该药剂是致命的毒素，它将为了龙万无一失地准备的事情而杀死它。<SPAN 
+lang=EN-US><BR></SPAN>龙死后<SPAN 
+lang=EN-US>,</SPAN>其灵魂把自身转移到命匣里。该灵魂能从命匣里占据任何躺在附近的死尸<SPAN 
+lang=EN-US>,</SPAN>包括它自己以前的身体。如果它当前居住的身体被破坏<SPAN lang=EN-US>,</SPAN>灵魂就回到命匣<SPAN 
+lang=EN-US>,</SPAN>它能从那里占据新的身体。<SPAN lang=EN-US><BR></SPAN>这个过程的结果的细节见<SPAN 
+lang=EN-US>146</SPAN>页的龙巫妖条目。<SPAN 
+lang=EN-US></SPAN></SPAN></P></DIV></BODY></HTML>

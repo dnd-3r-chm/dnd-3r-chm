@@ -1,0 +1,591 @@
+<html>
+
+<head>
+<title>12层十二树</title>
+
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document><style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:1;
+	font-size:24.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:2;
+	font-size:18.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:3;
+	font-size:13.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h4
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:4;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h5
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:5;
+	font-size:10.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h6
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-out1ine-1evel:6;
+	font-size:7.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+pre
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:21.0pt;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.1Char
+	{mso-style-name:"标题 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.3Char
+	{mso-style-name:"标题 3 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.4Char
+	{mso-style-name:"标题 4 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.5Char
+	{mso-style-name:"标题 5 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.6Char
+	{mso-style-name:"标题 6 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.Char
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"批注框文本 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char1
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.HTMLChar
+	{mso-style-name:"HTML 预设格式 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.10
+	{mso-style-name:10;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.15
+	{mso-style-name:15;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+span.16
+	{mso-style-name:16;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.17
+	{mso-style-name:17;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+span.18
+	{mso-style-name:18;
+	mso-style-unhide:no;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ 
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style="tab-interval: 21.0pt"><div class=WordSection1><p><span class=16><span style='FONT-FAMILY:
+ "微软雅黑","sans-serif"; COLOR: maroon; mso-bidi-font-family: 宋体'>十二树（<span lang=EN-US>Twelvetrees</span>）</span></span><span
+ lang=EN-US style='FONT-FAMILY: "微软雅黑","sans-serif"'><br>
+</span><span style='FONT-FAMILY: "微软雅黑","sans-serif"'>层数：<span lang=EN-US>12<br>
+</span>支配者：无<span lang=EN-US><br>
+</span></span><span style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>特性；空间有限，强烈混乱和邪恶阵营倾向<span
+ lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>无数个世纪以前，几名强大的塔那厘魔以和平会议的名义哄骗十二名星界使徒<span
+ lang=EN-US>(astral deva)</span>前来拜访无底深渊，其中每个都是一名善良神祗的代理人。当时上层位面不安地观察着那些从前的奴隶如何推翻他们的奥比里斯主人，而且还有几股天界力量寻求在未来的无底深渊中扮演一个角色。在一个针对使徒主人的简短挑战之后，恶魔们将这些外交使节们束缚在位于一个荒凉层面上的十二株巨树高耸的树干上，并通过一个邪恶的神秘仪式将他们献祭，使整个层面永远充斥着邪恶能量。<span
+ lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>后来这层面被叫做十二树，当时使徒们那战栗的死亡尖叫声仍然还弥漫在此。一座厚重的玄武岩高台现在被用来纪念那最初的献祭，它被一圈惨白而病态的树木环绕着，摹仿着那些远古使徒的血液溢出，这些树木不断地渗出灵魂粘液<span
+ lang=EN-US>(spiritual slime)</span>。在不改变法术等级的情况下，所有在此高台上施展的带有邪恶描述的法术都会受到超魔专长法术极效和法术延时的效果影响。<span
+ lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>不但为了纪念那大胆而狂妄的先人，而且还希望能利用那高台来实现自己的邪恶密谋或仪式，来自无底深渊各处的塔那厘魔前来十二树朝拜。几乎整个多元宇宙的所有塔那厘魔都知晓十二树的力量并对其表示敬重，而且对此层面的公开冒犯对任何恶魔都相当于一种侮辱。<span
+ lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>十二树的邪恶之处就在于：对某些朝圣者来说它就像毒品一样，会将它们束缚在此层面，那些恶魔的等级往往在六臂蛇魔，判魂魔，弗洛魔，以及狂战魔之下。其中大部分是半恶魔，怯魔，以及畸魔<span
+ lang=EN-US>,</span>这些不顾一切的生物挣扎着企图获得了新的形态及更强大的能力。它们沉醉于一种虔诚而忘我的恍惚状态，并对周围的世界毫无兴趣。非恶魔类的旅行者会发现漫步于此层面上是一件容易得令人惊讶的事，仅仅需要避开那些在此层面天空中巡逻的裂隙魔和一些暗杀魔，它们狂热地徘徊在恶魔群体中，企图搜索出那些伪装成恶魔者并加以残杀。一座巨型船坞被隐现在地表的巨大骨制手脚架支撑着，它被一个恶魔团体和末日卫士团位面派系的成员用来建造混乱之船。在过去十年里，有六艘这种可以在位面间移动的飞行战舰在此被建造出来。位于十二树遗迹之上的第七艘也即将完工，它上面布满了飞行恶魔，扭动翻腾的蠕虫，以及可畏的能量。笼罩在其之上的黑云不断地变幻，伴随着雷鸣声和闪光。<span
+ lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>与十二树的恶魔们理论是没有任何希望的，少数能注意到来访者的恶魔也会对他们说什么毫无兴趣。而六名末日卫士团凡人成员则完全不同，他们居住在位于一个通往帕祖尼亚的双向传送门附近的<span
+ lang=EN-US>Daern</span>瞬间要塞<span lang=EN-US>(Daern's instant fortress)</span>，访问者在那里会受到他们愉快的欢迎，因为能借此摆脱恶魔团体并休息一下。这些用自己思想构造了混乱之船的逸闻大师<span
+ lang=EN-US> (loremaster)</span>和贤者们不能理解为什么会有人反对他们的工作并企图利用访问者来干扰他们的思想观念<span
+ lang=EN-US>-</span>唯一永恒不变的就是熵，所以为什么不轻轻地推动它的前进？末日卫士团不会主动地去对抗他们的恶魔东道主，但为了组织的目的他们会对其拖延或撒谎。<span
+ lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>因为此层面有着强烈的混乱和邪恶阵营倾向，那些既非混乱亦非邪恶的角色会在智力，感知，及魅力属性的基础鉴定上承受<span
+ lang=EN-US>-4</span>的惩罚加值。混乱或邪恶的角色则要承受<span lang=EN-US>-2</span>的惩罚加值。混乱邪恶角色不会承受任何来自此层面的负面作用。<span
+ lang=EN-US></span></span></p>
+
+<p style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><span style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>凡是能听到被献祭使徒那令人不安的尖叫声的角色都要在体质属性鉴定上承受<span
+ lang=EN-US>-4</span>的惩罚加值。而且在这种尖叫声中，除了手语和心灵感应以外，无法进行其它方式的交谈。</span><span
+ lang=EN-US style="FONT-SIZE: 11pt"></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='FONT-SIZE:
+ 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; mso-no-proof: yes'><IMG id=_x0000_i1025 style="HEIGHT: 465px; WIDTH: 628px" alt="说明: C:\Users\Administrator\Desktop\未完成版\魔族法典（FC）\深渊堕群（FC1）\深渊地理\12层_十二树.files\12层_十二树1581.png" src="12层_十二树.files/12层_十二树1581.jpg" width=1241 height=794 ></span><span
+ lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'><span
+ style="mso-spacerun: yes"></span></span>&nbsp;</p>
+
+<p class=MsoNormal style="TEXT-INDENT: 22pt; mso-char-indent-count: 2.0"><b><span
+ style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"'>十二树遭遇表<span
+ lang=EN-US></span></span></b></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style="BORDER-TOP: medium none;
+ BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-alt: solid windowtext .5pt">
+ <tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+  <td width=64 valign=top style="BORDER-TOP: windowtext 1pt  solid; BORDER-RIGHT: windowtext 1pt solid; WIDTH: 48.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><b><span
+  lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >d%</span><span
+  lang=EN-US></span></b></p>
+  </td>
+  <td width=1134 valign=top style="BORDER-TOP: windowtext 1pt  solid; BORDER-RIGHT: windowtext  1pt solid; WIDTH: 850.15pt; BORDER-BOTTOM:  windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN:
+  left; TEXT-INDENT: 22pt; mso-char-indent-count: 2.0; mso-pagination: widow-orphan" 
+     ><b><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >遭遇</span><span
+  lang=EN-US></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 1">
+  <td width=64 valign=top style="BORDER-TOP: medium none;  BORDER-RIGHT: windowtext 1pt solid; WIDTH:  48.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >01-30</span></p>
+  </td>
+  <td width=1134 valign=top style="BORDER-TOP:  medium none; BORDER-RIGHT: windowtext 1pt  solid; WIDTH: 850.15pt; BORDER-BOTTOM: windowtext  1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP:  0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >PCs</span><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >吸引了三只在空中巡逻的裂隙魔注意，它们会环绕着角色盘旋飞行并用心灵感应能力进行挑衅。它们开始的态度是敌对的，必须使它们转变为友好才能避免一次攻击。</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 2">
+  <td width=64 valign=top style="BORDER-TOP: medium none;  BORDER-RIGHT: windowtext 1pt solid; WIDTH:  48.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >31-50</span></p>
+  </td>
+  <td width=1134 valign=top style="BORDER-TOP:  medium none; BORDER-RIGHT: windowtext 1pt  solid; WIDTH: 850.15pt; BORDER-BOTTOM: windowtext  1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP:  0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >一只单独的</span><span
+  
+  style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"; BACKGROUND: white; COLOR: black; mso-bidi-font-family: Arial' 
+     >暗杀魔</span><span style='FONT-SIZE:
+  11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >通过隐形潜入队伍中，并企图除去他们。</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 3">
+  <td width=64 valign=top style="BORDER-TOP: medium none;  BORDER-RIGHT: windowtext 1pt solid; WIDTH:  48.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >51-60</span></p>
+  </td>
+  <td width=1134 valign=top style="BORDER-TOP:  medium none; BORDER-RIGHT: windowtext 1pt  solid; WIDTH: 850.15pt; BORDER-BOTTOM: windowtext  1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP:  0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >一对末日卫士团的神秘人行走在忙于祈祷的恶魔之中，并利用心灵感应护符讨论一些深奥晦涩的话题。他们是<span
+  
+      lang=EN-US>Nurstle Vesst(</span>中立邪恶男性纯血蛇人法师<span lang=EN-US>10</span>级<span
+  lang=EN-US>/</span>逸闻大师<span lang=EN-US>4</span>级<span lang=EN-US>)</span>和<span
+  lang=EN-US>Astha Mellontrosh(</span>绝对中立女性人类战士<span lang=EN-US>8</span>级<span
+  lang=EN-US>/</span>末日之主<span lang=EN-US>8</span>级；<span lang=EN-US>)</span>。当与其遭遇的时候，俩人首先会处于冷漠的态度，但如果能使其态度转为友好的话，他们会邀请<span
+  
+      lang=EN-US>PCs</span>到他们的要塞。</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 4">
+  <td width=64 valign=top style="BORDER-TOP: medium none;  BORDER-RIGHT: windowtext 1pt solid; WIDTH:  48.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >61-70</span></p>
+  </td>
+  <td width=1134 valign=top style="BORDER-TOP:  medium none; BORDER-RIGHT: windowtext 1pt  solid; WIDTH: 850.15pt; BORDER-BOTTOM: windowtext  1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP:  0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >一个充满敌意的，由四名狂战魔组成的巡逻队从帕祖尼亚大门徘徊而来，在寻找一个他们可以敬拜十二树遗迹的适当地点。</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 5">
+  <td width=64 valign=top style="BORDER-TOP: medium none;  BORDER-RIGHT: windowtext 1pt solid; WIDTH:  48.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >71-80</span></p>
+  </td>
+  <td width=1134 valign=top style="BORDER-TOP:  medium none; BORDER-RIGHT: windowtext 1pt  solid; WIDTH: 850.15pt; BORDER-BOTTOM: windowtext  1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP:  0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >在十二树高台上，魅惑者<span
+  lang=EN-US>Androth(</span>混乱邪恶男性半恶魔人类术士级<span lang=EN-US>)</span>领导着由七名畸魔组成的教会正在进行一项秽恶的仪式。</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 6">
+  <td width=64 valign=top style="BORDER-TOP: medium none;  BORDER-RIGHT: windowtext 1pt solid; WIDTH:  48.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >81-90</span></p>
+  </td>
+  <td width=1134 valign=top style="BORDER-TOP:  medium none; BORDER-RIGHT: windowtext 1pt  solid; WIDTH: 850.15pt; BORDER-BOTTOM: windowtext  1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP:  0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >附近的一只弗洛魔从它的虔诚冥想中苏醒并企图攻击<span
+  lang=EN-US>PCs</span>。</span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow: 7; mso-yfti-lastrow: yes">
+  <td width=64 valign=top style="BORDER-TOP: medium none;  BORDER-RIGHT: windowtext 1pt solid; WIDTH:  48.35pt; BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >91-100</span></p>
+  </td>
+  <td width=1134 valign=top style="BORDER-TOP:  medium none; BORDER-RIGHT: windowtext 1pt  solid; WIDTH: 850.15pt; BORDER-BOTTOM: windowtext  1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP:  0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: medium none; PADDING-RIGHT: 5.4pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt"    >
+  <p class=MsoNormal align=left style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+     ><span
+  
+      style='FONT-SIZE: 11pt; FONT-FAMILY: "微软雅黑","sans-serif"' 
+     >一个诱人的六臂蛇魔出现在<span
+  lang=EN-US>PCs</span>面前并且恳求他们去杀死她的一名祈祷中的对手。如果被拒绝的话，她会消失返回巢穴并发誓以后要报复他们。</span></p></td></tr></table></div></body>
+
+</html>
