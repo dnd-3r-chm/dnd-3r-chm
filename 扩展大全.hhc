@@ -205,7 +205,7 @@
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="群体模板">
+                      <param name="Name" value="特殊遭遇">
                       <param name="Local" value="1 核心补充书籍\DMG2城主指南2\群体模板.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
@@ -219,7 +219,7 @@
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="陷阱补丁">
+                          <param name="Name" value="更多陷阱">
                           <param name="Local" value="1 核心补充书籍\DMG2城主指南2\新物品\陷阱补丁.html">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
