@@ -381,16 +381,6 @@
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="魂刃者">
-                      <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\2基础\魂刃者.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="狂念者">
-                      <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\2基础\狂念者.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="心灵术士">
                       <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\2基础\心灵术士.htm">
                       <param name="ImageNumber" value="11">
@@ -398,6 +388,16 @@
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="心灵武士">
                       <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\2基础\心灵武士.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="魂刃者">
+                      <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\2基础\魂刃者.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="狂念者">
+                      <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\2基础\狂念者.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
