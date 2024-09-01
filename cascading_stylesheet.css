@@ -8,9 +8,9 @@ h4{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
 h5{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
 h6{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
 /*正文的字号</b>：14px为五号*/
-p{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}
+p{margin-top: 3.6px; margin-bottom: 3.6px;}
 /*表格边框合并为细实线，表内字号与正文取同*/
-table {border-collapse: collapse; font-size: 14px;}
+table {border-collapse: collapse;}
 table, th, /*单元格边框为1px的黑色细线，边框与文字的横向间距为5.4px*/
 td{border: 1px solid black; padding-left: 5.4px; padding-right: 5.4px;}
-ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}
+ul{margin-top: 3.6px; margin-bottom: 3.6px;}

@@ -1,3 +1,9 @@
+#define IDH_1_ 2605
+#define IDH_____244 2606
+#define IDH____1055 2607
+#define IDH___799 2608
+#define IDH___800 2609
+#define IDH__ 1
 #define IDH_NPC_ 2
 #define IDH___ 3
 #define IDH____2 4
@@ -2600,4 +2606,3 @@
 #define IDH____1099 2602
 #define IDH____1100 2603
 #define IDH____1101 2604
-#define IDH__ 1
