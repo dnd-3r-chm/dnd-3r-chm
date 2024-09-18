@@ -439,7 +439,7 @@
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="4. 灵能 (Psionic)">
+                  <param name="Name" value=".">
                   <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\5灵能\灵能.htm">
                   <param name="ImageNumber" value="3">
                 </OBJECT>
@@ -471,7 +471,7 @@
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="5. 异能 (Powers)">
+                  <param name="Name" value="5. 异能">
                   <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\6显能\异能.htm">
                   <param name="ImageNumber" value="3">
                 </OBJECT>
@@ -13999,7 +13999,6 @@
         <UL>
             <LI><OBJECT type="text/sitemap">
               <param name="Name" value="灰鹰 Greyhawk">
-              <param name="Local" value="9 世设\灰鹰\灰鹰综述.html">
             </OBJECT>
             <UL>
                 <LI><OBJECT type="text/sitemap">
@@ -14020,7 +14019,7 @@
                   <param name="ImageNumber" value="11">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[2e]灰鹰学院：魔法技校学徒">
+                  <param name="Name" value="灰鹰学院">
                   <param name="Local" value="9 世设\灰鹰\灰鹰学院.html">
                   <param name="ImageNumber" value="11">
                 </OBJECT>
