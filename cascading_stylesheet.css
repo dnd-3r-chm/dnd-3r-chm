@@ -1,16 +1,16 @@
-/*å…¨æ–‡çš„å­—ä½“*/
-body {font-family: Consolas,'å¾®è½¯é›…é»‘',sans-serif;}
-/*æ ‡é¢˜é¢œè‰²é‡‡ç”¨æœå›­æ’ç‰ˆçš„ç´«çº¢ï¼Œè¡Œå‰é—´è·å„æœ‰ä¸åŒï¼Œè¡Œåé—´è·ä¸æ­£æ–‡ç›¸åŒå–3.6px*/
+/*È«ÎÄµÄ×ÖÌå*/
+body {font-family: Consolas,'Î¢ÈíÑÅºÚ',sans-serif;}
+/*±êÌâÑÕÉ«²ÉÓÃ¹ûÔ°ÅÅ°æµÄ×Ïºì£¬ĞĞÇ°¼ä¾à¸÷ÓĞ²»Í¬£¬ĞĞºó¼ä¾àÓëÕıÎÄÏàÍ¬È¡3.6px*/
 h1{color: maroon; margin-bottom: 3.6px;}
 h2{color: maroon; margin-bottom: 3.6px;}
 h3{color: maroon; margin-top: 14.4px; margin-bottom: 3.6px;}
 h4{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
 h5{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
 h6{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-/*æ­£æ–‡çš„å­—å·</b>ï¼š14pxä¸ºäº”å·*/
-p{margin-top: 3.6px; margin-bottom: 3.6px;}
-/*è¡¨æ ¼è¾¹æ¡†åˆå¹¶ä¸ºç»†å®çº¿ï¼Œè¡¨å†…å­—å·ä¸æ­£æ–‡å–åŒ*/
-table {border-collapse: collapse;}
-table, th, /*å•å…ƒæ ¼è¾¹æ¡†ä¸º1pxçš„é»‘è‰²ç»†çº¿ï¼Œè¾¹æ¡†ä¸æ–‡å­—çš„æ¨ªå‘é—´è·ä¸º5.4px*/
+/*ÕıÎÄµÄ×ÖºÅ</b>£º14pxÎªÎåºÅ*/
+p{font-size: 14px;margin-top: 3.6px; margin-bottom: 3.6px;}
+/*±í¸ñ±ß¿òºÏ²¢ÎªÏ¸ÊµÏß£¬±íÄÚ×ÖºÅÓëÕıÎÄÈ¡Í¬*/
+table {font-size: 14px;border-collapse: collapse;}
+table, th, /*µ¥Ôª¸ñ±ß¿òÎª1pxµÄºÚÉ«Ï¸Ïß£¬±ß¿òÓëÎÄ×ÖµÄºáÏò¼ä¾àÎª5.4px*/
 td{border: 1px solid black; padding-left: 5.4px; padding-right: 5.4px;}
-ul{margin-top: 3.6px; margin-bottom: 3.6px;}
+ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}

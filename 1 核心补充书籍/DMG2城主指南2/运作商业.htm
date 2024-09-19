@@ -1,20 +1,4 @@
-<html><head><title>运作商业</title>
-<style>/*全文的字体*/
-body {font-family: Consolas,'微软雅黑',sans-serif;}
-/*标题颜色采用果园排版的紫红，行前间距各有不同，行后间距与正文相同取3.6px*/
-h1{color: maroon; margin-bottom: 3.6px;}
-h2{color: maroon; margin-bottom: 3.6px;}
-h3{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-h4{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-h5{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-h6{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-/*正文的字号：14px为五号*/
-p{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}
-/*表格边框合并为细实线，表内字号与正文取同*/
-table {border-collapse: collapse; font-size: 14px;}
-table, th, /*单元格边框为1px的黑色细线，边框与文字的横向间距为5.4px*/
-td{border: 1px solid black; padding-left: 5.4px; padding-right: 5.4px;}
-ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}</style></head><body>
+<html><head><title>运作商业</title><link rel="stylesheet" href="../../cascading_stylesheet.css"></head><body>
 <h1>运作商业</h1>
 <h2>商业运作</h2>
 <table><tbody align=center><tr style="font-weight: bold;"><td>名称</td><td>主技能</td><td>次要技能</td><td>联合工会</td><td>资本投入</td><td>资源投入</td><td>风险</td></tr>
@@ -38,7 +22,7 @@ ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}</style></head><bod
 <tr><td>村镇</td><td>+0</td><td>4000</td><td>8000</td><td>16000</td></tr>
 <tr><td>城市</td><td>+2</td><td>8000</td><td>16000</td><td>32000</td></tr>
 <tr><td>大都会</td><td>+4</td><td>16000</td><td>32000</td><td>64000</td></tr></tbody></table>
-<p>开业的地点几乎不影响运作商业对于建筑物和员工的要求，但是这两个要素（建筑物、员工）影响资源投入。建筑物的花费参考《城主指南》3-27表格</p>
+<p>开业的地点几乎不影响运作商业对于建筑物和员工的要求，但是这两个要素（建筑物、员工）影响资源投入。<br>建筑物的花费参考《城主指南》3-27表格</p>
 <h3>资源投入</h3>
 <table><tbody align=center><tr style="font-weight: bold;"><td>需求</td><td>建筑物类型和花费（金币）</td><td>雇员</td></tr>
 <tr><td>低</td><td>1个简单房屋（1000）或两匹马+一辆马车（总计500）</td><td>0</td></tr>
@@ -83,7 +67,7 @@ ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}</style></head><bod
 <p>类似于技能协助，可以雇佣专业人士，或者与专业人士谈判（交涉检定）得到合同（大概是这样，嗯嗯）。</p>
 <h3>商业遭遇</h3>
 <p>接下来就是变卖，破产（借债、赤贫等等）商业遭遇事件，嗯嗯，大概意思就是这样的<br>投d20加上调整，选择事件</p>
-<table><tbody align=center><tr style="font-weight: bold;"><td>D20</td><td>遭遇</td><td>说明</td></tr>
+<table><tbody><tr style="font-weight: bold;"><td>D20</td><td>遭遇</td><td>说明</td></tr>
 <tr><td>1</td><td>怪物</td><td>怪物来袭击雇员、建筑或者全部，怪物的cr等于店主人物等级。如果没打败他，下次利润检定-6并且支付维修费2d10x100gp</td></tr>
 <tr><td>2</td><td>强盗</td><td>El=店主等级-2的强盗团伙来访。</td></tr>
 <tr><td>3</td><td>受伤的冒险者</td><td>一个受伤的冒险者来到了店里，他寻求医疗或保护。这个家伙不一定是他看上去的那样，他可能是来访的强盗或者怪物，来找店主要点钱。</td></tr>
@@ -110,15 +94,8 @@ ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}</style></head><bod
 <tr><td>24</td><td>经销特权</td><td>以不低于1000gp的投入来打开销路，销往外地或本地（需考虑所在地城市规模），每1000gp投入获得+5利润检定，每个月递减1的利润检定加值，直到永久保持+1的利润检定加值。</td></tr>
 <tr><td>25</td><td>慕名者</td><td>一个cr比店主-2的npc来访，希望获得帮助：雇佣或服务等</td></tr></tbody></table>
 <h4>商业遭遇调整值</h4>
-<table><tbody align=center><tr style="font-weight: bold;"><td>位置</td><td>调整</td></tr>
-<tr><td>坐落荒野</td><td>-2</td></tr>
-<tr><td>农庄</td><td>+0</td></tr>
-<tr><td>镇子</td><td>+1</td></tr>
-<tr><td>城市</td><td>+2</td></tr>
-<tr><td>店主声望</td><td>调整</td></tr>
-<tr><td>超级无名</td><td>-2</td></tr>
-<tr><td>非常有名</td><td>+2</td></tr>
-<tr><td>商业状况</td><td>调整</td></tr>
-<tr><td>持续损失</td><td>-1</td></tr>
-<tr><td>一般般</td><td>+0</td></tr>
-<tr><td>火爆</td><td>+1</td></tr></tbody></table></BODY></HTML>
+<table><tbody align=center><tr style="font-weight: bold;"><td>位置</td><td>调整</td><td rowspan=5></td><td>店主声望</td><td>调整</td><td rowspan=5></td><td>商业状况</td><td>调整</td></tr>
+<tr><td>坐落荒野</td><td>-2</td><td>超级无名</td><td>-2</td><td>持续损失</td><td>-1</td></tr>
+<tr><td>农庄</td><td>+0</td><td>非常有名</td><td>+2</td><td>一般般</td><td>+0</td></tr>
+<tr><td>镇子</td><td>+1</td><td colspan=2 rowspan=2></td><td>火爆</td><td>+1</td></tr>
+<tr><td>城市</td><td>+2</td></tr></tbody></table></BODY></HTML>
