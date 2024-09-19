@@ -439,11 +439,7 @@
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-<<<<<<< HEAD
-                  <param name="Name" value="4. 灵能">
-=======
                   <param name="Name" value="4. 灵能 (Psionic)">
->>>>>>> origin/main
                   <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\5灵能\灵能.htm">
                   <param name="ImageNumber" value="3">
                 </OBJECT>
@@ -475,11 +471,7 @@
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-<<<<<<< HEAD
-                  <param name="Name" value="5. 心灵异能">
-=======
                   <param name="Name" value="5. 异能 (Powers)">
->>>>>>> origin/main
                   <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\6显能\异能.htm">
                   <param name="ImageNumber" value="3">
                 </OBJECT>
