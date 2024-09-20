@@ -1,0 +1,21 @@
+<html lang="zh-CN">
+<head><meta charset="gb2312">
+<title>剧透功能测试</title>
+<link rel="stylesheet" href="../cascading_stylesheet.css">
+</head><body>
+<div style="margin:20px; margin-top:5px">
+    <div style="margin-bottom:2px">
+        <b>果园剧透功能</b>: 
+        <input 
+        type="button" 
+        value="显示" 
+        style="width:60px;font-size:10px;margin:0px;padding:0px;" 
+        onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+    </div>
+    <div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;">
+        <div style="display: none;">
+            实现了！
+        </div>
+    </div>
+</div>
+</body></html>
