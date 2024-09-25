@@ -1,21 +1,28 @@
 <html lang="zh-CN">
 <head><meta charset="gb2312">
 <title>剧透功能测试</title>
-<link rel="stylesheet" href="../cascading_stylesheet.css">
+<link rel="stylesheet" href="../style_new.css">
 </head><body>
 <div style="margin:20px; margin-top:5px">
-    <div style="margin-bottom:2px">
-        <b>果园剧透功能</b>: 
-        <input 
-        type="button" 
-        value="显示" 
-        style="width:60px;font-size:10px;margin:0px;padding:0px;" 
-        onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
-    </div>
-    <div class="alt2" style="margin: 0px; padding: 6px; border: 1px inset;">
-        <div style="display: none;">
-            实现了！
-        </div>
-    </div>
+	<div style="margin-bottom:2px">
+		<h1>剧透功能测试</h1>
+		<input type="button" value="显示" style="font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+	</div>
+	<div style="margin: 0px; padding: 6px; border: 1px inset;">
+		<div style="display: none;">
+			<p>实现了！</p>
+		</div>
+	</div>
+</div>
+<div style="margin:20px; margin-top:5px">
+	<div style="margin-bottom:2px">
+		<h2 style="display: inline;">按钮位置调整</h2>
+		<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+	</div>
+	<div style="margin: 0px; padding: 6px; border: 1px inset;">
+		<div style="display: none;">
+			<p>实现了！</p>
+		</div>
+	</div>
 </div>
 </body></html>

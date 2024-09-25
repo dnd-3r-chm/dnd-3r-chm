@@ -1,16 +1,22 @@
 /*全文的字体*/
-body {font-family: Consolas,'微软雅黑',sans-serif;}
-/*标题颜色采用果园排版的紫红，行前间距各有不同，行后间距与正文相同取3.6px*/
-h1{color: maroon; margin-bottom: 3.6px;}
-h2{color: maroon; margin-bottom: 3.6px;}
-h3{color: maroon; margin-top: 14.4px; margin-bottom: 3.6px;}
-h4{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-h5{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-h6{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-/*正文的字号</b>：14px为五号*/
-p{font-size: 14px;margin-top: 3.6px; margin-bottom: 3.6px;}
+body {font-family: Segoe UI,'微软雅黑',sans-serif;}
+
+/*标题颜色采用果园排版的紫红，行间距暂定4.8+2.4=7.2px*/
+h1{font-size: 29px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+h2{font-size: 24px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+h3{font-size: 22px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+h4{font-size: 20px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+h5{font-size: 18px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+h6{font-size: 16px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+
+/*正文的字体字号：14px为五号，行首缩进2字符*/
+p{ font-size: 14px; margin-bottom: 4.8px; margin-top: 2.4px; 	text-indent: 2em; }
+.noindent {text-indent: 0;}/*无需缩进的行首*/
+
 /*表格边框合并为细实线，表内字号与正文取同*/
-table {font-size: 14px;border-collapse: collapse;}
-table, th, /*单元格边框为1px的黑色细线，边框与文字的横向间距为5.4px*/
-td{border: 1px solid black; padding-left: 5.4px; padding-right: 5.4px;}
-ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}
+table {font-size: 14px; border-collapse: collapse;}
+table, th, /*单元格边框为1px的黑色细线，边框与文字的横向间距为3.6px*/
+td{border: 1px solid black; padding-left: 3.6px; padding-right: 3.6px;}
+
+/*无序列表字号为14px，缩进2字符*/
+ul{font-size: 14px; margin-left: 2em; margin-bottom: 4.8px; margin-top: 2.4px;}
