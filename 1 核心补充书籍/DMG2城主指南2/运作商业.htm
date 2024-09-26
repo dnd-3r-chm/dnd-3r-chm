@@ -1,23 +1,7 @@
-<html><head><title>运作商业</title>
-<style>/*全文的字体*/
-body {font-family: Consolas,'微软雅黑',sans-serif;}
-/*标题颜色采用果园排版的紫红，行前间距各有不同，行后间距与正文相同取3.6px*/
-h1{color: maroon; margin-bottom: 3.6px;}
-h2{color: maroon; margin-bottom: 3.6px;}
-h3{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-h4{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-h5{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-h6{color: maroon; margin-top: 3.6px; margin-bottom: 3.6px;}
-/*正文的字号：14px为五号*/
-p{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}
-/*表格边框合并为细实线，表内字号与正文取同*/
-table {border-collapse: collapse; font-size: 14px;}
-table, th, /*单元格边框为1px的黑色细线，边框与文字的横向间距为5.4px*/
-td{border: 1px solid black; padding-left: 5.4px; padding-right: 5.4px;}
-ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}</style></head><body>
+<html><head><title>运作商业</title><link rel="stylesheet" href="../../cascading_stylesheet.css"></head><body>
 <h1>运作商业</h1>
 <h2>商业运作</h2>
-<table><tbody align=center><tr style="font-weight: bold;"><td>名称</td><td>主技能</td><td>次要技能</td><td>联合工会</td><td>资本投入</td><td>资源投入</td><td>风险</td></tr>
+<table align=center><tbody align=center><tr style="font-weight: bold;"><td>名称</td><td>主技能</td><td>次要技能</td><td>联合工会</td><td>资本投入</td><td>资源投入</td><td>风险</td></tr>
 <tr><td>犯罪组织</td><td>威吓</td><td>知识(本地)；威吓</td><td>犯罪</td><td>高</td><td>高</td><td>高</td></tr>
 <tr><td>农庄</td><td>专业(农民)</td><td>驯养动物；知识(自然)</td><td>自然</td><td>低</td><td>低</td><td>低</td></tr>
 <tr><td>斗士学校</td><td>BAB</td><td>威吓；手艺</td><td>商会</td><td>低</td><td>高</td><td>中</td></tr>
@@ -29,26 +13,28 @@ ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}</style></head><bod
 <tr><td>马戏团</td><td>表演</td><td>特殊</td><td>服务业</td><td>中</td><td>低</td><td>低</td></tr>
 <tr><td>大学</td><td>知识</td><td>交涉；专业(老师)</td><td>奥术、宗教或学校</td><td>高</td><td>中</td><td>低</td></tr></tbody></table>
 <h3>选择开业地点</h3>
-<table><tbody align=center><tr style="font-weight: bold;"><td rowSpan=2><p><b>地点</td>
-<td rowSpan=2><p><b>收益调整</td>
-<td colSpan=3><p><b>资本投入金额（金币）</td></tr>
+<table align=center><tbody align=center><tr style="font-weight: bold;"><td rowSpan=2><p><b>地点</b></td>
+<td rowSpan=2><p><b>收益调整</b></td>
+<td colSpan=3><p><b>资本投入金额（金币）</b></td></tr>
 <tr style="font-weight: bold;"><td>低类型</td><td>中类型</td><td>高类型</td></tr>
 <tr><td>荒野</td><td>-10</td><td>500</td><td>2000</td><td>4000</td></tr>
 <tr><td>农庄</td><td>-4</td><td>2000</td><td>4000</td><td>8000</td></tr>
 <tr><td>村镇</td><td>+0</td><td>4000</td><td>8000</td><td>16000</td></tr>
 <tr><td>城市</td><td>+2</td><td>8000</td><td>16000</td><td>32000</td></tr>
 <tr><td>大都会</td><td>+4</td><td>16000</td><td>32000</td><td>64000</td></tr></tbody></table>
-<p>开业的地点几乎不影响运作商业对于建筑物和员工的要求，但是这两个要素（建筑物、员工）影响资源投入。建筑物的花费参考《城主指南》3-27表格</p>
+<p>开业的地点几乎不影响运作商业对于建筑物和员工的要求，但是这两个要素（建筑物、员工）影响资源投入。</p>
+<p>建筑物的花费参考《城主指南》3-27表格</p>
 <h3>资源投入</h3>
-<table><tbody align=center><tr style="font-weight: bold;"><td>需求</td><td>建筑物类型和花费（金币）</td><td>雇员</td></tr>
+<table align=center><tbody align=center><tr style="font-weight: bold;"><td>需求</td><td>建筑物类型和花费（金币）</td><td>雇员</td></tr>
 <tr><td>低</td><td>1个简单房屋（1000）或两匹马+一辆马车（总计500）</td><td>0</td></tr>
 <tr><td>中</td><td>1个中等房屋（5000）</td><td>5</td></tr>
 <tr><td>高</td><td>1个豪宅（100000）</td><td>20</td></tr></tbody></table>
-<p><b>说明</b>：运行在马车类型的游商在收益检定上有-2调整。<br>高资源投入类型可以运作在任何价值等同的许多房屋和塔组成的群落上。</p>
+<p><b>说明</b>：运行在马车类型的游商在收益检定上有-2调整。</p>
+<p>高资源投入类型可以运作在任何价值等同的许多房屋和塔组成的群落上。</p>
 <h3>商业运作的效果</h3>
 <p>每个月，店主进行一个效果检定，使用对应商业类型主要需求的技能，1d20+主技能+其他调整。在拥有对应技能至少一点的情况下，店主可以在检定中取10.他永远不能在该检定中取20。</p>
 <p>表格：检定调整</p>
-<table><tbody align=center><tr style="font-weight: bold;"><td>情况</td><td>调整</td></tr>
+<table align=center><tbody align=center><tr style="font-weight: bold;"><td>情况</td><td>调整</td></tr>
 <tr><td>店主在所有次级技能上有5点</td><td>+1</td></tr>
 <tr><td>店主在所有次级技能上有10点</td><td>+2</td></tr>
 <tr><td>店主在所有次级技能上有15点</td><td>+3</td></tr>
@@ -67,23 +53,29 @@ ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}</style></head><bod
 <tr><td>重要检定失败</td><td>-1对应每次连续的失败</td></tr>
 <tr><td>一个商业伙伴进行成功的协助检定<sup>[1]</sup></td><td>+2</td></tr>
 <tr><td>对应专攻<sup>[2]</sup></td><td>可调</td></tr></tbody></table>
-<p>[1] 商业伙伴可以是雇佣的专家、队伍或者另一个PC。成功的协助检定指的是主要商业技能的协助检定。<br>[2] 每个专攻的主要商业技能，+2检定；每个专攻的辅助商业技能，+1检定。<br>
+<p>[1] 商业伙伴可以是雇佣的专家、队伍或者另一个PC。成功的协助检定指的是主要商业技能的协助检定。</p>
+<p>[2] 每个专攻的主要商业技能，+2检定；每个专攻的辅助商业技能，+1检定。</p>
+<p>
 <b>专长“商业领会”</b>：你在所有的利润结果检定中得到+2加值。额外的，当你进行商业相关的任何攻击、豁免和其他检定，你得到+1的加值。</p>
-<p>检定完毕之后，结果-25，得到利润值结果，一个负值的结果说明遭到了损失，一个正的结果说明盈利。<br>不同的风险类型决定了最后的盈利，风险越高，盈利/损失就越大。</p>
-<table><tbody align=center><tr style="font-weight: bold;"><td>风险类型</td><td>利润（金币）</td></tr>
+<p>检定完毕之后，结果-25，得到利润值结果，一个负值的结果说明遭到了损失，一个正的结果说明盈利。</p>
+<p>不同的风险类型决定了最后的盈利，风险越高，盈利/损失就越大。</p>
+<table align=center><tbody align=center><tr style="font-weight: bold;"><td>风险类型</td><td>利润（金币）</td></tr>
 <tr><td>低</td><td>利润值x5</td></tr>
 <tr><td>中</td><td>利润值x20</td></tr>
 <tr><td>高</td><td>利润值x50</td></tr></tbody></table>
 <h3>日常花费：</h3>
-<p>一般来说，所有的商业运作需要支付运作费用，包括雇员薪水、房屋损耗、原料款、税等等。为简便起见，这些花费已经计入了利润值检定中。（我估计就是那-25）<br>除此之外，还有一些特别的花费，比如更多的雇员，任何可能的升级物品。</p>
-<p>一个专业雇员指的是在专业、手艺技能上拥有8点或更多的技能值。如果该技能是商业次要技能，则利润值检定+1；如果是主要技能，则+2。<br>专业雇员的花费也较高。第一个专业雇员的花费为10gp/月，每多一个专业雇员，花费比前一个增加20gp。所以第二个专业雇员需20gp/月的花费。以此类推，当你拥有3个专业雇员的时候，共花费90gp（第一个10，第二个30，第三个50）。</p>
+<p>一般来说，所有的商业运作需要支付运作费用，包括雇员薪水、房屋损耗、原料款、税等等。为简便起见，这些花费已经计入了利润值检定中。（我估计就是那-25）</p>
+<p>除此之外，还有一些特别的花费，比如更多的雇员，任何可能的升级物品。</p>
+<p>一个专业雇员指的是在专业、手艺技能上拥有8点或更多的技能值。如果该技能是商业次要技能，则利润值检定+1；如果是主要技能，则+2。</p>
+<p>专业雇员的花费也较高。第一个专业雇员的花费为10gp/月，每多一个专业雇员，花费比前一个增加20gp。所以第二个专业雇员需20gp/月的花费。以此类推，当你拥有3个专业雇员的时候，共花费90gp（第一个10，第二个30，第三个50）。</p>
 <h3>商业升级</h3>
 <p>每花费25%最初的资本需求用来升级当前商业，你可以投1d4，并将结果永久加在利润检定中。</p>
 <h3>商业伙伴</h3>
 <p>类似于技能协助，可以雇佣专业人士，或者与专业人士谈判（交涉检定）得到合同（大概是这样，嗯嗯）。</p>
 <h3>商业遭遇</h3>
-<p>接下来就是变卖，破产（借债、赤贫等等）商业遭遇事件，嗯嗯，大概意思就是这样的<br>投d20加上调整，选择事件</p>
-<table><tbody align=center><tr style="font-weight: bold;"><td>D20</td><td>遭遇</td><td>说明</td></tr>
+<p>接下来就是变卖，破产（借债、赤贫等等）商业遭遇事件，嗯嗯，大概意思就是这样的</p>
+<p>投d20加上调整，选择事件</p>
+<table><tbody><tr style="font-weight: bold;"><td>D20</td><td>遭遇</td><td>说明</td></tr>
 <tr><td>1</td><td>怪物</td><td>怪物来袭击雇员、建筑或者全部，怪物的cr等于店主人物等级。如果没打败他，下次利润检定-6并且支付维修费2d10x100gp</td></tr>
 <tr><td>2</td><td>强盗</td><td>El=店主等级-2的强盗团伙来访。</td></tr>
 <tr><td>3</td><td>受伤的冒险者</td><td>一个受伤的冒险者来到了店里，他寻求医疗或保护。这个家伙不一定是他看上去的那样，他可能是来访的强盗或者怪物，来找店主要点钱。</td></tr>
@@ -110,15 +102,8 @@ ul{font-size: 14px; margin-top: 3.6px; margin-bottom: 3.6px;}</style></head><bod
 <tr><td>24</td><td>经销特权</td><td>以不低于1000gp的投入来打开销路，销往外地或本地（需考虑所在地城市规模），每1000gp投入获得+5利润检定，每个月递减1的利润检定加值，直到永久保持+1的利润检定加值。</td></tr>
 <tr><td>25</td><td>慕名者</td><td>一个cr比店主-2的npc来访，希望获得帮助：雇佣或服务等</td></tr></tbody></table>
 <h4>商业遭遇调整值</h4>
-<table><tbody align=center><tr style="font-weight: bold;"><td>位置</td><td>调整</td></tr>
-<tr><td>坐落荒野</td><td>-2</td></tr>
-<tr><td>农庄</td><td>+0</td></tr>
-<tr><td>镇子</td><td>+1</td></tr>
-<tr><td>城市</td><td>+2</td></tr>
-<tr><td>店主声望</td><td>调整</td></tr>
-<tr><td>超级无名</td><td>-2</td></tr>
-<tr><td>非常有名</td><td>+2</td></tr>
-<tr><td>商业状况</td><td>调整</td></tr>
-<tr><td>持续损失</td><td>-1</td></tr>
-<tr><td>一般般</td><td>+0</td></tr>
-<tr><td>火爆</td><td>+1</td></tr></tbody></table></BODY></HTML>
+<table align=center><tbody align=center><tr style="font-weight: bold;"><td>位置</td><td>调整</td><td rowspan=5></td><td>店主声望</td><td>调整</td><td rowspan=5></td><td>商业状况</td><td>调整</td></tr>
+<tr><td>坐落荒野</td><td>-2</td><td>超级无名</td><td>-2</td><td>持续损失</td><td>-1</td></tr>
+<tr><td>农庄</td><td>+0</td><td>非常有名</td><td>+2</td><td>一般般</td><td>+0</td></tr>
+<tr><td>镇子</td><td>+1</td><td colspan=2 rowspan=2></td><td>火爆</td><td>+1</td></tr>
+<tr><td>城市</td><td>+2</td></tr></tbody></table></BODY></HTML>
