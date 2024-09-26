@@ -14072,11 +14072,6 @@
                   <param name="ImageNumber" value="11">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[2e]灰鹰学院：魔法技校学徒">
-                  <param name="Local" value="9 世设\灰鹰\灰鹰学院.html">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="绿龙旅店">
                   <param name="Local" value="9 世设\灰鹰\绿龙酒馆.html">
                   <param name="ImageNumber" value="21">
@@ -14793,6 +14788,41 @@
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="如何使用本书？">
+                          <param name="Local" value="9 世设\其他世设\PS\1引言\如何使用本书.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="配套书目">
+                          <param name="Local" value="9 世设\其他世设\PS\1引言\你还需要什么.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="多元宇宙与位面居民">
+                          <param name="Local" value="9 世设\其他世设\PS\1引言\多元宇宙与位面居民.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="定义何为现实">
+                          <param name="Local" value="9 世设\其他世设\PS\1引言\定义现实.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="阵营的区别">
+                          <param name="Local" value="9 世设\其他世设\PS\1引言\阵营的区别.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="设定集的历史">
+                          <param name="Local" value="9 世设\其他世设\PS\1引言\设定集历史.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="冒险和阴谋">
+                          <param name="Local" value="9 世设\其他世设\PS\1引言\冒险与阴谋.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="欢迎来到巨环">
                           <param name="Local" value="9 世设\其他世设\PS\1引言\巨环.htm">
                           <param name="ImageNumber" value="11">
@@ -14820,8 +14850,166 @@
                       <param name="Name" value="3. 派系组织">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="4. 技能和专长">
+                      <param name="Name" value="4. 技能专长和通用进阶">
+                      <param name="Local" value="9 世设\其他世设\PS\4技能专长.htm">
+                      <param name="ImageNumber" value="3">
                     </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="新的技能">
+                          <param name="Local" value="9 世设\其他世设\PS\4技能专长\技能部分.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="新的专长">
+                          <param name="Local" value="9 世设\其他世设\PS\4技能专长\专长简表.htm">
+                          <param name="ImageNumber" value="3">
+                        </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="一般专长">
+                              <param name="Local" value="9 世设\其他世设\PS\4技能专长\一般专长.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="派系专长">
+                            </OBJECT>
+                            <UL>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="A">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="B">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="C">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="D">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="E">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="F">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="G">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="H">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="I">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="J">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="K">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="L">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="M">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="N">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="O">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="P">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="R">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="S">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="T">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="U">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="V">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="W">
+                                </OBJECT>
+                            </UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="地域专长">
+                              <param name="Local" value="9 世设\其他世设\PS\4技能专长\地域专长.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="通用进阶职业">
+                        </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="深渊战士">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="黄泉战帅">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="星界滑行者">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="逻辑心智">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="以太强盗">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="以太行者哨兵">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="腹地匪徒">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="咆哮者">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="位面侦探">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="位面行者">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="位面猎手">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="天空巫师">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="旋风苦修士">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="泽斯武者">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
+                    </UL>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="5. 位面中的魔法">
                     </OBJECT>
@@ -14857,11 +15045,6 @@
           <param name="ImageNumber" value="1">
         </OBJECT>
         <UL>
-            <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="出版书籍顺序">
-              <param name="Local" value="10 附录\出版书籍顺序.htm">
-              <param name="ImageNumber" value="17">
-            </OBJECT>
             <LI><OBJECT type="text/sitemap">
               <param name="Name" value="职业优化心得">
               <param name="ImageNumber" value="1">
@@ -14996,19 +15179,19 @@
                 </UL>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="测试用页面">
+              <param name="Name" value="出版书籍顺序">
+              <param name="Local" value="10 附录\出版书籍顺序.htm">
+              <param name="ImageNumber" value="21">
             </OBJECT>
-            <UL>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="剧透功能">
-                  <param name="Local" value="10 附录\测试页面.htm">
-                  <param name="ImageNumber" value="41">
-                </OBJECT>
-            </UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="测试用页面">
+              <param name="Local" value="10 附录\测试页面.htm">
+              <param name="ImageNumber" value="41">
+            </OBJECT>
             <LI><OBJECT type="text/sitemap">
               <param name="Name" value="如何为扩展大全做出贡献">
               <param name="Local" value="10 附录\如何为扩展大全做出贡献.htm">
-              <param name="ImageNumber" value="17">
+              <param name="ImageNumber" value="9">
             </OBJECT>
             <LI><OBJECT type="text/sitemap">
               <param name="Name" value="版本历史">
