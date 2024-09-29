@@ -1,0 +1,181 @@
+<html lang="zh-CN">
+<head><meta charset="gb2312">
+<title>标签与格式</title>
+<link rel="stylesheet" href="../../cascading_stylesheet.css">
+</head><body>
+	<h1>标签与格式</h1>
+	<p>在准备好相应的工具后，我们可以开始进行html的编辑了。在这里，我们先打开记事本，随便键入一些内容，如下图所示。</p>
+	<div style="margin:20px; margin-top:5px">
+		<div style="margin-bottom:2px">
+			<p style="display: inline;">图片已折叠</p>
+			<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+		</div>
+		<div style="margin: 0px; padding: 6px; border: 1px inset;">
+			<div style="display: none;">
+				<img src="标签与格式/记事本1.png" width="auto" height="auto">
+			</div>
+		</div>
+	</div>
+	<p>接下来，让我们先点击保存，做好文件的命名，并将其修改为.htm或.html格式。请注意，这两种格式实际上没有区别，只是早期系统的后缀名无法超出3个字母，因此简写为htm。</p>
+	<p>现在我们打开这个页面文件就如同下图所示了：</p>
+	<div style="margin:20px; margin-top:5px">
+		<div style="margin-bottom:2px">
+			<p style="display: inline;">图片已折叠</p>
+			<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+		</div>
+		<div style="margin: 0px; padding: 6px; border: 1px inset;">
+			<div style="display: none;">
+				<img src="标签与格式/记事本2.png" width="auto" height="auto">
+			</div>
+		</div>
+	</div>
+	<h2>纯文本与超文本</h2>
+	<p>细心的朋友可能会发现，咦？怎么我的换行全部消失了？</p>
+	<p>这是因为在记事本中敲入的文字是"纯文本"，也就是说，它不包含图片等媒体文件，也不包含文字样式。即使在记事本中改变文字的格式，如字体、字号、颜色等，此时再保存也会发现文字的格式还是原来的默认格式。</p>
+	<p>而html则是一种"超文本"，它包含有排版标记，如"&#60;p>"就是段落标签，在一对的"&#60;p>"和"&#60;/p>"标签内就是一个连续的段落。</p>
+	<p>所有的纯文本编辑器都能够通过手动输入标签的方式来编辑超文本，如下图所示，我们在记事本中的每个段落的开头和结尾分别输入"&#60;p>"和"&#60;/p>"标签：</p>
+	<div style="margin:20px; margin-top:5px">
+		<div style="margin-bottom:2px">
+			<p style="display: inline; ">代码展示</p>
+			<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+		</div>
+		<div style="margin: 0px; padding: 6px; border: 1px inset;">
+			<div style="display: none;">
+				<div style="margin: 8px; background-color: LightGrey;"><p style="font-size: 12px; text-indent: 0;">
+					&#60;p>S.I.G.I.S.&#60;/p><br>
+					&#60;p>Sigil’s Independent Global Information Service&#60;/p><br>
+					&#60;p>印记城独立全面信息服务&#60;/p><br>
+					<br>
+					&#60;p>新闻速递&#60;/p><br>
+					&#60;p>讣告：狮鹫之死&#60;/p><br>
+					&#60;p>据泛多元宇宙狮鹫实业毁伤之月17日电S.I.G.I.S.女士区分社。&#60;/p><br>
+					&#60;p>印记城知名企业家，泛多元宇宙狮鹫实业CEO格罗弗·L·冯·狮鹫海姆先生抢救无效，于毁伤之月16日12时25分在印记城女士区狮鹫公馆中逝世，享年114岁。&#60;/p><br>
+					&#60;p>为表达印记城各族群众对格罗弗先生的无比崇敬和深切悼念之情，现决定：&#60;/p><br>
+					&#60;p>(一)自讣告发布之日起到格罗弗先生追悼大会举行之日止，泛多元宇宙狮鹫实业于女士区、书记区、行会区、闹市区、下城区以及市场区的部门将降半旗志哀。期间，闹市区、下城区以及市场区设灵堂，接待来自其它位面的群众吊唁。&#60;/p><br>
+					&#60;p>(二)按照企业惯例，不邀请异位面、异族官方组织和友好人士派代表团或代表来印记城参加悼念活动。&#60;/p><br>
+					&#60;p>(三)毁伤之月22日(本年度第6个星界日为毁伤之月10日)，狮鹫实业理事会等将在女士区隆重举行格罗弗先生追悼大会。&#60;/p><br>
+					&#60;p>(四)遗体情绪稳定，不举行遗体告别仪式。&#60;/p><br></p></div>
+			</div>
+		</div>
+	</div>
+	<div style="margin:20px; margin-top:5px">
+		<div style="margin-bottom:2px">
+			<p style="display: inline;">图片已折叠</p>
+			<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+		</div>
+		<div style="margin: 0px; padding: 6px; border: 1px inset;">
+			<div style="display: none;">
+				<img src="标签与格式/记事本3.png" width="auto" height="auto">
+			</div>
+		</div>
+	</div>
+	<p>现在，我们重新打开页面，或者刷新页面(如果你先前打开的页面没有关闭)，就会得到下图这样的结果。</p>
+	<div style="margin:20px; margin-top:5px">
+		<div style="margin-bottom:2px">
+			<p style="display: inline;">图片已折叠</p>
+			<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+		</div>
+		<div style="margin: 0px; padding: 6px; border: 1px inset;">
+			<div style="display: none;">
+				<img src="标签与格式/记事本4.png" width="auto" height="auto">
+			</div>
+		</div>
+	</div>
+	<p>你看，换行就出现了。为了方便起见，后文中笔者将按照个人习惯混合使用VS Code或Sublime text，但并不是非得使用哪一个编辑器才行，这只是笔者的个人习惯。如果你使用记事本认为足够方便，那么并不会对最终的成品有任何影响。</p>
+	<div style="float: left; BORDER: 1px solid; PADDING: 5px; margin-bottom: 3.6px;">
+		<h4>边栏：为什么不应该使用所见即所得的编辑器，或将word文档转成页面。</h4>
+		<p>是的，这个疑问经久不衰，但是确实是不应该的。</p>
+		<p>关于这个问题，具体的答案有很多，但我觉得不如放张图来得简单。下图是一个word文档转成的html页面，并且中间经过了N手所见即所得的html编辑器修改。</p>
+		<div style="margin:20px; margin-top:5px">
+			<div style="margin-bottom:2px">
+				<p style="display: inline;">图片已折叠</p>
+				<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+			</div>
+			<div style="margin: 0px; padding: 6px; border: 1px inset;">
+				<div style="display: none;">
+					<img src="标签与格式/为什么不用word1.png" width="auto" height="auto">
+				</div>
+			</div>
+		</div>
+		<p>我们可以注意到，图中是一个段落，选中的部分是实际显示的文字。一个word文档转换而来的页面中，会在每一个段落中应用"行内属性"，即在标签括号"&#60;"和">"中的格式属性。除此以外，word文档转换而来的页面还会使用大量的无意义&#60;span>标签(这是一个在段落内标记单独字体格式的表情)。而每过一次word或所见即所得的编辑器都有可能导致，在新编辑的部分中，这些情况进一步加重。而这种情况反复加重的最终结果就是一个页面可能膨胀到甚至有300k大，而使用手动输入标签的方式则只会有不到20k(这是笔者压缩PHB2中魔剑客的页面产生的最极端的情况)。因此，笔者认为不应该使用word或所见即所得的编辑器。</p>
+		<p>关于这部分内容，后续将不再赘述，现在让我们回到标签与格式中</p>
+	</div>
+	<h2>什么是标签？标签分别有什么用？</h2>
+	<p>如前文中所述，标签就是在html页面中用于排版等功能的标记，使用尖括号"&#60;"和">"括起。</p>
+	<p>让我们使用编辑器打开先前所展示的页面，笔者已经预先将一些需要的必要的html标签进行了补充和调整，你也可以自行进行类似的补充和调整。接下来，笔者将就以这一段示例代码来阐述一些html的常见表情及作用。</p>
+	<div style="margin:20px; margin-top:5px">
+		<div style="margin-bottom:2px">
+			<p style="display: inline;">代码展示</p>
+			<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+		</div>
+		<div style="margin: 0px; padding: 6px; border: 1px inset;">
+			<div style="display: none;">
+				<p><i>以下代码中，<b style="color: darkgreen;">标绿</b>的为笔者补充的标签，你可以将其直接复制进你的编辑器中相应位置；<b style="color: crimson;">标红</b>的则是在删除了<b style="color: crimson;"><s>划线部分</s></b>后，补充了<b style="color: crimson;">未划线部分</b>的标签。</i></p>
+					<div style="margin: 8px; background-color: LightGrey;"><p style="font-size: 12px; text-indent: 0;"><span style="color: darkgreen;">&#60;html lang="zh-CN"><br>
+					&#60;head>&#60;meta charset="gb2312"><br>
+					&#60;title>讣告：狮鹫之死&#60;/title><br>
+					&#60;/head><br>
+					&#60;body></span><br>
+					<span style="color: crimson;"><s>&#60;p></s>&#60;h1></span>S.I.G.I.S.<span style="color: crimson;"><s>&#60;/p></s>&#60;/h1></span><br>
+					&#60;p><span style="color: darkgreen;">&#60;i></span>Sigil’s Independent Global Information Service<span style="color: darkgreen;">&#60;/i></span>&#60;/p><br>
+					&#60;p><span style="color: darkgreen;">&#60;i></span>印记城独立全面信息服务<span style="color: darkgreen;">&#60;/i></span>&#60;/p><br>
+					<span style="color: darkgreen;">&#60;hr></span><br>
+					&#60;p><span style="color: darkgreen;">&#60;b></span>新闻速递<span style="color: darkgreen;">&#60;/b></span>&#60;/p><br>
+					<span style="color: crimson;"><s>&#60;p></s>&#60;h2></span>讣告：狮鹫之死<span style="color: crimson;"><s>&#60;/p></s>&#60;/h2></span><br>
+					&#60;p>据泛多元宇宙狮鹫实业毁伤之月17日电S.I.G.I.S.女士区分社。&#60;/p><br>
+					&#60;p>印记城知名企业家，泛多元宇宙狮鹫实业CEO格罗弗·L·冯·狮鹫海姆先生抢救无效，于毁伤之月16日12时25分在印记城女士区狮鹫公馆中逝世，享年114岁。&#60;/p><br>
+					&#60;p>为表达印记城各族群众对格罗弗先生的无比崇敬和深切悼念之情，现决定：&#60;/p><br>
+					&#60;p>(一)自讣告发布之日起到格罗弗先生追悼大会举行之日止，泛多元宇宙狮鹫实业于女士区、书记区、行会区、闹市区、下城区以及市场区的部门将降半旗志哀。期间，闹市区、下城区以及市场区设灵堂，接待来自其它位面的群众吊唁。&#60;/p><br>
+					&#60;p>(二)按照企业惯例，不邀请异位面、异族官方组织和友好人士派代表团或代表来印记城参加悼念活动。&#60;/p><br>
+					&#60;p>(三)毁伤之月22日(本年度第6个星界日为毁伤之月10日)，狮鹫实业理事会等将在女士区隆重举行格罗弗先生追悼大会。&#60;/p><br>
+					&#60;p>(四)遗体情绪稳定，不举行遗体告别仪式。&#60;/p><br>
+					<span style="color: darkgreen;">&#60;/body><br>
+					&#60;/html></span></p>
+				</div>
+				<p>此时，页面的效果如下图所示。</p>
+				<img src="标签与格式/标签1.png" width="auto" height="auto">
+			</div>
+		</div>
+	</div>
+	<h3>html标签</h3>
+	<p>其实，原则上来讲，在整个页面起头的位置应当有一行&#60;!DOCTYPE html>，这一行的作用是用于告知浏览器这是一个什么类型的文件，其中&#60;!>代表了这是一个警示标签，而DOCTYPE则顾名思义，代表文档类型。</p>
+	<p>但是这一教程面向的是chm，因此在这方面可以稍作放松，整个页面只需要被一对&#60;html>&#60;/html>标签包裹就行。在一对html标签中，会分别有一对&#60;head>&#60;/head>标签和一对&#60;body>&#60;/body>标签</p>
+	<p>通常来讲，标签都是成对出现的双标签，如一对html标签为&#60;html>和&#60;/html>，但也存在只需要1个就行的单标签。</p>
+	<p>在html标签中，会有一个"行内属性"为lang="zh-CN"，这代表了本文件使用的语言是中文。但是实际上无论页面使用了哪种语言，在编辑过程中使用的都是英文。</p>
+	<h3>head标签和body标签</h3>
+	<p>在head标签中所编辑的内容属于配置内容，它影响包括页面的显示方式等方方面面，但这部分内容本身却不会实际显示在页面中。</p><p>而body标签则是页面的可视内容，也就是我们正常阅读的区域。</p>
+	<h4>meta标签</h4>
+	<p>相当部分的配置都可以写在meta标签中。如前文中示例页面内的&#60;meta charset="gb2312">。熟悉电你蛋的人对于meta会很熟悉，因为超魔其实就叫"metamagic"。而在这里，meta代表的是"元"的意思，表示这一标签是基本配置。meta标签是单标签，不需要成对出现。</p>
+	<p>在&#60;meta charset="gb2312">中定义了该页面的字符集是GB2312。本教程是面向chm的，因此直接使用gb2312即可。关于字符集的更多内容见以下折叠部分。</p>
+	<div style="margin:20px; margin-top:5px">
+		<div style="margin-bottom:2px">
+			<h4 style="display: inline;">什么是字符集？</h4>
+			<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+		</div>
+		<div style="margin: 0px; padding: 6px; border: 1px inset;">
+			<div style="display: none;">
+				<p>顾名思义，字符集在计算机定义中的字符的集合。我们所编写的所有页面的最终都会转换为相应的编码供计算机读取和转译，不同的字符集就像不同的字典，其中的字符排列也有不同规律。同一个字符在不同的字符集中，计算机的表达也是不同的。也正是因此，使用GB2312解码使用不同字符集的内容(如UTF-8或BIG5)时，就会出现乱码的情况。魔塔玩家可能会对此深有体会。</p>
+				<p>常用的字符集有ASCII、UTF-8、GB2312、BIG5等。</p>
+				<p>其中，ASCII主要用于显示现代英语和其他西欧语言。它是最通用的单字节编码系统；GB2312中，GB是国标的意思，它是中国国家标准的简体中文字符集，收录了常用汉字6763个；BIG5字符集则主要在中国台湾使用，为繁体中文字符集；而UTF-8则是Unicode的其中一个使用方式，它支持现今世界各种不同语言的书面文本的交换、处理及显示。</p>
+				<p>按照上文所述，你可能会觉得我们使用UTF-8就能不变对万变了。但是，chm由于其古老性，不支持UTF-8……我们只能使用GB2312。</p>
+			</div>
+		</div>
+	</div>
+	<h4>title标签</h4>
+	<p>这个表情用于显示浏览器选项卡上的标题。而在chm中，这一标题则会被用于索引。</p>
+	<h3>html基本语法和常用标签</h3>
+	<p>首先强调一点，标签必须写在一对尖括号的内部。</p>
+	<h4>标签的分类</h4>
+	<p>我们前文提到过，标签可以分为单标签和双标签，其中双标签则必须成对出现。双标签会分为开始标签和结束标签，结束标签以关闭符号"/"开头。如p标签的开始标签就是&#60;p>，结束标签则是&#60;/p>。</p>
+	<p>常见的单标签有插入图片的img标签、段落内换行的br标签、代表分割线的hr标签。</p>
+	<p>而常见的双标签则有h1~h6总共6个等级的标题、代表正文的p标签、用来为文本赋予单独格式效果的span标签、代表超链接的a标签、代表无序列表(即行前带点)的ul标签和li标签以及用来设置元素摆放位置的div标签。</p>
+	<p style="color: maroon; font-style: italic;">在html中，"元素"指的是一个双标签中包裹的所有内容，或者一个单标签。</p>
+	<ul>这些标签可以根据其嵌套的方式分为两类：容器级和文本级。
+		<li>容器级标签包括div标签、ul和li标签、h1~h6标签等。这些标签的特点是可以嵌套其它的标签，如div标签的一个其中用途就是在指定位置放置图文混排框体，其中可以嵌套p标签、img标签甚至是代表标题的h标签。</li>
+		<li>文本级标签则不一样，其中只能嵌套纯文本其它的文本级标签。常见的文本级标签有span标签、b标签(加粗)、i标签(斜体)、u标签(下划线)等。</li>
+	</ul>
+	<h4>行内属性</h4>
+	<p style="color: maroon; font-style: italic;">真是令人深恶痛绝还不得不用的东西啊……</p>
+	<p>在双标签的开始标签中，或在单标签的标签名后面，输入一个空格，在空格后面就可以输入行内属性。一个标签中可以输入多个行内属性，不同的行内属性使用空格进行分隔。</p>
+	<p>行内属性包含属性名(key)和属性值(value)两个部分，根据其英文名，习惯将属性称为键值对写法，其结构为key="value"。例如，一个需要染色为果园的紫红色(maroon)的p标签可以写作&#60;p style="color: maroon; "></p>
+</body></html>

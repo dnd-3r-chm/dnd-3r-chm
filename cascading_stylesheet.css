@@ -2,12 +2,12 @@
 body {font-family: Segoe UI,'微软雅黑',sans-serif;}
 
 /*标题颜色采用果园排版的紫红，行间距暂定4.8+2.4=7.2px*/
-h1{font-size: 29px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
-h2{font-size: 24px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+h1{font-size: 30px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+h2{font-size: 26px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
 h3{font-size: 22px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
-h4{font-size: 20px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
-h5{font-size: 18px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
-h6{font-size: 16px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+h4{font-size: 18px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+h5{font-size: 16px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+h6{font-size: 14px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
 
 /*正文的字体字号：14px为五号，行首缩进2字符*/
 p{ font-size: 14px; margin-bottom: 4.8px; margin-top: 2.4px; 	text-indent: 2em; }
