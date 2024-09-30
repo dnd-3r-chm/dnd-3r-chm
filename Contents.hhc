@@ -15423,10 +15423,15 @@
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="CSS样式表">
+                      <param name="Local" value="10 附录\html教学\CSS样式表.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="为什么不用所见即所得">
+                      <param name="Name" value="如何输入表格">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="常用标签和属性辞典">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                 </UL>

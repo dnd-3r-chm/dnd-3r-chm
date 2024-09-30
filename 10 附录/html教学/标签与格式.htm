@@ -32,7 +32,7 @@
 	<h2>纯文本与超文本</h2>
 	<p>细心的朋友可能会发现，咦？怎么我的换行全部消失了？</p>
 	<p>这是因为在记事本中敲入的文字是"纯文本"，也就是说，它不包含图片等媒体文件，也不包含文字样式。即使在记事本中改变文字的格式，如字体、字号、颜色等，此时再保存也会发现文字的格式还是原来的默认格式。</p>
-	<p>而html则是一种"超文本"，它包含有排版标记，如"&#60;p>"就是段落标签，在一对的"&#60;p>"和"&#60;/p>"标签内就是一个连续的段落。</p>
+	<p>html的全称为Hyper Text Markup Language，即"超文本标记语言"，它使用一系列的标签来进行排版，如"&#60;p>"就是正文的段落标签，在一对的"&#60;p>"和"&#60;/p>"标签内就是一个连续的段落。</p>
 	<p>所有的纯文本编辑器都能够通过手动输入标签的方式来编辑超文本，如下图所示，我们在记事本中的每个段落的开头和结尾分别输入"&#60;p>"和"&#60;/p>"标签：</p>
 	<div style="margin:20px; margin-top:5px">
 		<div style="margin-bottom:2px">
@@ -103,6 +103,7 @@
 	<h2>什么是标签？标签分别有什么用？</h2>
 	<p>如前文中所述，标签就是在html页面中用于排版等功能的标记，使用尖括号"&#60;"和">"括起。</p>
 	<p>让我们使用编辑器打开先前所展示的页面，笔者已经预先将一些需要的必要的html标签进行了补充和调整，你也可以自行进行类似的补充和调整。接下来，笔者将就以这一段示例代码来阐述一些html的常见表情及作用。</p>
+	<p>请注意：在本教程中，提到的所有标点符号，如尖括号、分号等，均使用的是英文半角标点。</p>
 	<div style="margin:20px; margin-top:5px">
 		<div style="margin-bottom:2px">
 			<p style="display: inline;">代码展示</p>
@@ -177,5 +178,46 @@
 	<h4>行内属性</h4>
 	<p style="color: maroon; font-style: italic;">真是令人深恶痛绝还不得不用的东西啊……</p>
 	<p>在双标签的开始标签中，或在单标签的标签名后面，输入一个空格，在空格后面就可以输入行内属性。一个标签中可以输入多个行内属性，不同的行内属性使用空格进行分隔。</p>
-	<p>行内属性包含属性名(key)和属性值(value)两个部分，根据其英文名，习惯将属性称为键值对写法，其结构为key="value"。例如，一个需要染色为果园的紫红色(maroon)的p标签可以写作&#60;p style="color: maroon; "></p>
+	<p>行内属性包含属性名(key)和属性值(value)两个部分，根据其英文名，习惯将属性称为键值对写法，其结构为key="value"。例如，一个需要居中，并且染色为果园的紫红色(maroon)的p标签可以写作&#60;p align=center style="color: maroon; ">，在这一标签中，属性名为style，属性值则为color: maroon。</p>
+	<div style="margin: 1em; padding: 8px; background-color: LightGrey;"><p align=center style="color: maroon; text-indent: 0;">一个需要居中，并且染色为果园的紫红色(maroon)的p标签展示</p></div>
+	<p>一个属性名中可能可以包含多个属性值，不同的属性值之间使用小写分号";"做分隔。如一个需要居中，并且使用果园的紫红色(maroon)、字号为16px(三号)、字体使用黑体的p标签可以写作&#60;p align=center style="color: maroon; font-size: 16px; font-family: '黑体'">，而展示效果如同下文所示：</p>
+	<div style="margin: 1em; padding: 8px; background-color: LightGrey;"><p align=center style="color: maroon; font-size: 16px; font-family: '黑体'; text-indent: 0;">一个需要居中，并且使用果园的紫红色(maroon)、字号为16px(三号)、字体使用黑体的p标签展示</p></div>
+	<p>需要注意的是，行内属性只在可以生效的时候生效，例如代表链接的a标签可以使用href属性。比方说，现在要在一个文字上创建一个跳转到果园的链接，就可以使用a标签，写作&#60;a href="http://45.79.87.129/bbs/index.php">，其展示效果如以下示例第一行所示。但如果在p标签中使用href属性，写作&#60;p href="http://45.79.87.129/bbs/index.php">，那么这个属性就如同以下示例的第二行那样就不会生效。</p>
+	<div style="margin: 1em; padding: 8px; background-color: LightGrey;"><a href="http://45.79.87.129/bbs/index.php">一个a标签展示，它可以作为跳转到果园的链接</a>
+	<p href="http://45.79.87.129/bbs/index.php" style="text-indent: 0;">使用href属性的p标签展示，它并不可以作为链接使用</p></div>
+	<p>现在，让我们翻回前述的示例代码，我会以注释的方式阐述每一种标签分别起到了什么作用。</p>
+	<p style="color: maroon;"><i>在html中，注释是代码的解释和说明，目的是为了让人们可以更轻松的了解代码。它不会以任何方式影响页面的显示效果。在html中，注释的标记方式是&#60;!--注释的内容-->。</i></p>
+	<div style="margin: 1em; padding: 1em; background-color: LightGrey;"><p style="font-size: 12px; text-indent: 0;">
+		&#60;html lang="zh-CN"><br>
+		<span style="color: darkgreen;">&#60;!--html标签:本身无作用，其中lang属性代表文件语言--></span><br>
+		&#60;head><br>
+		<span style="color: darkgreen;">&#60;!--head标签:用于存放页面基本属性--></span><br>
+		&#60;meta charset="gb2312"><br>
+		<span style="color: darkgreen;">&#60;!--meta标签:用于存放页面的元信息，其中charset属性代表其字符集--></span><br>
+		&#60;title>讣告：狮鹫之死&#60;/title><br>
+		<span style="color: darkgreen;">&#60;!--title标签:页面的标题，用于浏览器选项卡显示--></span><br>
+		&#60;/head><br>
+		&#60;body><br>
+		<span style="color: darkgreen;">&#60;!--body标签:页面实际显示的部分--></span><br>
+		&#60;h1>S.I.G.I.S.&#60;/h1><br>
+		<span style="color: darkgreen;">&#60;!--h1:1级标题--></span><br>
+		&#60;p>&#60;i>Sigil’s Independent Global Information Service&#60;/i>&#60;/p><br>
+		&#60;p>&#60;i>印记城独立全面信息服务&#60;/i>&#60;/p><br>
+		<span style="color: darkgreen;">&#60;!--p标签代表正文，i标签则代表斜体--></span><br>
+		&#60;hr><br>
+		<span style="color: darkgreen;">&#60;!--hr:分割线--></span><br>
+		&#60;p>&#60;b>新闻速递&#60;/b>&#60;/p><br>
+		<span style="color: darkgreen;">&#60;!--b标签为加粗--></span><br>
+		&#60;h2>讣告：狮鹫之死&#60;/h2><br>
+		<span style="color: darkgreen;">&#60;!--h2:2级标题--></span><br>
+		&#60;p>据泛多元宇宙狮鹫实业毁伤之月17日电S.I.G.I.S.女士区分社。&#60;/p><br>
+		&#60;p>印记城知名企业家，泛多元宇宙狮鹫实业CEO格罗弗·L·冯·狮鹫海姆先生抢救无效，于毁伤之月16日12时25分在印记城女士区狮鹫公馆中逝世，享年114岁。&#60;/p><br>
+		&#60;p>为表达印记城各族群众对格罗弗先生的无比崇敬和深切悼念之情，现决定：&#60;/p><br>
+		&#60;p>(一)自讣告发布之日起到格罗弗先生追悼大会举行之日止，泛多元宇宙狮鹫实业于女士区、书记区、行会区、闹市区、下城区以及市场区的部门将降半旗志哀。期间，闹市区、下城区以及市场区设灵堂，接待来自其它位面的群众吊唁。&#60;/p><br>
+		&#60;p>(二)按照企业惯例，不邀请异位面、异族官方组织和友好人士派代表团或代表来印记城参加悼念活动。&#60;/p><br>
+		&#60;p>(三)毁伤之月22日(本年度第6个星界日为毁伤之月10日)，狮鹫实业理事会等将在女士区隆重举行格罗弗先生追悼大会。&#60;/p><br>
+		&#60;p>(四)遗体情绪稳定，不举行遗体告别仪式。&#60;/p><br>
+		&#60;/body><br>
+		&#60;/html></span></p>
+	</div>
 </body></html>

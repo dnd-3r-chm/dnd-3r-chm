@@ -1,0 +1,127 @@
+<html lang="zh-CN">
+<head><meta charset="gb2312">
+<title>CSS样式表</title>
+<link rel="stylesheet" href="../../cascading_stylesheet.css">
+</head><body>
+	<h1>CSS样式表</h1>
+	<p>在前文"标签与格式"中，我们了解了如何使用html进行最基本的排版。那么，当我们想要进行更进一步的排版，例如调整字体、字号、字色等，应该怎么做呢？</p>
+	<p>有一种最简单的方式是使用行内属性为每一个标签进行调整，但这样就会陷入一个困境，如同我们使用word文档转成页面那样出现大量的重复赋值。这个时候就要用到css样式表了！</p>
+	<h2>什么是CSS样式表？</h2>
+	<p>一句话概括：提前写好的格式。在CSS中可以预先为标签设定其格式并应用于页面中。</p>
+	<p>CSS有两种写法，第一种是在每个页面的head标签中都可以使用一对style双标签，另一种则是先单独编写css文件，然后使用link单标签来链接。</p>
+	<p>无论是head内的style标签，还是行内属性的style，它们的写法都是一致的。</p>
+	<p>如本文中，使用css编写了如下默认格式：与先前一样的，我将用注释的方式来阐述其分别起到了什么作用。</p>
+	<div style="margin:20px; margin-top:5px">
+		<div style="margin-bottom:2px">
+			<p style="display: inline;">示例CSS样式表</p>
+			<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+		</div>
+		<div style="margin: 0px; padding: 6px; border: 1px inset;">
+			<div style="display: none;">
+				<div style="margin: 1em; padding: 1em; background-color: LightGrey;">
+					<p style="font-size: 12px; text-indent: 0; margin-left: 1em;margin-right: 1em;">
+						<span style="color: darkgreen;">&#60;!--整个body标签中的字体--></span><br>
+						body {font-family: Segoe UI,'微软雅黑',sans-serif;}<br>
+						<br>
+						<span style="color: darkgreen;">&#60;!--color: maroon; 所有的6级标题使用果园的紫红色；<br>
+						font-size: 30px; 字号从30px一直缩减到和正文一致的14px；<br>
+						在这里未写出的是，h1~h6这6个标签默认为加粗的字重；<br>
+						margin-top和margin-bottom则分别代表行前和行后的间距，分别为2.4px和4.8px，总共7.2px--></span><br>
+						h1{font-size: 30px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						h2{font-size: 26px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						h3{font-size: 22px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						h4{font-size: 18px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						h5{font-size: 16px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						h6{font-size: 14px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						<br>
+						<span style="color: darkgreen;">&#60;!--font-size: 14px; 正文的字体字号：14px为五号；<br>
+						text-indent: 2em; 行首缩进2字符--></span><br>
+						p{ font-size: 14px; margin-bottom: 4.8px; margin-top: 2.4px; 	text-indent: 2em; }<br><br>
+						<span style="color: darkgreen;">&#60;!--这种以"."开头的属性代表可以在行内属性中引用，引用的方式为class="noindent"；<br>
+						例如，一个无需行首缩进的p标签就可以写作&#60;p class="noindent">--></span><br>
+						.noindent {text-indent: 0;}<br>
+						<br>
+						<span style="color: darkgreen;">&#60;!--border-collapse: collapse; 表格边框合并为细实线--></span><br>
+						table {font-size: 14px; border-collapse: collapse;}<br>
+						table, th, <br>
+						<br>
+						<span style="color: darkgreen;">&#60;!--border: 1px solid black; 单元格边框为1px的黑色细线；<br>
+						padding-left: 3.6px; padding-right: 3.6px; 边框与文字的横向间距为3.6px--></span><br>
+						td{border: 1px solid black; padding-left: 3.6px; padding-right: 3.6px;}<br>
+						<br>
+						<span style="color: darkgreen;">&#60;!--margin-left: 2em; 无序列表缩进2字符(不含其列表符号，即行前那个大圆点)--></span><br>
+						ul{font-size: 14px; margin-left: 2em; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p>但是实际上，本文的CSS文件并没有使用这么一大串内容，而是通过link标签的方式引用了放置于扩展大不全主目录下计划使用的通用css，如果你按F12查看元素就能看到这里写作&#60;link rel="stylesheet" href="../../cascading_stylesheet.css">。其中，rel="stylesheet"代表这个link标签所引用的是css样式表，而href属性中，每个"../"都代表是上一级目录，两个"../"意味着引用的是2级目录之上的这个样式表。</p>
+	<h2>实际操作一下吧！</h2>
+	<p>现在让我们翻回到上一次的示例页面中，在其中的head标签内加入一对style双标签，style标签内则包含上述CSS样式。此时，示例页面的代码如下述：</p>
+	<p style="color: maroon;"><i>示例页面中的一部分标签进行了调整，将会<b style="color: darkgreen;">标绿</b>。</i></p>
+	<div style="margin:20px; margin-top:5px">
+		<div style="margin-bottom:2px">
+			<p style="display: inline; ">示例页面的代码展示</p>
+			<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+		</div>
+		<div style="margin: 0px; padding: 6px; border: 1px inset;">
+			<div style="display: none;">
+				<div style="margin: 1em; padding: 1em; background-color: LightGrey;">
+					<p style="font-size: 12px; text-indent: 0; margin-left: 1em;margin-right: 1em;">
+						&#60;html lang="zh-CN"><br>
+						&#60;head><br>
+						&#60;meta charset="gb2312"><br>
+						&#60;title>讣告：狮鹫之死&#60;/title><br>
+						<span style="color: darkgreen;">&#60;style><br>
+						body {font-family: Segoe UI,'微软雅黑',sans-serif;}
+						<br>
+						h1{font-size: 30px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						h2{font-size: 26px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						h3{font-size: 22px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						h4{font-size: 18px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						h5{font-size: 16px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						h6{font-size: 14px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						<br>
+						p{ font-size: 14px; margin-bottom: 4.8px; margin-top: 2.4px; 	text-indent: 2em; }<br>
+						.noindent {text-indent: 0;}<br>
+						<br>
+						table {font-size: 14px; border-collapse: collapse;}<br>
+						table, th, <br>
+						td{border: 1px solid black; padding-left: 3.6px; padding-right: 3.6px;}<br>
+						<br>
+						ul{font-size: 14px; margin-left: 0em; margin-bottom: 4.8px; margin-top: 2.4px;}<br>
+						&#60;/style></span><br>
+						&#60;/head><br>
+						&#60;body><br>
+						&#60;h1>S.I.G.I.S.&#60;/h1><br>
+						&#60;p <span style="color: darkgreen;">class="noindent"</span>>&#60;i>Sigil’s Independent Global Information Service<span style="color: darkgreen;">&#60;br></span><br>印记城独立全面信息服务&#60;/i>&#60;/p><br>
+						&#60;hr><br>
+						&#60;p>&#60;b>新闻速递&#60;/b>&#60;/p><br>
+						&#60;h2>讣告：狮鹫之死&#60;/h2><br>
+						&#60;p>据泛多元宇宙狮鹫实业毁伤之月17日电S.I.G.I.S.女士区分社。&#60;/p><br>
+						&#60;p>印记城知名企业家，泛多元宇宙狮鹫实业CEO格罗弗·L·冯·狮鹫海姆先生抢救无效，于毁伤之月16日12时25分在印记城女士区狮鹫公馆中逝世，享年114岁。&#60;/p><br>
+						<span style="color: darkgreen;">&#60;ul style="list-style-type: decimal;"></span>为表达印记城各族群众对格罗弗先生的无比崇敬和深切悼念之情，现决定：<span style="color: darkgreen;">&#60;br></span><br>
+						<span style="color: darkgreen;">&#60;li></span>自讣告发布之日起到格罗弗先生追悼大会举行之日止，泛多元宇宙狮鹫实业于女士区、书记区、行会区、闹市区、下城区以及市场区的部门将降半旗志哀。期间，闹市区、下城区以及市场区设灵堂，接待来自其它位面的群众吊唁。<span style="color: darkgreen;">&#60;/li></span><br>
+						<span style="color: darkgreen;">&#60;li></span>按照企业惯例，不邀请异位面、异族官方组织和友好人士派代表团或代表来印记城参加悼念活动。<span style="color: darkgreen;">&#60;/li></span><br>
+						<span style="color: darkgreen;">&#60;li></span>毁伤之月22日(本年度第6个星界日为毁伤之月10日)，狮鹫实业理事会等将在女士区隆重举行格罗弗先生追悼大会。<span style="color: darkgreen;">&#60;/li></span><br>
+						<span style="color: darkgreen;">&#60;li></span>遗体情绪稳定，不举行遗体告别仪式。<span style="color: darkgreen;">&#60;/li><br>
+						&#60;/ul></span><br>
+						&#60;/body><br>
+						&#60;/html></span></div>
+			</div>
+		</div>
+	</div>
+	<p>然后，我们再保存一次页面，在浏览器中重新打开或刷新这个页面，就能看到最新最in的效果了！</p>
+	<div style="margin:20px; margin-top:5px">
+		<div style="margin-bottom:2px">
+			<p style="display: inline;">图片已折叠</p>
+			<input type="button" value="显示" style="margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
+		</div>
+		<div style="margin: 0px; padding: 6px; border: 1px inset;">
+			<div style="display: none;">
+				<img src="标签与格式/CSS1.png" width="auto" height="auto">
+			</div>
+		</div>
+	</div>
+</body></html>

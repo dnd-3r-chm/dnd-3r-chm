@@ -10,13 +10,13 @@ h5{font-size: 16px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
 h6{font-size: 14px; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
 
 /*正文的字体字号：14px为五号，行首缩进2字符*/
-p{ font-size: 14px; margin-bottom: 4.8px; margin-top: 2.4px; 	text-indent: 2em; }
+p{ font-size: 14PX; margin-bottom: 4.8px; margin-top: 2.4px; 	text-indent: 2em; }
 .noindent {text-indent: 0;}/*无需缩进的行首*/
 
 /*表格边框合并为细实线，表内字号与正文取同*/
-table {font-size: 14px; border-collapse: collapse;}
+table {font-size: 14PX; border: black 1px solid; border-collapse: collapse;}
 table, th, /*单元格边框为1px的黑色细线，边框与文字的横向间距为3.6px*/
-td{border: 1px solid black; padding-left: 3.6px; padding-right: 3.6px;}
+td{border: black 1px solid; padding-left: 3.6px; padding-right: 3.6px;}
 
 /*无序列表字号为14px，缩进2字符*/
-ul{font-size: 14px; margin-left: 2em; margin-bottom: 4.8px; margin-top: 2.4px;}
+ul{font-size: 14PX; margin-left: 2em; margin-bottom: 4.8px; margin-top: 2.4px;}
