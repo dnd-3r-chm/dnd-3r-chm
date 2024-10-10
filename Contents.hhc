@@ -19,6 +19,26 @@
           <param name="WindowName" value="main">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="核心三宝书[暂缺]">
+        </OBJECT>
+        <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="[PHB] 玩家手册(暂缺)">
+              <param name="Local" value="0 核心三宝书\PHB玩家手册\封面.htm">
+              <param name="ImageNumber" value="9">
+            </OBJECT>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="[DMG] 城主指南(暂缺)">
+              <param name="Local" value="0 核心三宝书\DMG城主指南\封面.htm">
+              <param name="ImageNumber" value="9">
+            </OBJECT>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="[MM] 怪物图鉴(暂缺)">
+              <param name="Local" value="0 核心三宝书\MM怪物图鉴\封面.htm">
+              <param name="ImageNumber" value="9">
+            </OBJECT>
+        </UL>
+        <LI><OBJECT type="text/sitemap">
           <param name="Name" value="核心补充书籍">
           <param name="ImageNumber" value="1">
         </OBJECT>
@@ -35,6 +55,16 @@
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="欺愚者">
+                      <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\欺愚者.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="龙之萨满">
+                      <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\龙之萨满.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="暮刃">
                       <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\暮刃.htm">
                       <param name="ImageNumber" value="11">
@@ -44,42 +74,42 @@
                       <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\骑士.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="魔剑客">
-                      <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\魔剑客.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="欺愚者">
-                      <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\欺愚者.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="天佑者">
-                      <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\天佑者.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="龙之萨满">
-                      <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\龙之萨满.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="2. 职业替代能力">
-                  <param name="ImageNumber" value="1">
+                  <param name="Name" value="2. 职业扩展内容">
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="核心职业">
-                      <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业替代能力\核心职业.htm">
-                      <param name="ImageNumber" value="11">
+                      <param name="Name" value="新起始包">
                     </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="天佑者 (完美神力CD)">
+                          <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\天佑者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="魔剑客 (完美战力CW)">
+                          <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\魔剑客.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="扩展职业">
-                      <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业替代能力\扩展职业.htm">
-                      <param name="ImageNumber" value="11">
+                      <param name="Name" value="职业替代能力">
+                      <param name="ImageNumber" value="1">
                     </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="核心职业">
+                          <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业替代能力\核心职业.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="扩展职业">
+                          <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业替代能力\扩展职业.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="3. 新专长">
@@ -143,6 +173,7 @@
                 </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="5. [暂缺]角色身份塑造">
+                  <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="9">
                   <param name="WindowName" value="main">
                 </OBJECT>
@@ -207,6 +238,7 @@
             <UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="1. [暂缺]游戏运作">
+                  <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="9">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
@@ -298,6 +330,7 @@
                 </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="4. [暂缺]盐沼镇 Saltmarsh">
+                  <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="9">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
@@ -2576,7 +2609,13 @@
         </OBJECT>
         <UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="然而万法万律并放不进来">
+              <param name="Name" value="[SpC] 万法大全(暂缺)">
+              <param name="Local" value="2 万物万法万律\SpC万法大全\封面.htm">
+              <param name="ImageNumber" value="9">
+            </OBJECT>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="[RC] 万律大全(暂缺)">
+              <param name="Local" value="2 万物万法万律\RC万律大全\封面.htm">
               <param name="ImageNumber" value="9">
             </OBJECT>
             <LI><OBJECT type="text/sitemap">
@@ -13317,11 +13356,12 @@
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="1. 种族">
+                  <param name="Local" value="7 扩展全新体系\UA破译奥秘\1种族\种族.htm">
                   <param name="ImageNumber" value="1">
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="种族变体">
+                      <param name="Name" value="种族环境变体">
                       <param name="Local" value="7 扩展全新体系\UA破译奥秘\1种族\种族亚种\种族亚种.htm">
                       <param name="ImageNumber" value="3">
                     </OBJECT>
@@ -13337,13 +13377,13 @@
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="丛林种族">
-                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\1种族\种族亚种\丛林种族.htm">
+                          <param name="Name" value="沙漠种族">
+                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\职业特性变体\UA-种族环境变体补完.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="种族环境">
-                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\职业特性变体\UA-种族环境变体补完.htm">
+                          <param name="Name" value="丛林种族">
+                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\1种族\种族亚种\丛林种族.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                     </UL>
@@ -13353,9 +13393,19 @@
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="减少等级调整">
+                      <param name="Local" value="7 扩展全新体系\UA破译奥秘\6战役\减少等级调整.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="血脉">
                       <param name="Local" value="7 扩展全新体系\UA破译奥秘\1种族\血脉.htm">
                       <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="种族典范(暂缺)">
+                      <param name="Local" value="10 附录\填充页面.htm">
+                      <param name="ImageNumber" value="9">
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
@@ -13611,11 +13661,6 @@
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="理智值">
                       <param name="Local" value="7 扩展全新体系\UA破译奥秘\6战役\理智值.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="减少等级调整">
-                      <param name="Local" value="7 扩展全新体系\UA破译奥秘\6战役\减少等级调整.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                 </UL>
@@ -14085,7 +14130,496 @@
             </OBJECT>
             <UL>
                 <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="[ECS] 艾伯伦战役设定集(暂缺)">
+                  <param name="Local" value="9 世设\艾伯伦\ECS艾伯伦战役设定集\封面.htm">
+                  <param name="ImageNumber" value="41">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="[未导入][Sharn] 萨恩：万塔都市">
+                  <param name="Local" value="9 世设\艾伯伦\Sharn萨恩万塔都市\封面.htm">
+                  <param name="ImageNumber" value="41">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="[RoE] 艾伯伦的种族">
+                  <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\封面.htm">
+                  <param name="ImageNumber" value="1">
+                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第一章 战俑">
+                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第一章 战俑.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第二章 半兽化人">
+                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第二章 半兽化人.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第三章 半变形怪">
+                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第三章 半变形怪.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第四章 半梦灵">
+                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第四章 半梦灵.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第五章 其他种族">
+                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第五章 其他种族.htm">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="矮人">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\矮人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="艾伦诺精灵">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\艾伦诺精灵.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="卓尔精灵">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\卓尔精灵.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="科瓦雷精灵">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\科瓦雷精灵.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="维纶娜精灵">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\维纶娜精灵.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="侏儒">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\侏儒.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="地精">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\地精.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="半精灵">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\半精灵.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="半兽人">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\半兽人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="科瓦雷半身人">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\科瓦雷半身人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="塔兰塔半身人">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\塔兰塔半身人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="半魇灵">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\半魇灵.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="兽人">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\兽人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第六章 角色选项">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="专长">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\ROE专长.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="种族替换等级">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\ROE种族替换等级.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第七章 进阶职业">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="传承者">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\传承者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="密阁间谍">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\密阁间谍.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="月咏者">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\月咏者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="梦族之魇">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\梦族之魇.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="奔掠者">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\奔掠者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="铸法者">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\铸法者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="重生者">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\重生者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="咒刻士兵">
+                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\咒刻士兵.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第八章 装备">
+                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第八章 装备.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第九章 魔法与灵能">
+                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\ROE魔法与灵能.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                </UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="[FN] 五国">
+                  <param name="Local" value="9 世设\艾伯伦\FN五国\封面.htm">
+                  <param name="ImageNumber" value="1">
+                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="引言">
+                      <param name="Local" value="9 世设\艾伯伦\FN五国\引言.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="安黛尔">
+                      <param name="Local" value="9 世设\艾伯伦\FN五国\安黛尔.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="布鲁兰">
+                      <param name="Local" value="9 世设\艾伯伦\FN五国\布鲁兰.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="赛尔/哀伤故地">
+                      <param name="Local" value="9 世设\艾伯伦\FN五国\赛尔和哀伤故地.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="坎纳斯">
+                      <param name="Local" value="9 世设\艾伯伦\FN五国\坎纳斯.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="瑟雷恩">
+                      <param name="Local" value="9 世设\艾伯伦\FN五国\瑟雷恩.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                </UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="[未导入][Explore] 探险家手册">
+                  <param name="Local" value="9 世设\艾伯伦\Explore探险家手册\封面.htm">
+                  <param name="ImageNumber" value="41">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="[MoE]艾伯伦的魔法">
+                  <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\封面.htm">
+                  <param name="ImageNumber" value="1">
+                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="概述">
+                      <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\概述.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第一章 艾伯伦中的魔法">
+                      <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第一章 艾伯伦中的魔法\第一章 艾伯伦中的魔法.htm">
+                      <param name="ImageNumber" value="3">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="龙晶">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第一章 艾伯伦中的魔法\龙晶.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="龙纹预言">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第一章 艾伯伦中的魔法\龙纹预言.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="异变魔魔法">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第一章 艾伯伦中的魔法\异变魔魔法.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="龙图腾仪式">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第一章 艾伯伦中的魔法\龙图腾仪式.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="灵能">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第一章 艾伯伦中的魔法\灵能.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="艾伦诺的魔法">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第一章 艾伯伦中的魔法\艾伦诺的魔法.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="坎纳斯的魔法">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第一章 艾伯伦中的魔法\坎纳斯的魔法.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="艾伯伦的组织">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第一章 艾伯伦中的魔法\艾伯伦的组织.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第二章 角色选项">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="异变魔血裔">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第二章 角色选项\异变魔血裔.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="灵俑">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第二章 角色选项\灵俑.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="灵能机关术士">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第二章 角色选项\灵能机关术士.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="龙图腾仪式">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第二章 角色选项\龙图腾仪式具体.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="专长">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第二章 角色选项\专长.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第三章 进阶职业">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="炼金大师">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第三章 进阶职业\炼金大师.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="逐死者">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第三章 进阶职业\逐死者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="巨龙预言学家">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第三章 进阶职业\巨龙预言学家.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="吉拉哥元素共生者">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第三章 进阶职业\吉拉哥元素共生者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="秽染公子">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第三章 进阶职业\秽染公子.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="梦族猎心者">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第三章 进阶职业\梦族猎心者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="叛道技师">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第三章 进阶职业\叛道技师.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="艾伦诺警卫兵">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第三章 进阶职业\艾伦诺警卫兵.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第四章 法术和灵能">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="高魔社会中的生活">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第四章 法术与灵能\高魔社会中的生活.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="法术和机关术 列表">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第四章 法术与灵能\法术和机关术列表.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="法术和机关术 详述">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第四章 法术与灵能\法术和机关术详述.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="灵能">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第四章 法术与灵能\灵能详述.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="神术详述">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第四章 法术与灵能\神术详述.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第五章 魔法物品与装备">
+                      <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第五章 魔法物品与装备.htm">
+                      <param name="ImageNumber" value="21">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第六章 生物">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="怪物">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\新的怪物.htm">
+                          <param name="ImageNumber" value="3">
+                        </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="多尔加斯特(DOLGHAST)">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\多尔加斯特.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="半魇灵">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\半魇灵.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="半魇灵检察官">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\半魇灵检察官.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="梦族">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\梦族.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="念刃灵">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\念刃灵.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="控梦灵">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\控梦灵.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="乌尔达克(URDARK)">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\乌尔达克.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="吞食者">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\吞食者.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="人工生命体">
+                          <param name="ImageNumber" value="1">
+                        </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="劲弩手">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\劲弩手.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="专职工匠">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\专职工匠.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="迅捷信使">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\迅捷信使.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="鬼祟神偷">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\鬼祟神偷.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="百宝箱">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\百宝箱.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\刺猬-执着的猎兔犬.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="共生体">
+                          <param name="Local" value="9 世设\艾伯伦\MoE艾伯伦的魔法\第六章 生物\共生体.htm">
+                          <param name="ImageNumber" value="21">
+                        </OBJECT>
+                    </UL>
+                </UL>
+                <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="[PGtE] 艾伯伦玩家手册">
+                  <param name="Local" value="9 世设\艾伯伦\PGtE艾伯伦玩家手册\封面.htm">
                   <param name="ImageNumber" value="1">
                 </OBJECT>
                 <UL>
@@ -14096,14 +14630,10 @@
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="2. 一份艾伯伦的指南">
-                      <param name="ImageNumber" value="1">
+                      <param name="Local" value="9 世设\艾伯伦\PGtE艾伯伦玩家手册\序言：一份艾伯伦的指南.htm">
+                      <param name="ImageNumber" value="3">
                     </OBJECT>
                     <UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="序 一份艾伯伦的指南">
-                          <param name="Local" value="9 世设\艾伯伦\PGtE艾伯伦玩家手册\序言：一份艾伯伦的指南.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="冒险ADVENTURE">
                           <param name="Local" value="9 世设\艾伯伦\PGtE艾伯伦玩家手册\冒险ADVENTURE.htm">
@@ -14391,209 +14921,478 @@
                     </UL>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[RoE] 艾伯伦的种族">
+                  <param name="Name" value="[SoX] 希恩德瑞克的秘辛">
+                  <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\封面.htm">
                   <param name="ImageNumber" value="1">
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第一章 战俑">
-                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第一章 战俑.htm">
+                      <param name="Name" value="概述">
+                      <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\概述.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第二章 半兽化人">
-                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第二章 半兽化人.htm">
+                      <param name="Name" value="第一章 欢迎来到希恩德瑞克">
+                      <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第一章 欢迎来到希恩德瑞克.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第三章 半变形怪">
-                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第三章 半变形怪.htm">
+                      <param name="Name" value="第二章 冒险地点">
+                      <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第二章 冒险地点.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第四章 半梦灵">
-                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第四章 半梦灵.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第五章 其他种族">
-                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第五章 其他种族.htm">
-                      <param name="ImageNumber" value="1">
+                      <param name="Name" value="第三章 遭遇">
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="矮人">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\矮人.htm">
+                          <param name="Name" value="人文与传说">
+                          <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第三章 遭遇 人文与传说.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="艾伦诺精灵">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\艾伦诺精灵.htm">
+                          <param name="Name" value="遭遇范例与脑洞">
+                          <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第三章 遭遇范例与脑洞.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="卓尔精灵">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\卓尔精灵.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="科瓦雷精灵">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\科瓦雷精灵.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="维纶娜精灵">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\维纶娜精灵.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="侏儒">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\侏儒.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="地精">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\地精.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="半精灵">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\半精灵.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="半兽人">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\半兽人.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="科瓦雷半身人">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\科瓦雷半身人.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="塔兰塔半身人">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\塔兰塔半身人.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="半魇灵">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\半魇灵.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="兽人">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\兽人.htm">
+                          <param name="Name" value="新怪物与陷阱">
+                          <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第三章 新怪物与陷阱.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                     </UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第六章 角色选项">
-                      <param name="ImageNumber" value="1">
-                    </OBJECT>
-                    <UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="专长">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\ROE专长.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="种族替换等级">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\ROE种族替换等级.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                    </UL>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第七章 进阶职业">
-                      <param name="ImageNumber" value="1">
-                    </OBJECT>
-                    <UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="传承者">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\传承者.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="密阁间谍">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\密阁间谍.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="月咏者">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\月咏者.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="梦族之魇">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\梦族之魇.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="奔掠者">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\奔掠者.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="铸法者">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\铸法者.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="重生者">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\重生者.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="咒刻士兵">
-                          <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\咒刻士兵.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                    </UL>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第八章 装备">
-                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\第八章 装备.htm">
+                      <param name="Name" value="第四章 希恩德瑞克中的冒险">
+                      <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第四章 希恩德瑞克中的冒险.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第九章 魔法与灵能">
-                      <param name="Local" value="9 世设\艾伯伦\RoE艾伯伦的种族\ROE魔法与灵能.htm">
+                      <param name="Name" value="第五章 揭秘希恩德瑞克">
+                      <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第五章 揭秘希恩德瑞克.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[未导入][MoE]艾伯伦的魔法">
-                  <param name="ImageNumber" value="41">
+                  <param name="Name" value="[FoE] 艾伯伦的信仰">
+                  <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\封面.htm">
+                  <param name="ImageNumber" value="1">
                 </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="概述">
+                      <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\概述.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第一章：天命诸神">
+                      <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\第一章：天命诸神.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第二章：黑暗六神">
+                      <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\第二章：黑暗六神.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第三章：银焰">
+                      <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\第三章：银焰.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第四章：沃尔之血">
+                      <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\第四章：沃尔之血.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第五章：德鲁伊教派">
+                      <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\第五章：德鲁伊教派.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第六章：其他教派">
+                      <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\第六章：其他教派.htm">
+                      <param name="ImageNumber" value="3">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="战俑的奥秘">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\战俑的奥秘.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="梦族信仰">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\梦族信仰.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="黄泉巨龙会">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\黄泉巨龙会.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="赛丽岛的龙信仰">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\塞里岛的龙信仰.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="不朽评议会">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\不朽评议会.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第七章：信仰的体现">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="新专长">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\新专长.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="法术">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\法术.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="异能">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\异能.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="宗教装备">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\宗教物品.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="魔法物品">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\魔法物品.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="构装移植体">
+                          <param name="Local" value="9 世设\艾伯伦\FoE艾伯伦的信仰\构装移植体.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[未导入][FoE] 艾伯伦的信仰">
-                  <param name="ImageNumber" value="41">
+                  <param name="Name" value="[Dragonmarked] 龙纹之书">
+                  <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\封面.htm">
+                  <param name="ImageNumber" value="1">
                 </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="概述">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第一章 龙纹家族">
+                      <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\第一章 龙纹家族.htm">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="卡尼斯家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\卡尼斯家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="邓奈斯家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\邓奈斯家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="伽兰达家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\伽兰达家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="乔拉斯克家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\乔拉斯克家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="昆达拉克家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\昆达拉克家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="林兰德家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\林兰德家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="梅丹尼家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\梅丹尼家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="欧瑞恩家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\欧瑞恩家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="费奥兰家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\费奥兰家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="西维斯家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\西维斯家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="萨拉释克家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\萨拉释克家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="索兰尼家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\索兰尼家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="瓦塔利斯家族">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\瓦塔利斯家族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第二章 进阶职业">
+                      <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\第二章 进阶职业.htm">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="黑狗">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\黑狗.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="欧瑞恩之刃">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\欧瑞恩之刃.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="赛尔斥候">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\赛尔斥候.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="邓奈斯忠卫">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\邓奈斯忠卫.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="杜拉卡-阿什">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\杜拉卡-阿什.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="梅丹妮预言者">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\梅丹尼预言者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="疫病医者">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\疫病医者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="阴影猎手">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\阴影猎手.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="银键">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\银键.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="暴风前哨">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\暴风前哨.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="无拘卷轴">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\无拘卷轴.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="瓦塔利斯驯兽者">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\瓦塔利斯驯兽者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第三章 新专长">
+                      <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\第三章 新专长.htm">
+                      <param name="ImageNumber" value="21">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第四章 魔法与龙纹">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="法术">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\法术.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="龙纹物品">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\龙纹物品.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="变异龙纹">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\变异龙纹.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[未导入][DoE] 艾伯伦的龙">
-                  <param name="ImageNumber" value="41">
+                  <param name="Name" value="[SoS] 索隆娜的秘辛">
+                  <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\封面.htm">
+                  <param name="ImageNumber" value="1">
                 </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[未导入][Dragonmarked] 龙纹之书">
-                  <param name="ImageNumber" value="41">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[未导入][Explore] 探险家手册">
-                  <param name="ImageNumber" value="41">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[未导入][Sharn] 萨恩：万塔都市">
-                  <param name="ImageNumber" value="41">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[未导入][Stormreach] 风暴湾">
-                  <param name="ImageNumber" value="41">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[未导入][FN] 五国">
-                  <param name="ImageNumber" value="41">
-                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="引言">
+                      <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\引言.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第一章 欢迎来到索隆娜">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="概述">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\概述.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="艾达尔">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\艾达尔.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="瑞依卓尔">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\瑞依卓尔.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="锡尔卡">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\锡尔卡.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第二章 索隆娜的角色">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="种族">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\种族.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="变体职业：灵能刺客">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\变体职业：灵能刺客.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="新专长">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\新专长.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="达·库尔之拳">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\达·库尔之拳.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="哈兹塔拉泰">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\哈兹塔拉泰.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="新法术">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="新异能">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\新异能.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第三章 索隆娜的珍宝">
+                      <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\第三章 索隆娜的珍宝.htm">
+                      <param name="ImageNumber" value="21">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第四章 索隆娜的怪物">
+                      <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\第四章 索隆娜的怪物.htm">
+                      <param name="ImageNumber" value="1">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="精华掠夺者">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\精华掠夺者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="梦缚生物">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\梦缚生物.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="梦育生物">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\梦育生物.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="梦族">
+                          <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\梦族.htm">
+                          <param name="ImageNumber" value="1">
+                        </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="三眼灵">
+                              <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\三眼灵.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="百变灵">
+                              <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\百变灵.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="梦魇灵">
+                              <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\梦魇灵.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="念刃灵">
+                              <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\念刃灵.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="控梦灵">
+                              <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\控梦灵.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
+                    </UL>
+                </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="[未排版][FoW] 战争熔炉">
+                  <param name="Local" value="9 世设\艾伯伦\FoW战争熔炉\封面.htm">
                   <param name="ImageNumber" value="41">
                 </OBJECT>
                 <UL>
@@ -14919,57 +15718,71 @@
                     </UL>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[未导入][SoS] 索隆娜的秘辛">
-                  <param name="ImageNumber" value="41">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[SoX] 希恩德瑞克的秘辛">
+                  <param name="Name" value="[DoE] 艾伯伦的巨龙">
+                  <param name="Local" value="9 世设\艾伯伦\DoE艾伯伦的龙\封面.htm">
                   <param name="ImageNumber" value="1">
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="概述">
-                      <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\概述.htm">
+                      <param name="Name" value="序言">
+                      <param name="Local" value="9 世设\艾伯伦\DoE艾伯伦的龙\序言.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第一章 欢迎来到希恩德瑞克">
-                      <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第一章 欢迎来到希恩德瑞克.htm">
+                      <param name="Name" value="第一章 阿贡尼森的龙">
+                      <param name="Local" value="9 世设\艾伯伦\DoE艾伯伦的龙\第一章 阿贡尼森的龙.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第二章 冒险地点">
-                      <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第二章 冒险地点.htm">
+                      <param name="Name" value="第二章 科瓦雷的龙">
+                      <param name="Local" value="9 世设\艾伯伦\DoE艾伯伦的龙\第二章 科瓦雷的龙.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第三章 遭遇">
-                    </OBJECT>
-                    <UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="人文与传说">
-                          <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第三章 遭遇 人文与传说.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="遭遇范例与脑洞">
-                          <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第三章 遭遇范例与脑洞.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="新怪物与陷阱">
-                          <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第三章 新怪物与陷阱.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                    </UL>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第四章 希恩德瑞克中的冒险">
-                      <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第四章 希恩德瑞克中的冒险.htm">
+                      <param name="Name" value="第三章 索隆娜的龙">
+                      <param name="Local" value="9 世设\艾伯伦\DoE艾伯伦的龙\第三章 索隆娜的龙.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="第五章 揭秘希恩德瑞克">
-                      <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第五章 揭秘希恩德瑞克.htm">
+                      <param name="Name" value="第四章 希恩德瑞克的龙">
+                      <param name="Local" value="9 世设\艾伯伦\DoE艾伯伦的龙\第四章 希恩德瑞克的龙.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                </UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="[Stormreach] 风暴湾之城">
+                  <param name="Local" value="9 世设\艾伯伦\Stormreach风暴湾\封面.htm">
+                  <param name="ImageNumber" value="1">
+                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="引言">
+                      <param name="Local" value="9 世设\艾伯伦\Stormreach风暴湾\引言.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第一章 风暴湾中的生活">
+                      <param name="Local" value="9 世设\艾伯伦\Stormreach风暴湾\第一章 风暴湾中的生活.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第二章 权利与政治">
+                      <param name="Local" value="9 世设\艾伯伦\Stormreach风暴湾\第二章 权利与政治.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第三章 仅限会员">
+                      <param name="Local" value="9 世设\艾伯伦\Stormreach风暴湾\第三章 仅限会员.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第四章 城市之外">
+                      <param name="Local" value="9 世设\艾伯伦\Stormreach风暴湾\第四章 城市之外.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="第五章 城市冒险">
+                      <param name="Local" value="9 世设\艾伯伦\Stormreach风暴湾\第五章 城市冒险.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                 </UL>
@@ -14987,6 +15800,19 @@
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="东方冒险 Oriental Adventures">
                 </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="[OA] 东方冒险">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="五轮传奇：麓燕战役设定集">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="新头部">
+                        </OBJECT>
+                    </UL>
+                </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="幽灵漫步 Ghostwalk">
                 </OBJECT>
@@ -14995,248 +15821,277 @@
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="1. 引言">
-                      <param name="Local" value="9 世设\其他世设\PS\1引言.htm">
-                      <param name="ImageNumber" value="3">
+                      <param name="Name" value="[PSCS] 异度风景战役设定集">
+                      <param name="Local" value="9 世设\其他世设\PS\PSCS封面.htm">
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="如何使用本书？">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\如何使用本书.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="配套书目">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\你还需要什么.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="多元宇宙与位面居民">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\多元宇宙与位面居民.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="定义何为现实">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\定义现实.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="阵营的区别">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\阵营的区别.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="设定集的历史">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\设定集历史.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="冒险和阴谋">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\冒险与阴谋.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="欢迎来到巨环">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\巨环.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="基准位面">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\基准位面.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="过渡和虚假位面">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\过渡和虚假位面.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="印记城">
-                          <param name="Local" value="9 世设\其他世设\PS\1引言\印记城.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                    </UL>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="2. 角色和种族">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="3. 派系组织">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="4. 技能专长和通用进阶">
-                      <param name="Local" value="9 世设\其他世设\PS\4技能专长.htm">
-                      <param name="ImageNumber" value="3">
-                    </OBJECT>
-                    <UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="新的技能">
-                          <param name="Local" value="9 世设\其他世设\PS\4技能专长\技能部分.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="新的专长">
-                          <param name="Local" value="9 世设\其他世设\PS\4技能专长\专长简表.htm">
+                          <param name="Name" value="1. 引言">
+                          <param name="Local" value="9 世设\其他世设\PS\1引言.htm">
                           <param name="ImageNumber" value="3">
                         </OBJECT>
                         <UL>
                             <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="一般专长">
-                              <param name="Local" value="9 世设\其他世设\PS\4技能专长\一般专长.htm">
+                              <param name="Name" value="如何使用本书？">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\如何使用本书.htm">
                               <param name="ImageNumber" value="11">
                             </OBJECT>
                             <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="派系专长">
+                              <param name="Name" value="配套书目">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\你还需要什么.htm">
+                              <param name="ImageNumber" value="11">
                             </OBJECT>
-                            <UL>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="A">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="B">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="C">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="D">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="E">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="F">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="G">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="H">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="I">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="J">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="K">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="L">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="M">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="N">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="O">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="P">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="R">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="S">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="T">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="U">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="V">
-                                </OBJECT>
-                                <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="W">
-                                </OBJECT>
-                            </UL>
                             <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="地域专长">
-                              <param name="Local" value="9 世设\其他世设\PS\4技能专长\地域专长.htm">
+                              <param name="Name" value="多元宇宙与位面居民">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\多元宇宙与位面居民.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="定义何为现实">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\定义现实.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="阵营的区别">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\阵营的区别.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="设定集的历史">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\设定集历史.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="冒险和阴谋">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\冒险与阴谋.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="欢迎来到巨环">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\巨环.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="基准位面">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\基准位面.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="过渡和虚假位面">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\过渡和虚假位面.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="印记城">
+                              <param name="Local" value="9 世设\其他世设\PS\1引言\印记城.htm">
                               <param name="ImageNumber" value="11">
                             </OBJECT>
                         </UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="通用进阶职业">
+                          <param name="Name" value="2. 角色和种族">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="3. 派系组织">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="4. 技能专长和通用进阶">
+                          <param name="Local" value="9 世设\其他世设\PS\4技能专长.htm">
+                          <param name="ImageNumber" value="3">
                         </OBJECT>
                         <UL>
                             <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="深渊战士">
+                              <param name="Name" value="新的技能">
+                              <param name="Local" value="9 世设\其他世设\PS\4技能专长\技能部分.htm">
                               <param name="ImageNumber" value="11">
                             </OBJECT>
                             <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="黄泉战帅">
-                              <param name="ImageNumber" value="11">
+                              <param name="Name" value="新的专长">
+                              <param name="Local" value="9 世设\其他世设\PS\4技能专长\专长简表.htm">
+                              <param name="ImageNumber" value="3">
                             </OBJECT>
+                            <UL>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="一般专长">
+                                  <param name="Local" value="9 世设\其他世设\PS\4技能专长\一般专长.htm">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="派系专长">
+                                  <param name="Local" value="9 世设\其他世设\PS\4技能专长\派系专长简表.htm">
+                                  <param name="ImageNumber" value="3">
+                                </OBJECT>
+                                <UL>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="A">
+                                      <param name="Local" value="9 世设\其他世设\PS\4技能专长\派系专长-A.htm">
+                                      <param name="ImageNumber" value="11">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="B">
+                                      <param name="Local" value="9 世设\其他世设\PS\4技能专长\派系专长-B.htm">
+                                      <param name="ImageNumber" value="11">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="C">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="D">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="E">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="F">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="G">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="H">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="I">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="J">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="K">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="L">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="M">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="N">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="O">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="P">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="R">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="S">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="T">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="U">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="V">
+                                    </OBJECT>
+                                    <LI><OBJECT type="text/sitemap">
+                                      <param name="Name" value="W">
+                                    </OBJECT>
+                                </UL>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="地域专长">
+                                  <param name="Local" value="9 世设\其他世设\PS\4技能专长\地域专长.htm">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                            </UL>
                             <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="星界滑行者">
-                              <param name="ImageNumber" value="11">
+                              <param name="Name" value="通用进阶职业">
                             </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="逻辑心智">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="以太强盗">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="以太行者哨兵">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="腹地匪徒">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="咆哮者">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="位面侦探">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="位面行者">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="位面猎手">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="天空巫师">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="旋风苦修士">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="泽斯武者">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
+                            <UL>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="深渊战士">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="黄泉战帅">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="星界滑行者">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="逻辑心智">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="以太强盗">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="以太行者哨兵">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="腹地匪徒">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="咆哮者">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="位面侦探">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="位面行者">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="位面猎手">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="天空巫师">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="旋风苦修士">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="泽斯武者">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                            </UL>
                         </UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="5. 位面中的魔法">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="6. 活在多元宇宙">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="7. 印记城">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="8. 及其之外">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="9. DM之暗">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="附录">
+                          <param name="Local" value="9 世设\其他世设\PS\附录\附录总述.htm">
+                          <param name="ImageNumber" value="21">
+                        </OBJECT>
                     </UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="5. 位面中的魔法">
+                      <param name="Name" value="已知神祇列表">
+                      <param name="Local" value="10 附录\填充页面.htm">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="6. 活在多元宇宙">
+                      <param name="Name" value="印记城NPC列表">
+                      <param name="Local" value="10 附录\填充页面.htm">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="7. 印记城">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="8. 及其之外">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="9. DM之暗">
+                      <param name="Name" value="印记城地点列表">
+                      <param name="Local" value="10 附录\填充页面.htm">
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
@@ -15423,15 +16278,10 @@
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="CSS样式表">
-                      <param name="Local" value="10 附录\html教学\CSS样式表.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="如何输入表格">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="常用标签和属性辞典">
+                      <param name="Name" value="为什么不用所见即所得">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                 </UL>
