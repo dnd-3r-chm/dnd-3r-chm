@@ -1,263 +1,148 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+
 <head>
-<title>影子战争</title>
-<meta name="GENERATOR" content="WinCHM">
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
-html,body { 
-	/* Default Font */
-	font-family: Microsoft YaHei, Simsun, sans-serif;
-	font-size: 12pt;
-}
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:等线;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:"\@微软雅黑";}
+@font-face
+	{font-family:"\@等线";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:等线;}
+.MsoChpDefault
+	{font-family:等线;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
 </style>
 
-
-
-
-<style>
-html,div { margin: 0; padding: 0;}
-
-body {
-	padding: 0px;
-	margin: 0px;
-	overflow: auto;
-	height: 100%;
-}
-
-#winchm_template_button{
-	float: right;
-	width: 93px;
-	top: 7px;
-	position: relative;
-	text-align: right;
-	right: 5px;
-	height: auto;
-}
-
-#winchm_template_top{
-	padding: 0px;
-	margin: 0px;
-	border-bottom: 1px solid #9B9B9B;
-	background-color: #B1CEFE;
-}
-
-#winchm_template_navigation{
-	margin: 0px;
-	padding-top: 7px;
-	padding-left: 7px;
-	padding-bottom: 3px;
-	padding-right: 0px;
-	font-size: 8.5pt;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	color: #585858;
-}
-
-#winchm_template_title{
-	margin: 0px;
-	padding-top: 4px;
-	padding-left: 7px;
-	padding-bottom: 7px;
-	padding-right: 0px;
-	font-size: 18px; 
-	font-family: Verdana, Geneva, sans-serif;
-	color: #363636;
-}
-
-#winchm_template_content{
-	margin-top: 20px;
-	margin-left: 15px;
-	margin-bottom: 20px;
-	margin-right: 15px;
-	width: auto  !important;
-	width: 100%;
-}
-
-#winchm_template_footer{
-	border-width: 1px;
-	border-color: #B1CEFE;
-	border-top-style: solid;
-	margin-top: 15px;
-	margin-left: 15px;
-	margin-bottom: 20px;
-	margin-right: 15px;
-	padding-top: 7px;
-	padding-left: 0px;
-	padding-bottom: 0px;
-	padding-right: 0px;
-	font-family: arial, helvetica, sans-serif;
-	font-size: 8.5pt;
-	color: #696969;
-	width: auto;
-	text-align: left;
-}
-
-
-#winchm_template_container{
-	margin: 0px;
-	padding: 0px;
-	position: static;
-	padding-bottom: 3px;
-	overflow: auto;
-	background-color: #FFFFFF;
-}
-
-
-@media print
-{
-#winchm_template_container{
-	position: static;	
-	margin: 0px;
-	padding: 5px;
-	
-	width: auto;
-	height: auto;
-	overflow: auto;
-}
-#winchm_template_button{
-visibility:hidden;
-}
-}
-
-#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
-#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
-#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
-#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
-
-A:link	{text-decoration: underline; color:#0033CC}
-A:visited  {text-decoration: underline; color: #0033CC}
-A:active {text-decoration: underline; color: #0033CC }
-A:hover {text-decoration: underline;color: #FF0000;}
-</style>
-<script type="text/javascript">
-function isMobile(){
-Agent = window.navigator.userAgent;
-if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
-return true;
-}else{
-return false;	
-}
-
-}
-function d_onresize(){
-if (window.navigator.userAgent.indexOf("MSIE")>=1){
-document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
-document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
-}
-document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
-}
-
-function d_onbeforeprint(){
-document.getElementById('winchm_template_container').style.width = 'auto';
-document.getElementById('winchm_template_container').style.height = 'auto';
-}
-
-function d_onafterprint(){
-d_onresize();
-}
-
-if(!isMobile()){
-
-window.onload = d_onresize;
-window.onresize = d_onresize;
-window.onbeforeprint = d_onbeforeprint;
-window.onafterprint = d_onafterprint;
-
-document.write("<style>\n");
-document.write("body {overflow: hidden;}\n");
-document.write("#winchm_template_container {position: absolute;overflow: auto;}\n");
-document.write("</style>\n");
-}
-
-</script>
 </head>
 
-<body>
+<body lang=ZH-CN style='word-wrap:break-word;text-justify-trim:punctuation'>
 
-<div id="winchm_template_top">
-	<div id="winchm_template_button"><A href="摩洛领.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="萨法拉斯：无尽之战.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
-	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
-官方出版物 &gt; <A href="战争熔炉_FOW.htm">战争熔炉 FOW</A> &gt; <A href="终末战争大百科.htm">终末战争大百科</A> &gt; </font></div>
-	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">影子战争</font></div>
-</div>
-<div id="winchm_template_container">
-	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><SPAN class=bbc_color 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: red; FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">影子战争</STRONG></SPAN></SPAN></SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>王座协议的签署正式标志着终末战争的结束，但它并没能组织那些潜在的冲突。这些国家之间的竞争就像他们在战争最激烈的时候那样激烈且充满敌意——他们只是找到了更微妙更隐蔽的方式去进行战争。五国中尚存的四国以及其他在王座协议中被承认主权的国家，相互之间都存在着冷战和隐蔽的冲突。&nbsp;&nbsp;&nbsp;柯兰堡文摘将这称之为“影子战争”，这场不那么秘密的战争可能还要在持续几代人之久——或者更糟，毫无预兆的爆发成一场新的战争——与此同时所谓“终末”将变得如此苍白可笑。只有一件事是可以肯定的：无论采取何种手段，这场战争在可预见的未来中都不可能结束。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>&nbsp;</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_size 
-style='FONT-SIZE: 18pt; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; LINE-HEIGHT: 1.4em; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_font style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">军备竞赛</STRONG></SPAN></SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>基于真知灼见和纯粹的偏执，各国都在军事上竭力追求相对于其邻国的绝对优势地位。尽管这一立场主要是防御目的，但如果一个国家在军力上取得了明显的优势，它很可能就想要发动一场预防性战争，希望在下一场大战开始之前，就结束它。目前，各国在其各自领域都有一些明显的优势。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>安黛尔：</STRONG><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>尽管它既没有最强的军事力量，也没有最好的情报组织，但安黛尔保持了它在奥术魔法领域上的优势。它的各种行会和学校产生了拥有充足战斗力的法师和术士，还没有哪个国家想要与他们对上。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>布鲁兰：</STRONG><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>国王堡垒，特别是其下属的国王暗灯，仍然是科瓦雷大路上最成熟的情报机构。布鲁兰的部队可能无法在在战场上与其他国家匹敌，但他们几乎可以保证得到任何针对他们的行动的情报。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>坎纳斯：</STRONG><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>坎纳斯仍然是军事领域上的霸主。它的军队规模更大，训练更好，装备更精良。如果他能找到一种抵消其他国家优势的方法，坎纳斯几乎肯定会成为五国中的主导力量。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><STRONG 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>瑟雷恩：</STRONG><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>显而易见的，瑟雷恩拥有神术领域上的优势。它可以部署一支仅次于坎纳斯的军队，拥有牧师的支援的军队。这些牧师能够彰显神恩，治愈受伤的士兵，有时还能摧毁坎纳斯的亡灵部队。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>&nbsp;</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_size 
-style='FONT-SIZE: 18pt; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; LINE-HEIGHT: 1.4em; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_font style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">探索和资源</STRONG></SPAN></SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>国家之间的非暴力竞争的主要形式之一（据说）就是探索和开发新的自然或魔法资源的竞赛。而最著名的希恩德瑞克就在海的另一边。而这里，因为大部分冒险队往返于该大陆都必须要经过萨恩，理所当然的，布鲁兰拥有地理位置上的优势，比任何人都更了解这个神秘大陆的秘密。除了龙纹家族，卡尼斯和林兰德。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>另一方面，当谈到魔法研究的时候，安黛尔已经处于领先地位，而且国家也已经派遣了越来越多的冒险者进入埃鲁登原野和霜落故地。坎纳斯和瑟雷恩正在争夺隐藏在哀伤故地里的奇迹（和可利用的恐怖之物），然而布鲁兰，特别是新赛尔，在这方面也投入了越来越多的资源。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>在各方形势下，民族主义的崛起和骄傲是这些行动的主要动力。布雷什公民讨厌其他国家先于布鲁兰在希恩德瑞克取得的某种进展，而安黛尔人则对其魔法技术的进步感到自豪。这种感情使得探险计划和实验项目成为了敌对势力的首要破坏目标；即使是没有争夺这种资源的国家，也不希望对手得到。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>&nbsp;</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_size 
-style='FONT-SIZE: 18pt; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; LINE-HEIGHT: 1.4em; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_font style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">金融战争</STRONG></SPAN></SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>每个国家对商品的进出口和销售税以及关税，部分是基于其来源地或最终目的地制订的。任何卖往坎纳斯的商品——或者说任何坎纳斯商人——在布鲁兰销售或购买任何商品都要比布雷什商人缴纳更多的税款。各国对贸易路线的过路费（除非该路线是由欧瑞恩或其他龙纹家族控制），通常也根据其旅客的国籍或货物来源调整。有时，一个国家的特工甚至可能会摧毁另一个国家的储备物资，以迫使对方以高昂的价格购买外国商品。举个例子，安黛尔破坏了其他国家的魔法物品制造工坊，甚至是暗中破坏了卡尼斯家族的产业，以促使人们购买安黛尔的产品。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>&nbsp;</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_size 
-style='FONT-SIZE: 18pt; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; LINE-HEIGHT: 1.4em; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_font style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">间谍、破坏和煽动</STRONG></SPAN></SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>各国之间间谍活动的频繁程度堪比商人。每个国家都对新战争的爆发心存忧虑，而每个国家的都想为此做好准备。关于对手的军事实力，经济状况，魔法发明，政治措施和未来计划的情报远比单纯的黄金更有价值，没人能承受失去情报的损失。虽然从技术层面上来说，派遣间谍监视外国势力是一种战争行动，但没有哪个国家真的将其视为战争；俘虏、审问，交易囚犯或是处决敌方特工都变成了一种稀松平常的事。大多数这类间谍生活在平民百姓中，试着获得他们所能获得的情报和流言，但也有少数人设法渗透到政府高层。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>某些情况下，这些特工所要做的不仅仅是反馈情报。对军事行动或魔法实验的破坏，甚至是偶尔的暗杀行动都是理所当然的。与“标准”的间谍行动不同，这些行动具有重大意义，如果不是针对直接的敌对行动，可能引发国境冲突或贸易战争，所以只有在绝对必要的时候才会使用这些手段。例如，瑟雷恩曾冒险在坎纳斯部署了十二名特工去暗杀一名坎纳斯死灵师，据说其致力于使不死生物免疫驱散的研究。尽管其至今为止的所有实验都以失败告终，但这并不在重要；瑟雷恩的政府不能冒这个风险，因为其一旦成功，两国之间的力量平衡瞬间就会被打破。</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>在这些秘密特工最危险，但最有效的行动组织以就是煽动。如果一个国家的特工可以为另一个国家挑起社会纷争或军事上的麻烦，那么就会有效的消耗敌人的资源，从而分散其对邻国行动的注意力。这一行动的范围包括在饥荒或受压迫地区引发骚乱（详见瑟奥利斯特，第92页），甚至是对某个国家发起攻击并嫁祸给另一个国家。例如，安黛尔的特工利用幻术和惑控魔法，设法在塔兰塔平原与维纶娜精灵发生一些冲突，然后借此削弱坎纳斯的力量。（想要引诱维纶娜上战场，并不是很困难的事。）</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>&nbsp;</SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_size 
-style='FONT-SIZE: 18pt; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; LINE-HEIGHT: 1.4em; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-class=bbc_font style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">摩擦和佣兵</STRONG></SPAN></SPAN><BR 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
-style='FONT-SIZE: 13px; FONT-FAMILY: "Segoe UI", Calibri, "Myriad Pro", Myriad, "Trebuchet MS", Helvetica, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(226,244,251); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>公开的暴力冲突仍然不时爆发。这主要发生在相接的边境，但有时敌对势力也会在中立或有争议的地区上遭遇（比如坎纳斯和瑟雷恩的部队在哀伤故地上不期而遇）。一个国家对另一个国家的聚居地发动突袭，而被入侵的政府要恢复失地，或是发动了报复性攻击。到目前为止，这些摩擦都没有升级为全面战争——有时令一些公民恼怒，他们对于邻国的掠夺行动越来越愤怒。在某些情况下，一些国家雇佣或是鼓励其他国家为他们进行小规模的战争，比如雇佣达贡地精袭击边境据点，或者以“净化”塔兰塔平原为借口，利用半身人雇佣兵伏击坎纳斯商队。即使受害者知道这些袭击是处于政治因素，也往往缺乏足够的证据支撑其进行报复行动。</SPAN></FONT></font></div>	
-	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">Copyright &copy; 2014. All rights 
-reserved. (编辑此文本可以更改这个模板.)</font></div>
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:32.0pt'><b><span
+style='font-size:16.0pt;font-family:"微软雅黑",sans-serif'>战争熔炉<span lang=EN-US>
+FOW</span></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:32.0pt'><b><span
+style='font-size:16.0pt;font-family:"微软雅黑",sans-serif'>终末战争大百科</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:32.0pt'><b><span
+style='font-size:16.0pt;font-family:"微软雅黑",sans-serif'>影子战争</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>影子战争</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>王座协议的签署正式标志着终末战争的结束，但它并没能组织那些潜在的冲突。这些国家之间的竞争就像他们在战争最激烈的时候那样激烈且充满敌意——他们只是找到了更微妙更隐蔽的方式去进行战争。五国中尚存的四国以及其他在王座协议中被承认主权的国家，相互之间都存在着冷战和隐蔽的冲突。<span
+lang=EN-US>&nbsp;&nbsp; </span>柯兰堡文摘将这称之为<span lang=EN-US>“</span>影子战争<span
+lang=EN-US>”</span>，这场不那么秘密的战争可能还要在持续几代人之久<span lang=EN-US>——</span>或者更糟，毫无预兆的爆发成一场新的战争<span
+lang=EN-US>——</span>与此同时所谓<span lang=EN-US>“</span>终末<span lang=EN-US>”</span>将变得如此苍白可笑。只有一件事是可以肯定的：无论采取何种手段，这场战争在可预见的未来中都不可能结束。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>军备竞赛</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>基于真知灼见和纯粹的偏执，各国都在军事上竭力追求相对于其邻国的绝对优势地位。尽管这一立场主要是防御目的，但如果一个国家在军力上取得了明显的优势，它很可能就想要发动一场预防性战争，希望在下一场大战开始之前，就结束它。目前，各国在其各自领域都有一些明显的优势。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>安黛尔：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>尽管它既没有最强的军事力量，也没有最好的情报组织，但安黛尔保持了它在奥术魔法领域上的优势。它的各种行会和学校产生了拥有充足战斗力的法师和术士，还没有哪个国家想要与他们对上。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>布鲁兰：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>国王堡垒，特别是其下属的国王暗灯，仍然是科瓦雷大路上最成熟的情报机构。布鲁兰的部队可能无法在在战场上与其他国家匹敌，但他们几乎可以保证得到任何针对他们的行动的情报。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>坎纳斯：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>坎纳斯仍然是军事领域上的霸主。它的军队规模更大，训练更好，装备更精良。如果他能找到一种抵消其他国家优势的方法，坎纳斯几乎肯定会成为五国中的主导力量。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>瑟雷恩：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>显而易见的，瑟雷恩拥有神术领域上的优势。它可以部署一支仅次于坎纳斯的军队，拥有牧师的支援的军队。这些牧师能够彰显神恩，治愈受伤的士兵，有时还能摧毁坎纳斯的亡灵部队。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>探索和资源</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>国家之间的非暴力竞争的主要形式之一（据说）就是探索和开发新的自然或魔法资源的竞赛。而最著名的希恩德瑞克就在海的另一边。而这里，因为大部分冒险队往返于该大陆都必须要经过萨恩，理所当然的，布鲁兰拥有地理位置上的优势，比任何人都更了解这个神秘大陆的秘密。除了龙纹家族，卡尼斯和林兰德。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>另一方面，当谈到魔法研究的时候，安黛尔已经处于领先地位，而且国家也已经派遣了越来越多的冒险者进入埃鲁登原野和霜落故地。坎纳斯和瑟雷恩正在争夺隐藏在哀伤故地里的奇迹（和可利用的恐怖之物），然而布鲁兰，特别是新赛尔，在这方面也投入了越来越多的资源。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>在各方形势下，民族主义的崛起和骄傲是这些行动的主要动力。布雷什公民讨厌其他国家先于布鲁兰在希恩德瑞克取得的某种进展，而安黛尔人则对其魔法技术的进步感到自豪。这种感情使得探险计划和实验项目成为了敌对势力的首要破坏目标；即使是没有争夺这种资源的国家，也不希望对手得到。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>金融战争</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>每个国家对商品的进出口和销售税以及关税，部分是基于其来源地或最终目的地制订的。任何卖往坎纳斯的商品——或者说任何坎纳斯商人——在布鲁兰销售或购买任何商品都要比布雷什商人缴纳更多的税款。各国对贸易路线的过路费（除非该路线是由欧瑞恩或其他龙纹家族控制），通常也根据其旅客的国籍或货物来源调整。有时，一个国家的特工甚至可能会摧毁另一个国家的储备物资，以迫使对方以高昂的价格购买外国商品。举个例子，安黛尔破坏了其他国家的魔法物品制造工坊，甚至是暗中破坏了卡尼斯家族的产业，以促使人们购买安黛尔的产品。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>间谍、破坏和煽动</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>各国之间间谍活动的频繁程度堪比商人。每个国家都对新战争的爆发心存忧虑，而每个国家的都想为此做好准备。关于对手的军事实力，经济状况，魔法发明，政治措施和未来计划的情报远比单纯的黄金更有价值，没人能承受失去情报的损失。虽然从技术层面上来说，派遣间谍监视外国势力是一种战争行动，但没有哪个国家真的将其视为战争；俘虏、审问，交易囚犯或是处决敌方特工都变成了一种稀松平常的事。大多数这类间谍生活在平民百姓中，试着获得他们所能获得的情报和流言，但也有少数人设法渗透到政府高层。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>某些情况下，这些特工所要做的不仅仅是反馈情报。对军事行动或魔法实验的破坏，甚至是偶尔的暗杀行动都是理所当然的。与“标准”的间谍行动不同，这些行动具有重大意义，如果不是针对直接的敌对行动，可能引发国境冲突或贸易战争，所以只有在绝对必要的时候才会使用这些手段。例如，瑟雷恩曾冒险在坎纳斯部署了十二名特工去暗杀一名坎纳斯死灵师，据说其致力于使不死生物免疫驱散的研究。尽管其至今为止的所有实验都以失败告终，但这并不在重要；瑟雷恩的政府不能冒这个风险，因为其一旦成功，两国之间的力量平衡瞬间就会被打破。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>在这些秘密特工最危险，但最有效的行动组织以就是煽动。如果一个国家的特工可以为另一个国家挑起社会纷争或军事上的麻烦，那么就会有效的消耗敌人的资源，从而分散其对邻国行动的注意力。这一行动的范围包括在饥荒或受压迫地区引发骚乱（详见瑟奥利斯特，第<span
+lang=EN-US>92</span>页），甚至是对某个国家发起攻击并嫁祸给另一个国家。例如，安黛尔的特工利用幻术和惑控魔法，设法在塔兰塔平原与维纶娜精灵发生一些冲突，然后借此削弱坎纳斯的力量。（想要引诱维纶娜上战场，并不是很困难的事。）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>摩擦和佣兵</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>公开的暴力冲突仍然不时爆发。这主要发生在相接的边境，但有时敌对势力也会在中立或有争议的地区上遭遇（比如坎纳斯和瑟雷恩的部队在哀伤故地上不期而遇）。一个国家对另一个国家的聚居地发动突袭，而被入侵的政府要恢复失地，或是发动了报复性攻击。到目前为止，这些摩擦都没有升级为全面战争——有时令一些公民恼怒，他们对于邻国的掠夺行动越来越愤怒。在某些情况下，一些国家雇佣或是鼓励其他国家为他们进行小规模的战争，比如雇佣达贡地精袭击边境据点，或者以“净化”塔兰塔平原为借口，利用半身人雇佣兵伏击坎纳斯商队。即使受害者知道这些袭击是处于政治因素，也往往缺乏足够的证据支撑其进行报复行动。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
 </div>
 
 </body>
+
 </html>

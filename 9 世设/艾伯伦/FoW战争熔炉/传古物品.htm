@@ -1,354 +1,859 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+
 <head>
-<title>传古物品</title>
-<meta name="GENERATOR" content="WinCHM">
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
-html,body { 
-	/* Default Font */
-	font-family: Microsoft YaHei, Simsun, sans-serif;
-	font-size: 12pt;
-}
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:等线;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:"\@微软雅黑";}
+@font-face
+	{font-family:"\@等线";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:等线;}
+.MsoChpDefault
+	{font-family:等线;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
 </style>
 
-
-
-
-<style>
-html,div { margin: 0; padding: 0;}
-
-body {
-	padding: 0px;
-	margin: 0px;
-	overflow: auto;
-	height: 100%;
-}
-
-#winchm_template_button{
-	float: right;
-	width: 93px;
-	top: 7px;
-	position: relative;
-	text-align: right;
-	right: 5px;
-	height: auto;
-}
-
-#winchm_template_top{
-	padding: 0px;
-	margin: 0px;
-	border-bottom: 1px solid #9B9B9B;
-	background-color: #B1CEFE;
-}
-
-#winchm_template_navigation{
-	margin: 0px;
-	padding-top: 7px;
-	padding-left: 7px;
-	padding-bottom: 3px;
-	padding-right: 0px;
-	font-size: 8.5pt;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	color: #585858;
-}
-
-#winchm_template_title{
-	margin: 0px;
-	padding-top: 4px;
-	padding-left: 7px;
-	padding-bottom: 7px;
-	padding-right: 0px;
-	font-size: 18px; 
-	font-family: Verdana, Geneva, sans-serif;
-	color: #363636;
-}
-
-#winchm_template_content{
-	margin-top: 20px;
-	margin-left: 15px;
-	margin-bottom: 20px;
-	margin-right: 15px;
-	width: auto  !important;
-	width: 100%;
-}
-
-#winchm_template_footer{
-	border-width: 1px;
-	border-color: #B1CEFE;
-	border-top-style: solid;
-	margin-top: 15px;
-	margin-left: 15px;
-	margin-bottom: 20px;
-	margin-right: 15px;
-	padding-top: 7px;
-	padding-left: 0px;
-	padding-bottom: 0px;
-	padding-right: 0px;
-	font-family: arial, helvetica, sans-serif;
-	font-size: 8.5pt;
-	color: #696969;
-	width: auto;
-	text-align: left;
-}
-
-
-#winchm_template_container{
-	margin: 0px;
-	padding: 0px;
-	position: static;
-	padding-bottom: 3px;
-	overflow: auto;
-	background-color: #FFFFFF;
-}
-
-
-@media print
-{
-#winchm_template_container{
-	position: static;	
-	margin: 0px;
-	padding: 5px;
-	
-	width: auto;
-	height: auto;
-	overflow: auto;
-}
-#winchm_template_button{
-visibility:hidden;
-}
-}
-
-#winchm_template_navigation A:link	{text-decoration: none; color:#004080}
-#winchm_template_navigation A:visited  {text-decoration: none; color: #004080}
-#winchm_template_navigation A:active {text-decoration: none; color: #004080 }
-#winchm_template_navigation A:hover {text-decoration: none;color: #0080FF}
-
-A:link	{text-decoration: underline; color:#0033CC}
-A:visited  {text-decoration: underline; color: #0033CC}
-A:active {text-decoration: underline; color: #0033CC }
-A:hover {text-decoration: underline;color: #FF0000;}
-</style>
-<script type="text/javascript">
-function isMobile(){
-Agent = window.navigator.userAgent;
-if (Agent.indexOf("iPhone")>=1 || Agent.indexOf("iPad")>=1 || Agent.indexOf("iPod")>=1 || Agent.indexOf("Android")>=1){
-return true;
-}else{
-return false;	
-}
-
-}
-function d_onresize(){
-if (window.navigator.userAgent.indexOf("MSIE")>=1){
-document.getElementById('winchm_template_container').style.pixelWidth = document.body.offsetWidth - 3;
-document.getElementById('winchm_template_container').style.pixelHeight = document.body.offsetHeight - document.getElementById('winchm_template_top').offsetHeight - 4;
-}
-document.getElementById('winchm_template_container').style.top = document.getElementById('winchm_template_top').offsetHeight + 'px';
-}
-
-function d_onbeforeprint(){
-document.getElementById('winchm_template_container').style.width = 'auto';
-document.getElementById('winchm_template_container').style.height = 'auto';
-}
-
-function d_onafterprint(){
-d_onresize();
-}
-
-if(!isMobile()){
-
-window.onload = d_onresize;
-window.onresize = d_onresize;
-window.onbeforeprint = d_onbeforeprint;
-window.onafterprint = d_onafterprint;
-
-document.write("<style>\n");
-document.write("body {overflow: hidden;}\n");
-document.write("#winchm_template_container {position: absolute;overflow: auto;}\n");
-document.write("</style>\n");
-}
-
-</script>
 </head>
 
-<body>
+<body lang=ZH-CN style='word-wrap:break-word;text-justify-trim:punctuation'>
 
-<div id="winchm_template_top">
-	<div id="winchm_template_button"><A href="魔法物品套装.htm" title="上一主题"><img id="winchm_template_prev" alt="上一主题" src="template2/btn_prev_n.gif" border="0"></a><A href="团队协作收益.htm" title="下一主题"><img id="winchm_template_next" alt="下一主题" src="template2/btn_next_n.gif" border="0"></a></div>
-	<div id="winchm_template_navigation"><font size="2px" font face="Microsoft YaHei">帮助 &gt; 
-官方出版物 &gt; <A href="战争熔炉_FOW.htm">战争熔炉 FOW</A> &gt; <A href="终末战争菁英选.htm">终末战争菁英选</A> &gt; </font></div>
-	<div id="winchm_template_title"><font size="2px" font face="Microsoft YaHei">传古物品</font></div>
-</div>
-<div id="winchm_template_container">
-	<div id="winchm_template_content"><font size="3px" font face="Microsoft YaHei"><font size="3" font face="Microsoft YaHei"><SPAN class=bbc_color style="COLOR: red"><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">传古物品</STRONG></SPAN></SPAN></SPAN><BR>传古物品是具有重要历史或特殊神话的独特魔法物品，他们拥有和使用者一同成长的能力。关于这些物品的完整规则出自《传古武器》扩展，但即使你没有使用那本书，你仍然可以使用这里描述的物品。<BR>为了使用传古物品，你必须先使用一个知识（历史）或逸闻知识检定，来了解该物品的历史。一个鉴定术可以在该检定中获得+2加值，而一个通宵传奇法术可以揭示使用该物品所需要的所有知识。<BR>作为发掘物品历史的一部分，你还需要了解一些信息，以完成将与你与武器的命运相连的仪式。大多数传古物品有三个仪式：5级后可以进行一个初级传古仪式；11级后可以进行一个次级传古仪式；17级之后还可以进行一个高级传古仪式。每个仪式都有相关的金钱成本，你必须支付以完成仪式过程。<BR>除了履行仪式和支付其GP成本，你还必须为此付出个人代价以使用传古物品的能力。这些代价包括永久的攻击掷骰减值、豁免减值、生命值等等。<BR>一旦你发掘了它的历史，进行了仪式，并支付了个人代价，你就可以使用本节中的传古物品锁描述的特殊能力。你可以使用自己等级所满足的每个级别的能力，只要你已经完成了适当的仪式。初级仪式解锁从第5到第10级的能力，次级仪式解锁11到16级的能力，高级仪式解锁17到20级的能力。<BR>当你完成一个仪式的时候，根据仪式的类型，你都会获得一个额外专长——初级传古、次级传古、高级传古）具体的仪式内容和相关传古物品有关（详见下文传古仪式部分）。<BR>&nbsp;<BR><SPAN 
-class=bbc_color style="COLOR: red"><SPAN class=bbc_size 
-style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">HILLCRUSHER<BR>山岳粉碎者</STRONG></SPAN></SPAN></SPAN><BR>尽管改武器的魔法能力难以侦测，但即使是一次偶然的检查，也能发现山岳粉碎者是一把非同寻常的武器。这把重型链枷的木柄由桃花心木制成，几个世纪以来，无数的手把它盘的油光发亮。一条纤细的铜线，看起来明显比链枷的其他部分更新，缠绕着木柄的下半截，提供更好的抓握力。一个黄铜的配重球安装在手柄底端，雕刻成一个有着各种突出岩石的山峰。链子是青铜的，被雕刻成几十只小小的手互相紧抓在一起组成的。链枷头也是青铜制成，像是一个尖叫的野兽头颅，看着像是一个原始的石巨人。<BR>非传古游戏数据：+1重型链枷；价格2315GP。<BR>预兆：当一个大型或更大的生物进入120尺范围内是，山岳粉碎者会发出微弱的隆隆声，类似于雪崩一样的声音。<BR>&nbsp;<BR><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">历史</STRONG></SPAN></SPAN><BR>山岳粉碎者自伽利法王朝建立以来，一直都是赛尔将军们的传统配兵。这是赛尔公主送给他最优秀的将军的珍贵礼物，在这个并不以军事传统为人称道的国家里，这把武器就是军事实力和战术技巧的象征。尽管山岳粉碎者在大部分时间里都只具有仪式象征意义，但在终末战争中，它参与了大量的战争，并在无数持有者手中流转。它已知的最后一任持有者是Alvos 
-Brillik将军，在哀悼日那天，他和他的整个军团都迷失于米卓附近。（参见布里克之墓，第83页）（DC15）。<BR>伽利法及其王室后裔都认为山岳粉碎者是从祖先那流传下来的宝物，是与他们祖先一起从索隆娜带来的，偶尔也会赠与收到宠爱的臣子（前提是持有者死亡后会被送回伽利法王室）。然而，事实上，从魇灵开始征服索隆娜的时候，最早的一批索隆娜难民在科瓦雷大陆发现了山岳粉碎者。在龙纹战争时期，当人类试图穿越无人控制的地区的时候，几名龙纹家族士兵与地精们发生了冲突。在其中一场冲突当中，这把武器被从一个大地精战士手中缴获，在那名大地精战士最终被打倒前，他独自击杀了好几个小队的士兵。（DC18：无惧死亡）<BR>伽利法并不是第一个把山岳粉碎者当做传家宝的家族。被夺走武器的大地精战士名为乌克胡·亚拉卡（Urkhu 
-Yallak），他是谢卡斯·维林的后裔，在伽利法诞生之前的几千年前，谢卡斯·维林是一名首领并统治着大部分的达坎帝国。根据大地精家族中的历史，山岳粉碎者是由一个伟大的地精英雄（goblinoid 
-hero），甚至是某个已经被遗忘了的神所打造的。（DC22：他们越大……） (DC 22: 
-他们更强……)<BR>事实上，山岳粉碎者并不是由地精们制造的，它的存在甚至比达坎人所能想象的更为古老。这把链枷是希恩德瑞克的卓尔为了反抗逐渐崩溃的巨人帝国的奴役时铸造并附魔的。他们使用巨人传授的魔法，将魔法灌输到武器（根据神话传说，还有一些类似的武器）之中并利用它们对抗他们的前主人。一名其他派系的精灵从一名战死的卓尔身上带走了它，并将它带到了海的对面，艾伦诺。在那里，它被即将成为维纶娜的先祖的第一批精灵冒险者发现，并被用于与达坎帝国早期的精灵与地精之间的战斗中。（DC27：打到强敌）<BR>&nbsp;<BR><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG style="FONT-WEIGHT: bold">Legacy 
-Rituals<BR>传古仪式</STRONG></SPAN></SPAN><BR>这些仪式可以解开山岳粉碎者的所有能力。<BR><STRONG 
-style="FONT-WEIGHT: bold">无惧死亡：</STRONG>你必须前往墓地或是别的死亡之地，一个你的祖先与几乎不可能的突发事件中战死的地方。你必须绝食24小时，然后再前往现场。一旦到了那里，你必须再继续绝食24小时，并冥想你祖先的壮举。如果你因为缺水或饥饿而受到任何非致命伤害，仪式就失败了，你必须再试一次。（参见饥渴，DMG304页）。在此之后，你必须将供品留在现场；并支付用于仪式的费用。最后，将几滴你的血洒在山岳粉碎者和地面上（至少造成两点伤害）。<BR>费用：1500GP。 
-获得专长：初级传古（山岳粉碎者）。<BR><STRONG 
-style="FONT-WEIGHT: bold">他们更强……：</STRONG>你必须再次完成与无惧死亡相同的仪式。但是，最后所流的血决不能是你的，必须是由你亲自杀死的一个至少是大型生物的血。你不必独自与它战斗，甚至不必给它致命一击，但你必须积极参与杀死他的战斗或行动。该生物的挑战等级必须等于或大于你的有效人物等级。<BR>费用：13000GP。 
-获得专长：次级传古（山岳粉碎者）。<BR><STRONG 
-style="FONT-WEIGHT: bold">打到强敌：</STRONG>再一次，你必须在你祖先的墓地上进行同样的绝食与仪式。然而，在这最后的仪式中，血必须由来自一个而对你或你的家族犯下了重大罪行的生物。无论是什么时候犯下的罪行——祖先时代的仇杀也是可以满足的——但它必须是严重的罪行。简单的矛盾和不和是不能满足仪式条件的。你必须在一次战斗中杀死这个生物，并且它必须拥有与你有效人物等级相同或更高的挑战等级。<BR>费用：40000GP。 
-获得专长：高级传古（山岳粉碎者）。<BR>&nbsp;<BR><STRONG 
-style="FONT-WEIGHT: bold">使用需求</STRONG><BR>基础攻击加值+4<BR>体质13<BR>中型或小型体型<BR>山岳粉碎者的大多数持有者都是战时、野蛮人或骑士，但少数军事角色，比如牧师也可以从这把武器中受益。<BR>&nbsp;<BR><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">传古物品能力</STRONG></SPAN></SPAN><BR>以下是山岳粉碎者的传古物品能力。武器的每一个类法术能力都需要通过锤击地面（或你所站的任何表面）来激活。进行该动作不会影响使用能力所需要的时间（除非另有说明）。<BR><STRONG 
-style="FONT-WEIGHT: bold">泥土之力（SP）：</STRONG>在8级时，你可以每天使用一次，通过一个迅捷动作对你自己施展人类变巨术。施法者等级为7级。<BR><STRONG 
-style="FONT-WEIGHT: bold">软化大地（SP）：</STRONG>在10级时，你可以每天使用两次柔石术。施法者等级7级。<BR><STRONG 
-style="FONT-WEIGHT: bold">岩石之牙（SP）：</STRONG>在16级时，你可以每天使用两次突石术（万法大全，如果你没有使用万法大全，则替换为刺石术）。施法者等级13级。<BR><STRONG 
-style="FONT-WEIGHT: bold">大地崛起（SP）：</STRONG>在17级时，你可以每天使用两次地土之骨柱（PHB2，如果你没有使用PHB2，则替换为石墙术）。施法者等级15级。<BR><STRONG 
-style="FONT-WEIGHT: bold">震撼大地（SP）：</STRONG>在19级时，你可以每天制造一次地震，效果如同同名法术，施法者等级17级。<BR>&nbsp;<BR>山岳粉碎者<BR>使用者等级&nbsp; 
-&nbsp; 攻击减值&nbsp; &nbsp; 强韧豁免减值&nbsp; &nbsp; 生命值损失&nbsp; &nbsp; 能力<BR>5级&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-—<BR>6级&nbsp; &nbsp; &nbsp; -1&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; 
-&nbsp; &nbsp; +1破敌（巨人）重型链枷<BR>7级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
--1&nbsp; &nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; —<BR>8级&nbsp; &nbsp; &nbsp; —&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; 泥土之力<BR>9级&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; -2&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-—<BR>10级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 2&nbsp; 
-&nbsp; &nbsp; 软化大地<BR>11级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —<BR>12级&nbsp; &nbsp; &nbsp; -2&nbsp; &nbsp; 
-&nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —<BR>13级&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-+2冲击*破敌（巨人）重型链枷<BR>14级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; 
-&nbsp; 2&nbsp; &nbsp; &nbsp; —<BR>15级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
--3&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —<BR>16级&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; 
-岩石之牙<BR>17级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; 大地崛起<BR>18级&nbsp; &nbsp; &nbsp; -3&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —<BR>19级&nbsp; &nbsp; &nbsp; —&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 震撼大地<BR>20级&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; -4&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-+4冲击破敌（巨人）重型链枷<BR>*冲击附魔（出自万物大全）效果类似于锋锐，但只能作用于钝击武器。<BR><BR>&nbsp;<BR><SPAN 
-class=bbc_color style="COLOR: red"><SPAN class=bbc_size 
-style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG style="FONT-WEIGHT: bold">RAMETHENE 
-SWORD<BR>拉美辛之剑</STRONG></SPAN></SPAN></SPAN><BR><EM 
-style="FONT-STYLE: italic">决裂者击中了龙之心，<BR>&nbsp; 
-龙之血在大地汇成汪洋；<BR>裁决者抽出了蛇之命，<BR>&nbsp; 蛇之命让僚属重获力量；<BR>此锋此刃，饮血而动，<BR>&nbsp; 
-若要挥舞，献之以命。<BR>——蛇之篇章</EM><BR>这把古剑的宽厚扁平的剑刃是用一种现代冶金技术所不了解的合金锻造而成的。它的剑柄是由一枚完整的凯博尔龙晶雕刻成的一个咆哮的魔物。<BR><STRONG 
-style="FONT-WEIGHT: bold">非传古游戏数据：</STRONG>+1重剑；价格2335GP。<BR><STRONG 
-style="FONT-WEIGHT: bold">预兆：</STRONG>当持有者生气或者在战斗中的时候，持有者的声音会变成老虎般的吼声。持有者会容易把自己想象成邪兽鬼。<BR>&nbsp;<BR><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">历史</STRONG></SPAN></SPAN><BR>拉美辛之剑铸造于恶魔年代，在当时统治着艾伯伦的魔物与龙族之间百万年的战争中挥舞。它最初的持有者是一名强大的邪兽鬼，其名为枢卓（Shudra），血肉裁决者，当枢卓用它杀死了一个无比强大的龙族领主的时候，它获得了传古之力。在那次战斗中，它也得到了它的绰号：决裂者（Sunderer；我不知道这个词怎么翻，网络查询第一个就是这个词。）（DC20；饮血之剑）<BR>到了巨人时代，一群信奉被囚禁的邪兽鬼王爵的巨人，在希恩德瑞克茂密的雨林中，在他们的主人被囚禁之地建立了梅尔-阿卡特之城。他们将拉美辛之剑供奉于神殿之中，在那里它与血肉裁决之灵紧密相连。（DC25；血肉裁决之灵）<BR>在终末战争接近结束的时候，一名名叫寇乌斯·奥里·拉美丝（Corvus 
-Alyre 
-Ramethes）的吉拉哥侏儒发表了一篇有关决裂者的历史的论文，从此之后，这把剑就被更名为拉美辛之剑。此后不久，莫格雷夫大学的佳尼克·马特尔教授发现了梅尔-阿卡特城在梅涅克塔伦沙漠中的遗址，并成功找到了拉美辛之剑。然而，他的探险队中出了一个叛徒，把剑交到了翡翠利爪手里。（DC30：背叛之血）<BR>&nbsp;<BR><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG style="FONT-WEIGHT: bold">Legacy 
-Rituals<BR>传古仪式</STRONG></SPAN></SPAN><BR>需要三种仪式才能完全解开拉美辛之剑的能力。<BR><STRONG 
-style="FONT-WEIGHT: bold">饮血之剑：</STRONG>你必须用剑给予一头最少中等体型的龙致死一击。然后你必须用龙血和贵金属粉末混合而成的混合物来给浸泡剑刃。<BR>费用：1500GP。 
-获得专长：初级传古（拉美辛之剑）。<BR>&nbsp;<BR><STRONG 
-style="FONT-WEIGHT: bold">血肉裁决之灵：</STRONG>你必须切断剑与血肉裁决者的精神联系，并通过在你所信仰的圣地，在剑上施展祝圣术，将它与你自己联系起来。（可以由其他角色释放祝圣术，但你必须在场）一旦施法，你必须亲自用一种特殊油膏，用特殊的油和宝石粉末制成，涂抹剑刃。<BR>费用：13000GP。 
-获得专长：次级传古（拉美辛之剑）。<BR>&nbsp;<BR><STRONG 
-style="FONT-WEIGHT: bold">背叛之血：</STRONG>你必须用剑给予你的一个队友或对你态度亲密的NPC致死一击。然后你必须用受害者的血和钻石粉末的混合物来浸泡剑刃。这种谋杀行为毫无疑问是邪恶的。<BR>费用：40000GP。 
-获得专长：高级传古（拉美辛之剑）。<BR>&nbsp;<BR><STRONG 
-style="FONT-WEIGHT: bold">使用需求</STRONG><BR>基础攻击加值+4<BR>能够施展二环法术<BR>异种武器擅长（重剑）<BR>在上古时代，拉美辛之剑的使用者是邪兽鬼，他们在与龙族的战斗中使用它。现在，对任何想要杀死龙类的人都很有用，但只有那些有施法能力或类法术能力的人才能最大程度的发挥它的力量。<BR>&nbsp;<BR><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">传古物品能力</STRONG></SPAN></SPAN><BR>以下都是拉美辛之剑的传古能力。<BR><STRONG 
-style="FONT-WEIGHT: bold">寻龙（SU）：</STRONG>当你使用拉美辛之剑的时候，你可以以一个标准动作来探测60尺以内的龙类生物。同时你在用剑攻击的时候，无视龙类的任何伤害减免。<BR>&nbsp;<BR><STRONG 
-style="FONT-WEIGHT: bold">破龙斩（SU）：</STRONG>每天一次，你可以发动一次只对龙有效的斩击。对于超过中等体型的龙，这种攻击会造成每一阶体型差距1d6的额外伤害（对于大型1d6，超大型2d6，巨型3d6，超巨型4d6）。在发动攻击之前，你可以以一个自由动作声明发动破龙斩，每轮最多一次。如果攻击失败了，破龙斩次数也会被消耗。<BR>&nbsp;<BR><STRONG 
-style="FONT-WEIGHT: bold">抵抗龙息（SU）：</STRONG>每天一次你可以如同同名法术一般使用抵抗能量伤害（CL5）。当你受到龙的喷吐武器攻击时，该能力会以一个自由动作的发动，并且自动选择龙的喷吐武器所使用的能量类型。<BR>&nbsp;<BR><STRONG 
-style="FONT-WEIGHT: bold">死云术（SP）：</STRONG>每天一次，当你使用拉美辛之剑，并说出指令词时，你就会释放出一片毒云，效果等同于死云术（CL11）。豁免DC为17或15+使用者的魅力加值，取高。<BR><STRONG 
-style="FONT-WEIGHT: bold">法术或类法术极效（SU）：</STRONG>你每天最多可以为三环以下的法术施加三次法术极效效果。或者你也可以将等效三环以下的类法术极效。使用该能力并不会提高法术的环位。如果你是一个自发施法者（如术士），你仍然必须在使用这个能力的时候使用全回合动作，就好像你使用你自己的超魔专长一样。<BR>如果你不能使用法术或类法术能力，则不能使用该能力。<BR>&nbsp;<BR><STRONG 
-style="FONT-WEIGHT: bold">饮血者（SU）：</STRONG>对被压制或无助的敌人时，你可以用拉美辛之剑抽干目标的血液，造成1d4点体质伤害（不包括血光附魔的1点）。当你使用这个能力之后，你会获得5点临时生命值，持续1小时。<BR><STRONG 
-style="FONT-WEIGHT: bold">凋死术（SP）：</STRONG>每天一次，当你使用拉美辛之剑，并说出指令词时，你就会对目标施展一次凋死术，如同同名法术。豁免DC为22或18+使用者的魅力加值，取高。<BR>&nbsp;<BR>拉美辛之剑<BR>使用者等级&nbsp; 
-&nbsp; 攻击减值&nbsp; &nbsp; 意志豁免减值&nbsp; &nbsp; 生命值损失&nbsp; &nbsp; 能力<BR>5级&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-寻龙<BR>6级&nbsp; &nbsp; &nbsp; -1&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —<BR>7级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; -1&nbsp; 
-&nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; &nbsp;+1破敌（龙）重剑<BR>8级&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; 
-&nbsp;—<BR>9级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; -2&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; 破龙斩<BR>10级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; 抵抗龙息<BR>11级&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-+2破敌（龙）重剑<BR>12级&nbsp; &nbsp; &nbsp; -2&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; 
-&nbsp; —&nbsp; &nbsp; &nbsp; —<BR>13级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 死云术<BR>14级&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; 
-+3破敌（龙）重剑<BR>15级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; -3&nbsp; &nbsp; 
-&nbsp; —&nbsp; &nbsp; &nbsp; —<BR>16级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; 法术或类法术极效<BR>17级&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-+3血光破敌（龙）重剑<BR>18级&nbsp; &nbsp; &nbsp; -3&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; 
-&nbsp; —&nbsp; &nbsp; &nbsp;<SPAN>&nbsp;</SPAN><SPAN class=bbc_color 
-style="COLOR: red">饮魂者（Souldrinker；与文字内容不符）</SPAN><BR>19级&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —<BR>20级&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; -4&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-凋死术<BR>&nbsp;<BR>&nbsp;<BR>&nbsp;<BR><SPAN class=bbc_color 
-style="COLOR: red"><SPAN class=bbc_size 
-style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG style="FONT-WEIGHT: bold">SYLMSARRA’S 
-SHAWL<BR>西尔姆萨拉之袍</STRONG></SPAN></SPAN></SPAN><BR>这件薄纱风衣可以套在肩上，也可以系在胸前，让它自由的随着人走动而翻腾。当直接观察它的时候，它呈现出珍珠般的白色，但当从其他角度观察它的时候，它的颜色微妙的改变了光线的颜色。<BR><STRONG 
-style="FONT-WEIGHT: bold">非传古游戏数据：</STRONG>易容斗篷（等同于易容帽），价格1800GP。<BR>由于其特殊的结构，西尔姆萨拉之袍可占用肩膀（shoulders）穿戴位或躯干（torso）穿戴位，由装备者喜好决定。<BR><STRONG 
-style="FONT-WEIGHT: bold">预兆：</STRONG>当佩戴者使用幻术系法术时——无论是施法者本人，还是借助于幻术物品，包括风衣本身——西尔姆萨拉之袍在光线中会变得比一般时候更加明亮，而且这种效果只有佩戴者才能看到。<BR>&nbsp;<BR><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">历史</STRONG></SPAN></SPAN><BR>当962年吉拉哥的侏儒正式与布鲁兰结盟的时候，他们带来了各种各样的魔法物品来帮助布雷什的战争行动，其中大部分都倾向于情报窃取和渗透工作，而不是单纯的战斗物品。其中，有一件几乎被大多数历史所遗忘的，被称为幻术斗篷的物品。一件能够赋予穿戴者大量幻术能力和好处的风衣，它从来没有被大规模使用，因为侏儒们似乎无法或者说不愿意再制造出原型之外的风衣。它被国王暗灯之一塔玛拉·比尔所穿着，并在她971年前往瑟雷恩的一次（可能失败了的）情报收集任务中消失了。（DC18）<BR>风衣是由一个名叫西尔姆萨拉的侏儒所创造的。她在吉拉哥的时候籍籍无名，直到侏儒开始考虑与布鲁兰的结盟为止。她走到前台来，为侏儒使者提供了她所谓的幻术斗篷。侏儒本来很乐意有人愿意帮忙，但是和布鲁兰的条约一签署完成，西尔姆萨拉就消失了。经过调查，仍然没有找到她的总计，也找不到她的亲友。要不是这几个月里，他参与了布雷什的行动，根本就没有人会知道她的存在。（DC22：与岔舌交谈Speak 
-with Forked 
-Tongue）<BR>几乎没有人知道怎么回事，除了极少上述通过深入研究和预言魔法来探究这个问题的人，西尔姆萨拉根本不是一个侏儒。准确的说，她是一个纯血蛇人（yuan-ti 
-pure-blood），只是看起来比其人类，更像是侏儒而已。即使是通过最强大的魔法和执着的研究也未能揭示出更多关于她的信息。她的侏儒般的外表是出生后的巧合？还是她可以将自己伪装成人类以外的种族？她为什么要创造出一件如此强大的物品，却又把它赠与他人——或者说它的诞生可能是某种意外情况？也许更重要的问题是，她为何来到科瓦雷，而她消失后又去了哪里？（DC28：谎言是勇气最好的一部分）<BR>&nbsp;<BR><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG style="FONT-WEIGHT: bold">Legacy 
-Rituals<BR>传古仪式</STRONG></SPAN></SPAN><BR>需要两种仪式来解开西尔姆萨拉之袍的能力。<BR><STRONG 
-style="FONT-WEIGHT: bold">与岔舌交谈：</STRONG>你必须在以下技能中：唬骗，交涉和手上功夫，上获得5个等级（或5个额外等级）。具体等级任意，但每个技能都必须至少有1级。这些技能等级可以按照你希望的进度升级，只要你能在8级之前满足要求。一旦你获得了这5个技能等级，你就必须成功的使用这三个技能中的每一个来对付一个挑战等级高于你有效人物等级的对象。<BR>费用：2000GP。 
-获得专长：低级传古（西尔姆萨拉之袍）。<BR><STRONG 
-style="FONT-WEIGHT: bold">谎言是勇气最好的一部分：</STRONG>只用幻术和你的技能——不使用暴力，其他形式的魔法或其他力量——你必须智胜一个挑战等级等于或大于你有效人物等级的敌人。这种“击败”必须是有意义的，仅仅是赢得一场智力游戏是远远不够的。获取强大的宝藏或是高价值的情报，破坏敌人的政治立场，才是合适的目标。<BR>费用：14000GP。 
-获得专长：次级传古（西尔姆萨拉之袍）。<BR>&nbsp;<BR><STRONG 
-style="FONT-WEIGHT: bold">使用需求</STRONG><BR>唬骗4级<BR>交涉4级<BR>手上功夫4级<BR>基础意志豁免+5<BR>大多数风衣的使用者都十分擅长使用技能和法术，比如吟游诗人和欺愚者PHB2。其他角色也能从风衣中获得一些好处，但他们不太可能充分利用它的潜力。<BR>&nbsp;<BR><SPAN 
-class=bbc_size style="FONT-SIZE: 18pt; LINE-HEIGHT: 1.4em"><SPAN class=bbc_font 
-style="FONT-FAMILY: 黑体"><STRONG 
-style="FONT-WEIGHT: bold">传古物品能力</STRONG></SPAN></SPAN><BR>以下都是西尔姆萨拉之袍的传古能力。<BR><STRONG 
-style="FONT-WEIGHT: bold"></STRONG>遥远之声（SP）:在5级时，你可以每天使用两次，通过一个迅捷动作施展幻音术。施法者等级为5级。<BR><STRONG 
-style="FONT-WEIGHT: bold">机敏狡诈（SU）：</STRONG>在6级时，只要你穿着西尔姆萨拉之袍，你就在唬骗、交涉和手上功夫检定上获得+2增强加值。<BR><STRONG 
-style="FONT-WEIGHT: bold">看不见的步伐（SP）：</STRONG>在8级时，你可以每天使用一次，通过一个迅捷动作对自己施展隐身术。施法者等级为7级。<BR><STRONG 
-style="FONT-WEIGHT: bold">敌人的困惑（SP）：</STRONG>在10级时，你可以每天使用一次，通过一个迅捷动作施展隐身镜影术。施法者等级为7级。<BR><STRONG 
-style="FONT-WEIGHT: bold">幻术瓶（SU）：</STRONG>在11级是，你可以用风衣来储存最多三环的法术，效果等同于次级储法戒指（DMG233），但仅限于幻术系的法术。<BR><STRONG 
-style="FONT-WEIGHT: bold">幻术大师（SU）：</STRONG>在13级时，你的所有三环及以下的幻术都可以得到延时效果，就如同法术延时专长一样。使用此能力，不会改变超魔法术所占用的法术环位。一个自发施法者（如术士）在使用这种能力的时候仍必须采用全回合动作，就像使用他所拥有的超魔专长一样。<BR>你可以选择在施法时不适用这个能力（比如，你是希望不占用额外施法时间的术士）。如果你不能施展幻术，则你不能使用这个能力。<BR><STRONG 
-style="FONT-WEIGHT: bold">敌人的挫折（SU）：</STRONG>在16级时，你的实际位置开始变得捉摸不定，使你获得隐蔽效果，就如同朦胧术的效果一样。<BR>&nbsp;<BR>西尔姆萨拉之袍<BR>使用者等级&nbsp; 
-&nbsp; 技能检定减值&nbsp; &nbsp; 施法者等级减值&nbsp; &nbsp; 技能点损失&nbsp; &nbsp; 法术位损失 
-能力<BR>5级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 遥远之声<BR>6级&nbsp; &nbsp; &nbsp; —&nbsp; 
-&nbsp; &nbsp; -1&nbsp; &nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-机敏狡诈<BR>7级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; 1环&nbsp; &nbsp; &nbsp; —<BR>8级&nbsp; &nbsp; &nbsp; —&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-看不见的步伐<BR>9级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-2&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —<BR>10级&nbsp; &nbsp; &nbsp; 
--1&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 2环&nbsp; 
-&nbsp; &nbsp; 敌人的困惑<BR>11级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 幻术瓶<BR>12级&nbsp; 
-&nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 2&nbsp; &nbsp; &nbsp; 
-—&nbsp; &nbsp; &nbsp; —<BR>13级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
--2&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 3环&nbsp; &nbsp; &nbsp; 
-幻术大师<BR>14级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; 
-2&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —<BR>15级&nbsp; &nbsp; &nbsp; 
--2&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; 
-&nbsp; &nbsp; —<BR>16级&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; &nbsp; —&nbsp; &nbsp; 
-&nbsp; —&nbsp; &nbsp; &nbsp; 4环&nbsp; &nbsp; &nbsp; 敌人的挫折</FONT></font></div>	
-	<div id="winchm_template_footer"><font size="2px" font face="Microsoft YaHei">Copyright &copy; 2014. All rights 
-reserved. (编辑此文本可以更改这个模板.)</font></div>
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:32.0pt'><b><span
+style='font-size:16.0pt;font-family:"微软雅黑",sans-serif'>战争熔炉<span lang=EN-US>
+FOW</span></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:32.0pt'><b><span
+style='font-size:16.0pt;font-family:"微软雅黑",sans-serif'>终末战争菁英选</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:32.0pt'><b><span
+style='font-size:16.0pt;font-family:"微软雅黑",sans-serif'>传古物品</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>传古物品</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>传古物品是具有重要历史或特殊神话的独特魔法物品，他们拥有和使用者一同成长的能力。关于这些物品的完整规则出自《传古武器》扩展，但即使你没有使用那本书，你仍然可以使用这里描述的物品。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>为了使用传古物品，你必须先使用一个知识（历史）或逸闻知识检定，来了解该物品的历史。一个鉴定术可以在该检定中获得<span
+lang=EN-US>+2</span>加值，而一个通宵传奇法术可以揭示使用该物品所需要的所有知识。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>作为发掘物品历史的一部分，你还需要了解一些信息，以完成将与你与武器的命运相连的仪式。大多数传古物品有三个仪式：<span
+lang=EN-US>5</span>级后可以进行一个初级传古仪式；<span lang=EN-US>11</span>级后可以进行一个次级传古仪式；<span
+lang=EN-US>17</span>级之后还可以进行一个高级传古仪式。每个仪式都有相关的金钱成本，你必须支付以完成仪式过程。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>除了履行仪式和支付其<span lang=EN-US>GP</span>成本，你还必须为此付出个人代价以使用传古物品的能力。这些代价包括永久的攻击掷骰减值、豁免减值、生命值等等。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>一旦你发掘了它的历史，进行了仪式，并支付了个人代价，你就可以使用本节中的传古物品锁描述的特殊能力。你可以使用自己等级所满足的每个级别的能力，只要你已经完成了适当的仪式。初级仪式解锁从第<span
+lang=EN-US>5</span>到第<span lang=EN-US>10</span>级的能力，次级仪式解锁<span lang=EN-US>11</span>到<span
+lang=EN-US>16</span>级的能力，高级仪式解锁<span lang=EN-US>17</span>到<span lang=EN-US>20</span>级的能力。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>当你完成一个仪式的时候，根据仪式的类型，你都会获得一个额外专长——初级传古、次级传古、高级传古）具体的仪式内容和相关传古物品有关（详见下文传古仪式部分）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>HILLCRUSHER</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>山岳粉碎者</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>尽管改武器的魔法能力难以侦测，但即使是一次偶然的检查，也能发现山岳粉碎者是一把非同寻常的武器。这把重型链枷的木柄由桃花心木制成，几个世纪以来，无数的手把它盘的油光发亮。一条纤细的铜线，看起来明显比链枷的其他部分更新，缠绕着木柄的下半截，提供更好的抓握力。一个黄铜的配重球安装在手柄底端，雕刻成一个有着各种突出岩石的山峰。链子是青铜的，被雕刻成几十只小小的手互相紧抓在一起组成的。链枷头也是青铜制成，像是一个尖叫的野兽头颅，看着像是一个原始的石巨人。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>非传古游戏数据：</span></b><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>+1</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>重型链枷；价格<span lang=EN-US>2315GP</span>。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>预兆：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>当一个大型或更大的生物进入<span lang=EN-US>120</span>尺范围内是，山岳粉碎者会发出微弱的隆隆声，类似于雪崩一样的声音。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>历史</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>山岳粉碎者自伽利法王朝建立以来，一直都是赛尔将军们的传统配兵。这是赛尔公主送给他最优秀的将军的珍贵礼物，在这个并不以军事传统为人称道的国家里，这把武器就是军事实力和战术技巧的象征。尽管山岳粉碎者在大部分时间里都只具有仪式象征意义，但在终末战争中，它参与了大量的战争，并在无数持有者手中流转。它已知的最后一任持有者是<span
+lang=EN-US>Alvos Brillik</span>将军，在哀悼日那天，他和他的整个军团都迷失于米卓附近。（参见布里克之墓，第<span
+lang=EN-US>83</span>页）（<span lang=EN-US>DC15</span>）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>伽利法及其王室后裔都认为山岳粉碎者是从祖先那流传下来的宝物，是与他们祖先一起从索隆娜带来的，偶尔也会赠与收到宠爱的臣子（前提是持有者死亡后会被送回伽利法王室）。然而，事实上，从魇灵开始征服索隆娜的时候，最早的一批索隆娜难民在科瓦雷大陆发现了山岳粉碎者。在龙纹战争时期，当人类试图穿越无人控制的地区的时候，几名龙纹家族士兵与地精们发生了冲突。在其中一场冲突当中，这把武器被从一个大地精战士手中缴获，在那名大地精战士最终被打倒前，他独自击杀了好几个小队的士兵。（<span
+lang=EN-US>DC18</span>：无惧死亡）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>伽利法并不是第一个把山岳粉碎者当做传家宝的家族。被夺走武器的大地精战士名为乌克胡·亚拉卡（<span
+lang=EN-US>Urkhu Yallak</span>），他是谢卡斯<span lang=EN-US>·</span>维林的后裔，在伽利法诞生之前的几千年前，谢卡斯<span
+lang=EN-US>·</span>维林是一名首领并统治着大部分的达坎帝国。根据大地精家族中的历史，山岳粉碎者是由一个伟大的地精英雄（<span
+lang=EN-US>goblinoid hero</span>），甚至是某个已经被遗忘了的神所打造的。（<span lang=EN-US>DC22</span>：他们越大<span
+lang=EN-US>……</span>）<span lang=EN-US> (DC 22: </span>他们更强<span lang=EN-US>……)</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>事实上，山岳粉碎者并不是由地精们制造的，它的存在甚至比达坎人所能想象的更为古老。这把链枷是希恩德瑞克的卓尔为了反抗逐渐崩溃的巨人帝国的奴役时铸造并附魔的。他们使用巨人传授的魔法，将魔法灌输到武器（根据神话传说，还有一些类似的武器）之中并利用它们对抗他们的前主人。一名其他派系的精灵从一名战死的卓尔身上带走了它，并将它带到了海的对面，艾伦诺。在那里，它被即将成为维纶娜的先祖的第一批精灵冒险者发现，并被用于与达坎帝国早期的精灵与地精之间的战斗中。（<span
+lang=EN-US>DC27</span>：打到强敌）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>Legacy Rituals</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>传古仪式</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>这些仪式可以解开山岳粉碎者的所有能力。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>无惧死亡：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>你必须前往墓地或是别的死亡之地，一个你的祖先与几乎不可能的突发事件中战死的地方。你必须绝食<span
+lang=EN-US>24</span>小时，然后再前往现场。一旦到了那里，你必须再继续绝食<span lang=EN-US>24</span>小时，并冥想你祖先的壮举。如果你因为缺水或饥饿而受到任何非致命伤害，仪式就失败了，你必须再试一次。（参见饥渴，<span
+lang=EN-US>DMG304</span>页）。在此之后，你必须将供品留在现场；并支付用于仪式的费用。最后，将几滴你的血洒在山岳粉碎者和地面上（至少造成两点伤害）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>费用：</span></b><span lang=EN-US style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>1500GP</span><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>。 获得专长：初级传古（山岳粉碎者）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>他们更强……：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>你必须再次完成与无惧死亡相同的仪式。但是，最后所流的血决不能是你的，必须是由你亲自杀死的一个至少是大型生物的血。你不必独自与它战斗，甚至不必给它致命一击，但你必须积极参与杀死他的战斗或行动。该生物的挑战等级必须等于或大于你的有效人物等级。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>费用：</span></b><span lang=EN-US style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>13000GP</span><span style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>。 获得专长：次级传古（山岳粉碎者）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>打倒强敌：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>再一次，你必须在你祖先的墓地上进行同样的绝食与仪式。然而，在这最后的仪式中，血必须由来自一个而对你或你的家族犯下了重大罪行的生物。无论是什么时候犯下的罪行——祖先时代的仇杀也是可以满足的——但它必须是严重的罪行。简单的矛盾和不和是不能满足仪式条件的。你必须在一次战斗中杀死这个生物，并且它必须拥有与你有效人物等级相同或更高的挑战等级。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>费用：</span></b><span lang=EN-US style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>40000GP</span><span style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>。 获得专长：高级传古（山岳粉碎者）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>使用需求</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>基础攻击加值<span lang=EN-US>+4</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>体质<span lang=EN-US>13</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>中型或小型体型</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>山岳粉碎者的大多数持有者都是战时、野蛮人或骑士，但少数军事角色，比如牧师也可以从这把武器中受益。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>传古物品能力</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>以下是山岳粉碎者的传古物品能力。武器的每一个类法术能力都需要通过锤击地面（或你所站的任何表面）来激活。进行该动作不会影响使用能力所需要的时间（除非另有说明）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>泥土之力（<span lang=EN-US>SP</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>8</span>级时，你可以每天使用一次，通过一个迅捷动作对你自己施展人类变巨术。施法者等级为<span
+lang=EN-US>7</span>级。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>软化大地（<span lang=EN-US>SP</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>10</span>级时，你可以每天使用两次柔石术。施法者等级<span
+lang=EN-US>7</span>级。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>岩石之牙（<span lang=EN-US>SP</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>16</span>级时，你可以每天使用两次突石术（万法大全，如果你没有使用万法大全，则替换为刺石术）。施法者等级<span
+lang=EN-US>13</span>级。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>大地崛起（<span lang=EN-US>SP</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>17</span>级时，你可以每天使用两次地土之骨柱（<span
+lang=EN-US>PHB2</span>，如果你没有使用<span lang=EN-US>PHB2</span>，则替换为石墙术）。施法者等级<span
+lang=EN-US>15</span>级。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>震撼大地（<span lang=EN-US>SP</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>19</span>级时，你可以每天制造一次地震，效果如同同名法术，施法者等级<span
+lang=EN-US>17</span>级。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>山岳粉碎者</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>使用者等级<span lang=EN-US>&nbsp;&nbsp;&nbsp; </span>攻击减值<span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span>强韧豁免减值<span lang=EN-US>&nbsp;&nbsp;&nbsp; </span>生命值损失<span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span>能力</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>5</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>6</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +1</span>破敌（巨人）重型链枷</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>7</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>8</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>泥土之力</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>9</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>10</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>软化大地</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>11</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>12</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>13</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +2</span>冲击<span lang=EN-US>*</span>破敌（巨人）重型链枷</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>14</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>15</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>16</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>岩石之牙</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>17</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>大地崛起</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>18</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>19</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</span>震撼大地</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>20</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +4</span>冲击破敌（巨人）重型链枷</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>*</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>冲击附魔（出自万物大全）效果类似于锋锐，但只能作用于钝击武器。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>RAMETHENE SWORD</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:28.0pt'><b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>拉美辛之剑</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:28.0pt'><b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>决裂者击中了龙之心，</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:28.0pt'><b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>龙之血在大地汇成汪洋；</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:28.0pt'><b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>裁决者抽出了蛇之命，</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:28.0pt'><b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>蛇之命让僚属重获力量；</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:28.0pt'><b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>此锋此刃，饮血而动，</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:28.0pt'><b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>若要挥舞，献之以命。</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:28.0pt'><b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>——蛇之篇章</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>这把古剑的宽厚扁平的剑刃是用一种现代冶金技术所不了解的合金锻造而成的。它的剑柄是由一枚完整的凯博尔龙晶雕刻成的一个咆哮的魔物。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>非传古游戏数据：<span lang=EN-US>+1</span>重剑；价格<span
+lang=EN-US>2335GP</span>。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>预兆：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>当持有者生气或者在战斗中的时候，持有者的声音会变成老虎般的吼声。持有者会容易把自己想象成邪兽鬼。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>历史</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>拉美辛之剑铸造于恶魔年代，在当时统治着艾伯伦的魔物与龙族之间百万年的战争中挥舞。它最初的持有者是一名强大的邪兽鬼，其名为枢卓（<span
+lang=EN-US>Shudra</span>），血肉裁决者，当枢卓用它杀死了一个无比强大的龙族领主的时候，它获得了传古之力。在那次战斗中，它也得到了它的绰号：决裂者（<span
+lang=EN-US>Sunderer</span>；我不知道这个词怎么翻，网络查询第一个就是这个词。）（<span lang=EN-US>DC20</span>；饮血之剑）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>到了巨人时代，一群信奉被囚禁的邪兽鬼王爵的巨人，在希恩德瑞克茂密的雨林中，在他们的主人被囚禁之地建立了梅尔<span
+lang=EN-US>-</span>阿卡特之城。他们将拉美辛之剑供奉于神殿之中，在那里它与血肉裁决之灵紧密相连。（<span lang=EN-US>DC25</span>；血肉裁决之灵）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>在终末战争接近结束的时候，一名名叫寇乌斯·奥里·拉美丝（<span lang=EN-US>Corvus
+Alyre Ramethes</span>）的吉拉哥侏儒发表了一篇有关决裂者的历史的论文，从此之后，这把剑就被更名为拉美辛之剑。此后不久，莫格雷夫大学的佳尼克<span
+lang=EN-US>·</span>马特尔教授发现了梅尔<span lang=EN-US>-</span>阿卡特城在梅涅克塔伦沙漠中的遗址，并成功找到了拉美辛之剑。然而，他的探险队中出了一个叛徒，把剑交到了翡翠利爪手里。（<span
+lang=EN-US>DC30</span>：背叛之血）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>Legacy Rituals</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>传古仪式</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>需要三种仪式才能完全解开拉美辛之剑的能力。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>饮血之剑：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>你必须用剑给予一头最少中等体型的龙致死一击。然后你必须用龙血和贵金属粉末混合而成的混合物来给浸泡剑刃。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>费用：<span lang=EN-US>1500GP</span>。 获得专长：初级传古（拉美辛之剑）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>血肉裁决之灵：你必须切断剑与血肉裁决者的精神联系，并通过在你所信仰的圣地，在剑上施展祝圣术，将它与你自己联系起来。（可以由其他角色释放祝圣术，但你必须在场）一旦施法，你必须亲自用一种特殊油膏，用特殊的油和宝石粉末制成，涂抹剑刃。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>费用：</span></b><span lang=EN-US style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>13000GP</span><span style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>。 <b>获得专长：</b>次级传古（拉美辛之剑）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>背叛之血：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>你必须用剑给予你的一个队友或对你态度亲密的<span lang=EN-US>NPC</span>致死一击。然后你必须用受害者的血和钻石粉末的混合物来浸泡剑刃。这种谋杀行为毫无疑问是邪恶的。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>费用：</span></b><span lang=EN-US style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>40000GP</span><span style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>。 获得专长：高级传古（拉美辛之剑）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>使用需求</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>基础攻击加值<span lang=EN-US>+4</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>能够施展二环法术</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>异种武器擅长（重剑）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>在上古时代，拉美辛之剑的使用者是邪兽鬼，他们在与龙族的战斗中使用它。现在，对任何想要杀死龙类的人都很有用，但只有那些有施法能力或类法术能力的人才能最大程度的发挥它的力量。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>传古物品能力</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>以下都是拉美辛之剑的传古能力。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>寻龙（<span lang=EN-US>SU</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>当你使用拉美辛之剑的时候，你可以以一个标准动作来探测<span
+lang=EN-US>60</span>尺以内的龙类生物。同时你在用剑攻击的时候，无视龙类的任何伤害减免。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>破龙斩（<span lang=EN-US>SU</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>每天一次，你可以发动一次只对龙有效的斩击。对于超过中等体型的龙，这种攻击会造成每一阶体型差距<span
+lang=EN-US>1d6</span>的额外伤害（对于大型<span lang=EN-US>1d6</span>，超大型<span lang=EN-US>2d6</span>，巨型<span
+lang=EN-US>3d6</span>，超巨型<span lang=EN-US>4d6</span>）。在发动攻击之前，你可以以一个自由动作声明发动破龙斩，每轮最多一次。如果攻击失败了，破龙斩次数也会被消耗。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>抵抗龙息（<span lang=EN-US>SU</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>每天一次你可以如同同名法术一般使用抵抗能量伤害（<span
+lang=EN-US>CL5</span>）。当你受到龙的喷吐武器攻击时，该能力会以一个自由动作的发动，并且自动选择龙的喷吐武器所使用的能量类型。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>死云术（<span lang=EN-US>SP</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>每天一次，当你使用拉美辛之剑，并说出指令词时，你就会释放出一片毒云，效果等同于死云术（<span
+lang=EN-US>CL11</span>）。豁免<span lang=EN-US>DC</span>为<span lang=EN-US>17</span>或<span
+lang=EN-US>15+</span>使用者的魅力加值，取高。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>法术或类法术极效（<span lang=EN-US>SU</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>你每天最多可以为三环以下的法术施加三次法术极效效果。或者你也可以将等效三环以下的类法术极效。使用该能力并不会提高法术的环位。如果你是一个自发施法者（如术士），你仍然必须在使用这个能力的时候使用全回合动作，就好像你使用你自己的超魔专长一样。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>如果你不能使用法术或类法术能力，则不能使用该能力。 </span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>饮血者（<span lang=EN-US>SU</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>对被压制或无助的敌人时，你可以用拉美辛之剑抽干目标的血液，造成<span
+lang=EN-US>1d4</span>点体质伤害（不包括血光附魔的<span lang=EN-US>1</span>点）。当你使用这个能力之后，你会获得<span
+lang=EN-US>5</span>点临时生命值，持续<span lang=EN-US>1</span>小时。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>凋死术（<span lang=EN-US>SP</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>每天一次，当你使用拉美辛之剑，并说出指令词时，你就会对目标施展一次凋死术，如同同名法术。豁免<span
+lang=EN-US>DC</span>为<span lang=EN-US>22</span>或<span lang=EN-US>18+</span>使用者的魅力加值，取高。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>拉美辛之剑</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>使用者等级<span lang=EN-US>&nbsp;&nbsp;&nbsp; </span>攻击减值<span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span>意志豁免减值<span lang=EN-US>&nbsp;&nbsp;&nbsp; </span>生命值损失<span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span>能力</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>5</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>寻龙</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>6</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>7</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +1</span>破敌（龙）重剑</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>8</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>9</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>破龙斩</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>10</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>抵抗龙息</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>11</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +2</span>破敌（龙）重剑</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>12</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>13</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>死云术</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>14</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +3</span>破敌（龙）重剑</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>15</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>16</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>法术或类法术极效</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>17</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +3</span>血光破敌（龙）重剑</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>18</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>饮魂者（<span lang=EN-US>Souldrinker</span>；与文字内容不符）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>19</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>20</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>凋死术</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>SYLMSARRA’S SHAWL</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>西尔姆萨拉之袍</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>这件薄纱风衣可以套在肩上，也可以系在胸前，让它自由的随着人走动而翻腾。当直接观察它的时候，它呈现出珍珠般的白色，但当从其他角度观察它的时候，它的颜色微妙的改变了光线的颜色。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>非传古游戏数据：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>易容斗篷（等同于易容帽），价格<span lang=EN-US>1800GP</span>。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>由于其特殊的结构，西尔姆萨拉之袍可占用肩膀（<span lang=EN-US>shoulders</span>）穿戴位或躯干（<span
+lang=EN-US>torso</span>）穿戴位，由装备者喜好决定。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>预兆：</span></b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>当佩戴者使用幻术系法术时——无论是施法者本人，还是借助于幻术物品，包括风衣本身——西尔姆萨拉之袍在光线中会变得比一般时候更加明亮，而且这种效果只有佩戴者才能看到。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>历史</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>当<span lang=EN-US>962</span>年吉拉哥的侏儒正式与布鲁兰结盟的时候，他们带来了各种各样的魔法物品来帮助布雷什的战争行动，其中大部分都倾向于情报窃取和渗透工作，而不是单纯的战斗物品。其中，有一件几乎被大多数历史所遗忘的，被称为幻术斗篷的物品。一件能够赋予穿戴者大量幻术能力和好处的风衣，它从来没有被大规模使用，因为侏儒们似乎无法或者说不愿意再制造出原型之外的风衣。它被国王暗灯之一塔玛拉<span
+lang=EN-US>·</span>比尔所穿着，并在她<span lang=EN-US>971</span>年前往瑟雷恩的一次（可能失败了的）情报收集任务中消失了。（<span
+lang=EN-US>DC18</span>）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>风衣是由一个名叫西尔姆萨拉的侏儒所创造的。她在吉拉哥的时候籍籍无名，直到侏儒开始考虑与布鲁兰的结盟为止。她走到前台来，为侏儒使者提供了她所谓的幻术斗篷。侏儒本来很乐意有人愿意帮忙，但是和布鲁兰的条约一签署完成，西尔姆萨拉就消失了。经过调查，仍然没有找到她的总计，也找不到她的亲友。要不是这几个月里，他参与了布雷什的行动，根本就没有人会知道她的存在。（<span
+lang=EN-US>DC22</span>：与岔舌交谈<span lang=EN-US>Speak with Forked Tongue</span>）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>几乎没有人知道怎么回事，除了极少上述通过深入研究和预言魔法来探究这个问题的人，西尔姆萨拉根本不是一个侏儒。准确的说，她是一个纯血蛇人（<span
+lang=EN-US>yuan-ti pure-blood</span>），只是看起来比其人类，更像是侏儒而已。即使是通过最强大的魔法和执着的研究也未能揭示出更多关于她的信息。她的侏儒般的外表是出生后的巧合？还是她可以将自己伪装成人类以外的种族？她为什么要创造出一件如此强大的物品，却又把它赠与他人<span
+lang=EN-US>——</span>或者说它的诞生可能是某种意外情况？也许更重要的问题是，她为何来到科瓦雷，而她消失后又去了哪里？（<span
+lang=EN-US>DC28</span>：谎言是勇气最好的一部分）</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>Legacy Rituals</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>传古仪式</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>需要两种仪式来解开西尔姆萨拉之袍的能力。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>与岔舌交谈：你必须在以下技能中：唬骗，交涉和手上功夫，上获得<span lang=EN-US>5</span>个等级（或<span
+lang=EN-US>5</span>个额外等级）。具体等级任意，但每个技能都必须至少有<span lang=EN-US>1</span>级。这些技能等级可以按照你希望的进度升级，只要你能在<span
+lang=EN-US>8</span>级之前满足要求。一旦你获得了这<span lang=EN-US>5</span>个技能等级，你就必须成功的使用这三个技能中的每一个来对付一个挑战等级高于你有效人物等级的对象。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>费用：</span></b><span lang=EN-US style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>2000GP</span><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>。 获得专长：低级传古（西尔姆萨拉之袍）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>谎言是勇气最好的一部分：</span></b><span style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>只用幻术和你的技能——不使用暴力，其他形式的魔法或其他力量——你必须智胜一个挑战等级等于或大于你有效人物等级的敌人。这种“击败”必须是有意义的，仅仅是赢得一场智力游戏是远远不够的。获取强大的宝藏或是高价值的情报，破坏敌人的政治立场，才是合适的目标。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>费用：</span></b><span lang=EN-US style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>14000GP</span><span style='font-size:
+14.0pt;font-family:"微软雅黑",sans-serif'>。 <b>获得专长：</b>次级传古（西尔姆萨拉之袍）。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>使用需求</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>唬骗<span lang=EN-US>4</span>级</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>交涉<span lang=EN-US>4</span>级</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>手上功夫<span lang=EN-US>4</span>级</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>基础意志豁免<span lang=EN-US>+5</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>大多数风衣的使用者都十分擅长使用技能和法术，比如吟游诗人和欺愚者<span
+lang=EN-US>PHB2</span>。其他角色也能从风衣中获得一些好处，但他们不太可能充分利用它的潜力。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>传古物品能力</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>以下都是西尔姆萨拉之袍的传古能力。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>遥远之声（<span lang=EN-US>SP</span>）<span
+lang=EN-US>:</span>在<span lang=EN-US>5</span>级时，你可以每天使用两次，通过一个迅捷动作施展幻音术。施法者等级为<span
+lang=EN-US>5</span>级。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>机敏狡诈（<span lang=EN-US>SU</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>6</span>级时，只要你穿着西尔姆萨拉之袍，你就在唬骗、交涉和手上功夫检定上获得<span
+lang=EN-US>+2</span>增强加值。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>看不见的步伐（<span lang=EN-US>SP</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>8</span>级时，你可以每天使用一次，通过一个迅捷动作对自己施展隐身术。施法者等级为<span
+lang=EN-US>7</span>级。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>敌人的困惑（<span lang=EN-US>SP</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>10</span>级时，你可以每天使用一次，通过一个迅捷动作施展隐身镜影术。施法者等级为<span
+lang=EN-US>7</span>级。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>幻术瓶（<span lang=EN-US>SU</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>11</span>级是，你可以用风衣来储存最多三环的法术，效果等同于次级储法戒指（<span
+lang=EN-US>DMG233</span>），但仅限于幻术系的法术。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>幻术大师（<span lang=EN-US>SU</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>13</span>级时，你的所有三环及以下的幻术都可以得到延时效果，就如同法术延时专长一样。使用此能力，不会改变超魔法术所占用的法术环位。一个自发施法者（如术士）在使用这种能力的时候仍必须采用全回合动作，就像使用他所拥有的超魔专长一样。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>你可以选择在施法时不适用这个能力（比如，你是希望不占用额外施法时间的术士）。如果你不能施展幻术，则你不能使用这个能力。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>敌人的挫折（<span lang=EN-US>SU</span>）：</span></b><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>在<span lang=EN-US>16</span>级时，你的实际位置开始变得捉摸不定，使你获得隐蔽效果，就如同朦胧术的效果一样。</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><b><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>西尔姆萨拉之袍</span></b></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span style='font-size:14.0pt;
+font-family:"微软雅黑",sans-serif'>使用者等级<span lang=EN-US>&nbsp;&nbsp;&nbsp; </span>技能检定减值<span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span>施法者等级减值<span lang=EN-US>&nbsp;&nbsp;&nbsp;
+</span>技能点损失<span lang=EN-US>&nbsp;&nbsp;&nbsp; </span>法术位损失 能力</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>5</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>遥远之声</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>6</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>机敏狡诈</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>7</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</span>环<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>8</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>看不见的步伐</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>9</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>10</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</span>环<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>敌人的困惑</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>11</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>幻术瓶</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>12</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>13</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</span>环<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>幻术大师</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>14</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>15</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —</span></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>16</span><span
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>级<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</span>环<span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>敌人的挫折</span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt'><span lang=EN-US
+style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></p>
+
 </div>
 
 </body>
+
 </html>
