@@ -119,67 +119,68 @@
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="德鲁伊（Druid）">
-                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\德鲁伊.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="法师（Wizard）">
-                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\法师.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="牧师（Cleric）">
-                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\牧师.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="圣武士（Paladin）">
-                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\圣武士.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="术士（Sorcerer）">
-                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\术士.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="武僧（Monk）">
-                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\武僧.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="巡林客（Ranger）">
-                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\巡林客.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="野蛮人（Barbarian）">
+                          <param name="Name" value="野蛮人">
                           <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\野蛮人.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="吟游诗人（Bard）">
+                          <param name="Name" value="吟游诗人">
                           <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\吟游诗人.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="游荡者（Rogue）">
+                          <param name="Name" value="牧师">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\牧师.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="德鲁伊">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\德鲁伊.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="战士">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\战士.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="武僧">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\武僧.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="圣武士">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\圣武士.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="巡林客">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\巡林客.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="游荡者">
                           <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\游荡者.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="战士（Fighter）">
-                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\战士.htm">
+                          <param name="Name" value="术士">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\术士.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="法师">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\法师.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                     </UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="伙伴 (Companion)">
+                      <param name="Name" value="伙伴">
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="动物伙伴">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\动物伙伴.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
@@ -188,7 +189,8 @@
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="圣武士坐骑">
+                          <param name="Name" value="特殊坐骑">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\圣武士坐骑.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                     </UL>
@@ -215,6 +217,11 @@
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="技能一览表">
+                      <param name="Local" value="0 核心三宝书\PHB玩家手册\4技能\技能表.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="使用技能">
                       <param name="Local" value="0 核心三宝书\PHB玩家手册\4技能\使用技能.htm">
                       <param name="ImageNumber" value="11">
@@ -222,11 +229,6 @@
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="技能说明">
                       <param name="Local" value="0 核心三宝书\PHB玩家手册\4技能\技能说明.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="技能一览表">
-                      <param name="Local" value="0 核心三宝书\PHB玩家手册\4技能\技能表.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                 </UL>
@@ -17428,6 +17430,11 @@
             </OBJECT>
             <UL>
                 <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="填充页面">
+                  <param name="Local" value="10 附录\填充页面.htm">
+                  <param name="ImageNumber" value="9">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="如何为扩展大全做出贡献">
                   <param name="Local" value="10 附录\如何为扩展大全做出贡献.htm">
                   <param name="ImageNumber" value="9">
@@ -17472,38 +17479,83 @@
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="人类">
+                          <param name="Name" value="[PHB] 人类">
                           <param name="Local" value="0 核心三宝书\PHB玩家手册\2种族\人类.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="矮人">
+                          <param name="Name" value="[PHB] 矮人">
                           <param name="Local" value="0 核心三宝书\PHB玩家手册\2种族\矮人.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="精灵">
+                          <param name="Name" value="[PHB] 精灵">
                           <param name="Local" value="0 核心三宝书\PHB玩家手册\2种族\精灵.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="侏儒">
+                          <param name="Name" value="[PHB] 侏儒">
                           <param name="Local" value="0 核心三宝书\PHB玩家手册\2种族\侏儒.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="半精灵">
+                          <param name="Name" value="[PHB] 半精灵">
                           <param name="Local" value="0 核心三宝书\PHB玩家手册\2种族\半精灵.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="半兽人">
+                          <param name="Name" value="[PHB] 半兽人">
                           <param name="Local" value="0 核心三宝书\PHB玩家手册\2种族\半兽人.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="半身人">
+                          <param name="Name" value="[PHB] 半身人">
                           <param name="Local" value="0 核心三宝书\PHB玩家手册\2种族\半身人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[XPH] 蠹灵">
+                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\蠹灵.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[XPH] 厄兰">
+                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\厄兰.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[XPH] 半巨人">
+                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\半巨人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[XPH] 灰矮人">
+                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\灰矮人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[XPH] 瑟芬人">
+                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\瑟芬人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[XPH] 螳螂人">
+                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\螳螂人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[XPH] 美纳德人">
+                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\美纳德人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[XPH] 吉斯洋基人">
+                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\吉斯洋基人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[XPH] 吉斯泽莱人">
+                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\吉斯泽莱人.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                     </UL>
@@ -17512,27 +17564,82 @@
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="欺愚者">
+                          <param name="Name" value="[PHB] 野蛮人">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\野蛮人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB] 吟游诗人">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\吟游诗人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB] 牧师">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\牧师.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB] 德鲁伊">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\德鲁伊.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB] 战士">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\战士.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB] 武僧">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\武僧.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB] 圣武士">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\圣武士.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB] 巡林客">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\巡林客.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB] 游荡者">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\游荡者.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB] 术士">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\术士.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB] 法师">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\法师.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PHB2] 欺愚者">
                           <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\欺愚者.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="龙之萨满">
+                          <param name="Name" value="[PHB2] 龙之萨满">
                           <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\龙之萨满.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="暮刃">
+                          <param name="Name" value="[PHB2] 暮刃">
                           <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\暮刃.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="骑士">
+                          <param name="Name" value="[PHB2] 骑士">
                           <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业\骑士.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="天佑者">
+                          <param name="Name" value="[CD] 天佑者">
                           <param name="Local" value="3 完美系列\CD完美神力\基础职业\天佑者.htm">
                           <param name="ImageNumber" value="3">
                         </OBJECT>
@@ -17544,7 +17651,7 @@
                             </OBJECT>
                         </UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="魔剑客">
+                          <param name="Name" value="[CW] 魔剑客">
                           <param name="Local" value="3 完美系列\CW完美战力\1基础\魔剑客.htm">
                           <param name="ImageNumber" value="3">
                         </OBJECT>
@@ -17557,11 +17664,6 @@
                         </UL>
                     </UL>
                 </UL>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="填充页面">
-                  <param name="Local" value="10 附录\填充页面.htm">
-                  <param name="ImageNumber" value="9">
-                </OBJECT>
             </UL>
         </UL>
     </UL>
