@@ -82,52 +82,60 @@
           <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\职业.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="德鲁伊（Druid）">
-          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\德鲁伊.htm">
-        </OBJECT>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="法师（Wizard）">
-          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\法师.htm">
-        </OBJECT>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="牧师（Cleric）">
-          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\牧师.htm">
-        </OBJECT>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="圣武士（Paladin）">
-          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\圣武士.htm">
-        </OBJECT>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="术士（Sorcerer）">
-          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\术士.htm">
-        </OBJECT>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="武僧（Monk）">
-          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\武僧.htm">
-        </OBJECT>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="巡林客（Ranger）">
-          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\巡林客.htm">
-        </OBJECT>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="野蛮人（Barbarian）">
+          <param name="Name" value="德鲁伊 (Druid)">
           <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\野蛮人.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="吟游诗人（Bard）">
+          <param name="Name" value="吟游诗人 (Bard)">
           <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\吟游诗人.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="游荡者（Rogue）">
+          <param name="Name" value="牧师 (Cleric)">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\牧师.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="德鲁伊 (Druid)">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\德鲁伊.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="战士 (Fighter)">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\战士.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="武僧 (Monk)">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\武僧.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="圣武士 (Paladin)">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\圣武士.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="巡林客 (Ranger)">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\巡林客.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="游荡者 (Rogue)">
           <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\游荡者.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="战士（Fighter）">
-          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\战士.htm">
+          <param name="Name" value="术士 (Sorcerer)">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\术士.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="法师 (Wizard)">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\法师.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="魔宠 (Familiar)">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\动物伙伴.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="魔宠 (Familiar)">
           <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\魔宠.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="特殊座骑 (Special Mount)">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\圣武士坐骑.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="经验值与等级">
@@ -146,16 +154,16 @@
           <param name="Local" value="0 核心三宝书\PHB玩家手册\4技能\第四章 技能.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="表4-2：技能">
+          <param name="Local" value="0 核心三宝书\PHB玩家手册\4技能\技能表.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
           <param name="Name" value="使用技能">
           <param name="Local" value="0 核心三宝书\PHB玩家手册\4技能\使用技能.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="技能说明">
           <param name="Local" value="0 核心三宝书\PHB玩家手册\4技能\技能说明.htm">
-        </OBJECT>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="表4-2：技能">
-          <param name="Local" value="0 核心三宝书\PHB玩家手册\4技能\技能表.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="专长概述">
@@ -11352,7 +11360,7 @@
           <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\控梦灵.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="封面">
+          <param name="Name" value="[FoW] 战争熔炉-封面">
           <param name="Local" value="9 世设\艾伯伦\FoW战争熔炉\封面.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
@@ -11406,6 +11414,10 @@
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="后论">
           <param name="Local" value="9 世设\艾伯伦\FoW战争熔炉\后论.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="终末战争大百科">
+          <param name="Local" value="9 世设\艾伯伦\FoW战争熔炉\终末战争大百科.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="亚贡斯">
@@ -11528,8 +11540,8 @@
           <param name="Local" value="9 世设\艾伯伦\FoW战争熔炉\战俑.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="终末战争菁英选">
-          <param name="Local" value="9 世设\艾伯伦\FoW战争熔炉\终末战争菁英选.htm">
+          <param name="Name" value="序言">
+          <param name="Local" value="9 世设\艾伯伦\FoW战争熔炉\序言.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="背景">
@@ -12000,7 +12012,7 @@
           <param name="Local" value="10 附录\html教学\标签与格式.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="前言">
+          <param name="Name" value="老前言">
           <param name="Local" value="老前言.htm">
         </OBJECT>
     </UL>
