@@ -229,7 +229,7 @@
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="技能说明">
                       <param name="Local" value="0 核心三宝书\PHB玩家手册\4技能\技能说明.htm">
-                      <param name="ImageNumber" value="11">
+                      <param name="ImageNumber" value="21">
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
@@ -244,20 +244,27 @@
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="一般专长">
+                      <param name="Name" value="专长说明">
                       <param name="Local" value="0 核心三宝书\PHB玩家手册\5专长\专长说明.htm">
-                      <param name="ImageNumber" value="11">
+                      <param name="ImageNumber" value="3">
                     </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="超魔专长">
-                      <param name="Local" value="0 核心三宝书\PHB玩家手册\5专长\超魔专长.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="制造物品专长">
-                      <param name="Local" value="0 核心三宝书\PHB玩家手册\5专长\制造物品专长.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="一般专长">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\5专长\一般专长.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="超魔专长">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\5专长\超魔专长.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="制造物品专长">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\5专长\制造物品专长.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="6. 背景描述">
@@ -267,6 +274,7 @@
                 <UL>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="阵营">
+                      <param name="Local" value="0 核心三宝书\PHB玩家手册\6背景\阵营.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
