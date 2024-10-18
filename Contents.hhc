@@ -300,19 +300,38 @@
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="武器">
-                      <param name="Local" value="0 核心三宝书\PHB玩家手册\7装备\武器.htm">
+                      <param name="Name" value="金钱与财富">
+                      <param name="Local" value="0 核心三宝书\PHB玩家手册\7装备\金钱与财富.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="武器">
+                      <param name="Local" value="0 核心三宝书\PHB玩家手册\7装备\武器.htm">
+                      <param name="ImageNumber" value="3">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="武器描述">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\7装备\武器详述.htm">
+                          <param name="ImageNumber" value="21">
+                        </OBJECT>
+                    </UL>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="防具">
                       <param name="Local" value="0 核心三宝书\PHB玩家手册\7装备\防具.htm">
-                      <param name="ImageNumber" value="11">
+                      <param name="ImageNumber" value="3">
                     </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="防具描述">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\7装备\防具详述.htm">
+                          <param name="ImageNumber" value="21">
+                        </OBJECT>
+                    </UL>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="商品与服务">
                       <param name="Local" value="0 核心三宝书\PHB玩家手册\7装备\商品与服务.htm">
-                      <param name="ImageNumber" value="11">
+                      <param name="ImageNumber" value="21">
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
