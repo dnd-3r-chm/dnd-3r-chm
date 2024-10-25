@@ -24,6 +24,11 @@
           <param name="ImageNumber" value="17">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="官方出版物出版顺序">
+          <param name="Local" value="10 附录\出版书籍顺序.htm">
+          <param name="ImageNumber" value="17">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
           <param name="Name" value="核心三宝书">
         </OBJECT>
         <UL>
@@ -5796,7 +5801,7 @@
             </OBJECT>
             <UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="(暂缺)[S&F] 刀剑与拳脚">
+                  <param name="Name" value="(暂缺)[S＆F] 刀剑与拳脚">
                   <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="9">
                 </OBJECT>
@@ -5806,12 +5811,12 @@
                   <param name="ImageNumber" value="9">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="(暂缺)[T&B] 卷册与血脉">
+                  <param name="Name" value="(暂缺)[T＆B] 卷册与血脉">
                   <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="9">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="(暂缺)[S&S] 歌声与寂静">
+                  <param name="Name" value="(暂缺)[S＆S] 歌声与寂静">
                   <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="9">
                 </OBJECT>
@@ -7222,7 +7227,7 @@
             </OBJECT>
             <UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="(暂缺)[DaD] 神与半神 (有升级)">
+                  <param name="Name" value="(暂缺)[D＆D] 神与半神 (有升级)">
                   <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="9">
                 </OBJECT>
@@ -14251,9 +14256,19 @@
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="巡林客变体">
-                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\巡林客变体.htm">
-                          <param name="ImageNumber" value="11">
                         </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="位面巡林客">
+                              <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\巡林客变体.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="城市巡林客">
+                              <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\城市游侠.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="游荡者变体">
                           <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\游荡者变体.htm">
@@ -14895,12 +14910,7 @@
                   <param name="ImageNumber" value="9">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="(暂缺)[E&A] 敌人与盟友">
-                  <param name="Local" value="10 附录\填充页面.htm">
-                  <param name="ImageNumber" value="9">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="(暂缺)[LoD] 黑暗主宰">
+                  <param name="Name" value="(暂缺)[E＆A] 敌人与盟友">
                   <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="9">
                 </OBJECT>
@@ -17653,11 +17663,6 @@
                 </UL>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="出版书籍顺序">
-              <param name="Local" value="10 附录\出版书籍顺序.htm">
-              <param name="ImageNumber" value="21">
-            </OBJECT>
-            <LI><OBJECT type="text/sitemap">
               <param name="Name" value="版本历史">
               <param name="Local" value="版本历史.htm">
               <param name="ImageNumber" value="17">
@@ -18386,8 +18391,13 @@
                                   <param name="ImageNumber" value="11">
                                 </OBJECT>
                                 <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="[UA] 界域/城市游侠">
+                                  <param name="Name" value="[UA] 位面巡林客">
                                   <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\巡林客变体.htm">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="[UA] 城市巡林客">
+                                  <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\城市游侠.htm">
                                   <param name="ImageNumber" value="11">
                                 </OBJECT>
                                 <LI><OBJECT type="text/sitemap">
