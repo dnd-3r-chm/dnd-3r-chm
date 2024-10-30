@@ -14220,40 +14220,66 @@
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="野蛮人变体">
+                          <param name="Name" value="野蛮人变体：图腾野蛮人">
                           <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\野蛮人变体.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="吟游诗人变体">
-                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\吟游诗人变体.htm">
-                          <param name="ImageNumber" value="11">
                         </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="吟游贤者">
+                              <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\吟游诗人变体.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="神圣吟游诗人">
+                              <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\神术诗人.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="野蛮吟游诗人">
+                              <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\野蛮诗人.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="牧师变体">
+                          <param name="Name" value="牧师变体：修道牧师">
                           <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\牧师变体.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="德鲁伊变体">
+                          <param name="Name" value="德鲁伊变体：德鲁伊复仇者">
                           <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\德鲁伊变体.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="战士变体">
+                          <param name="Name" value="战士变体：暴徒">
                           <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\战士变体.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="武僧变体">
+                          <param name="Name" value="武僧变体：战斗方式">
                           <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\武僧变体.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="圣武士变体">
                           <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\圣武士变体.htm">
-                          <param name="ImageNumber" value="11">
+                          <param name="ImageNumber" value="3">
                         </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="自由圣武士">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="杀戮圣武士">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="专制圣武士">
+                            </OBJECT>
+                        </UL>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="巡林客变体">
                         </OBJECT>
@@ -14270,7 +14296,7 @@
                             </OBJECT>
                         </UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="游荡者变体">
+                          <param name="Name" value="游荡者变体：荒野游荡者">
                           <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\游荡者变体.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
@@ -14328,13 +14354,13 @@
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="进阶巡林客">
-                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\进阶\进阶巡林客.htm">
+                          <param name="Name" value="进阶圣武士">
+                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\进阶\进阶圣武士.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="进阶圣武士">
-                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\进阶\进阶圣武士.htm">
+                          <param name="Name" value="进阶巡林客">
+                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\进阶\进阶巡林客.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                     </UL>
@@ -17676,41 +17702,15 @@
                 </OBJECT>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="测试用页面">
-              <param name="Local" value="10 附录\测试页面.htm">
+              <param name="Name" value="常见资源分类">
+              <param name="Local" value="10 附录\资源分类.htm">
+              <param name="ImageNumber" value="21">
+            </OBJECT>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="测试用内容">
               <param name="ImageNumber" value="41">
             </OBJECT>
             <UL>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="如何为扩展大全做出贡献">
-                  <param name="Local" value="10 附录\如何为扩展大全做出贡献.htm">
-                  <param name="ImageNumber" value="41">
-                </OBJECT>
-                <UL>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="猴子都看得懂的html教程">
-                    </OBJECT>
-                    <UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="开始之前">
-                          <param name="Local" value="10 附录\html教学\开始之前.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="标签与格式">
-                          <param name="Local" value="10 附录\html教学\标签与格式.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="CSS样式表">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="为什么不用所见即所得">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                    </UL>
-                </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="速查">
                   <param name="ImageNumber" value="41">
@@ -18274,8 +18274,18 @@
                                   <param name="ImageNumber" value="11">
                                 </OBJECT>
                                 <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="[UA] 吟游诗人变体">
+                                  <param name="Name" value="[UA] 吟游贤者">
                                   <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\吟游诗人变体.htm">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="[UA] 神圣吟游诗人">
+                                  <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\神术诗人.htm">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="[UA] 野蛮吟游诗人">
+                                  <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\野蛮诗人.htm">
                                   <param name="ImageNumber" value="11">
                                 </OBJECT>
                             </UL>
@@ -18357,7 +18367,7 @@
                                   <param name="ImageNumber" value="11">
                                 </OBJECT>
                                 <LI><OBJECT type="text/sitemap">
-                                  <param name="Name" value="[UA] 武僧流派">
+                                  <param name="Name" value="[UA] 武僧战斗方式">
                                   <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\武僧变体.htm">
                                   <param name="ImageNumber" value="11">
                                 </OBJECT>
@@ -18756,10 +18766,50 @@
                     </UL>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="填充页面">
-                  <param name="Local" value="10 附录\填充页面.htm">
-                  <param name="ImageNumber" value="41">
+                  <param name="Name" value="杂项">
                 </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="如何为扩展大全做出贡献">
+                      <param name="Local" value="10 附录\如何为扩展大全做出贡献.htm">
+                      <param name="ImageNumber" value="41">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="猴子都看得懂的html教程">
+                        </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="开始之前">
+                              <param name="Local" value="10 附录\html教学\开始之前.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="标签与格式">
+                              <param name="Local" value="10 附录\html教学\标签与格式.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="CSS样式表">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="为什么不用所见即所得">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="填充页面">
+                      <param name="Local" value="10 附录\填充页面.htm">
+                      <param name="ImageNumber" value="41">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="测试功能用页面">
+                      <param name="Local" value="10 附录\测试页面.htm">
+                      <param name="ImageNumber" value="41">
+                    </OBJECT>
+                </UL>
             </UL>
         </UL>
     </UL>
