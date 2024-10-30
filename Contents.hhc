@@ -14974,10 +14974,29 @@
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="(暂缺)[ECS] 艾伯伦战役设定集">
+                      <param name="Name" value="[ECS] 艾伯伦战役设定集">
                       <param name="Local" value="9 世设\艾伯伦\ECS艾伯伦战役设定集\封面.htm">
-                      <param name="ImageNumber" value="41">
+                      <param name="ImageNumber" value="1">
                     </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="概述">
+                          <param name="Local" value="9 世设\艾伯伦\ECS艾伯伦战役设定集\0概述\概述.htm">
+                          <param name="ImageNumber" value="3">
+                        </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="艾伯伦世界的特色">
+                              <param name="Local" value="9 世设\艾伯伦\ECS艾伯伦战役设定集\0概述\艾伯伦的特色.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="十大要点">
+                              <param name="Local" value="9 世设\艾伯伦\ECS艾伯伦战役设定集\0概述\十大要点.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
+                    </UL>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="[ShCT] 萨恩：万塔都市">
                       <param name="Local" value="9 世设\艾伯伦\Sharn萨恩万塔都市\封面.htm">
