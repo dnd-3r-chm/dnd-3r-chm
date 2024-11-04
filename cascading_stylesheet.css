@@ -1,24 +1,30 @@
+body {
+font-family: Segoe UI,'微软雅黑',sans-serif;
 /*全文的字体*/
-body {font-family: Segoe UI,'微软雅黑',sans-serif;}
+min-width: 640px;
+/*页面最小宽度为640*/
+font-size: 87.5%;
+/*全文字号为默认的87.5%，这意味着1em(1字宽)为14px*/
+}
 
-/*标题颜色采用果园排版的紫红，行间距暂定4.8+2.4=7.2px*/
-/*h1字宽为正文2倍，以此类推的h2-h6分别为1.83、1.67、1.33、1.17、1倍字宽*/
-h1{font-size: 2em; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
-h2{font-size: 1.83em; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
-h3{font-size: 1.67em; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
-h4{font-size: 1.33em; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
-h5{font-size: 1.17em; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
-h6{font-size: 1em; color: maroon; margin-bottom: 4.8px; margin-top: 2.4px;}
+/*标题颜色采用果园排版的紫红，行间距暂定0.3em(4.2px)+0.2em(2.8px)=0.5em(7px)*/
+/*h1字宽为正文2倍，以此类推的h2-h6分别为1.83、1.67、1.5、1.33、1.17倍字宽*/
+h1{font-size: 2em; color: maroon; margin-bottom: 0.3em; margin-top: 0.2em;}
+h2{font-size: 1.83em; color: maroon; margin-bottom: 0.3em; margin-top: 0.2em;}
+h3{font-size: 1.67em; color: maroon; margin-bottom: 0.3em; margin-top: 0.2em;}
+h4{font-size: 1.5em; color: maroon; margin-bottom: 0.3em; margin-top: 0.2em;}
+h5{font-size: 1.33em; color: maroon; margin-bottom: 0.3em; margin-top: 0.2em;}
+h6{font-size: 1.17em; color: maroon; margin-bottom: 0.3em; margin-top: 0.2em;}
 .subhead {font-style: italic;}/*副标题：斜体*/
 
-/*正文的字体字号：字宽14px为五号，行首默认缩进2字符*/
-p{ font-size: 14PX; margin-bottom: 4.8px; margin-top: 2.4px; text-indent: 2em; }
+/*正文的字体字号：字宽1em为14px(5号)，行首默认缩进2字符*/
+p{ font-size: 1em; margin-bottom: 0.3em; margin-top: 0.2em; text-indent: 2em; }
 .noindent {text-indent: 0;}/*无需缩进的行首*/
 
 /*表格边框合并为细实线，表内字号与正文取同*/
-table {font-size: 14PX; border: black 1px solid; border-collapse: collapse;}
-table, th, /*单元格边框为1px的黑色细线，边框与文字的横向间距为3.6px*/
-td{border: black 1px solid; padding-left: 3.6px; padding-right: 3.6px;}
+table {font-size: 1em; border: black 1px solid; border-collapse: collapse;}
+table, th, /*单元格边框为1px的黑色细线，边框与文字的横向间距为0.2em*/
+td{border: black 1px solid; padding-left: 0.2em; padding-right: 0.2em;}
 
-/*无序列表字号为14px，缩进2字符*/
-ul{font-size: 14PX; margin-left: 2em; margin-bottom: 4.8px; margin-top: 2.4px;}
+/*无序列表字号为1em，缩进2字符*/
+ul{font-size: 1em; margin-left: 2em; margin-bottom: 0.3em; margin-top: 0.2em;}
