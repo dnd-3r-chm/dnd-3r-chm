@@ -3128,7 +3128,7 @@
           <param name="Local" value="2 万物万法万律\RC万律大全\封面.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="完美冒险（CAd）">
+          <param name="Name" value="[CAd] 完美冒险-封面">
           <param name="Local" value="3 完美系列\CAd完美冒险\封面.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
@@ -3302,6 +3302,14 @@
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="组织">
           <param name="Local" value="3 完美系列\CAd完美冒险\组织\组织.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="范例传奇进阶职业：地城探险家">
+          <param name="Local" value="3 完美系列\CAd完美冒险\传奇等级\范例传奇进阶.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="传奇专长">
+          <param name="Local" value="3 完美系列\CAd完美冒险\传奇等级\传奇专长.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="完美奥术（CAr）">
@@ -6070,6 +6078,10 @@
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="海生种族">
           <param name="Local" value="5 环境和社会\Storm风暴之书\2海之民\海生种族.htm">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="年龄，身高，及体重">
+          <param name="Local" value="5 环境和社会\Storm风暴之书\2海之民\海民身体数据.htm">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="海洋文化">

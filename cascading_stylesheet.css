@@ -20,6 +20,7 @@ h6{font-size: 1.17em; color: maroon; margin-bottom: 0.3em; margin-top: 0.2em;}
 /*正文的字体字号：字宽1em为14px(5号)，行首默认缩进2字符*/
 p{ font-size: 1em; margin-bottom: 0.3em; margin-top: 0.2em; text-indent: 2em; }
 .noindent {text-indent: 0;}/*无需缩进的行首*/
+.noidt {text-indent: 0;}/*无需缩进的行首*/
 
 /*表格边框合并为细实线，表内字号与正文取同*/
 table {font-size: 1em; border: black 1px solid; border-collapse: collapse;}

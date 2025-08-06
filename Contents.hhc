@@ -29,7 +29,7 @@
           <param name="ImageNumber" value="17">
         </OBJECT>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="速查(测试中，内容不完全)">
+          <param name="Name" value="速查(内容不完全)">
           <param name="ImageNumber" value="41">
         </OBJECT>
         <UL>
@@ -278,57 +278,12 @@
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="巨人">
-                    </OBJECT>
-                    <UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="[XPH] 半巨人">
-                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\半巨人.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                    </UL>
-                    <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="矮人亚种">
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="[XPH] 灰矮人">
                           <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\灰矮人.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                    </UL>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="位面裔">
-                    </OBJECT>
-                    <UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="[PlH] 阿斯莫">
-                          <param name="Local" value="4 阵营和位面\PlH位面手册\1种族\阿斯莫.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="[RoD] 阿斯莫">
-                          <param name="Local" value="6 种族书\RoD天命族裔\5其他种族\阿斯莫.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="[PlH] 提夫林">
-                          <param name="Local" value="4 阵营和位面\PlH位面手册\1种族\提夫林.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="[RoD] 提夫林">
-                          <param name="Local" value="6 种族书\RoD天命族裔\5其他种族\提夫林.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="[PlH] 迅影裔">
-                          <param name="Local" value="4 阵营和位面\PlH位面手册\1种族\迅影裔.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="[PlH] 魔蝠人">
-                          <param name="Local" value="4 阵营和位面\PlH位面手册\1种族\魔蝠人.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                     </UL>
@@ -349,6 +304,61 @@
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="[RoD] 萨拉金人">
                           <param name="Local" value="6 种族书\RoD天命族裔\5其他种族\萨拉金人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="巨人亚种/血统">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[XPH] 半巨人">
+                          <param name="Local" value="1 核心补充书籍\XPH扩展灵能手册\1种族\半巨人.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="位面生物后裔">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="阿斯莫">
+                        </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="[PlH] 阿斯莫">
+                              <param name="Local" value="4 阵营和位面\PlH位面手册\1种族\阿斯莫.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="[RoD] 阿斯莫">
+                              <param name="Local" value="6 种族书\RoD天命族裔\5其他种族\阿斯莫.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="提夫林">
+                        </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="[PlH] 提夫林">
+                              <param name="Local" value="4 阵营和位面\PlH位面手册\1种族\提夫林.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="[RoD] 提夫林">
+                              <param name="Local" value="6 种族书\RoD天命族裔\5其他种族\提夫林.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PlH] 迅影裔">
+                          <param name="Local" value="4 阵营和位面\PlH位面手册\1种族\迅影裔.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="[PlH] 魔蝠人">
+                          <param name="Local" value="4 阵营和位面\PlH位面手册\1种族\魔蝠人.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                     </UL>
@@ -597,7 +607,7 @@
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="[UA] 吟游贤者">
-                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\吟游诗人变体.htm">
+                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\吟游贤者.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
@@ -915,7 +925,7 @@
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="7C">
+                  <param name="Name" value="完美系列(不含灵能)">
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
@@ -1293,13 +1303,13 @@
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="术士">
-                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\术士.htm">
+                          <param name="Name" value="法师">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\法师.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="法师">
-                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\法师.htm">
+                          <param name="Name" value="术士">
+                          <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\基础职业\术士.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                     </UL>
@@ -1332,11 +1342,6 @@
                       <param name="Name" value="兼职人物">
                       <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\兼职人物.htm">
                       <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="进阶职业(from d20SRD)">
-                      <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\进阶职业.htm">
-                      <param name="ImageNumber" value="21">
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
@@ -1789,12 +1794,19 @@
                 </OBJECT>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[DMG] 城主指南(暂缺)">
+              <param name="Name" value="(暂缺)[DMG] 城主指南">
               <param name="Local" value="0 核心三宝书\DMG城主指南\封面.htm">
               <param name="ImageNumber" value="41">
             </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="进阶职业(from d20SRD)">
+                  <param name="Local" value="0 核心三宝书\PHB玩家手册\3职业\进阶职业.htm">
+                  <param name="ImageNumber" value="21">
+                </OBJECT>
+            </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[MM] 怪物图鉴(暂缺)">
+              <param name="Name" value="(暂缺)[MM] 怪物图鉴">
               <param name="Local" value="0 核心三宝书\MM怪物图鉴\封面.htm">
               <param name="ImageNumber" value="41">
             </OBJECT>
@@ -4793,7 +4805,7 @@
             </UL>
         </UL>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="完美系列：完备的职业进阶资源">
+          <param name="Name" value="完美系列：完备进阶指南">
           <param name="ImageNumber" value="1">
         </OBJECT>
         <UL>
@@ -5080,7 +5092,7 @@
                 </UL>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[CAr] 完美奥术：奥术施法指南">
+              <param name="Name" value="[CAr] 完美奥术：奥秘魔法指南">
               <param name="Local" value="3 完美系列\CAr完美奥术\封面\完美奥术.htm">
               <param name="ImageNumber" value="1">
             </OBJECT>
@@ -5649,7 +5661,7 @@
                 </OBJECT>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[CD] 完美神力：神术施法指南">
+              <param name="Name" value="[CD] 完美神力：神圣魔法指南">
               <param name="Local" value="3 完美系列\CD完美神力\封面.htm">
               <param name="ImageNumber" value="1">
             </OBJECT>
@@ -6039,6 +6051,11 @@
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="炼金术物品">
                       <param name="Local" value="3 完美系列\CM完美巫师\5物品\炼金术物品.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="可选施法材料">
+                      <param name="Local" value="3 完美系列\CM完美巫师\5物品\特殊施法材料.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                 </UL>
@@ -6940,7 +6957,7 @@
             </OBJECT>
             <UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="(暂缺)[S&amp;F] 刀剑与拳脚">
+                  <param name="Name" value="(暂缺)[S＆F] 刀剑与拳脚">
                   <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="9">
                 </OBJECT>
@@ -7311,8 +7328,30 @@
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="爱剌天族">
                       <param name="Local" value="4 阵营和位面\BoED崇善之书\8怪物\爱剌天族.htm">
-                      <param name="ImageNumber" value="11">
+                      <param name="ImageNumber" value="3">
                     </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="彩光天使">
+                          <param name="Local" value="4 阵营和位面\BoED崇善之书\8怪物\彩光天使.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="红焰天使">
+                          <param name="Local" value="4 阵营和位面\BoED崇善之书\8怪物\红焰天使.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="辉云天使">
+                          <param name="Local" value="4 阵营和位面\BoED崇善之书\8怪物\辉云天使.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="图拉尼天使">
+                          <param name="Local" value="4 阵营和位面\BoED崇善之书\8怪物\图拉尼天使.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="盖丁天族">
                       <param name="Local" value="4 阵营和位面\BoED崇善之书\8怪物\盖丁天族.htm">
@@ -7361,7 +7400,7 @@
                 </UL>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[PlH] 位面手册">
+              <param name="Name" value="[PlH] 位面手册：位面玩家指南">
               <param name="Local" value="4 阵营和位面\PlH位面手册\位面手册.htm">
               <param name="ImageNumber" value="1">
             </OBJECT>
@@ -9270,7 +9309,7 @@
                 </UL>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[Storm] 风暴之书：驾驭狂暴风浪">
+              <param name="Name" value="[Storm] 风暴之书：驾驭暴风骤浪">
               <param name="Local" value="5 环境和社会\Storm风暴之书\0插图\风暴之书（Storm）.htm">
               <param name="ImageNumber" value="1">
             </OBJECT>
@@ -9693,7 +9732,7 @@
                 </UL>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[Citys] 城市风光：城市冒险基本指南">
+              <param name="Name" value="[Citys] 城市风光：城市冒险要典">
               <param name="Local" value="5 环境和社会\City城市风貌\0插图\城市风光（City）.htm">
               <param name="ImageNumber" value="1">
             </OBJECT>
@@ -9913,7 +9952,7 @@
                 </UL>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[Dungeons] 地城风光：地城冒险基本指南">
+              <param name="Name" value="[Dungeons] 地城风光：地城冒险要典">
               <param name="Local" value="5 环境和社会\Dungeon地城风光\0插图\地城风光（Dungeon）.htm">
               <param name="ImageNumber" value="1">
             </OBJECT>
@@ -10012,7 +10051,7 @@
             </UL>
         </UL>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="物种概论：类人与非类人种族">
+          <param name="Name" value="物种概论：万族大全">
           <param name="ImageNumber" value="1">
         </OBJECT>
         <UL>
@@ -10715,9 +10754,15 @@
                         </OBJECT>
                     </UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="[暂缺]新增灵能">
-                      <param name="ImageNumber" value="9">
+                      <param name="Name" value="新增灵能">
+                      <param name="ImageNumber" value="3">
                     </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="灵能详述">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="7. [暂缺]天命战役">
@@ -12482,22 +12527,33 @@
                           <param name="Local" value="6 种族书\LoM异怪之书\2水中霸主\变种.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="底栖魔鱼的魔法">
+                      <param name="Local" value="6 种族书\LoM异怪之书\2水中霸主\装备.htm">
+                      <param name="ImageNumber" value="3">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="大师符印">
+                          <param name="Local" value="6 种族书\LoM异怪之书\2水中霸主\符文.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="进阶: 底栖魔鱼专家">
                           <param name="Local" value="6 种族书\LoM异怪之书\2水中霸主\进阶.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="底栖魔鱼专长">
-                          <param name="Local" value="6 种族书\LoM异怪之书\2水中霸主\专长.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="装备与魔法物品">
-                          <param name="Local" value="6 种族书\LoM异怪之书\2水中霸主\装备.htm">
-                          <param name="ImageNumber" value="11">
+                          <param name="Name" value="[暂缺] 边栏：灵能底栖魔鱼">
+                          <param name="ImageNumber" value="9">
                         </OBJECT>
                     </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="底栖魔鱼专长">
+                      <param name="Local" value="6 种族书\LoM异怪之书\2水中霸主\专长.htm">
+                      <param name="ImageNumber" value="21">
+                    </OBJECT>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="超越时间的梦魇">
                       <param name="Local" value="6 种族书\LoM异怪之书\2水中霸主\生活.htm">
@@ -13560,7 +13616,7 @@
                         </OBJECT>
                     </UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="不死义肢">
+                      <param name="Name" value="不死移植体">
                       <param name="Local" value="6 种族书\LM死灵之书\5装备\不死义肢.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
@@ -13863,7 +13919,7 @@
         </OBJECT>
         <UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[MH] 模型手册 (牛头人之书)">
+              <param name="Name" value="[MH] 模型手册/兵棋手册 (牛头人之书)">
               <param name="Local" value="7 扩展全新体系\MH模型手册\0插图\模型手册（MH）.htm">
               <param name="ImageNumber" value="1">
             </OBJECT>
@@ -14631,7 +14687,7 @@
                 </UL>
             </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[ToM] 魔法卷册：契约，暗影与真名的魔法">
+              <param name="Name" value="[ToM] 魔法卷册：契约、暗影与真名的魔法">
               <param name="Local" value="7 扩展全新体系\ToM魔法卷册\0插图\魔法卷册（ToM）.htm">
               <param name="ImageNumber" value="1">
             </OBJECT>
@@ -15262,7 +15318,7 @@
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="8. 九剑的怪物">
+                  <param name="Name" value="8. 九剑怪物">
                   <param name="ImageNumber" value="1">
                 </OBJECT>
                 <UL>
@@ -15283,7 +15339,7 @@
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="附录: 问答">
+                  <param name="Name" value="附录：问答">
                   <param name="Local" value="7 扩展全新体系\ToB战斗卷册\9附录\问答.htm">
                   <param name="ImageNumber" value="21">
                 </OBJECT>
@@ -15456,10 +15512,20 @@
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="法师变体：领域法师">
-                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\法师变体.htm">
-                          <param name="ImageNumber" value="11">
+                          <param name="Name" value="法师变体">
                         </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="领域法师">
+                              <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\法师变体.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="专精法师变体">
+                              <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\法师专精变体.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="其它职业变体 (无名变体)">
                           <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\无名变体\无名变体.htm">
@@ -15521,11 +15587,6 @@
                               <param name="ImageNumber" value="11">
                             </OBJECT>
                         </UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="法师专精变体">
-                          <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\变体\法师专精变体.htm">
-                          <param name="ImageNumber" value="11">
-                        </OBJECT>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="自发神术施法者">
                           <param name="Local" value="7 扩展全新体系\UA破译奥秘\2职业\职业特性变体\自发神术变体.htm">
@@ -16164,7 +16225,7 @@
         </OBJECT>
         <UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="官方世设">
+              <param name="Name" value="官方">
             </OBJECT>
             <UL>
                 <LI><OBJECT type="text/sitemap">
@@ -16211,9 +16272,9 @@
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="[ECS] 艾伯伦战役设定集">
+                      <param name="Name" value="[未完成][ECS] 艾伯伦战役设定集">
                       <param name="Local" value="9 世设\艾伯伦\ECS艾伯伦战役设定集\封面.htm">
-                      <param name="ImageNumber" value="1">
+                      <param name="ImageNumber" value="41">
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
@@ -16722,13 +16783,67 @@
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="引言">
                           <param name="Local" value="9 世设\艾伯伦\FN五国\引言.htm">
-                          <param name="ImageNumber" value="11">
+                          <param name="ImageNumber" value="3">
                         </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="何为五国">
+                              <param name="Local" value="9 世设\艾伯伦\FN五国\五国.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="安黛尔">
                           <param name="Local" value="9 世设\艾伯伦\FN五国\安黛尔.htm">
-                          <param name="ImageNumber" value="11">
+                          <param name="ImageNumber" value="3">
                         </OBJECT>
+                        <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="扮演安黛尔人">
+                              <param name="Local" value="9 世设\艾伯伦\FN五国\扮演安黛尔人.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="安黛尔式潮流">
+                              <param name="Local" value="9 世设\艾伯伦\FN五国\安黛尔式潮流.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="阴谋与派系">
+                              <param name="Local" value="9 世设\艾伯伦\FN五国\阴谋与派系-安黛尔.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="外交关系">
+                              <param name="Local" value="9 世设\艾伯伦\FN五国\外交关系-安黛尔.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="著名人物">
+                              <param name="Local" value="9 世设\艾伯伦\FN五国\安黛尔著名人物.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="王室之眼">
+                              <param name="Local" value="9 世设\艾伯伦\FN五国\安黛尔的王室之眼.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="安黛尔冒险">
+                              <param name="Local" value="9 世设\艾伯伦\FN五国\安黛尔的王室之眼.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="进阶职业：魅影骑士">
+                              <param name="Local" value="9 世设\艾伯伦\FN五国\安黛尔的王室之眼.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="龙鹰(动物)">
+                              <param name="Local" value="9 世设\艾伯伦\FN五国\安黛尔的王室之眼.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                        </UL>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="布鲁兰">
                           <param name="Local" value="9 世设\艾伯伦\FN五国\布鲁兰.htm">
@@ -17542,6 +17657,7 @@
                     <UL>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="概述">
+                          <param name="Local" value="9 世设\艾伯伦\Dragonmarked龙纹之书\概述.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
@@ -18243,222 +18359,22 @@
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                     </UL>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="额外内容 (官网、龙杂等)">
-                    </OBJECT>
-                    <UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="[暂缺] 龙晶 (Dragonshard)">
-                          <param name="Local" value="10 附录\填充页面.htm">
-                          <param name="ImageNumber" value="41">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="放大镜下 (Under the Glass)">
-                        </OBJECT>
-                        <UL>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="艾伯伦的神器">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\艾伯伦的神器.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="地城探索">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\地城探索.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="地精的崛起">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\地精的崛起.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="种族关系">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\种族关系.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="诅咒魔法物品">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\诅咒魔法物品.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="位面旅行">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\位面旅行.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="角色的职业与等级">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\角色的职业与等级.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="医疗">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\医疗.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                        </UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="艾伯伦扩展 (Eberron Expanded)">
-                        </OBJECT>
-                        <UL>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="玩家手册Ⅱ(PHB2)联动">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\PHB2.HTM">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="完美灵能(CPsi)联动">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\CPsi.HTM">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="异怪之书(LoM)联动">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\LOM.HTM">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="死灵之书(LM)联动">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\LM.HTM">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="战争英雄(HoB)联动">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\HOB.HTM">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="传古武器(WoL)联动">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\WOL.HTM">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                        </UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="边缘英雄 (Mark of Heroes)">
-                          <param name="Local" value="9 世设\艾伯伦\额外内容\边缘英雄.htm">
-                          <param name="ImageNumber" value="21">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="萨恩观察 (Sharn Inquisitive)">
-                          <param name="Local" value="9 世设\艾伯伦\额外内容\萨恩观察.htm">
-                          <param name="ImageNumber" value="21">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="冒险仓库 (Steal This Hook)">
-                          <param name="Local" value="9 世设\艾伯伦\额外内容\冒险仓库.htm">
-                          <param name="ImageNumber" value="21">
-                        </OBJECT>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="齿轮奇物 (Clockwork Wonders)">
-                        </OBJECT>
-                        <UL>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="1.护士长套娃 Matryoshka Matron">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\1.护士长套娃 Matryoshka Matron.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="2.蜘蛛窃贼The Spider Thief">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\2.蜘蛛窃贼The Spider Thief.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="3.爬行护盾The Crawling Shield">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\3.爬行护盾The Crawling Shield.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="4.万能钥匙">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\4.万能钥匙.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="5.塞尔滑行靴Cyran Gliding Boots">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\5.塞尔滑行靴Cyran Gliding Boots.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="6.刀盘梦魇 The Razordisc Nightmare">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\6.刀盘梦魇 The Razordisc Nightmare.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="7.黄铜书 The Brass Book">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\7.黄铜书 The Brass Book.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="8.法咒夜莺 The Spellsong Nightingale">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\8.法咒夜莺 The Spellsong Nightingale.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="9.希恩德瑞克飞艇 The Xen'drik Flying Boat">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\9.希恩德瑞克飞艇 The Xen'drik Flying Boat.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="10.分拣兽 The Sorting Beast">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\10.分拣兽 The Sorting Beast.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="11.法术时钟 The Spell Clock">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\11.法术时钟 The Spell Clock.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="12.自动抄写器 The Autoscribe">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\12.自动抄写器 The Autoscribe.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="13.移动塔 The Moving Tower">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\13.移动塔 The Moving Tower.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                        </UL>
-                        <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="龙杂志与地城志">
-                        </OBJECT>
-                        <UL>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="[DraM#330] 树荫之民：秘境大陆希恩德瑞克的影精灵">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\龙杂志\330希恩德瑞克的影精灵.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="[DraM#337] 永恒之恶：砂主">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\龙杂志\337永恒之恶：砂主.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="[DraM#351] 龙纹：艾伯伦的术士">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\龙杂志\351龙纹：艾伯伦的术士.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="[DraM#357] 进阶职业：咒语主宰 (spell sovereign)">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\龙杂志\357，p76 艾伯伦专栏——咒语主宰spell sovereign.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="[DunM#122] 风暴之环">
-                              <param name="Local" value="9 世设\艾伯伦\额外内容\龙杂志\地城122风暴之环.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                        </UL>
-                    </UL>
                 </UL>
+            </UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="其他">
+              <param name="Local" value="10 附录\填充页面.htm">
+              <param name="ImageNumber" value="1">
+            </OBJECT>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="第三方">
+            </OBJECT>
+            <UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="[暂缺] 龙枪 Dragonlance">
                   <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="41">
                 </OBJECT>
-            </UL>
-            <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="第三方">
-            </OBJECT>
-            <UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="[暂缺] 东方冒险 Oriental Adventures">
                   <param name="Local" value="10 附录\填充页面.htm">
@@ -18479,18 +18395,14 @@
                   <param name="Local" value="10 附录\填充页面.htm">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[暂缺] 鸦阁 Ravenloft">
-                  <param name="Local" value="10 附录\填充页面.htm">
-                  <param name="ImageNumber" value="9">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="异度风景 Planescape">
-                  <param name="ImageNumber" value="1">
+                  <param name="Name" value="[仅部分内容] 异度风景 Planescape">
+                  <param name="ImageNumber" value="41">
                 </OBJECT>
                 <UL>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="[PSCS] 异度风景战役设定集">
                       <param name="Local" value="9 世设\其他世设\PS\PSCS封面.htm">
+                      <param name="ImageNumber" value="41">
                     </OBJECT>
                     <UL>
                         <LI><OBJECT type="text/sitemap">
@@ -18537,23 +18449,25 @@
                             <LI><OBJECT type="text/sitemap">
                               <param name="Name" value="欢迎来到巨环">
                               <param name="Local" value="9 世设\其他世设\PS\1引言\巨环.htm">
-                              <param name="ImageNumber" value="11">
+                              <param name="ImageNumber" value="3">
                             </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="基准位面">
-                              <param name="Local" value="9 世设\其他世设\PS\1引言\基准位面.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="过渡和虚假位面">
-                              <param name="Local" value="9 世设\其他世设\PS\1引言\过渡和虚假位面.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
-                            <LI><OBJECT type="text/sitemap">
-                              <param name="Name" value="印记城">
-                              <param name="Local" value="9 世设\其他世设\PS\1引言\印记城.htm">
-                              <param name="ImageNumber" value="11">
-                            </OBJECT>
+                            <UL>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="基准位面">
+                                  <param name="Local" value="9 世设\其他世设\PS\1引言\基准位面.htm">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="过渡和虚假位面">
+                                  <param name="Local" value="9 世设\其他世设\PS\1引言\过渡和虚假位面.htm">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                                <LI><OBJECT type="text/sitemap">
+                                  <param name="Name" value="印记城">
+                                  <param name="Local" value="9 世设\其他世设\PS\1引言\印记城.htm">
+                                  <param name="ImageNumber" value="11">
+                                </OBJECT>
+                            </UL>
                         </UL>
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="2. 角色和种族">
@@ -18575,7 +18489,7 @@
                             <LI><OBJECT type="text/sitemap">
                               <param name="Name" value="新的专长">
                               <param name="Local" value="9 世设\其他世设\PS\4技能专长\专长简表.htm">
-                              <param name="ImageNumber" value="3">
+                              <param name="ImageNumber" value="1">
                             </OBJECT>
                             <UL>
                                 <LI><OBJECT type="text/sitemap">
@@ -18763,6 +18677,11 @@
                     </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="[暂缺] 鸦阁 Ravenloft">
+                  <param name="Local" value="10 附录\填充页面.htm">
+                  <param name="ImageNumber" value="9">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="[暂缺] 魔法船 Spelljammer">
                   <param name="Local" value="10 附录\填充页面.htm">
                 </OBJECT>
@@ -18778,6 +18697,242 @@
                   <param name="Name" value="[暂缺] 密斯塔拉 Mystara">
                   <param name="Local" value="10 附录\填充页面.htm">
                 </OBJECT>
+            </UL>
+        </UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="其他出版物及资源">
+        </OBJECT>
+        <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="龙杂志">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="艾伯伦相关">
+                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="[DraM#330] 树荫之民：秘境大陆希恩德瑞克的影精灵">
+                      <param name="Local" value="9 世设\艾伯伦\额外内容\龙杂志\330希恩德瑞克的影精灵.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="[DraM#337] 永恒之恶：砂主">
+                      <param name="Local" value="9 世设\艾伯伦\额外内容\龙杂志\337永恒之恶：砂主.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="[DraM#351] 龙纹：艾伯伦的术士">
+                      <param name="Local" value="9 世设\艾伯伦\额外内容\龙杂志\351龙纹：艾伯伦的术士.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="[DraM#357] 进阶职业：咒语主宰 (spell sovereign)">
+                      <param name="Local" value="9 世设\艾伯伦\额外内容\龙杂志\357，p76 艾伯伦专栏——咒语主宰spell sovereign.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                </UL>
+            </UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="地城志">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="艾伯伦相关">
+                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="[DunM#122] 风暴之环">
+                      <param name="Local" value="9 世设\艾伯伦\额外内容\龙杂志\地城122风暴之环.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                </UL>
+            </UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="文章与专栏">
+            </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="心灵之眼">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="艾伯伦相关">
+                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="[暂缺] 龙晶 (Dragonshard)">
+                      <param name="Local" value="10 附录\填充页面.htm">
+                      <param name="ImageNumber" value="41">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="放大镜下 (Under the Glass)">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="艾伯伦的神器">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\艾伯伦的神器.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="地城探索">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\地城探索.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="地精的崛起">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\地精的崛起.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="种族关系">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\种族关系.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="诅咒魔法物品">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\诅咒魔法物品.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="位面旅行">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\位面旅行.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="角色的职业与等级">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\角色的职业与等级.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="医疗">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\放大镜下\医疗.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="艾伯伦扩展 (Eberron Expanded)">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="玩家手册Ⅱ(PHB2)联动">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\PHB2.HTM">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="完美灵能(CPsi)联动">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\CPsi.HTM">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="异怪之书(LoM)联动">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\LOM.HTM">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="死灵之书(LM)联动">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\LM.HTM">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="战争英雄(HoB)联动">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\HOB.HTM">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="传古武器(WoL)联动">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\艾伯伦扩展\WOL.HTM">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="边缘英雄 (Mark of Heroes)">
+                      <param name="Local" value="9 世设\艾伯伦\额外内容\边缘英雄.htm">
+                      <param name="ImageNumber" value="21">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="萨恩观察 (Sharn Inquisitive)">
+                      <param name="Local" value="9 世设\艾伯伦\额外内容\萨恩观察.htm">
+                      <param name="ImageNumber" value="21">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="冒险仓库 (Steal This Hook)">
+                      <param name="Local" value="9 世设\艾伯伦\额外内容\冒险仓库.htm">
+                      <param name="ImageNumber" value="21">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="齿轮奇物 (Clockwork Wonders)">
+                    </OBJECT>
+                    <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="1.护士长套娃 Matryoshka Matron">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\1.护士长套娃 Matryoshka Matron.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="2.蜘蛛窃贼The Spider Thief">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\2.蜘蛛窃贼The Spider Thief.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="3.爬行护盾The Crawling Shield">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\3.爬行护盾The Crawling Shield.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="4.万能钥匙">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\4.万能钥匙.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="5.塞尔滑行靴Cyran Gliding Boots">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\5.塞尔滑行靴Cyran Gliding Boots.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="6.刀盘梦魇 The Razordisc Nightmare">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\6.刀盘梦魇 The Razordisc Nightmare.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="7.黄铜书 The Brass Book">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\7.黄铜书 The Brass Book.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="8.法咒夜莺 The Spellsong Nightingale">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\8.法咒夜莺 The Spellsong Nightingale.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="9.希恩德瑞克飞艇 The Xen'drik Flying Boat">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\9.希恩德瑞克飞艇 The Xen'drik Flying Boat.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="10.分拣兽 The Sorting Beast">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\10.分拣兽 The Sorting Beast.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="11.法术时钟 The Spell Clock">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\11.法术时钟 The Spell Clock.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="12.自动抄写器 The Autoscribe">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\12.自动抄写器 The Autoscribe.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="13.移动塔 The Moving Tower">
+                          <param name="Local" value="9 世设\艾伯伦\额外内容\齿轮奇物\13.移动塔 The Moving Tower.htm">
+                          <param name="ImageNumber" value="11">
+                        </OBJECT>
+                    </UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="KB博客(非WotC官方)">
+                    </OBJECT>
+                </UL>
             </UL>
         </UL>
         <LI><OBJECT type="text/sitemap">

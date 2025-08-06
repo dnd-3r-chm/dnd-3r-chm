@@ -3,7 +3,7 @@ Title=龙与地下城3R扩展规则大全
 Compiled file=
 Error log file=
 Default topic=前言.htm
-Language=0x0804 中文(简体，中国)
+Language=0x0804 简体中文(中国大陆)
 Full text search stop list file=
 Contents file=Contents.hhc
 Index file=Index.hhk
@@ -18,9 +18,10 @@ Default window=main
 Enhanced decompilation=No
 Flat=No
 Compatibility=1.1 or later
+Default Font=微软雅黑,12,0
 
 [WINDOWS]
-main="龙与地下城3版扩展规则大全","Contents.hhc","Index.hhk","前言.htm","前言.htm",,,,,0x00063520,264,0x0000183C,[25,25,525,280],,,,0,0,0,0
+main="龙与地下城3版扩展规则大全","Contents.hhc","Index.hhk","前言.htm","前言.htm",,,,,0x00063520,264,0x0000183C,[0,0,1174,644],,,,0,0,0,0
 
 [FILES]
 10 附录\如何为扩展大全做出贡献.htm
