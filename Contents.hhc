@@ -24667,15 +24667,20 @@
             </UL>
             <LI><OBJECT type="text/sitemap">
               <param name="Name" value="版本历史">
-              <param name="Local" value="版本历史.htm">
+              <param name="Local" value="10 附录\版本历史.htm">
               <param name="ImageNumber" value="17">
             </OBJECT>
             <UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="旧前言">
-                  <param name="Local" value="老前言.htm">
+                  <param name="Local" value="10 附录\老前言.htm">
                   <param name="ImageNumber" value="17">
                   <param name="WindowName" value="main">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="(旧)如何使用大不全">
+                  <param name="Local" value="10 附录\如何使用大不全.htm">
+                  <param name="ImageNumber" value="17">
                 </OBJECT>
             </UL>
             <LI><OBJECT type="text/sitemap">
