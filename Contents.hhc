@@ -2582,11 +2582,6 @@
                       <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业替代能力\法师.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="心灵武士 (扩展灵能手册XPH)">
-                      <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业替代能力\扩展职业.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
                 </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="3. 新专长">
@@ -24089,10 +24084,17 @@
             </OBJECT>
             <UL>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="[暂缺] 心灵之眼">
+                  <param name="Name" value="[大部分暂缺] 心灵之眼">
                   <param name="Local" value="10 附录\填充页面.htm">
                   <param name="ImageNumber" value="31">
                 </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="心灵武士的替代能力">
+                      <param name="Local" value="1 核心补充书籍\PHB2玩家手册2\职业替代能力\扩展职业.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="艾伯伦相关">
                 </OBJECT>
