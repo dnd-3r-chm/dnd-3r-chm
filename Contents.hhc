@@ -12657,6 +12657,11 @@
                 </OBJECT>
       <UL>
                     <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="额外领域">
+                      <param name="Local" value="3 完美系列\CD完美神力\进阶职业\额外领域.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="枯萎者">
                       <param name="Local" value="3 完美系列\CD完美神力\进阶职业\枯萎者.htm">
                       <param name="ImageNumber" value="11">
@@ -18862,8 +18867,32 @@
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="宗教与文化">
                       <param name="Local" value="6 种族书\RotD龙之族裔\第一章\宗教与文化.htm">
-                      <param name="ImageNumber" value="11">
+                      <param name="ImageNumber" value="3">
                     </OBJECT>
+        <UL>
+                        <LI><OBJECT type="text/sitemap">
+                          <param name="Name" value="历史和民间传说">
+                          <param name="Local" value="6 种族书\RotD龙之族裔\第一章\宗教与文化.htm#dragonborn-history">
+                          <param name="ImageNumber" value="3">
+                        </OBJECT>
+          <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="巴哈姆特的第一个孩子">
+                              <param name="Local" value="6 种族书\RotD龙之族裔\第一章\宗教与文化.htm#bahamut-first-child">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="提亚马特与巴哈姆特">
+                              <param name="Local" value="6 种族书\RotD龙之族裔\第一章\宗教与文化.htm#tiamat-and-bahamut">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="前龙裔">
+                              <param name="Local" value="6 种族书\RotD龙之族裔\第一章\宗教与文化.htm#former-dragonborn">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+          </UL>
+        </UL>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="创造龙裔角色">
                       <param name="Local" value="6 种族书\RotD龙之族裔\第一章\创造龙裔角色.htm">
@@ -22116,6 +22145,11 @@
                       <param name="Local" value="7 扩展全新体系\HoH惊骇英雄\专长与法术\法术.htm">
                       <param name="ImageNumber" value="21">
                     </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="怨恨领域">
+                      <param name="Local" value="7 扩展全新体系\HoH惊骇英雄\专长与法术\怨恨领域.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
       </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="6. 生物">
@@ -23427,6 +23461,16 @@
                   <param name="ImageNumber" value="1">
                 </OBJECT>
       <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="变体1：最高等级，选择有限">
+                      <param name="Local" value="7 扩展全新体系\UA破译奥秘\3角色\构建角色.htm#maximum-ranks-limited-choices">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="变体2：基于等级的技能">
+                      <param name="Local" value="7 扩展全新体系\UA破译奥秘\3角色\构建角色.htm#level-based-skills">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="角色特性">
                       <param name="Local" value="7 扩展全新体系\UA破译奥秘\3角色\角色特性.htm">
@@ -31120,8 +31164,45 @@
                         <LI><OBJECT type="text/sitemap">
                           <param name="Name" value="第五章 揭秘希恩德瑞克">
                           <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第五章 揭秘希恩德瑞克.htm">
-                          <param name="ImageNumber" value="11">
+                          <param name="ImageNumber" value="3">
                         </OBJECT>
+          <UL>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="进阶职业">
+                              <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第五章 揭秘希恩德瑞克.htm#prestige-classes">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="专长">
+                              <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第五章 揭秘希恩德瑞克.htm#feats">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="装备">
+                              <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第五章 揭秘希恩德瑞克.htm#equipment">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="魔法与灵能场所">
+                              <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第五章 揭秘希恩德瑞克.htm#magical-psionic-locations">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="遗宝法术">
+                              <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第五章 揭秘希恩德瑞克.htm#artifact-spells">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="新魔法物品">
+                              <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第五章 揭秘希恩德瑞克.htm#new-magic-items">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="新神器">
+                              <param name="Local" value="9 世设\艾伯伦\SoX希恩德瑞克的秘辛\第五章 揭秘希恩德瑞克.htm#new-artifacts">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+          </UL>
         </UL>
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="[FoE] 艾伯伦的信仰">
@@ -31441,6 +31522,11 @@
                             <LI><OBJECT type="text/sitemap">
                               <param name="Name" value="锡尔卡">
                               <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\锡尔卡.htm">
+                              <param name="ImageNumber" value="11">
+                            </OBJECT>
+                            <LI><OBJECT type="text/sitemap">
+                              <param name="Name" value="塔什纳苔原">
+                              <param name="Local" value="9 世设\艾伯伦\SoS索隆娜的秘辛\塔什纳苔原.htm">
                               <param name="ImageNumber" value="11">
                             </OBJECT>
           </UL>

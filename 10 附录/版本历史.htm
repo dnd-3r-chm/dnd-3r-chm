@@ -11,6 +11,10 @@
 #v25-history .v25-list li { margin: 0.08em 0; line-height: 1.4; text-indent: 0.5em; }
 #v25-history .v25-list > li { margin-top: 0.2em; margin-bottom: 0.2em; }
 #v25-history .v25-list > li > b { color: maroon; }
+#v25-history .v25-errata { margin: 0.1em 0.25em; }
+#v25-history .v25-errata h5 { margin: 0.6em 0 0.15em; color: maroon; }
+#v25-history .v25-errata ol, #v25-history .v25-errata ul { margin: 0.05em 0 0.35em 1.7em; padding-left: 1.2em; }
+#v25-history .v25-errata li { margin: 0.16em 0; padding-left: 0.2em; line-height: 1.5; }
 </style>
 </head><body><H1>版本历史 (History)</H1>
 
@@ -19,7 +23,7 @@
 		<div style="margin-bottom:2px">
 			<h3 style="display: inline;">V2.5</h3>
 			<input type="button" value="显示" style="display: inline; margin-left: 2em;font-family: '微软雅黑'; font-size:12px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; &nbsp; &nbsp; &nbsp; &nbsp;this.innerText = ''; this.value = '隐藏'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '显示'; }">
-			<p class="noindent v25-summary" style="margin-left: 1em; ">本次更新主要补充了多个此前缺漏的扩展规则内容，并对相关书籍进行完整整理。</p>
+			<p class="noindent v25-summary" style="margin-left: 1em; ">本次更新增添并补全多本规则书，修订怪物、职业、法术等条目的译名、数据与规则说明。</p>
 		</div>
 		<div class="v25-frame" style="margin: 0.5em; padding: 5px; border: 1px inset;">
 			<div style="display: none;">
@@ -79,6 +83,7 @@
 													<ul>
 														<li>第五章</li>
 														<li>第六章</li>
+														<li>进阶职业：额外领域通则</li>
 													</ul>
 													</li>
 												<li>CM完美巫师
@@ -90,11 +95,181 @@
 											</ul>
 										</li>
 										<li>MM4增补（怪物生态补全）</li>
+										<li>HoH惊骇英雄：怨恨领域</li>
+										<li>SoS索隆娜的秘辛：第一章塔什纳苔原</li>
+										<li>SoX希恩德瑞克的秘辛：第五章内容索引完善</li>
+										<li>RotD龙之族裔：龙裔历史和民间传说</li>
 									</ul>
 								</li>
 							</ul>
 						</div>
 					</div>
+				<div style="margin-bottom:2px">
+					<h5 style="display:inline;">勘误部分</h5>
+					<input type="button" value="显示" style="display:inline; margin-left:2em; font-family:微软雅黑; font-size:12px;" onclick="var e=document.getElementById('v25-errata-body'); if(e.style.display=='none'){e.style.display='';this.value='隐藏';}else{e.style.display='none';this.value='显示';}">
+				</div>
+				<div class="v25-frame" style="margin:0.5em; padding:5px; border:1px inset;">
+					<div id="v25-errata-body" class="v25-errata" style="display:none;">
+						<p class="noindent">以下按书目列出本次校订，页名可在目录或搜索中查找。</p>
+						<h5>核心三宝书</h5>
+						<ol start="1">
+							<li>DMG 城主指南 &rarr; 所有 DMG 表格 &rarr; 地下城遭遇 &rarr; 13级地下城事件遭遇 &rarr; “迦勒天使（爱刺天族）”改为“迦勒天使（爱剌天族）”。</li>
+							<li>DMG 城主指南 &rarr; 所有 DMG 表格 &rarr; 地下城遭遇 &rarr; 6级地下城事件遭遇 &rarr; “御风天（爱刺天族）”改为“御风天（爱剌天族）”。</li>
+							<li>DMG 城主指南 &rarr; 所有 DMG 表格 &rarr; 地下城遭遇 &rarr; 8级地下城事件遭遇 &rarr; “御风天（爱刺天族）”改为“御风天（爱剌天族）”。</li>
+							<li>DMG 城主指南 &rarr; 第六章 &rarr; 龙脉术士 &rarr; “1 级时必须选择特定龙类祖先且须经 DM 允许”改为“1 级时选择一种龙族种类”；喷吐攻击说明同步改用“龙族种类”。</li>
+							<li>PHB 玩家手册 &rarr; 法术描述 &rarr; 《变巨术》施法时间由“1 标准动作”改为“一轮”。</li>
+							<li>PHB 玩家手册 &rarr; 种族 &rarr; 矮人 &rarr; 武器熟悉中的“矮人飞锤”改为“矮人重斧”。</li>
+							<li>PHB 玩家手册 &rarr; 职业 &rarr; 动物伙伴 &rarr; 法术共享由“作用在自己身上的法术”限定为德鲁伊“自己对自身施展的法术”。</li>
+							<li>PHB 玩家手册 &rarr; 职业 &rarr; 圣武士坐骑 &rarr; 法术共享同样限定为圣武士自己对自身施展的法术。</li>
+							<li>PHB 玩家手册 &rarr; 基础职业 &rarr; 牧师 &rarr; 自发转换时失去的已准备法术明确为“非领域法术”。</li>
+							<li>PHB 玩家手册 &rarr; 职业 &rarr; 魔宠 &rarr; 法术共享同样限定为主人自己对自身施展的法术。</li>
+							<li>PHB 玩家手册 &rarr; 专长 &rarr; 一般专长 &rarr; 精通虚招由“唬骗检定成功后视同移动动作”改为“用一个移动动作进行唬骗检定使出虚招”。</li>
+						</ol>
+						<h5>怪物图鉴 3、4、5</h5>
+						<ol start="12">
+							<li>MM3 &rarr; 动物伙伴与乘骑 &rarr; Dinosaur 恐龙 &rarr; “挥砍武器活穿刺武器”改为“挥砍武器或穿刺武器”。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Alchemical Golem 炼金术魔像 &rarr; 补入正文可见标题“炼金术魔像 (Alchemical Golem)”。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Arcane Ooze 奥法泥形怪 &rarr; 补入正文可见标题“奥法泥形怪 (Arcane Ooze)”。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Astral Stalker 星界伏击者 &rarr; 反射闪避段误称“巡林客”改为“星界伏击者”；超凡能力标记 EX 改为 Su。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Cadaver Collector 掮尸者 &rarr; 两组攻击数据分别补为“2 猛击+22 近战（4d8+10）”和“2 猛击+39 近战（6d8+14）”。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Charnel Hound 尸骸猎犬 &rarr; 伤害段“而外”改“额外”、豁免段“坚定”改“强韧”，并修复同段破损距离与误称。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Gloom Golem 深黯魔像 &rarr; “费伦的深黯魔像”标题下补入其在 Barrens of Doom and Despair 被创造的设定句。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Necronaut 死亡巡猎者 &rarr; 生物类型前补入可见标题“死亡巡猎者 (Necronaut)”。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Odopi 百目鬼 &rarr; 删除串入的错误“特殊攻击”行；已重新补回普通百目鬼的生命骰、先攻、速度、防御等级、攻击等八项数据行，保留长老数据表。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Roper Prismatic 虹光树绳妖 &rarr; “能力专攻（冰冷凝视）”改为“能力专攻（催眠图纹）”。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Rot Reaver 腐败掠夺者 &rarr; 能力说明中误称“死亡掠夺者”的位置改回“腐败掠夺者”。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Salt Mummy 盐渍木乃伊 &rarr; 生物类型前补入可见标题“盐渍木乃伊 (Salt Mummy)”。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Vasuthunt 黑洞怪 &rarr; 数据行、正文能力题头和能力列表的“精通掘抓”统一改为“精通攫抓”。</li>
+							<li>MM3 &rarr; 怪物 &rarr; Wood Woad 菘蓝树人 &rarr; 特殊能力中的“低光视觉”改为“昏暗视觉”。</li>
+							<li>MM3 &rarr; 模板 &rarr; Spellwarped Creature 法曲生物 &rarr; 阵营从“总是（任意）邪恶／总是混乱邪恶”修为“通常为邪恶（任意邪恶阵营）”。</li>
+							<li>MM3 &rarr; 玩家可选 &rarr; Armand 阿曼德人 &rarr; 同页“金刚罩”“防御位置”统一为“金钟罩”。</li>
+							<li>MM3 &rarr; 玩家可选 &rarr; Lumi 光民 &rarr; 指种族时的“光明们／光明牧师”改为“光民们／光民牧师”；不改表示光本身的用词。</li>
+							<li>MM3 &rarr; 玩家可选 &rarr; Warforged 机关人 &rarr; 活体构装特性后补明“与其他构装生物不同，机关人会受到非致命伤害”。</li>
+							<li>MM4 &rarr; 怪物 &rarr; 恶魔 &rarr; 卡斯特库尔魔 &rarr; 恐怖仪态豁免失败效果由“震慑”改为“战栗”。</li>
+							<li>MM4 &rarr; 怪物 &rarr; 精灵、卓尔 &rarr; 精灵,卓尔 &rarr; 图片说明将“卓尔女祭”改为“奥术守卫”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 以太污染者 &rarr; 生态段误称“虚无的污秽者”改为“以太污染者”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 古佛格座狼 &rarr; “有怜悯或同情心”改为“没有怜悯或同情心”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 吸血鬼 &rarr; 黑公爵 &rarr; 能力段“制定一名敌人”改“指定一名敌人”；同页多处“奥喀斯”统一为“奥库斯”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 尤斯魔 &rarr; 哈蒂魔 &rarr; “哈德里莫伊”改为“哈蒂魔”，“乌什莫伊”改为“尤斯魔”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 尤斯魔 &rarr; 阿卡魔 &rarr; “阿卡莫伊”改为“阿卡魔”，“乌什莫伊”改为“尤斯魔”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 废墟歌者 &rarr; “断断续续地过去荣耀的挽歌”补谓语，改为“断断续续地吟唱过去荣耀的挽歌”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 恐牙猪 &rarr; 疲倦之草段误称“象牙恐怖者”改为“恐牙猪”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 恶魔 &rarr; 肉钩魔 &rarr; 同页“塔纳里”改用“塔那厘”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 掘穴根蔓 &rarr; 删除重复的繁殖、战斗段落；保留对应各一段，并将“土地表明”改为“土地表面”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 攻城甲虫 &rarr; 逃跑能力“使人目盲的武器”改为“目盲迷雾”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 木贼草构装体 &rarr; 木贼投掷者 &rarr; “对抗打量敌人”改为“对抗大量敌人”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 狂猎 &rarr; 猎犬能力与典型遭遇中误称“荒野追猎者”的位置改为“狂猎猎犬”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 绿龙末裔狂热者 &rarr; 典型遭遇中“狂暴者”改为“狂热者”，伏击者改称“绿龙末裔潜行者”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 藤蔓衍体 &rarr; 包卷能力中误称“腐臭真菌”改为“藤蔓衍体”。</li>
+							<li>MM5 &rarr; 怪物 &rarr; 食人魔元素法师 &rarr; 食人魔风元素法师(Ken-Sun) &rarr; 偏斜之风的英文能力名由 Wreathed in flame 改为 Deflecting Winds；既有免疫说明未改。</li>
+						</ol>
+						<h5>玩家手册 2、灵能手册、万物大全</h5>
+						<ol start="47">
+							<li>PHB2 &rarr; 专长 &rarr; 一般专长 &rarr; 奥术坚韧的“反射动作”改“直觉动作”；狂怒泡沫的效果终点由“此轮结束”改“你的下个回合结束”。</li>
+							<li>PHB2 &rarr; 法术 &rarr; 法术列表 &rarr; Visions of the Future 的中文名由“预察未来之视”改为“预见术”。</li>
+							<li>PHB2 &rarr; 法术 &rarr; 法术详述 &rarr; 同一法术的题头同步由“预察未来之视”改为“预见术”。</li>
+							<li>XPH &rarr; 显能 &rarr; F &rarr; 分身术限制句“不能在融合体身上使用合体术”改为“不能在分身身上使用分身术”。</li>
+							<li>MIC &rarr; 工具 &rarr; 按照价格排序 &rarr; 阳光球的反射豁免 DC 12 改 22，并将触发与半径说明改为抵达目的地时爆炸、半径 40 尺。</li>
+							<li>MIC &rarr; 穿戴物 &rarr; 肩部 &rarr; 元素防护斗篷的制造先决条件补入“抵抗能量伤害”。</li>
+						</ol>
+						<h5>完美系列</h5>
+						<ol start="53">
+							<li>CAd 完美冒险 &rarr; 法术动作 &rarr; 迅捷与直觉 &rarr; 回合外使用直觉动作后的限制，改为持续到自己下个回合结束，并说明这相当于预支该回合迅捷动作。</li>
+							<li>CAd 完美冒险 &rarr; 进阶职业 &rarr; 地城探险者 &rarr; 补入可见中英文题头“地城探险者（Dungeon Delver）”。</li>
+							<li>CAr 完美奥术 &rarr; 基础职业 &rarr; 战法师 &rarr; 7 级奖励专长正文“即时强化”改为与题头一致的“即时强效”。</li>
+							<li>CAr 完美奥术 &rarr; 进阶职业 &rarr; 几何学者 &rarr; 职业表与能力段将“守卫结界”统一为“守卫刻文”，重整法术字符、法术视界等能力说明，补明替代的是言语与材料成分。</li>
+							<li>CAr 完美奥术 &rarr; 进阶职业 &rarr; 变形大师 &rarr; “获得变形怪作为其副种族”改为“获得变形亚种”。</li>
+							<li>CAr 完美奥术 &rarr; 进阶职业 &rarr; 虹彩学徒 &rarr; “曾经在沪比重的生物”完整改为“曾经在护壁中的生物”。</li>
+							<li>CAr 完美奥术 &rarr; 法术 &rarr; 法术详述 &rarr; 咒力反击的两处“迅捷动作”均改为“直觉动作”。</li>
+							<li>CC 完美斗士 &rarr; 进阶职业 &rarr; 精英使徒 &rarr; 补足“学识（Ex）”的检定公式与叠加规则；“灵胜于物”说明去掉只限施法者本人获得盔甲加值的措辞。</li>
+							<li>CD 完美神力 &rarr; 基础职业 &rarr; 天佑者 &rarr; 职业表 11、13 级强韧豁免 +6 改 +7／+8；12 级奖励能力题名订为“神祇武器专精”。</li>
+							<li>CD 完美神力 &rarr; 基础职业 &rarr; 灵魂萨满（Spirit Shaman） &rarr; 逐级校正基本攻击加值，8—20 级补出后续攻击次数，末级为 +15/+10/+5。</li>
+							<li>CD 完美神力 &rarr; 法术 &rarr; 法术详述 &rarr; 刺木术伤害检定的“加值”明确为“增强加值”。</li>
+							<li>CD 完美神力 &rarr; 进阶职业 &rarr; 神圣解放者 &rarr; 补入可见题头“神圣解放者（Sacred Liberator）”，首段名称同步附英文。</li>
+							<li>CM 完美巫师 &rarr; 法术 &rarr; 法术详述. &rarr; 密封蛛网术的反胃效果由“不做强韧豁免”改为“强韧检定通过则无效”。</li>
+							<li>CM 完美巫师 &rarr; 魔法的本质 &rarr; 两处“爱刺天族”改为“爱剌天族”。</li>
+							<li>CPsi 完美灵能 &rarr; 基础职业 &rarr; 心灵学者 &rarr; 5 级“最高已知灵能等级”由 2 改 3。</li>
+							<li>CW 完美战力 &rarr; 基础职业 &rarr; 武士 &rarr; 气合斩由“即时动作”改“自由动作”，下一次攻击的攻击检定及伤害获得等于魅力调整值的加值，清理残留问号。</li>
+						</ol>
+						<h5>阵营与位面</h5>
+						<ol start="69">
+							<li>BoED 崇善之书 &rarr; 法术 &rarr; 法术列表 &rarr; 两处“星辰斗蓬”改“星辰斗篷”；《公义的怒目》“凝视国际”改“凝视攻击”。</li>
+							<li>BoED 崇善之书 &rarr; 法术 &rarr; 法术详述 &rarr; 《华光帷幔》由“生物与物体不能穿越障碍”改为“光幕生成时不能穿过生物及物体占据的空间，但可以绕过它们”。</li>
+							<li>BoED 崇善之书 &rarr; 天界典范 &rarr; 天界七烈会 &rarr; 皮斯提斯·索菲娅所统治的天堂山层数由“第六层”改为“第四层”。</li>
+							<li>BoED 崇善之书 &rarr; 天界典范 &rarr; 星之王庭 &rarr; 相关叙述中的“爱刺天族”改“爱剌天族”。</li>
+							<li>FC1 深渊堕群 &rarr; 恶魔学识 &rarr; 恶魔生理学 &rarr; “奥喀斯”改“奥库斯”。</li>
+							<li>FC1 深渊堕群 &rarr; 恶魔学识 &rarr; 深渊的历史 &rarr; 相关叙述中的“爱刺天族”改“爱剌天族”。</li>
+							<li>FC1 深渊堕群 &rarr; 恶魔领主 &rarr; 不死大君奥库斯·113层 &rarr; 同页“葛兹特”改为“格拉兹特”。</li>
+							<li>FC1 深渊堕群 &rarr; 恶魔领主 &rarr; 乌黯主君格拉兹特·45、45、47层 &rarr; “奥喀斯”改“奥库斯”。</li>
+							<li>FC1 深渊堕群 &rarr; 恶魔领主 &rarr; 恶魔之母苍夜 &rarr; “爱刺天族”改“爱剌天族”。</li>
+							<li>FC1 深渊堕群 &rarr; 恶魔领主 &rarr; 豺狼人之神耶诺古 &rarr; 两处“奥喀斯”改“奥库斯”。</li>
+							<li>FC1 深渊堕群 &rarr; 深渊地理 &rarr; 600层_无尽迷宫 &rarr; “爱刺天族孩子们”改“爱剌天族孩子们”。</li>
+							<li>FC1 深渊堕群 &rarr; 深渊地理 &rarr; 88层_裂张之喉 &rarr; “奥喀斯 Orcus”改“奥库斯 Orcus”。</li>
+							<li>FC2 九狱君王 &rarr; 魔鬼种群 &rarr; 安祖魔 &rarr; 再生能力中“神圣武器”改为“善良阵营武器”。</li>
+							<li>FC2 九狱君王 &rarr; 魔鬼种群 &rarr; 针刺魔 &rarr; 指本族及其上级的“恶魔／大恶魔”改为“魔鬼／大魔鬼”。</li>
+							<li>FC2 九狱君王 &rarr; 魔鬼种群 &rarr; 鸦魔 &rarr; 白阿比沙龙魔伤害说明里两处“红阿比沙龙魔”改为“白阿比沙龙魔”。</li>
+							<li>PlH 位面手册 &rarr; 装备 &rarr; 饰品和奇物 &rarr; 两项卡牌说明中的“爱刺天族”改“爱剌天族”。</li>
+							<li>PlH 位面手册 &rarr; 生物 &rarr; 阴影胶质怪 &rarr; 页题 Shadow Jelly CR8 改为 Shadow Jelly CR6；没有合并独立的虚空软泥怪页面。</li>
+						</ol>
+						<h5>环境与社会</h5>
+						<ol start="86">
+							<li>Dungeon 地城风光 &rarr; 基础职业变体 &rarr; 删除第二份重复的“牧师／神圣复苏”条目，保留原有一份。</li>
+							<li>Frost 霜燃之书 &rarr; 生物 &rarr; 夺命鬼婆（Marzanna） &rarr; 降咒攻击“+13 远程碰触”改为“+13 近战接触”。</li>
+							<li>Frost 霜燃之书 &rarr; 进阶职业 &rarr; 伊博莱犹的巡冬人(Winterhaunt of Iborighu)  &rarr; 补入可见中英文题头。</li>
+							<li>Frost 霜燃之书 &rarr; 进阶职业 &rarr; 冰霜狂怒者（Frostrager） &rarr; 两处“不在只是”改为“不再只是”。</li>
+							<li>Frost 霜燃之书 &rarr; 进阶职业 &rarr; 索列姆门徒（Disciple of Thrym） &rarr; 补入可见中英文题头。</li>
+							<li>Sand 沙暴之书 &rarr; 职业 &rarr; 野蛮人 &rarr; 补 8 级“废土伤害减免”能力：针对废土生物及焦土险境获得 DR 1/-，与正常 DR 叠加，替换该级每日第三次狂暴。</li>
+							<li>Sand 沙暴之书 &rarr; 法术 &rarr; 法术详述 &rarr; 《沙尘爆发》末句由“不要为沙尘和目标分担伤害”改为“对物体计算伤害时不需除以 4”。</li>
+							<li>Storm 风暴之书 &rarr; 怪物 &rarr; 两栖生物 &rarr; 游泳速度由基础陆地速度的“一般”改为“一半”，并说明不计其他调整。</li>
+						</ol>
+						<h5>种族书、魔法卷册及变体</h5>
+						<ol start="94">
+							<li>DotU 幽域卓尔 &rarr; 卓尔的选择 &rarr; 专长 &rarr; 补入 EILSERVS SCHOOL 专长段，写明法杖剩余充能的伤害加值及双端攻击后的法术激活规则。</li>
+							<li>DrM 龙之魔力 &rarr; 引子 &rarr; 两处“龙触者”改“龙裔”。</li>
+							<li>DrM 龙之魔力 &rarr; 第二章 &rarr; 龙之后裔 &rarr; 两处“龙触者”改“龙裔”。</li>
+							<li>DrM 龙之魔力 &rarr; 第二章 &rarr; 龙师之手 &rarr; 两处“龙触者”改“龙裔”。</li>
+							<li>DrM 龙之魔力 &rarr; 第二章 &rarr; 龙火达人 &rarr; 专长及能力叙述中的“龙触者”改“龙裔”；职业名“龙火达人”保留。</li>
+							<li>DrM 龙之魔力 &rarr; 第二章 &rarr; 龙约术士 &rarr; 先决条件中的“龙触者专长”改“龙裔专长”。</li>
+							<li>DrM 龙之魔力 &rarr; 第五章 &rarr; 属下和助手 &rarr; 额外专长的“龙触者”改“龙裔”。</li>
+							<li>DrM 龙之魔力 &rarr; 第五章 &rarr; 龙的战役模组 &rarr; 两处“龙触者专长”改“龙裔专长”。</li>
+							<li>DrM 龙之魔力 &rarr; 第五章 &rarr; 龙陨之战 &rarr; “龙触者专长”改“龙裔专长”。</li>
+							<li>Dra 巨龙之书 &rarr; 法术 &rarr; 法术描述 &rarr; 《龙之飞行》等级项前补学派“变化系”。</li>
+							<li>LM 死灵之书 &rarr; 不死详述 &rarr; 不死宗教学 &rarr; “奥喀斯”改“奥库斯”。</li>
+							<li>LM 死灵之书 &rarr; 职业 &rarr; 亡魂之主 &rarr; 职业表错误的“反射”列题改为“意志”。</li>
+							<li>LM 死灵之书 &rarr; 装备 &rarr; 盔甲 &rarr; 幽灵裹尸布价格 3500gp 改 35000gp。</li>
+							<li>LM 死灵之书 &rarr; 怪物 &rarr; 腐朽天使 &rarr; AC 数据中的 +4 反射 改 +4 偏斜。</li>
+							<li>LM 死灵之书 &rarr; 战役 &rarr; 僵尸 &rarr; 快速僵尸由“每轮可攻击多次”改为“仍不能在一轮内攻击超过一次”。</li>
+							<li>RoD 天命族裔 &rarr; 魔法 &rarr; 法术 &rarr; 持续时间中的“用久”改“永久”。</li>
+							<li>RoS 石之族裔 &rarr; 矮人 &rarr; 新建主题 &rarr; 原页补入“日常的一天”完整叙事正文。</li>
+							<li>RoS 石之族裔 &rarr; 其他种族 &rarr; 歌利亚 &rarr; 两处生物类型“类人怪物”改“人形怪物”。</li>
+							<li>RoS 石之族裔 &rarr; 技能专长 &rarr; 专长 &rarr; 《大地法术》补明必须使用高于法术实际等级至少 1 级的法术位，并配合法术升阶专长。</li>
+							<li>RotD 龙之族裔 &rarr; 第六章 &rarr; 龙脉专长 &rarr; 火屑龙的能量类型“火”扩为“火或音波”。</li>
+							<li>ToM 魔法卷册 &rarr; 火言者 &rarr; 火言者 &rarr; “爱刺天族”改“爱剌天族”。</li>
+							<li>ToM 魔法卷册 &rarr; 魔法物品 &rarr; 魔法物品 &rarr; 真契约书说明“许多存”改“许多存在”。</li>
+							<li>UA 破译奥秘 &rarr; 法师变体 &rarr; 法师变体 &rarr; 领域法师 +1 施法者等级的条件由“仅用领域法术位施展”改为“领域列表法术，无论作为领域法术还是正常法术准备均适用”。</li>
+						</ol>
+						<h5>战役、费伦和艾伯伦</h5>
+						<ol start="117">
+							<li>EE 上古邪物 &rarr; 蠕虫行者 &rarr; “奥喀斯之爪”改“奥库斯之爪”。</li>
+							<li>COV 英勇斗士 &rarr; 次级神器 &rarr; 两处“奥喀斯 Orcus”改“奥库斯 Orcus”。</li>
+							<li>ECS 艾伯伦战役设定集 &rarr; 传统物品 &rarr; 传统物品详述 &rarr; “爱刺天族”改“爱剌天族”。</li>
+							<li>ECS 艾伯伦战役设定集 &rarr; 英雄的特性 &rarr; 技能 &rarr; 木族语相关说明“爱刺天族”改“爱剌天族”。</li>
+							<li>ECS 艾伯伦战役设定集 &rarr; 诸位面 &rarr; 费尼亚 &rarr; 红焰天使所属“爱刺天族”改“爱剌天族”。</li>
+							<li>FoE 艾伯伦的信仰 &rarr; 第一章：天命诸神 &rarr; 奥林领域列表删去重复译出的“法律”，保留“秩序”。</li>
+							<li>RoE 艾伯伦的种族 &rarr; ROE专长 &rarr; 规则意义上的“冲刺／强力冲刺”逐处改为“冲锋／强力冲锋”。</li>
+							<li>RoE 艾伯伦的种族 &rarr; 奔掠者 &rarr; 对措手不及目标发动“冲刺”改为“冲锋”。</li>
+							<li>RoE 艾伯伦的种族 &rarr; 第二章 半兽化人 &rarr; 梦视特性“睿智”改“感知”；猛角攻击中的“冲刺”改“冲锋”。</li>
+							<li>RoE 艾伯伦的种族 &rarr; 重生者 &rarr; 属性检定与技能说明“睿智”改“感知”。</li>
+							<li>SoX 希恩德瑞克的秘辛 &rarr; 第五章 揭秘希恩德瑞克 &rarr; 丛林老兵补回“花费 1 潜能点，在原本不能行动的突袭轮中行动”；同时校正先攻加值、高温下避免非致命伤害的强韧豁免及觅食速度说明。</li>
+						</ol>
+						<h5>后续校订</h5>
+						<ul>
+							<li>MM5怪物图鉴5：阿卡狄亚复仇者战斗说明中的“闪避偶然”统一为“机运闪避”。</li>
+							<li>霜燃之书：冰霜狂怒者5级撕裂的小体型伤害校为2d6，大体型校为3d8。</li>
+							<li>沙暴之书：尘风爆和沙尘暴的描述符补为“[气，土]”。</li>
+						</ul>
+					</div>
+				</div>
 				</div>
 			</div>
 		</div>
