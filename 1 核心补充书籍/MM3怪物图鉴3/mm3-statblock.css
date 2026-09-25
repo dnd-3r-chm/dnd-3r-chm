@@ -1,0 +1,12 @@
+/* Let enlarged stat-block text determine row height in CHM readers. */
+table.MsoNormalTable tr {
+  height: auto !important;
+}
+
+table.MsoNormalTable td {
+  height: auto !important;
+}
+
+table.MsoNormalTable p.MsoNormal {
+  line-height: 1.25 !important;
+}

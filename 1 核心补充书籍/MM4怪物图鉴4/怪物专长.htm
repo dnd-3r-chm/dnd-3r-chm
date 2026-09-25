@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312">
+<title>怪物专长 (Monster Feats)</title>
+<style>
+:root{--p:#5D3A1A;--s:#C4A882;--t:#F5F0E8;--d:#2C1810;--a:#6B8E23;--r:#B22222}
+*{margin:0;box-sizing:border-box}
+body{background:#F5F0E8;font:14px/1.7 "Microsoft YaHei","SimSun",serif;color:#2C1810;padding:15px}
+.w{max-width:900px;margin:auto;background:#fff;border:1px solid #C4A882;padding:20px}
+
+.h{border-bottom:2px solid #5D3A1A;padding-bottom:10px;margin-bottom:12px}
+.h h1{font-size:24px;color:#5D3A1A;margin-bottom:4px}
+.h small{color:#888;font-size:12px}
+
+.desc p{margin:8px 0;text-indent:2em;font-size:13px}
+
+.sec{font-size:16px;color:#5D3A1A;font-weight:bold;margin:18px 0 8px;border-bottom:1px solid #C4A882;padding-bottom:4px}
+
+.t{display:grid;grid-template-columns:110px 1fr;gap:1px;background:#C4A882;border:1px solid #C4A882;font-size:13px}
+.t>div{padding:6px 10px;background:#fff}
+.t>div:nth-child(odd){background:#f5f0e8;color:#5D3A1A;font-weight:bold;text-align:center}
+.t>div:nth-child(1),.t>div:nth-child(2){background:#e8dcc8;font-weight:bold}
+
+.ab{background:#faf8f3;border-left:4px solid #C4A882;padding:10px 14px;margin:10px 0;font-size:13px}
+.ab p{margin:6px 0;text-indent:0}
+.ab b{color:#B22222}
+
+.mk{background:#f5f0e8;padding:12px;font-size:13px;border:1px solid #C4A882;margin:10px 0}
+.mk p{margin:6px 0}
+.mk b{color:#5D3A1A}
+
+.tb{width:100%;border-collapse:collapse;font-size:12px;margin:8px 0}
+.tb th,.tb td{border:1px solid #C4A882;padding:4px 6px;text-align:center}
+.tb th{background:#e8dcc8;color:#5D3A1A;font-weight:bold}
+.tb td{background:#fff}
+.tb tr:nth-child(even) td{background:#faf8f3}
+
+/* 专长描述中的列表样式 */
+.feat-list{margin:4px 0 0 20px;list-style:none;padding:0}
+.feat-list li{margin:4px 0;text-indent:0}
+.feat-list li:before{content:"- ";color:#5D3A1A;font-weight:bold}
+.feat-sublist{margin:4px 0 0 30px;list-style:none;padding:0}
+.feat-sublist li:before{content:"- - ";color:#888}
+</style>
+<base target="_blank">
+<style>
+/* Fallback for the IE engine embedded in HTML Help. */
+html,body{font-family:"SimSun","Microsoft YaHei",serif;background:#F5F0E8;color:#2C1810;}
+body{margin:0;padding:12px;font-size:14px;line-height:1.7;}
+.w{width:94%;max-width:900px;margin:0 auto;background:#fff;border:1px solid #C4A882;padding:20px;}
+.h{border-bottom:2px solid #5D3A1A;padding-bottom:10px;margin-bottom:12px;}
+.h h1{font-size:24px;color:#5D3A1A;margin:0 0 4px;}
+.h small{color:#888;font-size:12px;}
+.desc p{margin:8px 0;text-indent:2em;font-size:13px;}
+.sec{font-size:16px;color:#5D3A1A;font-weight:bold;margin:18px 0 8px;border-bottom:1px solid #C4A882;padding-bottom:4px;}
+table.t{display:table;width:100%;border-collapse:collapse;background:#C4A882;border:1px solid #C4A882;font-size:13px;table-layout:fixed;}
+.t td{padding:6px 10px;background:#fff;border:1px solid #C4A882;vertical-align:top;}
+.t td.label{width:22%;background:#F5F0E8;color:#5D3A1A;font-weight:bold;text-align:center;}
+.t td.value{width:78%;}
+.ab{background:#FAF8F3;border-left:4px solid #C4A882;padding:10px 14px;margin:10px 0;font-size:13px;}
+.ab p{margin:6px 0;text-indent:0;}
+.mk{background:#F5F0E8;padding:12px;font-size:13px;border:1px solid #C4A882;margin:10px 0;}
+.mk p{margin:6px 0;}
+.tb{width:100%;border-collapse:collapse;font-size:12px;margin:8px 0;}
+.tb th,.tb td{border:1px solid #C4A882;padding:4px 6px;text-align:center;}
+.tb th{background:#E8DCC8;color:#5D3A1A;font-weight:bold;}
+.tb td{background:#fff;}
+.feat-list{margin:4px 0 0 20px;padding:0;}
+.feat-sublist{margin:4px 0 0 30px;padding:0;}
+img{max-width:100%;height:auto;}
+</style></head>
+<body>
+<div class="w">
+
+<div class="h">
+<h1>怪物专长 (Monster Feats)</h1>
+</div>
+
+<div class="desc">
+<p>以下列出了一些通常供怪物使用的专长。其中某些专长（如制作构装生物）也可能对 NPC 和玩家角色有用。</p>
+</div>
+
+<!-- ================= 专长1 ================= -->
+<div class="sec">喷吐附着 (Clinging Breath)</div>
+<div class="ab" style="border-left-color: #6B8E23;">
+<p>该专长使生物的喷吐武器可以粘附在目标身上，并在喷吐后继续产生效果。</p>
+<ul class="feat-list">
+    <li><b>先决条件：</b>体质 13，喷吐武器，且喷吐冷却时间以轮表示。</li>
+    <li><b>效果：</b>生物使用喷吐武器时，可以选择使其在下一轮对受影响的生物和物体造成额外伤害，此伤害等于喷吐武器对该目标首次造成伤害的一半。此效果无需进行二次豁免，但如果目标在第一次伤害中完全避免了伤害（如通过反射闪避），则不会受到额外伤害。
+        <ul class="feat-sublist">
+            <li>受影响的生物可以作为一个整轮动作尝试反射豁免（使用喷吐武器的原始豁免 DC）移除粘附效果并免受后续伤害。翻滚地面可以获得 +2 豁免加值。</li>
+        </ul>
+    </li>
+    <li><b>限制：</b>该专长仅适用于持续时间为立即且造成伤害的喷吐武器。</li>
+    <li><b>冷却时间：</b>使用该专长时，喷吐武器的冷却时间增加 1 轮。</li>
+    <li><b>特殊：</b>此专长最初出现在《巨龙之书 (Draconomicon)》中，这是修订版本。如果您拥有《巨龙之书》，喷吐附着被视为一种超喷吐专长。</li>
+</ul>
+</div>
+
+<!-- ================= 专长2 ================= -->
+<div class="sec">飞越 (Flyby Attack)</div>
+<div class="ab" style="border-left-color: #6B8E23;">
+<p>一个拥有此专长的生物可以在飞行时进行攻击。</p>
+<ul class="feat-list">
+    <li><b>先决条件：</b>飞行速度。</li>
+    <li><b>效果：</b>飞行时，生物可以在移动过程中任意点进行一次标准动作（包括俯冲），并完成移动。生物在进行飞越的回合内不能进行第二次移动动作。</li>
+    <li><b>常规：</b>没有该专长时，生物只能在移动之前或之后进行标准动作。</li>
+</ul>
+</div>
+
+<!-- ================= 专长3 ================= -->
+<div class="sec">喷吐滞留 (Lingering Breath)</div>
+<div class="ab" style="border-left-color: #6B8E23;">
+<p>拥有此专长的生物，其喷吐武器可以形成持续的云雾。</p>
+<ul class="feat-list">
+    <li><b>先决条件：</b>体质 15，具有以轮为单位冷却时间的喷吐武器，喷吐附着 (Clinging Breath)。</li>
+    <li><b>效果：</b>生物使用喷吐武器时，可以选择让喷吐效果以与原始喷吐武器相同的形状和大小持续 1 轮，形成一片云雾。
+        <ul class="feat-sublist">
+            <li>进入云雾的生物承受喷吐武器正常效果的一半；仍需进行正常的豁免检定。</li>
+            <li>如果是造成伤害的喷吐武器，云雾造成正常伤害的一半；如果喷吐效果有持续时间，其持续时间减半。</li>
+            <li>如果一个生物在同一时间受到两次相同非伤害性喷吐武器的影响，其效果不叠加（取持续时间较长的效果）。</li>
+            <li>处于原始喷吐武器区域内的生物，如果在下一回合结束前离开云雾，则不会受到额外影响。</li>
+        </ul>
+    </li>
+    <li><b>冷却时间：</b>使用此专长时，喷吐武器的冷却时间增加 2 轮。</li>
+    <li><b>特殊：</b>此专长最初出现在《巨龙之书 (Draconomicon)》中，这是修订版本。如果您拥有《巨龙之书》，喷吐滞留被视为一种超喷吐专长 (Metabreath Feat)。</li>
+</ul>
+</div>
+
+<!-- ================= 专长4 ================= -->
+<div class="sec">强力冲锋 (Powerful Charge)</div>
+<div class="ab" style="border-left-color: #6B8E23;">
+<p>拥有此专长的生物能够以更大的力量进行冲锋攻击。</p>
+<ul class="feat-list">
+    <li><b>先决条件：</b>中型或更大体型，基本攻击加值 +1。</li>
+    <li><b>效果：</b>当生物进行冲锋时，如果其近战攻击命中，则造成额外伤害：
+        <ul class="feat-sublist">
+            <li>中型生物：额外 1d8 点伤害；</li>
+            <li>大型生物：额外 2d6 点伤害；</li>
+            <li>超大型生物：额外 3d6 点伤害；</li>
+            <li>巨型生物：额外 4d6 点伤害；</li>
+            <li>超巨型生物：额外 6d6 点伤害。</li>
+        </ul>
+    </li>
+    <li style="list-style:none; margin-top:4px; text-indent:0; color:#2C1810;">此专长仅在生物进行冲锋时生效，且在生物骑乘时无法使用。如果生物在冲锋后可以进行多次攻击，则额外伤害仅适用于其中一次攻击。</li>
+    <li><b>特殊：</b>战士可以选择此专长作为其职业奖励专长之一。<br><span style="color:#888; font-size:12px;">（注：此专长在 MH 有出现，且效果相同）</span></li>
+</ul>
+</div>
+
+</div>
+
+<!-- DND3R-FEEDBACK-BEGIN -->
+<div class="dnd3r-feedback-entry" role="navigation" aria-label="&#x9875;&#x9762;&#x53cd;&#x9988;&#x5165;&#x53e3;" style="clear:both;margin:2.5em auto 1.5em;text-align:center;">
+  <a href="https://dnd3r-feedback-public-dnd3r-feedback-d4gwz9pp1575ec082.webapps.tcloudbase.com/?page_ref=1%20%E6%A0%B8%E5%BF%83%E8%A1%A5%E5%85%85%E4%B9%A6%E7%B1%8D%2FMM4%E6%80%AA%E7%89%A9%E5%9B%BE%E9%89%B44%2F%E6%80%AA%E7%89%A9%E4%B8%93%E9%95%BF.htm&amp;book=MM4%E6%80%AA%E7%89%A9%E5%9B%BE%E9%89%B44&amp;chapter=%E6%A0%B8%E5%BF%83%E8%A1%A5%E5%85%85%E4%B9%A6%E7%B1%8D%20%2F%20%5BMM4%5D%20%E6%80%AA%E7%89%A9%E5%9B%BE%E9%89%B44&amp;title=%E6%80%AA%E7%89%A9%E4%B8%93%E9%95%BF" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.55em 1.25em;border:1px solid #5c7356;border-radius:999px;background:#f4efe6;color:#3f4f3b;text-decoration:none;font-family:'Microsoft YaHei','Noto Sans SC',sans-serif;font-size:0.95em;line-height:1.4;">&#x53cd;&#x9988;&#x672c;&#x9875;&#x52d8;&#x8bef;</a>
+</div>
+<!-- DND3R-FEEDBACK-END -->
+</body>
+</html>

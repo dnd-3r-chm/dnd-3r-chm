@@ -1,44 +1,126 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<title>[CM] 可选施法材料 (Optional Material Components)</title>
-<link rel="stylesheet" href="../../../cascading_stylesheet.css">
+<meta charset="gb2312">
+<title>可选法术材料 (Optional Spell Components)</title>
+<style>
+:root{--p:#5D3A1A;--s:#C4A882;--t:#F5F0E8;--d:#2C1810;--a:#6B8E23;--r:#B22222}
+*{margin:0;box-sizing:border-box}
+body{background:var(--t);font:14px/1.7 "Microsoft YaHei","SimSun",serif;color:var(--d);padding:15px}
+.w{max-width:900px;margin:auto;background:#fff;border:1px solid var(--s);padding:20px}
+.h{border-bottom:2px solid var(--p);padding-bottom:10px;margin-bottom:12px}
+.h h1{font-size:24px;color:var(--p);margin-bottom:4px}
+.h small{color:#888;font-size:12px}
+.desc p{margin:8px 0;text-indent:2em;font-size:13px}
+.sec{font-size:16px;color:var(--p);font-weight:bold;margin:18px 0 8px;border-bottom:1px solid var(--s);padding-bottom:4px}
+.ab{background:#faf8f3;border-left:4px solid var(--s);padding:10px 14px;margin:10px 0;font-size:13px}
+.ab p{margin:6px 0;text-indent:0}
+.ab b{color:var(--r)}
+.tb{width:100%;border-collapse:collapse;font-size:12px;margin:8px 0}
+.tb th,.tb td{border:1px solid var(--s);padding:4px 6px;text-align:left;vertical-align:top}
+.tb th{background:#e8dcc8;color:var(--p);font-weight:bold}
+.tb td{background:#fff}
+.tb tr:nth-child(even) td{background:#faf8f3}
+</style>
 </head>
 <body>
-<h1>可选施法材料</h1>
-<h5><i>Optional Material Components</i></h5>
-<p>施法者早就注意到各种物品和材料有助于他们施法；因此各种法术都需要材料和器材的成分。而进一步的研究表明，一些稀有和奇异的物品则可以增强一系列的法术。这些物品已经变得随处可见，几乎可以在任何地方购买——但要受到团队金币限制。</p>
-<p>法术越强大，增强法术所需的材料成分就越多。你必须使用相当于法术环数那么多的这些材料成分（最低为1份），才能使这些材料产生效果。例如，如果你想使用天使绒延时一个5环法术，就需要使用5份材料（价值500gp）；如果你使用的材料份数少于这么多，那么这些材料成分就只会被消耗，而不会产生任何效果。</p>
-<p>任何法术都最多只能添加一种可选材料成分。如果添加第二种可选材料成分，则只有随机的一种会生效。</p>
-<p>为法术施加超魔效果的材料成分不能用于施放已经受到超魔专长影响的任何法术。例如，定发的法师护甲无法从天使绒中获益，即使天使绒施加的效果与法术上已有的超魔效果不同。</p>
-<p><b>天使绒（Angel Down）：</b>100GP/份</p>
-<p>在大多数传说中这种蓬松的金色材料是由天界生物的羽毛加工得来的。但它的真实身份是在上层位面生长的各种稀有花卉的花粉。当被用作防护系法术的材料时，该法术的持续时间加倍，如同搭配了法术延时专长（Extend Spell）一样。</p>
-<p><b>魔鬼之眼（Devil's Eye）：</b>150GP/0.1磅/份</p>
-<p>这些小半透明的石头摸上去感觉似乎有点暖暖的。它们看上去也确实像一个眼睛：有着鲜红的巩膜，白色或黄色虹膜，和一个黑色的像猫一样的瞳孔。但尽管它们有着这名字，魔鬼之眼其实是在火山附近发现的天然晶体，人们通常可以在河床或冰川附近找到它们。触碰时温暖的感觉来自于石头表面覆盖着的一层弱酸。</p>
-<p>当魔鬼之眼被用作预言系法术的材料时，该法术计算法术等级（环）有关的效果时+1，如同搭配了法术升阶专长（Heighten Spell）一样。</p>
-<p><b>巨龙泪（Dragon's Tear）：</b>200GP/份</p>
-<p>传说中巨龙眼泪的结晶，这些不规则的小晶体有着乳白色或是淡蓝色色调。它们常可以在矿泉和火山口被找到。</p>
-<p>当被用作带有[火]或者[影响心灵]描述符的法术的材料时，该法术计算法术等级（环）有关的效果时+1，如同搭配了法术升阶专长（Heighten Spell）一样。</p>
-<p><b>妖精纽扣（Fairy Button）：</b>200GP/0.1磅/份</p>
-<p>这些小石籽看起来像鲜艳的蘑菇或花朵。它们经常出现那些地下水的矿物质含量恰到好处的洞穴中。它的名字来自它们微小的大小和鲜艳的颜色，妖精纽扣通常是红色、黄色、绿色或紫色，或者有一些杂色的组合。</p>
-<p>当被用作带幻术系法术的材料时，该法术的作用半径加倍，如同搭配了法术扩展专长（Widen Spell）一样。</p>
-<p><b>妖精尘（Fairy Dust）：</b>100GP/份</p>
-<p>这种细微的粉末在日光下几乎是看不见的，但在月光下可以看到它闪烁着银色光泽。传闻每年春天，精类生物都会从新开的木本植物花卉中收集到它。事实上，妖精尘是由在春季繁殖的某些稀有蛾子的茧干燥后制成的。</p>
-<p>当被用作变化系法术的材料时，该法术的持续范围加倍，如同搭配了法术延时专长（Extend Spell）一样。</p>
-<p><b>金砂蜜（Golden Desert Honey）：</b>300GP/份</p>
-<p>实际上是一种稀有沙漠树干汁液的干块，这种材料是昂贵的香料和香水的重要成分。</p>
-<p>当被作为施法时间为1回合的[召唤]法术的材料时，金砂蜜将施法时间减少到1个标准动作，如同搭配了法术速发专长（Rapid Spell，详见完美神力Complete Divine）一样。</p>
-<p>x</p>
-<p><b>不定之尘（Possibility Dust）（时之沙）：</b>100GP/份</p>
-<p>这些不断变换的灰色物质可以在星界的深处被收集到。位面学者们认为，它有可能是物质界的存在向星界渗透后经过沉淀而成，但是这种说法仍未得到证实。施法者们发现，不定之尘在对他们的创造类法术施法很有帮助。</p>
-<p>当被用作[创造]描述符的法术的材料时，该法术的持续时间加倍，如同搭配了法术延时专长（Extend Spell）一样。</p>
-<p><b>原初精髓（Primal Essence）：</b>150GP/份</p>
-<p>这种粒状物质跟金属砂类似，虽然它实际上来自于灵界。施法者们发现他们可以融入自己的法术中。与这节所描述的其他可选材料不同，原初精髓的需求量是可变的。与这节所描述的其他可选材料不同，应用在于高于1环的法术上并不会自动需要使用多份的原初精髓。（暂译，原文为：Unlike other components described here, spells of higher than 1st level don't automatically require multiple units of primal essence.）</p>
-<p>一份原初精髓可以代替任何花费100GP或更少的材料成分（非法器成分）。可以多份叠加：例如，三份可以代替石肤术所需的250 GP钻石粉。</p>
-<p><b>蛇之舌（Serpents' Tongue）：</b>120GP/份</p>
-<p>这种材料看起来像是干瘪的蛇舌，也因此得名。事实上，它是各种稀有鸟类和爬行动物的舌头和几种热带花卉的干燥雄蕊的混合物。所有的成分都必须手工收集，并以正确的比例小心混合。</p>
-<p>当被用作惑控系法术的材料时，该法术的持续时间加倍，如同搭配了法术延时专长（Extend Spell）一样。</p>
-<p><b>歌唱贝壳（Singing Shell）：</b>200GP/份</p>
-<p>这些小贝壳看起来像是小型海螺壳。它们来源于靠着丛林海岸线生活的一种罕见的软体动物。在幽暗的水中搜寻贝壳是非常费时费力的，并且采集者也常会受到潜藏在水里和陆地上的掠食者袭击。</p>
-<p>当被用作带有[音波]描述符的法术的材料时，该法术的作用范围加倍，如同搭配了法术扩展专长（Widen Spell）一样。如果法术不是影响一个区域的，则法术的射程加倍，如同搭配了法术远发专长（Enlarge Spell）一样。</p>
+<div class="w">
+
+<div class="h">
+<h1>可选法术材料 (Optional Spell Components)</h1>
+<small>表 5-6：各色珍稀的施法材料</small>
+</div>
+
+<div class="desc">
+<p>施法者早就注意到各种物品和材料能帮助他们施展法术，因此各种法术都要求材料成分和器材成分。进一步的研究表明，一些稀有和奇特的物品能够增强一系列法术。这些物品已变得广泛可得，几乎在任何地方都能买到，但要受制于社区的金币限额。</p>
+<p><b>通用规则：</b>法术越强大，所需的材料成分就越多。你必须使用与法术等级（至少为1）相等数量的"剂量"成分，该成分才能产生效果。例如，如果你想用天使绒来延时一个五环的防护法术，你需要使用五剂成分（价值500金币）；如果使用的剂量少于这个数量，成分就会被消耗但不会产生效果。</p>
+<p>任何单个法术只能添加一种可选的材料成分。如果你添加第二种额外成分，只有一种（随机选择）会生效。</p>
+<p>对法术施加超魔效果的材料成分不能用于已经受超魔专长影响的法术的施放。例如，一个定发法师护甲影响的法师护甲法术就不能使用特殊材料成分来施加额外的效果。即使"天使绒"所施加的效果与该法术上已有的超魔效果不同，也无法从中获益。</p>
+</div>
+
+<div class="sec">材料列表与效果</div>
+<table class="tb">
+<thead>
+    <tr>
+        <th style="width:34%;">物品 (Item)</th>
+        <th style="width:12%;">重量 (Weight)</th>
+        <th style="width:12%;">价格 (Cost)</th>
+        <th style="width:42%;">效果与说明</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td><b>天使绒毛 (Angel down)</b></td>
+        <td>*</td>
+        <td>100 金币 (gp)</td>
+        <td>民间传说盛传，这种毛茸茸的金色物质据说是由天界生物羽翼上的纤羽构成。而实际上，它是从位于上层位面的各种稀有花卉中采集的花粉。<br>当“天使绒毛”被用作<b>防护系法术</b>的成分时，该法术的持续时间会翻倍，效果如同受到“法术延时”影响。</td>
+    </tr>
+    <tr>
+        <td><b>恶魔之眼 (Devil's eye)</b></td>
+        <td>1/10 磅 (lb.)</td>
+        <td>150 金币 (gp)</td>
+        <td>这些小巧的半透明石块摸起来略带暖意，其外观至少隐约形似一只眼睛——有着鲜艳的红色巩膜、白色或黄色的虹膜，以及猫科动物般的黑色瞳孔。尽管名为“恶魔之眼”，但它们实为天然水晶，常见于火山地区，亦可能出现在河床或冰川碎屑堆积物中。石块表面的微弱酸性物质使其产生温热感。<br>当恶魔之眼被用于<b>预言系法术</b>时，该法术的有效等级提升一级（效果如同受到“法术升阶”影响）。</td>
+    </tr>
+    <tr>
+        <td><b>龙之泪 (Dragon's tear)</b></td>
+        <td>*</td>
+        <td>200 金币 (gp)</td>
+        <td>据说为巨龙干涸的泪水，这些形状不规则的小晶体呈乳白色并带淡淡蓝色调。它们在矿泉和火山喷口附近被发现。<br>当用于任意<b>火描述符</b>或<b>影响心灵描述符</b>法术时，龙之泪可使法术有效等级提升1级，效果如同受“法术升阶”影响。</td>
+    </tr>
+    <tr>
+        <td><b>妖精纽扣 (Fairy button)</b></td>
+        <td>1/10 磅 (lb.)</td>
+        <td>200 金币 (gp)</td>
+        <td>这些小块石材形似色彩鲜艳的蘑菇或花朵。它们天然形成于地下水含合适矿物质的洞穴中。其名源于极小的尺寸与明亮色彩——通常为红、黄、绿、紫色，或包含部分/全部这些色调的杂色组合。<br>当施展一个<b>幻术系法术</b>时，妖精纽扣能使法术作用区域翻倍，效果如同受到“法术扩展”影响。</td>
+    </tr>
+    <tr>
+        <td><b>妖精尘 (Fairy dust)</b></td>
+        <td>*</td>
+        <td>100 金币 (gp)</td>
+        <td>这种细粉在日光下几近隐形，却会在月光中泛出银色光泽。按传说，精类生物每年春天从新绽放的林花上采集它。实际上，妖精尘由特定稀有蛾类在春季孵化的茧经干燥、研磨制成。<br>当用于任意<b>变化系法术</b>时，妖精尘可使法术持续时间翻倍，效果如同受到“法术延时”影响。</td>
+    </tr>
+    <tr>
+        <td><b>金沙蜜 (Golden desert honey)</b></td>
+        <td>*</td>
+        <td>300 金币 (gp)</td>
+        <td>实则为珍稀沙漠树木的干燥树液块，是昂贵香薰与香水的关键成分。<br>当用于施法时间为1轮的<b>召唤类法术</b>时，金沙蜜可将施法时间缩短为1个标准动作，效果如同受到“法术速发”影响，见《完美神力》介绍。</td>
+    </tr>
+    <tr>
+        <td><b>不定之尘 (Possibility dust)</b></td>
+        <td>*</td>
+        <td>100 金币 (gp)</td>
+        <td>这种虹彩灰色物质采集自星界深处。位面学者们认为，概率尘是“凝萃的现实碎片”，不知为何从物质界渗漏到星界，在此沉降为细尘。该断言尚未被证实；但施法者发现，尝试用于创造类法术施法时，该物质很有用。<br>当概率尘融入任意<b>创造类法术</b>时，法术持续时间翻倍，效果如同受“法术延时”影响。</td>
+    </tr>
+    <tr>
+        <td><b>原质精华 (Primal essence)</b></td>
+        <td>*</td>
+        <td>150 金币 (gp)</td>
+        <td>这种粒状物质看似金属砂，实则来自以太界。施法者发现，施法时可将其塑形、转化为其他形态。与本文描述的其他材料不同，1级以上法术不会自动要求使用多份原质精华。<br>一撮原质精华尘，可替代价值100gp及以下的任意材料成分，多撮可累加效果；比如，三撮可替代“石肤术”所需价值250gp的钻石尘。</td>
+    </tr>
+    <tr>
+        <td><b>蛇舌草 (Serpents' tongue)</b></td>
+        <td>*</td>
+        <td>120 金币 (gp)</td>
+        <td>因形似干燥蛇舌得名。实则由多种珍稀鸟类、爬行类的处理过的舌头，与数种热带花卉的干燥雄蕊混合而成。所有原料都需手工精心采集，并按精准比例调配。<br>当用于<b>惑控系法术</b>时，蛇舌草可使法术持续时间翻倍，效果如同受到“法术延时”影响。</td>
+    </tr>
+    <tr>
+        <td><b>歌唱贝壳 (Singing shell)</b></td>
+        <td>*</td>
+        <td>200 金币 (gp)</td>
+        <td>这些小贝壳形似微型海螺壳，来自丛林海岸线的珍稀软体动物。在浑浊水域中搜寻它们耗时久，且采集者易遭水陆潜伏掠食者攻击。<br>当歌唱贝壳用于带有<b>音波描述符</b>的法术时，若法术影响区域，区域翻倍（如同受到“法术扩展”影响）；若法术无区域影响，则距离翻倍（如同受到“法术增远”影响）。</td>
+    </tr>
+</tbody>
+</table>
+<div class="ab">
+    <p style="font-size:12px; color:#888;">*这些物品无值得记录的重量</p>
+</div>
+
+</div>
+
+<!-- DND3R-FEEDBACK-BEGIN -->
+<div class="dnd3r-feedback-entry" role="navigation" aria-label="&#x9875;&#x9762;&#x53cd;&#x9988;&#x5165;&#x53e3;" style="clear:both;margin:2.5em auto 1.5em;text-align:center;">
+  <a href="https://dnd3r-feedback-public-dnd3r-feedback-d4gwz9pp1575ec082.webapps.tcloudbase.com/?page_ref=3%20%E5%AE%8C%E7%BE%8E%E7%B3%BB%E5%88%97%2FCM%E5%AE%8C%E7%BE%8E%E5%B7%AB%E5%B8%88%2F5%E7%89%A9%E5%93%81%2F%E7%89%B9%E6%AE%8A%E6%96%BD%E6%B3%95%E6%9D%90%E6%96%99.htm&amp;book=CM%E5%AE%8C%E7%BE%8E%E5%B7%AB%E5%B8%88&amp;chapter=%E5%AE%8C%E7%BE%8E%E7%B3%BB%E5%88%97%EF%BC%9A%E5%AE%8C%E5%A4%87%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8D%97%20%2F%20%5BCM%5D%20%E5%AE%8C%E7%BE%8E%E5%B7%AB%E5%B8%88%EF%BC%9A%E7%A5%9E%E7%A7%98%E4%BA%8B%E7%89%A9%E6%8C%87%E5%8D%97%20%2F%205.%20%E5%A5%A5%E6%9C%AF%E7%89%A9%E5%93%81&amp;title=%E5%8F%AF%E9%80%89%E6%96%BD%E6%B3%95%E6%9D%90%E6%96%99" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.55em 1.25em;border:1px solid #5c7356;border-radius:999px;background:#f4efe6;color:#3f4f3b;text-decoration:none;font-family:'Microsoft YaHei','Noto Sans SC',sans-serif;font-size:0.95em;line-height:1.4;">&#x53cd;&#x9988;&#x672c;&#x9875;&#x52d8;&#x8bef;</a>
+</div>
+<!-- DND3R-FEEDBACK-END -->
 </body>
 </html>

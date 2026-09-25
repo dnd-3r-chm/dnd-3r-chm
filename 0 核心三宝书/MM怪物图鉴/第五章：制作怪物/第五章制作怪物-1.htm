@@ -1,0 +1,79 @@
+<!-- coding: gbk --><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>第五章</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+</head>
+
+<body><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第五章：制作怪物</title>
+    <style>
+        body { background-color: #f5f1e8; font-family: "SimSun", "Microsoft YaHei", serif; color: #2a241d; margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; background-color: #fefcf7; padding: 25px 30px; border: 1px solid #d4c7b6; box-sizing: border-box; }
+        h1 { font-size: 26px; color: #A44797; border-bottom: 2px solid #A44797; padding-bottom: 10px; margin: 0 0 15px 0; text-align: center; }
+        h2 { font-size: 22px; color: #A44797; border-bottom: 1px solid #A44797; padding-bottom: 6px; margin: 25px 0 10px 0; }
+        p { line-height: 1.8; margin: 10px 0; text-align: justify; font-size: 15px; text-indent: 2em; }
+        .list-item { text-indent: -1.5em; padding-left: 2.5em; line-height: 1.8; margin: 6px 0; }
+        .highlight { color: #A44797; font-weight: bold; }
+    </style>
+
+<style id="codex-layout-final">
+.page, .container, .w {
+    width: 100% !important;
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>第五章 制作怪物</h1>
+    <p>无论在“龙与地下城”的游戏或小说中，那些让人印象深刻的怪物都有个最明显的特征，只要一两句话就能描绘出它们的样貌。因此，在制作怪物时，最重要的黄金守则就是勾勒出一个简单明了的形象。</p>
+
+    <h2>怪物概念</h2>
+    <p>在设定怪物数据和特殊能力之前，请务必花时间为你的怪物想好天性背景。以下的问题可以帮助你理清怪物的概念：</p>
+    <div class="list-item">— 你希望这个生物在游戏中扮演怎样的角色？它是玩家人物的朋友还是敌人？它擅长肉搏还是心灵能力？它只会出场一次还是常态性的角色？</div>
+    <div class="list-item">— 它栖息在哪里？（举例来说，栖息于地底的生物可能会具有与荒野生物不同的特性，反之亦然。）</div>
+    <div class="list-item">— 它如何生存？（它是依靠力量或速度的的掠食者？还是智力高超，足以驱使别的生物？）</div>
+    <div class="list-item">— 它有没有天敌或特定的猎食目标？</div>
+    <p>怪物的概念一旦建构完成，在设定生物类别、属性值、专长、技能和特殊能力时就是一个大略的方向可循。制作新怪物时，你可以用本书中的怪物当作模型，这样不但能够省下许多工夫，也不会造出不合用怪物。选择特殊能力时也尽量保持简略，不要大幅偏离怪物概念，这样造出来的怪物较为适合加入游戏中。</p>
+
+    <h2>决定怪物类别</h2>
+    <p>理清怪物概念之后，下一步就是选择合适的生物类别。以下信息可以供你参考，甚至你也可以依据这些叙述来建立怪物概念。</p>
+    <div class="list-item"><span class="highlight">异怪（Aberration）：</span>异怪生物具有怪异的生理构造、特殊能力或心智思考，甚至兼有以上三者。此类怪物最适合那些奇形怪状、匪夷所思的怪物。异怪的战斗能力和生命值中等，豁免检定通常不佳。</div>
+    <div class="list-item"><span class="highlight">动物（Animal）：</span>动物是具有生命、非人类的生物，通常是脊椎动物，不具有魔法能力，没有语言，也没有文化。动物的战斗能力、生命值和豁免检定中等。</div>
+    <div class="list-item"><span class="highlight">构装生物（Construct）：</span>构装生物是活化的物体或人工制造的生物。构装生物的战斗能力和生命值中等，豁免检定极差，但对许多攻击方式都免疫。</div>
+    <div class="list-item"><span class="highlight">龙类（Dragon）：</span>龙类属于爬虫类生物，通常有翼，还有魔法或特殊能力。此类生物相当强大，战斗能力、生命值和豁免检定都不错。</div>
+    <div class="list-item"><span class="highlight">元素生物（Elemental）：</span>元素生物由风、土、水、火四大基本元素之一所构成。元素生物的战斗能力和生命值中等，豁免检定不佳，但对某些攻击方式免疫。</div>
+    <div class="list-item"><span class="highlight">精类生物（Fey）：</span>精类生物具有超自然能力与自然界特定地点或某些未知力量有紧密的关系。精类生物外观通常接近人形。精类生物的战斗能力和生命值不佳，豁免检定不错。</div>
+    <div class="list-item"><span class="highlight">巨人（Giant）：</span>巨人是力大无穷的人形生物。体型至少在大型以上。巨人的战斗能力和生命值中等，豁免检定不佳，但它们的体型巨大，生理属性值很高，在战斗中仍是相当危险的对手。</div>
+    <div class="list-item"><span class="highlight">人形生物（Humanoid）：</span>人形生物通常有两只手、两条腿、一颗头，躯干和头颅的外型与人类相同。人形生物很少具有超自然或特异能力，但大多可以说话，也有发达的社会组织，体型多半属于中型或小型。</div>
+    <div class="list-item"><span class="highlight">魔法兽（Magical Beast）：</span>魔法兽与动物相近，但智力值可以超过2，通常具有超自然或特异能力，但有些只是外型奇特或生活习惯与众不同的动物。</div>
+    <div class="list-item"><span class="highlight">人形怪物（Monstrous Humanoid）：</span>人形怪物外观大致为人形，但具有怪异或类似动物的特征。人形怪物的战斗能力和生命值中等，豁免检定通常不差。</div>
+    <div class="list-item"><span class="highlight">泥形生物（Ooze）：</span>泥形生物没有固定形状或是形状很容易改变，通常没有心智。泥形生物的战斗能力中等，生命值不错，豁免检定极差，但对许多攻击方式都免疫。</div>
+    <div class="list-item"><span class="highlight">异界生物（Outsider）：</span>只要有部分生命要素（不一定是肉体）来自物质界以外的界域，就属于异界生物。异界生物的战斗能力不错，生命值中等，豁免检定也都不错。</div>
+    <div class="list-item"><span class="highlight">植物（Plant）：</span>主体由植物纤维构成的生物。植物生物的战斗能力和生命值中等，豁免检定不佳，但对许多攻击方式都免疫。</div>
+    <div class="list-item"><span class="highlight">不死生物（Undead）：</span>被魔法或超自然力量活化的死尸就称为不死生物。不死生物的战斗能力和生命值中等，豁免检定也不佳，但对许多攻击方式都免疫。</div>
+    <div class="list-item"><span class="highlight">虫类生物（Vermin）：</span>虫类生物包括昆虫、蜘蛛、节肢动物、蠕虫以及无脊椎动物之类。虫类生物的战斗能力和生命值中等，豁免检定不佳，通常没有心智，对影响心灵的效果免疫。</div>
+</div>
+</body>
+</html>
+<!-- DND3R-FEEDBACK-BEGIN -->
+<div class="dnd3r-feedback-entry" role="navigation" aria-label="&#x9875;&#x9762;&#x53cd;&#x9988;&#x5165;&#x53e3;" style="clear:both;margin:2.5em auto 1.5em;text-align:center;">
+  <a href="https://dnd3r-feedback-public-dnd3r-feedback-d4gwz9pp1575ec082.webapps.tcloudbase.com/?page_ref=0%20%E6%A0%B8%E5%BF%83%E4%B8%89%E5%AE%9D%E4%B9%A6%2FMM%E6%80%AA%E7%89%A9%E5%9B%BE%E9%89%B4%2F%E7%AC%AC%E4%BA%94%E7%AB%A0%EF%BC%9A%E5%88%B6%E4%BD%9C%E6%80%AA%E7%89%A9%2F%E7%AC%AC%E4%BA%94%E7%AB%A0%E5%88%B6%E4%BD%9C%E6%80%AA%E7%89%A9-1.htm&amp;book=MM%E6%80%AA%E7%89%A9%E5%9B%BE%E9%89%B4&amp;chapter=%E6%A0%B8%E5%BF%83%E4%B8%89%E5%AE%9D%E4%B9%A6%20%2F%20%5BMM%5D%20%E6%80%AA%E7%89%A9%E5%9B%BE%E9%89%B4&amp;title=%E7%AC%AC%E4%BA%94%E7%AB%A0%EF%BC%9A%E5%88%B6%E4%BD%9C%E6%80%AA%E7%89%A9" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.55em 1.25em;border:1px solid #5c7356;border-radius:999px;background:#f4efe6;color:#3f4f3b;text-decoration:none;font-family:'Microsoft YaHei','Noto Sans SC',sans-serif;font-size:0.95em;line-height:1.4;">&#x53cd;&#x9988;&#x672c;&#x9875;&#x52d8;&#x8bef;</a>
+</div>
+<!-- DND3R-FEEDBACK-END -->
+</body>
+</html>

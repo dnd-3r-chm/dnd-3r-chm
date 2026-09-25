@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312">
+<title>恶魔虫群 (Demonet Swarm)</title>
+<style>
+:root{--p:#5D3A1A;--s:#C4A882;--t:#F5F0E8;--d:#2C1810;--a:#6B8E23;--r:#B22222}
+*{margin:0;box-sizing:border-box}
+body{background:#F5F0E8;font:14px/1.7 "Microsoft YaHei","SimSun",serif;color:#2C1810;padding:15px}
+.w{max-width:900px;margin:auto;background:#fff;border:1px solid #C4A882;padding:20px}
+
+.h{border-bottom:2px solid #5D3A1A;padding-bottom:10px;margin-bottom:12px}
+.h h1{font-size:24px;color:#5D3A1A;margin-bottom:4px}
+.h small{color:#888;font-size:12px}
+
+.desc p{margin:8px 0;text-indent:2em;font-size:13px}
+
+.sec{font-size:16px;color:#5D3A1A;font-weight:bold;margin:18px 0 8px;border-bottom:1px solid #C4A882;padding-bottom:4px}
+
+.t{display:grid;grid-template-columns:110px 1fr;gap:1px;background:#C4A882;border:1px solid #C4A882;font-size:13px}
+.t>div{padding:6px 10px;background:#fff}
+.t>div:nth-child(odd){background:#f5f0e8;color:#5D3A1A;font-weight:bold;text-align:center}
+.t>div:nth-child(1),.t>div:nth-child(2){background:#e8dcc8;font-weight:bold}
+
+.ab{background:#faf8f3;border-left:4px solid #C4A882;padding:10px 14px;margin:10px 0;font-size:13px}
+.ab p{margin:6px 0;text-indent:0}
+.ab b{color:#B22222}
+
+.mk{background:#f5f0e8;padding:12px;font-size:13px;border:1px solid #C4A882;margin:10px 0}
+.mk p{margin:6px 0}
+.mk b{color:#5D3A1A}
+
+.tb{width:100%;border-collapse:collapse;font-size:12px;margin:8px 0}
+.tb th,.tb td{border:1px solid #C4A882;padding:4px 6px;text-align:center}
+.tb th{background:#e8dcc8;color:#5D3A1A;font-weight:bold}
+.tb td{background:#fff}
+.tb tr:nth-child(even) td{background:#faf8f3}
+</style>
+<base target="_blank">
+<style>
+/* Fallback for the IE engine embedded in HTML Help. */
+html,body{font-family:"SimSun","Microsoft YaHei",serif;background:#F5F0E8;color:#2C1810;}
+body{margin:0;padding:12px;font-size:14px;line-height:1.7;}
+.w{width:94%;max-width:900px;margin:0 auto;background:#fff;border:1px solid #C4A882;padding:20px;}
+.h{border-bottom:2px solid #5D3A1A;padding-bottom:10px;margin-bottom:12px;}
+.h h1{font-size:24px;color:#5D3A1A;margin:0 0 4px;}
+.h small{color:#888;font-size:12px;}
+.desc p{margin:8px 0;text-indent:2em;font-size:13px;}
+.sec{font-size:16px;color:#5D3A1A;font-weight:bold;margin:18px 0 8px;border-bottom:1px solid #C4A882;padding-bottom:4px;}
+table.t{display:table;width:100%;border-collapse:collapse;background:#C4A882;border:1px solid #C4A882;font-size:13px;table-layout:fixed;}
+.t td{padding:6px 10px;background:#fff;border:1px solid #C4A882;vertical-align:top;}
+.t td.label{width:22%;background:#F5F0E8;color:#5D3A1A;font-weight:bold;text-align:center;}
+.t td.value{width:78%;}
+.ab{background:#FAF8F3;border-left:4px solid #C4A882;padding:10px 14px;margin:10px 0;font-size:13px;}
+.ab p{margin:6px 0;text-indent:0;}
+.mk{background:#F5F0E8;padding:12px;font-size:13px;border:1px solid #C4A882;margin:10px 0;}
+.mk p{margin:6px 0;}
+.tb{width:100%;border-collapse:collapse;font-size:12px;margin:8px 0;}
+.tb th,.tb td{border:1px solid #C4A882;padding:4px 6px;text-align:center;}
+.tb th{background:#E8DCC8;color:#5D3A1A;font-weight:bold;}
+.tb td{background:#fff;}
+.feat-list{margin:4px 0 0 20px;padding:0;}
+.feat-sublist{margin:4px 0 0 30px;padding:0;}
+img{max-width:100%;height:auto;}
+</style></head>
+<body>
+<div class="w">
+
+<div class="h">
+<h1>恶魔虫群 (Demonet Swarm)</h1><p class="mm4-illustration"><img src="../../插图/MM4补录_恶魔蜂巢.jpg" alt="恶魔虫群"></p>
+<small>超小型异界生物（邪恶，跨位面，集群） | 挑战级数 2</small>
+</div>
+
+<div class="desc">
+<p>成百上千只恶心的黑色幼虫状生物在空中飞舞，带着小小的红色昆虫翅膀，发出令人头晕目眩的嗡嗡声。</p>
+<p><b>恶魔虫群</b> —— 永远中立邪恶。</p>
+</div>
+
+<div class="sec">生物数据</div>
+<table class="t"><tbody><tr><td class="label">生命骰</td><td class="value">3d8+6（19HP）</td></tr><tr><td class="label">先攻</td><td class="value">+7</td></tr><tr><td class="label">速度</td><td class="value">20 英尺 (4格)，飞行 40 英尺 (良好)</td></tr><tr><td class="label">防御等级</td><td class="value">15，接触 15，措手不及 12（+2体型，+3敏捷）</td></tr><tr><td class="label">基本攻击/擒抱</td><td class="value">+3 / —</td></tr><tr><td class="label">攻击</td><td class="value">集群攻击 (1d6 外加干扰)</td></tr><tr><td class="label">全力攻击</td><td class="value">集群攻击 (1d6 外加干扰)</td></tr><tr><td class="label">占据/触及</td><td class="value">10 英尺 / 0 英尺</td></tr><tr><td class="label">特殊攻击</td><td class="value">恶魔嗡鸣，干扰，阵营打击 (邪恶)</td></tr><tr><td class="label">特殊能力</td><td class="value">黑暗视觉 60 尺；免疫音波、集群免疫能力；抗力：对穿刺和挥砍伤害减半；蜂巢心智、虫群特性</td></tr><tr><td class="label">豁免</td><td class="value">强韧 +5，反射 +6，意志 +2</td></tr><tr><td class="label">属性</td><td class="value">力量 1，敏捷 16，体质 14，智力 1，感知 9，魅力 1</td></tr><tr><td class="label">技能</td><td class="value">躲藏 +17，聆听 +7，侦查 +7</td></tr><tr><td class="label">专长</td><td class="value">警觉，精通先攻</td></tr><tr><td class="label">语言</td><td class="value">无</td></tr><tr><td class="label">进化</td><td class="value">—</td></tr></tbody></table>
+
+<div class="sec">特殊能力说明</div>
+<div class="ab" style="border-left-color: #6B8E23;">
+<p><b>恶魔嗡鸣 (Ex)：</b>恶魔虫群周围 60 英尺内的生物在攻击检定、技能检定、属性检定和豁免检定上受到 -2 减值。这是一种影响心灵的音波效果。恶魔蜂巢侍从、恶魔虫群以及恶魔蜂巢女王免疫此效果。</p>
+<p><b>干扰 (Ex)：</b>DC 13 的强韧豁免，反胃 1 轮。豁免 DC 基于虫群的体质调整值。</p>
+<p><b>蜂巢心智 (Ex)：</b>如同恶魔蜂巢侍从的蜂巢心智能力：所有恶魔蜂巢成员都通过心灵保持联系，使其在战斗中协同作战。</p>
+</div>
+
+<div class="sec">背景与战术</div>
+<div class="ab">
+<p>恶魔虫群个体威胁性不大，但它们成群结队形成巨大的飞行虫群，其嗡嗡声会对生物的心智产生压制作用。</p>
+<p><b>作战策略：</b>恶魔虫群通常跟随恶魔蜂巢侍从和女王的指挥。当侍从或女王表现出焦躁或进入战斗时，虫群也会作出相应反应。它们不会使用复杂战术，只是简单地围攻女王或侍从所攻击的目标。恶魔虫群不会互相攻击，保持高度一致的群体行为。</p>
+</div>
+
+</div>
+
+<!-- DND3R-FEEDBACK-BEGIN -->
+<div class="dnd3r-feedback-entry" role="navigation" aria-label="&#x9875;&#x9762;&#x53cd;&#x9988;&#x5165;&#x53e3;" style="clear:both;margin:2.5em auto 1.5em;text-align:center;">
+  <a href="https://dnd3r-feedback-public-dnd3r-feedback-d4gwz9pp1575ec082.webapps.tcloudbase.com/?page_ref=1%20%E6%A0%B8%E5%BF%83%E8%A1%A5%E5%85%85%E4%B9%A6%E7%B1%8D%2FMM4%E6%80%AA%E7%89%A9%E5%9B%BE%E9%89%B44%2F%E6%80%AA%E7%89%A9%2F%E6%81%B6%E9%AD%94%E8%9C%82%E5%B7%A2%2F%E6%81%B6%E9%AD%94%E8%99%AB%E7%BE%A4.htm&amp;book=MM4%E6%80%AA%E7%89%A9%E5%9B%BE%E9%89%B44&amp;chapter=%5BMM4%5D%20%E6%80%AA%E7%89%A9%E5%9B%BE%E9%89%B44%20%2F%20%E6%80%AA%E7%89%A9%20%2F%20%E6%81%B6%E9%AD%94%E8%9C%82%E5%B7%A2&amp;title=%E6%81%B6%E9%AD%94%E8%99%AB%E7%BE%A4" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.55em 1.25em;border:1px solid #5c7356;border-radius:999px;background:#f4efe6;color:#3f4f3b;text-decoration:none;font-family:'Microsoft YaHei','Noto Sans SC',sans-serif;font-size:0.95em;line-height:1.4;">&#x53cd;&#x9988;&#x672c;&#x9875;&#x52d8;&#x8bef;</a>
+</div>
+<!-- DND3R-FEEDBACK-END -->
+</body>
+</html>

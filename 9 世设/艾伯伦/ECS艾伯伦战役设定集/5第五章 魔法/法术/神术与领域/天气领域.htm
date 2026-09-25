@@ -1,0 +1,226 @@
+<!-- coding: gb2312 --><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>天气领域</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+<style>
+html,body { 
+	font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+</head>
+
+<body><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+
+<title>神祇领域 (Divine Domains)</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+        font-family: "Georgia", "Times New Roman", "SimSun", serif; 
+        background: #fdfbf7; 
+        color: #2c3e50; 
+        padding: 40px 20px; 
+        line-height: 1.8; 
+    }
+    .wrap { 
+        max-width: 800px; 
+        margin: 0 auto; 
+    }
+    
+    /* 单个领域的卡片样式 */
+    .domain-card {
+        background: #fff; 
+        padding: 50px 60px; 
+        margin-bottom: 40px;
+        box-shadow: 0 4px 15px rgba(0,0,0,.08); 
+        border: 1px solid #e0dcd5;
+        position: relative;
+    }
+
+    /* 装饰性内边框 */
+    .domain-card::before {
+        content: "";
+        position: absolute;
+        top: 10px; left: 10px; right: 10px; bottom: 10px;
+        border: 2px solid #8b0000;
+        pointer-events: none;
+        opacity: 0.15;
+    }
+
+    h2.domain-title {
+        font-size: 28px;
+        color: #8b0000;
+        text-align: center;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #8b0000;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+    }
+
+    h3.mini-title {
+        font-size: 20px;
+        color: #5a3e36;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border-left: 4px solid #8b0000;
+        padding-left: 10px;
+    }
+
+    p.deity {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #4a4a4a;
+    }
+
+    p.ability {
+        text-indent: 2em;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+
+    ul.spell-list {
+        list-style-type: none;
+        counter-reset: spell-counter;
+    }
+
+    ul.spell-list li {
+        position: relative;
+        padding-left: 40px;
+        margin-bottom: 12px;
+    }
+
+    ul.spell-list li::before {
+        counter-increment: spell-counter;
+        content: counter(spell-counter);
+        position: absolute;
+        left: 0;
+        top: 2px;
+        width: 25px;
+        height: 25px;
+        background: #8b0000;
+        color: #fff;
+        text-align: center;
+        line-height: 25px;
+        border-radius: 50%;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+    }
+
+    strong.spell-name {
+        color: #8b0000;
+        font-size: 1.1em;
+    }
+
+    /* 简单列表样式（用于只有神祇的领域） */
+    .simple-domain {
+        padding: 30px 40px;
+        margin-bottom: 20px;
+        background: rgba(255,255,255,0.6);
+        border-left: 5px solid #8b0000;
+    }
+    .simple-domain h3 {
+        font-size: 22px;
+        margin-bottom: 5px;
+        color: #2c3e50;
+    }
+    .simple-domain p {
+        font-size: 16px;
+        color: #666;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+    <!-- 简单领域列表 -->
+    <div class="simple-domain">
+        <h3>力量领域</h3>
+        <p><strong>神祇：</strong>杜·顿恩。</p>
+    </div>
+
+    <div class="simple-domain">
+        <h3>太阳领域</h3>
+        <p><strong>神祇：</strong>杜·哈拉</p>
+    </div>
+
+    <div class="simple-domain">
+        <h3>旅行领域</h3>
+        <p><strong>神祇：</strong>寇·柯兰，旅者。</p>
+    </div>
+
+    <div class="simple-domain">
+        <h3>诡术领域</h3>
+        <p><strong>神祇：</strong>嘲弄，旅者。</p>
+    </div>
+
+    <div class="simple-domain">
+        <h3>战争领域</h3>
+        <p><strong>神祇：</strong>杜·哈拉，杜·顿恩，嘲弄。</p>
+    </div>
+
+    <div class="simple-domain">
+        <h3>水领域</h3>
+        <p><strong>神祇：</strong>吞噬。</p>
+    </div>
+
+    <!-- 详细领域：天气领域 -->
+    <div class="domain-card">
+        <h2 class="domain-title">天气领域 (Weather Domain)</h2>
+        
+        <p class="deity">神祇：阿拉瓦依，吞噬。</p>
+        
+        <p class="ability">
+            <strong>神授能力：</strong>非魔法天气没法对角色的视线范围产生影响。生存加入牧师本职技能列表，角色在进行有关气候的生存检定时获得＋2加值。
+        </p>
+
+        <h3 class="mini-title">天气领域法术：</h3>
+        <ul class="spell-list">
+            <li>
+                <span class="spell-name">隐雾术：</span>浓雾环绕你。
+            </li>
+            <li>
+                <span class="spell-name">云雾术：</span>产生使视线模糊的雾。
+            </li>
+            <li>
+                <span class="spell-name">召雷术：</span>召来闪电，每道闪电3d6点伤害。
+            </li>
+            <li>
+                <span class="spell-name">雪风暴：</span>妨碍视线和行动。
+            </li>
+            <li>
+                <span class="spell-name">召唤雷电风暴：</span>类似召雷术，每道闪电5d6点伤害。
+            </li>
+            <li>
+                <span class="spell-name">操控风向：</span>改变风向和风速。
+            </li>
+            <li>
+                <span class="spell-name">操控天气：</span>改变当地的天气。
+            </li>
+            <li>
+                <span class="spell-name">旋风术：</span>旋风卷起生物，并造成伤害。
+            </li>
+            <li>
+                <span class="spell-name">复仇风暴：</span>伴随着酸液，闪电和冰雹的风暴。
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
+<!-- DND3R-FEEDBACK-BEGIN -->
+<div class="dnd3r-feedback-entry" role="navigation" aria-label="&#x9875;&#x9762;&#x53cd;&#x9988;&#x5165;&#x53e3;" style="clear:both;margin:2.5em auto 1.5em;text-align:center;">
+  <a href="https://dnd3r-feedback-public-dnd3r-feedback-d4gwz9pp1575ec082.webapps.tcloudbase.com/?page_ref=9%20%E4%B8%96%E8%AE%BE%2F%E8%89%BE%E4%BC%AF%E4%BC%A6%2FECS%E8%89%BE%E4%BC%AF%E4%BC%A6%E6%88%98%E5%BD%B9%E8%AE%BE%E5%AE%9A%E9%9B%86%2F5%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E9%AD%94%E6%B3%95%2F%E6%B3%95%E6%9C%AF%2F%E7%A5%9E%E6%9C%AF%E4%B8%8E%E9%A2%86%E5%9F%9F%2F%E5%A4%A9%E6%B0%94%E9%A2%86%E5%9F%9F.htm&amp;book=%E8%89%BE%E4%BC%AF%E4%BC%A6&amp;chapter=%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E9%AD%94%E6%B3%95%20%2F%20%E6%B3%95%E6%9C%AF%20%2F%20%E7%A5%9E%E6%9C%AF%E4%B8%8E%E9%A2%86%E5%9F%9F&amp;title=%E5%A4%A9%E6%B0%94%E9%A2%86%E5%9F%9F" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.55em 1.25em;border:1px solid #5c7356;border-radius:999px;background:#f4efe6;color:#3f4f3b;text-decoration:none;font-family:'Microsoft YaHei','Noto Sans SC',sans-serif;font-size:0.95em;line-height:1.4;">&#x53cd;&#x9988;&#x672c;&#x9875;&#x52d8;&#x8bef;</a>
+</div>
+<!-- DND3R-FEEDBACK-END -->
+</body>
+</html>

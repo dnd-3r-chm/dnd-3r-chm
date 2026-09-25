@@ -5,3 +5,7 @@
 *.log
 *.bak
 .vscode/
+feedback-entry-validation.json
+feedback-entry-online-check.json
+测试用*.hhp
+测试用*.wcp

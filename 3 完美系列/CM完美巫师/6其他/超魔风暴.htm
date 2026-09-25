@@ -1,424 +1,50 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=gb2312">
-<meta name=ProgId content=Word.Document>
-<title>超魔风暴</title><style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:宋体;
-	panose-1:2 1 6 0 3 1 1 1 1 1;
-	mso-font-alt:SimSun;
-	mso-font-charset:134;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:3 680460288 22 0 262145 0;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1073786111 1 0 415 0;}
-@font-face
-	{font-family:微软雅黑;
-	panose-1:2 11 5 3 2 2 4 2 2 4;
-	mso-font-charset:134;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
-@font-face
-	{font-family:"\@微软雅黑";
-	panose-1:2 11 5 3 2 2 4 2 2 4;
-	mso-font-charset:134;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-2147483001 672087122 22 0 262175 0;}
-@font-face
-	{font-family:"\@宋体";
-	panose-1:2 1 6 0 3 1 1 1 1 1;
-	mso-font-charset:134;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:3 680460288 22 0 262145 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	mso-pagination:none;
-	font-size:10.5pt;
-	mso-bidi-font-size:11.0pt;
-	font-family:"Calibri","sans-serif";
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:宋体;
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-font-kerning:1.0pt;}
-h1
-	{mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:无间隔;
-	mso-style-link:"标题 1 Char";
-	mso-style-next:无间隔;
-	margin-top:17.0pt;
-	margin-right:0cm;
-	margin-bottom:16.5pt;
-	margin-left:0cm;
-	line-height:240%;
-	mso-pagination:lines-together;
-	page-break-after:avoid;
-	mso-out1ine-1evel:1;
-	font-size:15.0pt;
-	mso-bidi-font-size:22.0pt;
-	font-family:"Calibri","sans-serif";
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:微软雅黑;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	color:#C00000;
-	mso-font-kerning:22.0pt;
-	font-weight:bold;}
-p.MsoHeader, li.MsoHeader, div.MsoHeader
-	{mso-style-priority:99;
-	mso-style-link:"页眉 Char";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	text-align:center;
-	mso-pagination:none;
-	tab-stops:center 207.65pt right 415.3pt;
-	layout-grid-mode:char;
-	border:none;
-	mso-border-bottom-alt:solid windowtext .75pt;
-	padding:0cm;
-	mso-padding-alt:0cm 0cm 1.0pt 0cm;
-	font-size:9.0pt;
-	font-family:"Calibri","sans-serif";
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:宋体;
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-font-kerning:1.0pt;}
-p.MsoFooter, li.MsoFooter, div.MsoFooter
-	{mso-style-priority:99;
-	mso-style-link:"页脚 Char";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:none;
-	tab-stops:center 207.65pt right 415.3pt;
-	layout-grid-mode:char;
-	font-size:9.0pt;
-	font-family:"Calibri","sans-serif";
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:宋体;
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-font-kerning:1.0pt;}
-strong
-	{mso-style-priority:22;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-ansi-font-size:11.0pt;
-	font-family:"微软雅黑","sans-serif";
-	mso-ascii-font-family:微软雅黑;
-	mso-fareast-font-family:微软雅黑;
-	mso-hansi-font-family:微软雅黑;}
-p
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-margin-top-alt:auto;
-	margin-right:0cm;
-	mso-margin-bottom-alt:auto;
-	margin-left:0cm;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:宋体;
-	mso-bidi-font-family:宋体;}
-p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
-	{mso-style-priority:1;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	text-justify:inter-ideograph;
-	mso-pagination:none;
-	font-size:10.5pt;
-	mso-bidi-font-size:11.0pt;
-	font-family:"Calibri","sans-serif";
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:宋体;
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-font-kerning:1.0pt;}
-span.1Char
-	{mso-style-name:"标题 1 Char";
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"标题 1";
-	mso-ansi-font-size:15.0pt;
-	mso-bidi-font-size:22.0pt;
-	font-family:"微软雅黑","sans-serif";
-	mso-ascii-font-family:微软雅黑;
-	mso-fareast-font-family:微软雅黑;
-	mso-hansi-font-family:微软雅黑;
-	color:#C00000;
-	mso-font-kerning:22.0pt;
-	font-weight:bold;}
-span.Char
-	{mso-style-name:"页眉 Char";
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:页眉;
-	mso-ansi-font-size:9.0pt;
-	mso-bidi-font-size:9.0pt;}
-span.Char0
-	{mso-style-name:"页脚 Char";
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:页脚;
-	mso-ansi-font-size:9.0pt;
-	mso-bidi-font-size:9.0pt;}
-span.Char1
-	{mso-style-name:"怪物名称 Char";
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:怪物名称;
-	mso-ansi-font-size:15.0pt;
-	mso-bidi-font-size:15.0pt;
-	font-family:"微软雅黑","sans-serif";
-	mso-ascii-font-family:微软雅黑;
-	mso-fareast-font-family:微软雅黑;
-	mso-hansi-font-family:微软雅黑;
-	mso-bidi-font-family:宋体;
-	color:#C00000;
-	mso-font-kerning:0pt;
-	font-weight:bold;}
-p.a, li.a, div.a
-	{mso-style-name:怪物名称;
-	mso-style-update:auto;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"怪物名称 Char";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:8.05pt;
-	margin-bottom:.0001pt;
-	mso-para-margin-top:0cm;
-	mso-para-margin-right:0cm;
-	mso-para-margin-bottom:0cm;
-	mso-para-margin-left:.67gd;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:15.0pt;
-	font-family:"微软雅黑","sans-serif";
-	mso-bidi-font-family:宋体;
-	color:#C00000;
-	font-weight:bold;}
-span.1Char0
-	{mso-style-name:"样式1 Char";
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:样式1;
-	mso-ansi-font-size:15.0pt;
-	mso-bidi-font-size:15.0pt;
-	font-family:"微软雅黑","sans-serif";
-	mso-ascii-font-family:微软雅黑;
-	mso-fareast-font-family:微软雅黑;
-	mso-hansi-font-family:微软雅黑;
-	mso-bidi-font-family:宋体;
-	color:#C00000;
-	mso-font-kerning:0pt;
-	font-weight:bold;}
-p.1, li.1, div.1
-	{mso-style-name:样式1;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"样式1 Char";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:8.05pt;
-	margin-bottom:.0001pt;
-	mso-para-margin-top:0cm;
-	mso-para-margin-right:0cm;
-	mso-para-margin-bottom:0cm;
-	mso-para-margin-left:.67gd;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:15.0pt;
-	font-family:"微软雅黑","sans-serif";
-	mso-bidi-font-family:宋体;
-	color:#C00000;
-	font-weight:bold;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-size:10.0pt;
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;
-	mso-ascii-font-family:"Times New Roman";
-	mso-hansi-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-font-kerning:0pt;}
- /* Page Definitions */
- 
-@page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:72.0pt 90.0pt 72.0pt 90.0pt;
-	mso-header-margin:42.55pt;
-	mso-footer-margin:49.6pt;
-	mso-paper-source:0;}
-div.WordSection1
-	{page:WordSection1;}
--->
+<meta charset="gb2312">
+<title>超魔风暴（METAMAGIC STORM）</title>
+<style>
+:root{--p:#5D3A1A;--s:#C4A882;--t:#F5F0E8;--d:#2C1810;--a:#6B8E23;--r:#B22222}
+*{margin:0;box-sizing:border-box}
+body{background:var(--t);font:14px/1.7 "Microsoft YaHei","SimSun",serif;color:var(--d);padding:15px}
+.w{max-width:900px;margin:auto;background:#fff;border:1px solid var(--s);padding:20px}
+.h{border-bottom:2px solid var(--p);padding-bottom:10px;margin-bottom:12px}
+.h h1{font-size:24px;color:var(--p);margin-bottom:4px}
+.h small{color:#888;font-size:12px}
+.desc p{margin:8px 0;text-indent:2em;font-size:13px}
+.sec{font-size:16px;color:var(--p);font-weight:bold;margin:18px 0 8px;border-bottom:1px solid var(--s);padding-bottom:4px}
+.ab{background:#faf8f3;border-left:4px solid var(--s);padding:10px 14px;margin:10px 0;font-size:13px}
+.ab p{margin:6px 0;text-indent:0}
+.ab b{color:var(--r)}
 </style>
-
 </head>
+<body>
+<div class="w">
+<div class="h"><h1>超魔风暴（METAMAGIC STORM）</h1></div>
+<div class="desc"><p>超魔是施法者改变魔法能量形成和使用方式的一种方法。一些圣贤推测超魔有它自己的身份——它是一种狂野的、未驯服的力量，甚至比魔法本身更神秘。超魔风暴体现了这些元素，表现为夜空中闪烁的光片。</p>
+<p>一场超魔风暴可以在任何魔法能量高度集中且几乎无法控制的地方形成。它产生于伟大的奥术决斗发生的地方，或者巫师对敌人发动战争的地方。</p></div>
+<div class="sec">知识（Lore）</div>
+<div class="ab"><p>角色可以通过适当的dc进行知识(神秘)检定来获得关于超魔风暴的信息，如下表所示。</p>
+<p><b>DC 10：</b>超魔风暴是个魔法能量高度集中的地方。</p>
+<p><b>DC 15：</b>超魔风暴提供许多以调整法术来塑造和精炼魔法能量的方法。</p>
+<p><b>DC 20：</b>任何在超魔风暴下冥想的人都能从中提取一小部分的能量来增强其施法能力。</p></div>
+<div class="sec">描述（Description）</div>
+<div class="ab"><p>超魔风暴看起来就像夜空中闪烁的五光十色的光。绿色、蓝色、红色和紫色的光芒在无尽的图案中闪耀，在宝石色调中洗涤黑色的天空。图案的颜色反映了各种形式的超魔，可以用来形成咒语。超魔风暴不发出声音，但会有一种甜美的气味弥漫在它下面的土地上。</p>
+<p>当一个成功在超魔风暴中抽取能量的施法者施放增强了的法术，他的眼睛会焕发一阵短暂的光芒。</p></div>
+<div class="sec">规则（Rules）</div>
+<div class="ab"><p><b>先决条件（Prerequisite）：</b>只有拥有超魔专长的奥术施法者才能感觉和接触到超魔风暴蕴含的能量。</p>
+<p><b>地点激活（Location Activation）：</b>若要得到超魔风暴的力量，合资格（见上）的施法者必须在风暴下不间断地冥想和吸收它的光芒八小时。如果冥想被打断，角色必须重新冥想八小时。</p>
+<p><b>充能（Recharge）：</b>超魔风暴一次只能赋予一个施法者力量，在一年内不能再赋予其能量。</p>
+<p><b>特殊能力（EX）：</b>一个成功从超魔风暴中抽取能量的施法者能拿到一个超魔专长作为奖励专长。他必须满足这专长的先决条件，而本专长不能满足任何先决和要求（即在计算专长或职业等的先决条件时不将本专长计算在内）。</p>
+<p><b>持续时间（Duration）：</b>额外的超魔专长持续一年。</p>
+<p><b>灵光（Aura）：</b>无。</p>
+<p><b>能力价值（Ability Value）：</b>5000GP</p></div>
+</div>
 
-<body lang=ZH-CN style="TEXT-JUSTIFY-TRIM: punctuation; tab-interval: 21.0pt"><div class=WordSection1>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">超魔是施法者一种改变形成和使用魔法能量的方法。有些贤者推测超魔有其特性－－野性，这种难驯的力量甚至比魔法本身更加神秘。超魔风暴以在夜空中一片闪闪发光的形式体现了这些元素。</span><span
- lang=EN-US style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">超魔风暴能在任何魔法能力高度集中和只能勉强控制的地方出现，例如是强力的奥术对决或者法师和术士发动战争对抗敌人。（注：大概这些情况都集中了大量魔法能量。</span><span
- lang=EN-US style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><b style="mso-bidi-font-weight: normal"><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">知识：</span></b><span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">角色能以神秘知识检定通过<span
- lang=EN-US>DC</span>后得到下述信息。</span><span lang=EN-US style="FONT-SIZE:
- 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><span lang=EN-US style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">DC10: </span><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">超魔风暴是个魔法能量高度集中的地方。</span><span lang=EN-US style="FONT-SIZE:
- 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><span lang=EN-US style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">DC15: </span><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">超魔风暴提供许多从调整法术来塑造和精炼魔法能量的方法。</span><span lang=EN-US
- style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><span lang=EN-US style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">DC20: </span><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">任何在超魔风暴下冥想的人都能从中提取一小部分的能量来增强其施法能力。</span><span lang=EN-US
- style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><b style="mso-bidi-font-weight: normal"><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">描述：</span></b><span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">超魔风暴就像夜空中一片多重色彩的闪烁光芒。绿色，蓝色，红色和紫色的光芒以无尽的排列闪烁，在漆黑的天幕中形成一抹宝石般的阴影。颜色的排列反映出各种可用于构建和塑造法术的超魔方法。超魔风暴没有声音，但在其下的土地上弥漫着一阵甜美的香气。</span><span
- lang=EN-US style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">当一个成功在超魔风暴中抽取能量的施法者施放增强了的法术，他的眼睛会焕发一阵短暂的光芒。</span><span
- lang=EN-US style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><b style="mso-bidi-font-weight: normal"><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">先决：</span></b><span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">只有拥有超魔专长的奥术施法者才能感觉和接触到超魔风暴蕴含的能量。</span><span
- lang=EN-US style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><b style="mso-bidi-font-weight: normal"><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">激活：</span></b><span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">若要得到超魔风暴的力量，合资格（见上）的施法者必须在风暴下不间断地冥想和吸收它的光芒八小时。如果冥想被打断，角色必须重新冥想八小时。</span><span
- lang=EN-US style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><b style="mso-bidi-font-weight: normal"><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">充能：</span></b><span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">超魔风暴一次只能赋予一个施法者力量，在一年内不能再抽取其能量。</span><span
- lang=EN-US style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><b style="mso-bidi-font-weight: normal"><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">特殊能力（<span lang=EN-US>EX</span>）：</span></b><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">一个成功从超魔风暴中抽取能量的施法者能拿到一个超魔专长作为奖励专长。他必须满足这专长的先决条件，而本专长不能满足任何先决和要求（即在计算专长或职业等先决时不将本专长计算在内）。</span><span
- lang=EN-US style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><b style="mso-bidi-font-weight: normal"><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">时间</span></b><span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">：一年。</span><span
- lang=EN-US style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><b style="mso-bidi-font-weight: normal"><span
-
- style="FONT-FAMILY: '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">灵光：</span></b><span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 11pt; mso-bidi-font-size: 10.5pt">无。</span><span lang=EN-US
- style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"></span></p>
-
-<p style="MARGIN:
- 0cm 0cm 15pt; LAYOUT-GRID-MODE: char; BACKGROUND: white; mso-line-height-alt: 0pt"><SPAN><STRONG>
-
-<span style="FONT-FAMILY:
- '微软雅黑','sans-serif'; COLOR: black; FONT-SIZE: 10.5pt">等效冒险奖励</span>：</STRONG><FONT face=微软雅黑>5000GP</FONT></SPAN><span lang=EN-US style="FONT-SIZE:
- 14pt; mso-bidi-font-size: 12.0pt"></span></p></div></body>
-
+<!-- DND3R-FEEDBACK-BEGIN -->
+<div class="dnd3r-feedback-entry" role="navigation" aria-label="&#x9875;&#x9762;&#x53cd;&#x9988;&#x5165;&#x53e3;" style="clear:both;margin:2.5em auto 1.5em;text-align:center;">
+  <a href="https://dnd3r-feedback-public-dnd3r-feedback-d4gwz9pp1575ec082.webapps.tcloudbase.com/?page_ref=3%20%E5%AE%8C%E7%BE%8E%E7%B3%BB%E5%88%97%2FCM%E5%AE%8C%E7%BE%8E%E5%B7%AB%E5%B8%88%2F6%E5%85%B6%E4%BB%96%2F%E8%B6%85%E9%AD%94%E9%A3%8E%E6%9A%B4.htm&amp;book=CM%E5%AE%8C%E7%BE%8E%E5%B7%AB%E5%B8%88&amp;chapter=%5BCM%5D%20%E5%AE%8C%E7%BE%8E%E5%B7%AB%E5%B8%88%EF%BC%9A%E7%A5%9E%E7%A7%98%E4%BA%8B%E7%89%A9%E6%8C%87%E5%8D%97%20%2F%206.%20%E5%A5%A5%E6%9C%AF%E5%86%92%E9%99%A9%20%2F%20%E9%AD%94%E6%B3%95%E5%9C%B0%E7%82%B9&amp;title=%E8%B6%85%E9%AD%94%E9%A3%8E%E6%9A%B4" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.55em 1.25em;border:1px solid #5c7356;border-radius:999px;background:#f4efe6;color:#3f4f3b;text-decoration:none;font-family:'Microsoft YaHei','Noto Sans SC',sans-serif;font-size:0.95em;line-height:1.4;">&#x53cd;&#x9988;&#x672c;&#x9875;&#x52d8;&#x8bef;</a>
+</div>
+<!-- DND3R-FEEDBACK-END -->
+</body>
 </html>
