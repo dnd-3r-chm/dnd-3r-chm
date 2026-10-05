@@ -11695,16 +11695,6 @@
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="暮刃（Duskblade）">
-                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-72.html">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="治疗师（Healer）">
-                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-62.html">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="圣武士（Paladin）">
                       <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-7.html">
                       <param name="ImageNumber" value="11">
@@ -11717,31 +11707,6 @@
                     <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="术士／法师（Sorcerer/Wizard）">
                       <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-1-4.html">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="术士/法师变体（Sorcerer/Wizard Variant）">
-                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-848.html">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="义警（Vigilante）">
-                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-161.html">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="荒漠行者（Walker In the Waste）">
-                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-673.html">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="战法师（Warmage）">
-                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-16.html">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="巫觋（Wu Jen）">
-                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-17.html">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                 </UL>
