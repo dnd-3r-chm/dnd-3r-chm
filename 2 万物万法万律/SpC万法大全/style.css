@@ -1,0 +1,29 @@
+body { margin: 2em; color: #222; background: #fff; font-family: "Microsoft YaHei", "SimSun", serif; line-height: 1.65; }
+#content { max-width: 62em; margin: 0; } h1 { font-size: 1.7em; } h2 { border-bottom: 1px solid #bbb; }
+a { color: #164f91; } .notice { padding: .6em; border: 1px solid #aaa; background: #f5f5f5; }
+.spell-entry { margin-bottom: 3em; } .spell-body p, .spell-body pre, .spell-body ul, .spell-body ol, .spell-body dl, .spell-body table, .spell-body blockquote { margin-top: 0; margin-bottom: 1.65em; }
+.spell-entry > h2 { font-size: 1.17em; display: block; }
+.spell-name, .spell-metadata { display: inline-block; max-width: 100%; word-wrap: break-word; overflow-wrap: anywhere; }
+.spell-metadata { display: block; font-size: .72em; font-weight: normal; color: #555; }
+.website-link { font-size: .85em; margin-left: .35em; text-decoration: none; }
+.component-labels { font-size: .75em; }
+.domain-online-label { font-size: .8em; } .domain-footnotes { font-size: .9em; }
+.membership-note { display: block; } .spell-body li p, .spell-body td p, .spell-body th p { margin-bottom: .5em; }
+.spell-body ul.pdf-typography-marked-list { list-style: none; }
+.spell-body ul.pdf-typography-marked-list ul { list-style-type: disc; }
+.spell-body ul.pdf-typography-marked-list ol { list-style-type: decimal; }
+.spell-body ul.pdf-typography-marked-list ul.pdf-typography-marked-list { list-style: none; }
+pre, .plain { white-space: pre-wrap; word-wrap: break-word; font-family: inherit; }
+.spell-body pre.plain-lines { white-space: normal; }
+.spell-body pre.plain-lines > span { display: block; white-space: pre-wrap; }
+.spell-body pre.plain-lines > span.plain-paragraph { margin-bottom: .8em; }
+.spell-body pre.plain-lines > span:empty { min-height: .8em; }
+.spell-body .mechanism-field { margin-top: 0; margin-bottom: 0; }
+.spell-body .mechanism-end { margin-bottom: 1.65em; }
+.spell-body pre.plain-lines > span.mechanism-gap, .spell-body p.mechanism-gap { margin: 0; min-height: 0; height: 0; line-height: 0; white-space: normal; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #999; padding: .3em .7em; }
+.navigation { font-size: .95em; } li { margin: .2em 0; }
+
+/* HTML Help uses the installed Internet Explorer engine. */
+section { display: block; }

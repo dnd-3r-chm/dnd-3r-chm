@@ -11643,10 +11643,463 @@
       </UL>
     </UL>
             <LI><OBJECT type="text/sitemap">
-              <param name="Name" value="[SpC] 万法大全(暂缺)">
+              <param name="Name" value="[SpC] 万法大全">
               <param name="Local" value="2 万物万法万律\SpC万法大全\封面.htm">
               <param name="ImageNumber" value="41">
             </OBJECT>
+            <UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="万法大全目录">
+                  <param name="Local" value="2 万物万法万律\SpC万法大全\index.html">
+                  <param name="ImageNumber" value="11">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="引言">
+                  <param name="Local" value="2 万物万法万律\SpC万法大全\introduction.html">
+                  <param name="ImageNumber" value="11">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="万法大全 — 原文疑义">
+                  <param name="Local" value="2 万物万法万律\SpC万法大全\source-questions.html">
+                  <param name="ImageNumber" value="11">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="职业法术表">
+                  <param name="Local" value="2 万物万法万律\SpC万法大全\index.html#classes">
+                  <param name="ImageNumber" value="19">
+                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="刺客（Assassin）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-330.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="吟游诗人（Bard）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-3.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="黑卫（Blackguard）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-331.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="牧师（Cleric）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-2.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="德鲁伊（Druid）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-6.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="暮刃（Duskblade）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-72.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="治疗师（Healer）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-62.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="圣武士（Paladin）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-7.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="巡林客（Ranger）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-5.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="术士／法师（Sorcerer/Wizard）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-1-4.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="术士/法师变体（Sorcerer/Wizard Variant）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-848.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="义警（Vigilante）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-161.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="荒漠行者（Walker In the Waste）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-673.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="战法师（Warmage）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-16.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="巫觋（Wu Jen）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\职业法表\class-17.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                </UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="领域">
+                  <param name="Local" value="2 万物万法万律\SpC万法大全\index.html#domains">
+                  <param name="ImageNumber" value="19">
+                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="深渊（Abyss）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-136.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="阿波瑞亚（Arborea）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-144.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="平衡（Balance）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-127.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="洞穴（Cavern）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-60.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="迅捷（Celerity）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-42.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="七重天堂（Celestia）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-141.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="寒冷（Cold）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-32.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="竞逐（Competition）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-142.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="勇气（Courage）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-43.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="制造（Craft）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-58.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="创造（Creation）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-34.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="黑暗（Darkness）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-14.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="死亡束缚（Deathbound）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-67.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="支配（Domination）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-39.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="巨龙（Dragon）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-48.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="梦境（Dream）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-37.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="卓尔（Drow）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-53.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="乐土（Elysium）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-143.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="力场（Force）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-41.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="荣耀（Glory）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-3.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="暴食（Gluttony）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-137.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="侏儒（Gnome）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-54.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="贪婪（Greed）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-12.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="哈迪斯（Hades）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-139.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="饥饿（Hunger）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-66.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="解放（Liberation）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-30.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="林波（Limbo）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-140.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="疯狂（Madness）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-38.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="机械境（Mechanus）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-138.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="心灵（Mind）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-36.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="月亮（Moon）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-57.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="神秘（Mysticism）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-45.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="海洋（Ocean）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-31.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="契约（Pact）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-35.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="瘟疫（Pestilence）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-33.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="传送门（Portal）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-56.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="净化（Purification）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-29.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="法术（Spell）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-59.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="蜘蛛（Spider）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-61.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="贸易（Trade）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-55.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="狂风暴域（Windstorm）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-135.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="愤怒（Wrath (SpC)）">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\领域法表\domain-174.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                </UL>
+                <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="A–Z 法术正文">
+                  <param name="Local" value="2 万物万法万律\SpC万法大全\index.html#letters">
+                  <param name="ImageNumber" value="19">
+                </OBJECT>
+                <UL>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="A">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\A.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="B">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\B.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="C">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\C.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="D">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\D.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="E">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\E.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="F">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\F.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="G">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\G.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="H">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\H.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="I">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\I.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="J">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\J.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="K">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\K.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="L">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\L.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="M">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\M.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="N">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\N.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="O">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\O.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="P">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\P.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="Q">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\Q.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="R">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\R.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="S">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\S.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="T">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\T.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="U">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\U.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="V">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\V.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="W">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\W.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="X">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\X.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="Y">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\Y.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="Z">
+                      <param name="Local" value="2 万物万法万律\SpC万法大全\法术描述\Z.html">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                </UL>
+            </UL>
             <LI><OBJECT type="text/sitemap">
               <param name="Name" value="[RC] 万律大全(暂缺)">
               <param name="Local" value="2 万物万法万律\RC万律大全\封面.htm">
