@@ -1,0 +1,64 @@
+/* ==========================================================================
+   ansk-statlabel.css   --  anna + sek
+   --------------------------------------------------------------------------
+   Stat-block skin for monster pages, layered ON TOP of the base stylesheet
+   (cascading_stylesheet.css). It answers only for the block itself:
+   transparent table + blue field labels.
+
+   Load order:
+       <link rel="stylesheet" href="../cascading_stylesheet.css">
+       <link rel="stylesheet" href="../ansk-statlabel.css">
+
+   Markup:
+       <h1>Monster Name</h1>                         <- red comes from base h1
+       <table class="statblock">
+         <tr><td><p><b class="statlabel">Hit Dice:</b></p></td>
+             <td><p>...</p></td></tr>
+       </table>
+   ========================================================================== */
+
+/* ---- transparent table -------------------------------------------------- */
+/* the base sheet frames every table/th/td with 1px black; a stat block is
+   an alignment grid, so the frame is switched off here.                    */
+table.statblock {
+  border: 0;
+  border-collapse: collapse;
+  margin: 0.4em 0;
+}
+
+table.statblock th,
+table.statblock td {
+  border: 0;
+  padding: 0.12em 0.7em 0.12em 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+/* ---- paragraphs inside the grid ----------------------------------------- */
+/* the base sheet indents every <p> by 2em and adds 0.2em/0.3em margins;
+   inside a stat block that would push each label inward and stretch the
+   rows apart, so both are normalised.                                      */
+table.statblock p {
+  text-indent: 0;
+  margin: 0.1em 0;
+}
+
+/* ---- blue field labels -------------------------------------------------- */
+.statlabel {
+  color: #0000cc;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* ---- long descriptive lines wrap ---------------------------------------- */
+table.statblock td:last-child {
+  word-wrap: break-word;
+}
+
+/* ---- creature type line -------------------------------------------------- */
+/* the "<p class="type-line">Large construct</p>" line directly under a      */
+/* monster name: flush left, no first-line indent.                          */
+p.type-line {
+  text-indent: 0;
+  margin: 0.1em 0 0.2em;
+}

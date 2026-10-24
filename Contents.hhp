@@ -1,6 +1,6 @@
 [OPTIONS]
 Title=龙与地下城3R扩展规则大全
-Compiled file=dnd3r_full.chm
+Compiled file=3R扩展大不全v2.51.ACv2-full.chm
 Error log file=
 Default topic=前言.htm
 Language=0x0804 简体中文(中国大陆)
@@ -68,6 +68,7 @@ main="龙与地下城3版扩展规则大全","Contents.hhc","Index.hhk","前言.htm","前言.htm
 6 种族书\RotD龙之族裔\第三章\种族特征.htm
 6 种族书\RotD龙之族裔\第三章\额外特性与武器.htm
 1 核心补充书籍\MM3怪物图鉴3\mm3-statblock.css
+ansk-statlabel.css
 1 核心补充书籍\MM3怪物图鉴3\玩家可选\Kenku 天狗.htm
 1 核心补充书籍\MM3怪物图鉴3\玩家可选\Shifter 半兽化人.htm
 1 核心补充书籍\MM3怪物图鉴3\玩家可选\Changeling 半变形怪.htm
@@ -1409,7 +1410,7 @@ main="龙与地下城3版扩展规则大全","Contents.hhc","Index.hhk","前言.htm","前言.htm
 0 核心三宝书\MM怪物图鉴\第一章：怪物\W\尸妖.htm
 0 核心三宝书\MM怪物图鉴\第一章：怪物\W\翼龙.htm
 0 核心三宝书\MM怪物图鉴\第一章：怪物\W\座狼.htm
-0 核心三宝书\MM怪物图鉴\第一章：怪物\X\索尔石怪（石鼎兽）.htm
+0 核心三宝书\MM怪物图鉴\第一章：怪物\X\索尔石怪.htm
 0 核心三宝书\MM怪物图鉴\第一章：怪物\X\锡尔族.htm
 0 核心三宝书\MM怪物图鉴\第一章：怪物\Y\角翼魔兽.htm
 0 核心三宝书\MM怪物图鉴\第一章：怪物\Y\蛇人族.htm
@@ -2213,7 +2214,7 @@ main="龙与地下城3版扩展规则大全","Contents.hhc","Index.hhk","前言.htm","前言.htm
 3 完美系列\CAr完美奥术\2.进阶\银白学者.htm
 3 完美系列\CAr完美奥术\2.进阶\超凡之弦.htm
 3 完美系列\CAr完美奥术\2.进阶\错乱法师.htm
-3 完美系列\CAr完美奥术\2.进阶\虹彩学徒.htm
+3 完美系列\CAr完美奥术\2.进阶\七帷门徒（Initiate of the Sevenfold Veil）.htm
 3 完美系列\CAr完美奥术\2.进阶\变形大师.htm
 3 完美系列\CAr完美奥术\2.进阶\奥法尖兵.htm
 3 完美系列\CAr完美奥术\2.进阶\启迪之拳.htm
@@ -2877,6 +2878,7 @@ main="龙与地下城3版扩展规则大全","Contents.hhc","Index.hhk","前言.htm","前言.htm
 5 环境和社会\Frost霜燃之书\霜土学识\生活.htm
 5 环境和社会\Frost霜燃之书\霜土学识\种族.htm
 5 环境和社会\Frost霜燃之书\霜土学识\诸神.htm
+5 环境和社会\Frost霜燃之书\霜土学识\职业.htm
 5 环境和社会\Frost霜燃之书\专长简表.htm
 5 环境和社会\Frost霜燃之书\霜土冒险\专长.htm
 5 环境和社会\Frost霜燃之书\进阶职业\冻寒者(Cryokineticist).htm
@@ -3858,7 +3860,6 @@ main="龙与地下城3版扩展规则大全","Contents.hhc","Index.hhk","前言.htm","前言.htm
 7 扩展全新体系\HoB战争英雄\3战场遭遇\联盟军队.htm
 7 扩展全新体系\HoB战争英雄\3战场遭遇\对抗巨人.htm
 7 扩展全新体系\HoB战争英雄\3战场遭遇\地精袭击者.htm
-7 扩展全新体系\HoB战争英雄\3战场遭遇\译者.htm
 7 扩展全新体系\HoB战争英雄\4规则\攻城武器.htm
 7 扩展全新体系\HoB战争英雄\4规则\高空轰炸.htm
 7 扩展全新体系\HoB战争英雄\4规则\箭雨.htm
@@ -4158,7 +4159,7 @@ main="龙与地下城3版扩展规则大全","Contents.hhc","Index.hhk","前言.htm","前言.htm
 8 战役引钩\EE上古邪物\1介绍\专长描述.htm
 8 战役引钩\EE上古邪物\灭世死星.htm
 8 战役引钩\EE上古邪物\归来者扎贡.htm
-8 战役引钩\EE上古邪物\情歌教父.htm
+8 战役引钩\EE上古邪物\君父黎米克.htm
 8 战役引钩\EE上古邪物\巨神兵.htm
 8 战役引钩\EE上古邪物\利维坦.htm
 8 战役引钩\EE上古邪物\屠神者.htm
