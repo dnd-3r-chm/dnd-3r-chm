@@ -7700,8 +7700,8 @@
                     </OBJECT>
         <UL>
                         <LI><OBJECT type="text/sitemap">
-                          <param name="Name" value="索尔石怪（石鼎兽）">
-                          <param name="Local" value="0 核心三宝书\MM怪物图鉴\第一章：怪物\X\索尔石怪（石鼎兽）.htm">
+                          <param name="Name" value="索尔石怪">
+                          <param name="Local" value="0 核心三宝书\MM怪物图鉴\第一章：怪物\X\索尔石怪.htm">
                           <param name="ImageNumber" value="11">
                         </OBJECT>
                         <LI><OBJECT type="text/sitemap">
@@ -12447,8 +12447,8 @@
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="虹彩学徒">
-                      <param name="Local" value="3 完美系列\CAr完美奥术\2.进阶\虹彩学徒.htm">
+                      <param name="Name" value="七帷门徒">
+                      <param name="Local" value="3 完美系列\CAr完美奥术\2.进阶\七帷门徒（Initiate of the Sevenfold Veil）.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
@@ -16412,14 +16412,14 @@
                       <param name="Name" value="霜落之地的种族">
                       <param name="Local" value="5 环境和社会\Frost霜燃之书\霜土学识\种族.htm">
                       <param name="ImageNumber" value="11">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="[暂缺]职业变体">
-                      <param name="ImageNumber" value="9">
-                    </OBJECT>
-                    <LI><OBJECT type="text/sitemap">
+                    </OBJECT>                    <LI><OBJECT type="text/sitemap">
                       <param name="Name" value="霜落之地的诸神">
                       <param name="Local" value="5 环境和社会\Frost霜燃之书\霜土学识\诸神.htm">
+                      <param name="ImageNumber" value="11">
+                    </OBJECT>
+                    <LI><OBJECT type="text/sitemap">
+                      <param name="Name" value="霜落之地的玩家职业">
+                      <param name="Local" value="5 环境和社会\Frost霜燃之书\霜土学识\职业.htm">
                       <param name="ImageNumber" value="11">
                     </OBJECT>
                     <LI><OBJECT type="text/sitemap">
@@ -22325,11 +22325,7 @@
                           <param name="ImageNumber" value="11">
                         </OBJECT>
         </UL>
-                    <LI><OBJECT type="text/sitemap">
-                      <param name="Name" value="译者">
-                      <param name="Local" value="7 扩展全新体系\HoB战争英雄\3战场遭遇\译者.htm">
-                      <param name="ImageNumber" value="11">
-                    </OBJECT>
+
       </UL>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="4. 战争规则">
@@ -24382,7 +24378,7 @@
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="君父黎米克">
-                  <param name="Local" value="8 战役引钩\EE上古邪物\情歌教父.htm">
+                  <param name="Local" value="8 战役引钩\EE上古邪物\君父黎米克.htm">
                   <param name="ImageNumber" value="11">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
