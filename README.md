@@ -5,8 +5,6 @@
 
 或果园5版讨论区的帖子["如何给5e不全书做贡献"](https://www.goddessfantasy.net/bbs/index.php?topic=151088.0)来研究相关技巧。
 
-（因为狮鹫自己还没想好如何用简明的语言来描述这部分内容。）
-
 ## 页面与 CHM 工程
 
 本仓库使用根目录 `Contents.hhp` 工程、`Contents.hhc` 目录及 `Index.hhk` 索引；可用 HTML Help Workshop 打开工程并编译。新增页面和资源应登记在 `[FILES]`，并同步目录及索引。生成的 CHM 不纳入版本控制。
