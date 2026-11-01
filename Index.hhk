@@ -10,6 +10,11 @@
     </OBJECT>
     <UL>
         <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="[MM] 第七章：名词解释">
+          <param name="Local" value="0 核心三宝书\MM怪物图鉴\第七章：名词解释\第七章名词解释.htm">
+        </OBJECT>
+
+        <LI><OBJECT type="text/sitemap">
           <param name="Name" value="前言">
           <param name="Local" value="前言.htm">
         </OBJECT>
