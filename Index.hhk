@@ -94,7 +94,7 @@
                   <param name="ImageNumber" value="11">
                 </OBJECT>
 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="防具 [RC]">
+                  <param name="Name" value="盔甲 [RC]">
                   <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\009.htm">
                   <param name="ImageNumber" value="11">
                 </OBJECT>
@@ -25451,6 +25451,10 @@
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="纱米-阿莫尔 欢愉女士">
           <param name="Local" value="11 其他资源\契灵大全\其它，纱米-阿莫尔 欢愉女士 The Lady of Delights.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="术语总表 [RC]">
+          <param name="Local" value="2 万物万法万律\RC万律大全\术语总表.htm">
         </OBJECT>
     </UL>
 </BODY>

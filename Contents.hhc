@@ -12109,6 +12109,11 @@
                   <param name="ImageNumber" value="11">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
+                  <param name="Name" value="术语总表">
+                  <param name="Local" value="2 万物万法万律\RC万律大全\术语总表.htm">
+                  <param name="ImageNumber" value="11">
+                </OBJECT>
+                <LI><OBJECT type="text/sitemap">
                   <param name="Name" value="引言（Introduction）">
                   <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\001.htm">
                   <param name="ImageNumber" value="11">
@@ -12149,7 +12154,7 @@
                   <param name="ImageNumber" value="11">
                 </OBJECT>
                 <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="防具（Armor）">
+                  <param name="Name" value="盔甲（Armor）">
                   <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\009.htm">
                   <param name="ImageNumber" value="11">
                 </OBJECT>
