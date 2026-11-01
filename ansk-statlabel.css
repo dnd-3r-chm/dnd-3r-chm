@@ -1,5 +1,5 @@
 /* ==========================================================================
-   ansk-statlabel.css   --  anna + sek
+   ansk-statlabel.css   --  as annaseek
    --------------------------------------------------------------------------
    Stat-block skin for monster pages, layered ON TOP of the base stylesheet
    (cascading_stylesheet.css). It answers only for the block itself:
@@ -62,3 +62,36 @@ p.type-line {
   text-indent: 0;
   margin: 0.1em 0 0.2em;
 }
+
+/* ==========================================================================
+   标题阶梯（怪物数据）
+   h1 页面标题       1.8em 设色
+   h2 副标题         1.6em 设色
+   h3 怪物上级标题   1.4em 设色
+   h4 怪物主题       1.2em 设色
+   h5 次级叙述       1em   设色
+   h6 末级叙述       1em   黑色
+   ========================================================================== */
+h1 { font-size: 1.8em; color: maroon; margin: 0.1em 0 0.3em; }
+h2 { font-size: 1.6em; color: maroon; margin: 0.1em 0 0.3em; }
+h3 { font-size: 1.4em; color: maroon; margin: 0.1em 0 0.3em; }
+h4 { font-size: 1.2em; color: maroon; margin: 0.1em 0 0.3em; }
+h5 { font-size: 1em;   color: maroon; margin: 0.1em 0 0.3em; }
+h6 { font-size: 1em;   color: #000; margin: 0.1em 0 0.3em; }
+
+/* ---- 斜体风味描述 ------------------------------------------------------ */
+p.flavor { font-style: italic; text-indent: 0; margin: 0.1em 0 0.3em; }
+
+/* ---- 表格版式：全行缩进 2em ----------------------------- */
+table { margin: 0.4em 2em 0.4em 2em; width: auto; }
+/* 数据块：隐线表格 */
+table.statblock { margin: 0.4em 0; }
+table th, table td { padding: 0.1em 0.6em; text-align: left; }
+table th { vertical-align: top; }
+/* 有限表格：两列都设宽度下限 */
+table.statblock td, table.statblock th,
+table td, table th { min-width: 5.5em; }
+
+/* ---- 多列对比表：横向缩进交给外层，表宽占满，列宽等分 ------------------ */
+div.cols-wrap { margin: 0.4em 2em; }
+div.cols-wrap table { width: 100%; table-layout: fixed; margin: 0; }

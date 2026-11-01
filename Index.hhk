@@ -10,11 +10,6 @@
     </OBJECT>
     <UL>
         <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="[MM] 第七章：名词解释">
-          <param name="Local" value="0 核心三宝书\MM怪物图鉴\第七章：名词解释\第七章名词解释.htm">
-        </OBJECT>
-
-        <LI><OBJECT type="text/sitemap">
           <param name="Name" value="前言">
           <param name="Local" value="前言.htm">
         </OBJECT>
@@ -24316,926 +24311,222 @@
           <param name="Name" value="剧透功能测试">
           <param name="Local" value="10 附录\测试页面.htm">
         </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="引言 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\001.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Introduction [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\001.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="属性丧失 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\002.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Ability Score Loss [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\002.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="动作类型 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\003.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Action Types [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\003.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="战斗中的动作 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\004.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Actions in Combat [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\004.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="协助 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\005.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Aid Another [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\005.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="反魔法 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\006.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Antimagic [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\006.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="估价 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\007.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Appraise [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\007.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="间章：规则的诞生 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\008.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Interlude: Birth of a Rule [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\008.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="防具 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\009.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Armor [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\009.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="防御等级 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\010.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Armor Class [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\010.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="攻击与伤害 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\011.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Attacks and Damage [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\011.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="借机攻击 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\012.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Attacks of Opporatunity [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\012.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="战斗方格地图 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\013.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Battle Grid [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\013.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="加值 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\014.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Bonuses [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\014.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="喷吐武器 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\015.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Breath Weapon [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\015.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="冲撞 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\016.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Bull Rush [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\016.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="改变形态 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\017.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Changing Forms [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\017.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="冲锋 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\018.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Charge [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\018.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="魅惑与胁迫 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\019.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Charm and Compulsion [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\019.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="检定 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\020.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Checks [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\020.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="隐蔽 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\021.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Concealment [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\021.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="专注 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\022.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Concentration [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\022.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="状态 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\023.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Conditions [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\023.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="反制法术 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\024.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Counterspelling [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\024.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="间章：活着的游戏 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\025.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Interlude: The Living Game [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\025.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="掩蔽 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\026.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Cover [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\026.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="重击 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\027.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Critical Hits [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\027.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="伤害减免 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\028.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Damage Reduction [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\028.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="伤害类别 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\029.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Damage Types [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\029.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="延后 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\030.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Delay [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\030.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="解除装置和开锁 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\031.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Disable Device and Open Lock [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\031.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="缴械 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\032.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Disarm [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\032.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="疾病 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\033.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Disease [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\033.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="负重 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\034.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Encumbrance [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\034.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="能量 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\035.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Energy [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\035.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="能量吸取与等级减少 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\036.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Energy Drain and Level Loss [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\036.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="脱逃术与绳技 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\037.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Escape Artist and Use Rope [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\037.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="灵化状态 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\038.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Etherealness [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\038.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="坠落 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\039.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Falling [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\039.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="恐惧 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\040.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Fear [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\040.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="虚招 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\041.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Feint [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\041.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="防御式攻击与全防御 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\042.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Fighting Defensively and Total Defense [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\042.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="夹击 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\043.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Flanking [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\043.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="气化形体 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\044.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Gaseous Form [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\044.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="凝视攻击 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\045.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Gaze Attacks [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\045.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="擒拿 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\046.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Grappling [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\046.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="无助的防御者 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\047.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Helpless Defenders [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\047.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="间章：律与娱 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\048.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Interlude: Rules and Fun [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\048.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="虚化状态 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\049.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Incorporeality [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\049.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="影响与交互 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\050.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Influence and Interaction [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\050.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="先攻 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\051.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Initiative [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\051.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="受伤，医疗和死亡 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\052.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Injury, Healing, and Death [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\052.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="隐形 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\053.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Invisibility [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\053.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="语言 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\054.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Language [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\054.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="照明与黑暗 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\055.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Light and Darkness [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\055.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="效果线 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\056.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Line of Effect [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\056.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="视线 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\057.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Line of Sight [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\057.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="魔法物品 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\058.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Magic Items [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\058.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="骑乘战斗 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\059.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Mounted Combat [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\059.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="移动 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\060.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Movement [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\060.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="天生攻击 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\061.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Natural Attacks [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\061.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="自然灾害 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\062.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Natural Hazards [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\062.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="空属性 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\063.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Nonabilities [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\063.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="物体 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\064.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Objects [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\064.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="闯越 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\065.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Overrun [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\065.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="毒素 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\066.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Poison [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\066.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="准备 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\067.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Ready [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\067.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="间章：抽象或拟真 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\068.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Interlude: Abstraction or Simulation [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\068.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="豁免检定 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\069.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Saving Throws [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\069.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="感官 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\070.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Senses [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\070.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="体型 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\071.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Size [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\071.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="手上功夫 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\072.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Sleight of Hand [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\072.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="特殊能力 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\073.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Special Abilities [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\073.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="法术描述 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\074.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Spell Descriptions [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\074.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="法术准备 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\075.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Spell Preparation [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\075.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="法术抗力 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\076.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Spell Resistance [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\076.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="施法 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\077.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Spellcasting [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\077.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="法术辨识 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\078.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Spellcraft [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\078.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="自发施法 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\079.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Spontaneous Casting [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\079.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="饥饿与干渴 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\080.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Starvation and Thirst [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\080.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="窒息 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\081.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Suffocation [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\081.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="击破 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\082.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Sunder [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\082.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="投掷泼溅武器 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\083.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Throwing Splash Weapons [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\083.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="追踪 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\084.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Track [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\084.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="绊摔 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\085.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Trip [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\085.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="驱散 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\086.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Turning [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\086.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="双武器战斗 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\087.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Two-Weapon Fighting [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\087.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="水下战斗 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\088.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Underwater Combat [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\088.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="武器 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\089.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Weapons [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\089.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="间章：为什么规则死了 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\090.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Interlude: Why Rules Die [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\090.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="天气 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\091.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Weather [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\091.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="魔法文本 [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\092.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
-                <LI><OBJECT type="text/sitemap">
-                  <param name="Name" value="Writings, Magical [RC]">
-                  <param name="Local" value="2 万物万法万律\RC万律大全\规则条目\092.htm">
-                  <param name="ImageNumber" value="11">
-                </OBJECT>
+            <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="契约魔法专长">
+          <param name="Local" value="11 其他资源\契灵大全\契约魔法专长.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="阿蒙 空置的祭坛">
+          <param name="Local" value="11 其他资源\契灵大全\一级，阿蒙 空置的祭坛 Amon, The Void before the Altar.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="埃姆 贪婪女王">
+          <param name="Local" value="11 其他资源\契灵大全\一级，埃姆 贪婪女王 Aym, Queen Avarice.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="列娜金 绿色使者">
+          <param name="Local" value="11 其他资源\契灵大全\一级，列娜金 绿色使者 Leraje, The Green Herald.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="纳贝琉斯 狞笑猎犬">
+          <param name="Local" value="11 其他资源\契灵大全\一级，纳贝琉斯 狞笑猎犬 Naberius, The Grinning Hound.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="罗诺芙 铁处女">
+          <param name="Local" value="11 其他资源\契灵大全\一级，罗诺芙 铁处女 Ronove, The Iron Maiden.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="达文-纳 受折磨的灵魂">
+          <param name="Local" value="11 其他资源\契灵大全\二级，达文-纳 受折磨的灵魂 Dahlver-Nar, The Tortured One.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="哈詹提 弥诺陶斯之母">
+          <param name="Local" value="11 其他资源\契灵大全\二级，哈詹提 弥诺陶斯之母 Haagenti, Mother of Minotaurs.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="玛尔法斯 变色的羽毛">
+          <param name="Local" value="11 其他资源\契灵大全\二级，玛尔法斯 变色的羽毛 Malphas, The Turnfeather.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="沙佛诺克 煽动者">
+          <param name="Local" value="11 其他资源\契灵大全\二级，沙佛诺克 煽动者 Savnok, The Instigator.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="安卓梅利斯 忏悔的游荡者">
+          <param name="Local" value="11 其他资源\契灵大全\三级，安卓梅利斯 忏悔的游荡者 Andromalius, The Repentant Rogue.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="佛卡洛 恸哭王子">
+          <param name="Local" value="11 其他资源\契灵大全\三级，佛卡洛 恸哭王子 Focalor, Prince of Tears.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="卡尔萨斯 血泊中的傲慢">
+          <param name="Local" value="11 其他资源\契灵大全\三级，卡尔萨斯 血泊中的傲慢 Karsus, Hubris in the Blood.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="派蒙 舞者">
+          <param name="Local" value="11 其他资源\契灵大全\三级，派蒙 舞者 Paimon, The Dancer.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="奇点 太一与太初">
+          <param name="Local" value="11 其他资源\契灵大全\三级，奇点 太一与太初 Primus, The One and The Prime.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="阿哈祖 掠夺者">
+          <param name="Local" value="11 其他资源\契灵大全\三级，阿哈祖 掠夺者 Ahazu, The Seizer.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="阿加雷斯 真实的背叛">
+          <param name="Local" value="11 其他资源\契灵大全\四级，阿加雷斯 真实的背叛 Agares, Truth Betrayed.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="安卓斯 灰骑士">
+          <param name="Local" value="11 其他资源\契灵大全\四级，安卓斯 灰骑士 Andras, The Gray Knight.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="布尔 猎手老妪">
+          <param name="Local" value="11 其他资源\契灵大全\四级，布尔 猎手老妪 Buer, Grandmother Huntress.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="欧律诺墨 万有之母">
+          <param name="Local" value="11 其他资源\契灵大全\四级，欧律诺墨 万有之母 Eurynome, Mother of The Material.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="阴晦 影之为物">
+          <param name="Local" value="11 其他资源\契灵大全\四级，阴晦 影之为物 Tenebrous, The Shadow That Was.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="亚斯塔罗斯 巴托的迪亚波罗">
+          <param name="Local" value="11 其他资源\契灵大全\四级，亚斯塔罗斯 巴托的迪亚波罗 Astaroth, Diabolus of Baator.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="卡皮里 观察之主">
+          <param name="Local" value="11 其他资源\契灵大全\四级，卡皮里 观察之主 Cabiri, The Watching Master.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="亚斯塔罗斯 不义的放逐">
+          <param name="Local" value="11 其他资源\契灵大全\四级，亚斯塔罗斯 不义的放逐 Astaroth, Unjustly Fallen.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="凯斯 血手">
+          <param name="Local" value="11 其他资源\契灵大全\四级，凯斯 血手 Kas, The Bloody Handed.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="奥雷特 最初的厄兰">
+          <param name="Local" value="11 其他资源\契灵大全\四级，奥雷特 最初的厄兰 Arete, The First Elan.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="阿瑟瑞拉克 吞噬者">
+          <param name="Local" value="11 其他资源\契灵大全\五级，阿瑟瑞拉克 吞噬者 Acererak, The Devourer.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="巴拉姆 仇恨天使">
+          <param name="Local" value="11 其他资源\契灵大全\五级，巴拉姆 仇恨天使 Balam, The Bitter Angel.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="但塔利恩 星皇">
+          <param name="Local" value="11 其他资源\契灵大全\五级，但塔利恩 星皇 Dantalion, The Star Emperor.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="格殷永 被废黜的领主">
+          <param name="Local" value="11 其他资源\契灵大全\五级，格殷永 被废黜的领主 Geryon, The Deposed Lord.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="奥提喀斯 众门之钥">
+          <param name="Local" value="11 其他资源\契灵大全\五级，奥提喀斯 众门之钥 Otiax, The Key to the Gate.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="楚玻克劳珀斯 永恒的预兆">
+          <param name="Local" value="11 其他资源\契灵大全\六级，楚玻克劳珀斯 永恒的预兆 Chupoclops, Harbinger of Forever.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="荷瑞斯 睡梦公爵">
+          <param name="Local" value="11 其他资源\契灵大全\六级，荷瑞斯 睡梦公爵 Haures, The Dreaming Duke.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="艾珀斯 愚者之王">
+          <param name="Local" value="11 其他资源\契灵大全\六级，艾珀斯 愚者之王 Ipos, Prince of Fools.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="纱克丝 海的姐妹">
+          <param name="Local" value="11 其他资源\契灵大全\六级，纱克丝 海的姐妹 Shax, Sea Sister.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="泽伽 失望公爵">
+          <param name="Local" value="11 其他资源\契灵大全\六级，泽伽 失望公爵 Zagan, Duke of Disappointment.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="赞西莉亚 星群">
+          <param name="Local" value="11 其他资源\契灵大全\六级，赞西莉亚 星群 Zceryll, The Star Spawn.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="瓦努斯 受诅者">
+          <param name="Local" value="11 其他资源\契灵大全\六级，瓦努斯 受诅者 Vanus, The Reviled One.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="三位一体">
+          <param name="Local" value="11 其他资源\契灵大全\六级，三位一体 The Traid.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="德莎莱斯 蔓延之魂">
+          <param name="Local" value="11 其他资源\契灵大全\六级，德莎莱斯 蔓延之魂 Desharis, The Sprawling Soul.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="艾力格 巨龙屠夫">
+          <param name="Local" value="11 其他资源\契灵大全\七级，艾力格 巨龙屠夫 Eligor, Dragon's Slayer.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="玛刻煞斯 杀手之王">
+          <param name="Local" value="11 其他资源\契灵大全\七级，玛刻煞斯 杀手之王 Marchosias, King of Killers.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="安斯蒂弗 亵渎者">
+          <param name="Local" value="11 其他资源\契灵大全\七级，安斯蒂弗 亵渎者 Ansitif, The Befouler.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="哈法克斯 针尖上的天使">
+          <param name="Local" value="11 其他资源\契灵大全\八级，哈法克斯 针尖上的天使 Halphax, The Angel in the Angle.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="奥瑟斯 嚎啸黑暗君主">
+          <param name="Local" value="11 其他资源\契灵大全\八级，奥瑟斯 嚎啸黑暗君主 Orthos, Sovereign of the Howling Dark.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="阿比斯 碎裂之城">
+          <param name="Local" value="11 其他资源\契灵大全\八级，阿比斯 碎裂之城 Abysm, The Schismed.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="阿莎德隆 婴灵的火葬柴堆">
+          <param name="Local" value="11 其他资源\契灵大全\八级，阿莎德隆 婴灵的火葬柴堆 Ashardalon, Pyre of the Unborn.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="传奇契灵">
+          <param name="Local" value="11 其他资源\契灵大全\传奇契灵.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="阿蒙-赫 克普谢夫 被亵渎的后裔">
+          <param name="Local" value="11 其他资源\契灵大全\传奇，阿蒙-赫 克普谢夫 被亵渎的后裔 Amun-her khepeshef, The Desecrated Scion.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="盖亚 大地之魂">
+          <param name="Local" value="11 其他资源\契灵大全\传奇，盖亚 大地之魂 Gaia, Soul of the Land.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="特哈鲁金 天启乌贼">
+          <param name="Local" value="11 其他资源\契灵大全\传奇，特哈鲁金 天启乌贼 Tkhaluuljin, the Cephalopocalypse.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="祖列尔 青铜之神">
+          <param name="Local" value="11 其他资源\契灵大全\传奇，祖列尔 青铜之神 Zuriel, The Bronze God.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="其他契灵">
+          <param name="Local" value="11 其他资源\契灵大全\其他契灵.html">
+        </OBJECT>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="纱米-阿莫尔 欢愉女士">
+          <param name="Local" value="11 其他资源\契灵大全\其它，纱米-阿莫尔 欢愉女士 The Lady of Delights.html">
+        </OBJECT>
     </UL>
 </BODY>
 </HTML>
