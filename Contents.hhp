@@ -1,6 +1,6 @@
 [OPTIONS]
 Title=龙与地下城3R扩展规则大全
-Compiled file=3R扩展大不全v2.51.ACv2-full.chm
+Compiled file=3R扩展大不全v2.51.ACv3-full.chm
 Error log file=
 Default topic=前言.htm
 Language=0x0804 简体中文(中国大陆)
@@ -24,101 +24,6 @@ Default Font=微软雅黑,12,0
 main="龙与地下城3版扩展规则大全","Contents.hhc","Index.hhk","前言.htm","前言.htm",,,,,0x00063520,264,0x0000183C,[0,0,1174,644],,,,0,0,0,0
 
 [FILES]
-0 核心三宝书\MM怪物图鉴\第七章：名词解释\第七章名词解释.htm
-2 万物万法万律\RC万律大全\目录.htm
-2 万物万法万律\RC万律大全\译者前言.htm
-2 万物万法万律\RC万律大全\规则条目\001.htm
-2 万物万法万律\RC万律大全\规则条目\002.htm
-2 万物万法万律\RC万律大全\规则条目\003.htm
-2 万物万法万律\RC万律大全\规则条目\004.htm
-2 万物万法万律\RC万律大全\规则条目\005.htm
-2 万物万法万律\RC万律大全\规则条目\006.htm
-2 万物万法万律\RC万律大全\规则条目\007.htm
-2 万物万法万律\RC万律大全\规则条目\008.htm
-2 万物万法万律\RC万律大全\规则条目\009.htm
-2 万物万法万律\RC万律大全\规则条目\010.htm
-2 万物万法万律\RC万律大全\规则条目\011.htm
-2 万物万法万律\RC万律大全\规则条目\012.htm
-2 万物万法万律\RC万律大全\规则条目\013.htm
-2 万物万法万律\RC万律大全\规则条目\014.htm
-2 万物万法万律\RC万律大全\规则条目\015.htm
-2 万物万法万律\RC万律大全\规则条目\016.htm
-2 万物万法万律\RC万律大全\规则条目\017.htm
-2 万物万法万律\RC万律大全\规则条目\018.htm
-2 万物万法万律\RC万律大全\规则条目\019.htm
-2 万物万法万律\RC万律大全\规则条目\020.htm
-2 万物万法万律\RC万律大全\规则条目\021.htm
-2 万物万法万律\RC万律大全\规则条目\022.htm
-2 万物万法万律\RC万律大全\规则条目\023.htm
-2 万物万法万律\RC万律大全\规则条目\024.htm
-2 万物万法万律\RC万律大全\规则条目\025.htm
-2 万物万法万律\RC万律大全\规则条目\026.htm
-2 万物万法万律\RC万律大全\规则条目\027.htm
-2 万物万法万律\RC万律大全\规则条目\028.htm
-2 万物万法万律\RC万律大全\规则条目\029.htm
-2 万物万法万律\RC万律大全\规则条目\030.htm
-2 万物万法万律\RC万律大全\规则条目\031.htm
-2 万物万法万律\RC万律大全\规则条目\032.htm
-2 万物万法万律\RC万律大全\规则条目\033.htm
-2 万物万法万律\RC万律大全\规则条目\034.htm
-2 万物万法万律\RC万律大全\规则条目\035.htm
-2 万物万法万律\RC万律大全\规则条目\036.htm
-2 万物万法万律\RC万律大全\规则条目\037.htm
-2 万物万法万律\RC万律大全\规则条目\038.htm
-2 万物万法万律\RC万律大全\规则条目\039.htm
-2 万物万法万律\RC万律大全\规则条目\040.htm
-2 万物万法万律\RC万律大全\规则条目\041.htm
-2 万物万法万律\RC万律大全\规则条目\042.htm
-2 万物万法万律\RC万律大全\规则条目\043.htm
-2 万物万法万律\RC万律大全\规则条目\044.htm
-2 万物万法万律\RC万律大全\规则条目\045.htm
-2 万物万法万律\RC万律大全\规则条目\046.htm
-2 万物万法万律\RC万律大全\规则条目\047.htm
-2 万物万法万律\RC万律大全\规则条目\048.htm
-2 万物万法万律\RC万律大全\规则条目\049.htm
-2 万物万法万律\RC万律大全\规则条目\050.htm
-2 万物万法万律\RC万律大全\规则条目\051.htm
-2 万物万法万律\RC万律大全\规则条目\052.htm
-2 万物万法万律\RC万律大全\规则条目\053.htm
-2 万物万法万律\RC万律大全\规则条目\054.htm
-2 万物万法万律\RC万律大全\规则条目\055.htm
-2 万物万法万律\RC万律大全\规则条目\056.htm
-2 万物万法万律\RC万律大全\规则条目\057.htm
-2 万物万法万律\RC万律大全\规则条目\058.htm
-2 万物万法万律\RC万律大全\规则条目\059.htm
-2 万物万法万律\RC万律大全\规则条目\060.htm
-2 万物万法万律\RC万律大全\规则条目\061.htm
-2 万物万法万律\RC万律大全\规则条目\062.htm
-2 万物万法万律\RC万律大全\规则条目\063.htm
-2 万物万法万律\RC万律大全\规则条目\064.htm
-2 万物万法万律\RC万律大全\规则条目\065.htm
-2 万物万法万律\RC万律大全\规则条目\066.htm
-2 万物万法万律\RC万律大全\规则条目\067.htm
-2 万物万法万律\RC万律大全\规则条目\068.htm
-2 万物万法万律\RC万律大全\规则条目\069.htm
-2 万物万法万律\RC万律大全\规则条目\070.htm
-2 万物万法万律\RC万律大全\规则条目\071.htm
-2 万物万法万律\RC万律大全\规则条目\072.htm
-2 万物万法万律\RC万律大全\规则条目\073.htm
-2 万物万法万律\RC万律大全\规则条目\074.htm
-2 万物万法万律\RC万律大全\规则条目\075.htm
-2 万物万法万律\RC万律大全\规则条目\076.htm
-2 万物万法万律\RC万律大全\规则条目\077.htm
-2 万物万法万律\RC万律大全\规则条目\078.htm
-2 万物万法万律\RC万律大全\规则条目\079.htm
-2 万物万法万律\RC万律大全\规则条目\080.htm
-2 万物万法万律\RC万律大全\规则条目\081.htm
-2 万物万法万律\RC万律大全\规则条目\082.htm
-2 万物万法万律\RC万律大全\规则条目\083.htm
-2 万物万法万律\RC万律大全\规则条目\084.htm
-2 万物万法万律\RC万律大全\规则条目\085.htm
-2 万物万法万律\RC万律大全\规则条目\086.htm
-2 万物万法万律\RC万律大全\规则条目\087.htm
-2 万物万法万律\RC万律大全\规则条目\088.htm
-2 万物万法万律\RC万律大全\规则条目\089.htm
-2 万物万法万律\RC万律大全\规则条目\090.htm
-2 万物万法万律\RC万律大全\规则条目\091.htm
-2 万物万法万律\RC万律大全\规则条目\092.htm
 译者名录1.1.htm
 前言.htm
 如何使用大不全.htm
@@ -1557,6 +1462,68 @@ ansk-statlabel.css
 0 核心三宝书\MM怪物图鉴\第五章：制作怪物\挑战级数-7.htm
 0 核心三宝书\MM怪物图鉴\第五章：制作怪物\怪物功能定位与挑战级数-8.htm
 0 核心三宝书\MM怪物图鉴\第六章：怪物技能与专长\第六章怪物技能与专长.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\爱拉亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\耙抓.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\变形亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\地精亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\等级修正值.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\动物类.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\毒素.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\飞行.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\盖丁亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\构装生物.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\寒系亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\环境.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\昏暗视觉.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\混乱亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\火系亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\紧勒.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\精类生物.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\精通攫抓.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\巨人.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\掘穴.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\恐惧.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\快速医疗.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\灵敏嗅觉.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\灵能.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\龙类生物.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\麻痹.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\猛扑.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\名词解释续.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\魔法兽类.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\能量抗力.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\泥形生物.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\爬行亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\攀爬.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\强力冲刺.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\强力亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\人形生物.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\善良亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\伤害减免.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\射线.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\守序亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\属性吸取.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\属性值减少.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\水栖亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\体型.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\天然武器.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\天使亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\土系亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\外界亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\威势.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\无属性.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\吸能.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\邪恶亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\虚体亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\亚空亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\异怪类.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\异界生物.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\有效人物等级.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\元素生物.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\原生亚种.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\再生.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\植物类.htm
+0 核心三宝书\MM怪物图鉴\第七章：名词解释\种族生命骰.htm
 1 核心补充书籍\XPH扩展灵能手册\1种族\扩展灵能（XPH）.htm
 1 核心补充书籍\XPH扩展灵能手册\1种族\前言1.htm
 1 核心补充书籍\XPH扩展灵能手册\1种族\种族.htm
@@ -6209,9 +6176,113 @@ ansk-statlabel.css
 0 核心三宝书\MM怪物图鉴\_images\MM1\紫蕈.jpg
 0 核心三宝书\MM怪物图鉴\_images\MM1\自走夜影.jpg
 0 核心三宝书\MM怪物图鉴\_images\MM1\座狼.jpg
+11 其他资源\契灵大全\一级，列娜金 绿色使者 Leraje, The Green Herald.html
+11 其他资源\契灵大全\一级，埃姆 贪婪女王 Aym, Queen Avarice.html
+11 其他资源\契灵大全\一级，纳贝琉斯 狞笑猎犬 Naberius, The Grinning Hound.html
+11 其他资源\契灵大全\一级，罗诺芙 铁处女 Ronove, The Iron Maiden.html
+11 其他资源\契灵大全\一级，阿蒙 空置的祭坛 Amon, The Void before the Altar.html
+11 其他资源\契灵大全\七级，安斯蒂弗 亵渎者 Ansitif, The Befouler.html
+11 其他资源\契灵大全\七级，玛刻煞斯 杀手之王 Marchosias, King of Killers.html
+11 其他资源\契灵大全\七级，艾力格 巨龙屠夫 Eligor, Dragon's Slayer.html
+11 其他资源\契灵大全\三级，佛卡洛 恸哭王子 Focalor, Prince of Tears.html
+11 其他资源\契灵大全\三级，卡尔萨斯 血泊中的傲慢 Karsus, Hubris in the Blood.html
+11 其他资源\契灵大全\三级，奇点 太一与太初 Primus, The One and The Prime.html
+11 其他资源\契灵大全\三级，安卓梅利斯 忏悔的游荡者 Andromalius, The Repentant Rogue.html
+11 其他资源\契灵大全\三级，派蒙 舞者 Paimon, The Dancer.html
+11 其他资源\契灵大全\三级，阿哈祖 掠夺者 Ahazu, The Seizer.html
+11 其他资源\契灵大全\二级，哈詹提 弥诺陶斯之母 Haagenti, Mother of Minotaurs.html
+11 其他资源\契灵大全\二级，沙佛诺克 煽动者 Savnok, The Instigator.html
+11 其他资源\契灵大全\二级，玛尔法斯 变色的羽毛 Malphas, The Turnfeather.html
+11 其他资源\契灵大全\二级，达文-纳 受折磨的灵魂 Dahlver-Nar, The Tortured One.html
+11 其他资源\契灵大全\五级，但塔利恩 星皇 Dantalion, The Star Emperor.html
+11 其他资源\契灵大全\五级，奥提喀斯 众门之钥 Otiax, The Key to the Gate.html
+11 其他资源\契灵大全\五级，巴拉姆 仇恨天使 Balam, The Bitter Angel.html
+11 其他资源\契灵大全\五级，格殷永 被废黜的领主 Geryon, The Deposed Lord.html
+11 其他资源\契灵大全\五级，阿瑟瑞拉克 吞噬者 Acererak, The Devourer.html
+11 其他资源\契灵大全\传奇契灵.html
+11 其他资源\契灵大全\传奇，特哈鲁金 天启乌贼 Tkhaluuljin, the Cephalopocalypse.html
+11 其他资源\契灵大全\传奇，盖亚 大地之魂 Gaia, Soul of the Land.html
+11 其他资源\契灵大全\传奇，祖列尔 青铜之神 Zuriel, The Bronze God.html
+11 其他资源\契灵大全\传奇，阿蒙-赫 克普谢夫 被亵渎的后裔 Amun-her khepeshef, The Desecrated Scion.html
+11 其他资源\契灵大全\八级，哈法克斯 针尖上的天使 Halphax, The Angel in the Angle.html
+11 其他资源\契灵大全\八级，奥瑟斯 嚎啸黑暗君主 Orthos, Sovereign of the Howling Dark.html
+11 其他资源\契灵大全\八级，阿比斯 碎裂之城 Abysm, The Schismed.html
+11 其他资源\契灵大全\八级，阿莎德隆 婴灵的火葬柴堆 Ashardalon, Pyre of the Unborn.html
+11 其他资源\契灵大全\六级，三位一体 The Traid.html
+11 其他资源\契灵大全\六级，德莎莱斯 蔓延之魂 Desharis, The Sprawling Soul.html
+11 其他资源\契灵大全\六级，楚玻克劳珀斯 永恒的预兆 Chupoclops, Harbinger of Forever.html
+11 其他资源\契灵大全\六级，泽伽 失望公爵 Zagan, Duke of Disappointment.html
+11 其他资源\契灵大全\六级，瓦努斯 受诅者 Vanus, The Reviled One.html
+11 其他资源\契灵大全\六级，纱克丝 海的姐妹 Shax, Sea Sister.html
+11 其他资源\契灵大全\六级，艾珀斯 愚者之王 Ipos, Prince of Fools.html
+11 其他资源\契灵大全\六级，荷瑞斯 睡梦公爵 Haures, The Dreaming Duke.html
+11 其他资源\契灵大全\六级，赞西莉亚 星群 Zceryll, The Star Spawn.html
+11 其他资源\契灵大全\其他契灵.html
+11 其他资源\契灵大全\其它，纱米-阿莫尔 欢愉女士 The Lady of Delights.html
+11 其他资源\契灵大全\前言.html
+11 其他资源\契灵大全\四级，亚斯塔罗斯 不义的放逐 Astaroth, Unjustly Fallen.html
+11 其他资源\契灵大全\四级，亚斯塔罗斯 巴托的迪亚波罗 Astaroth, Diabolus of Baator.html
+11 其他资源\契灵大全\四级，凯斯 血手 Kas, The Bloody Handed.html
+11 其他资源\契灵大全\四级，卡皮里 观察之主 Cabiri, The Watching Master.html
+11 其他资源\契灵大全\四级，奥雷特 最初的厄兰 Arete, The First Elan.html
+11 其他资源\契灵大全\四级，安卓斯 灰骑士 Andras, The Gray Knight.html
+11 其他资源\契灵大全\四级，布尔 猎手老妪 Buer, Grandmother Huntress.html
+11 其他资源\契灵大全\四级，欧律诺墨 万有之母 Eurynome, Mother of The Material.html
+11 其他资源\契灵大全\四级，阴晦 影之为物 Tenebrous, The Shadow That Was.html
+11 其他资源\契灵大全\四级，阿加雷斯 真实的背叛 Agares, Truth Betrayed.html
+11 其他资源\契灵大全\契约魔法专长.html
+11 其他资源\契灵大全\灵契师.html
+11 其他资源\契灵大全\图片\一级，列娜金 绿色使者 Leraje, The Green Herald.png
+11 其他资源\契灵大全\图片\一级，埃姆 贪婪女王 Aym, Queen Avarice.png
+11 其他资源\契灵大全\图片\一级，纳贝琉斯 狞笑猎犬 Naberius, The Grinning Hound.png
+11 其他资源\契灵大全\图片\一级，罗诺芙 铁处女 Ronove, The Iron Maiden.png
+11 其他资源\契灵大全\图片\一级，阿蒙 空置的祭坛 Amon, The Void before the Altar.png
+11 其他资源\契灵大全\图片\七级，安斯蒂弗 亵渎者 Ansitif, The Befouler.png
+11 其他资源\契灵大全\图片\七级，玛刻煞斯 杀手之王 Marchosias, King of Killers.png
+11 其他资源\契灵大全\图片\七级，艾力格 巨龙屠夫 Eligor, Dragon's Slayer.png
+11 其他资源\契灵大全\图片\三级，佛卡洛 恸哭王子 Focalor, Prince of Tears.png
+11 其他资源\契灵大全\图片\三级，卡尔萨斯 血泊中的傲慢 Karsus, Hubris in the Blood.png
+11 其他资源\契灵大全\图片\三级，奇点 太一与太初 Primus, The One and The Prime.png
+11 其他资源\契灵大全\图片\三级，安卓梅利斯 忏悔的游荡者 Andromalius, The Repentant Rogue.png
+11 其他资源\契灵大全\图片\三级，派蒙 舞者 Paimon, The Dancer.png
+11 其他资源\契灵大全\图片\三级，阿哈祖 掠夺者 Ahazu, The Seizer.png
+11 其他资源\契灵大全\图片\二级，哈詹提 弥诺陶斯之母 Haagenti, Mother of Minotaurs.png
+11 其他资源\契灵大全\图片\二级，沙佛诺克 煽动者 Savnok, The Instigator.png
+11 其他资源\契灵大全\图片\二级，玛尔法斯 变色的羽毛 Malphas, The Turnfeather.png
+11 其他资源\契灵大全\图片\二级，达文-纳 受折磨的灵魂 Dahlver-Nar, The Tortured One.png
+11 其他资源\契灵大全\图片\五级，但塔利恩 星皇 Dantalion, The Star Emperor.png
+11 其他资源\契灵大全\图片\五级，奥提喀斯 众门之钥 Otiax, The Key to the Gate.png
+11 其他资源\契灵大全\图片\五级，巴拉姆 仇恨天使 Balam, The Bitter Angel.png
+11 其他资源\契灵大全\图片\五级，格殷永 被废黜的领主 Geryon, The Deposed Lord.png
+11 其他资源\契灵大全\图片\五级，阿瑟瑞拉克 吞噬者 Acererak, The Devourer.png
+11 其他资源\契灵大全\图片\八级，哈法克斯 针尖上的天使 Halphax, The Angel in the Angle.png
+11 其他资源\契灵大全\图片\八级，奥瑟斯 嚎啸黑暗君主 Orthos, Sovereign of the Howling Dark.png
+11 其他资源\契灵大全\图片\八级，阿比斯 碎裂之城 Abysm, The Schismed.png
+11 其他资源\契灵大全\图片\八级，阿莎德隆 婴灵的火葬柴堆 Ashardalon, Pyre of the Unborn.png
+11 其他资源\契灵大全\图片\六级，三位一体 The Traid.png
+11 其他资源\契灵大全\图片\六级，德莎莱斯 蔓延之魂 Desharis, The Sprawling Soul.png
+11 其他资源\契灵大全\图片\六级，楚玻克劳珀斯 永恒的预兆 Chupoclops, Harbinger of Forever.png
+11 其他资源\契灵大全\图片\六级，泽伽 失望公爵 Zagan, Duke of Disappointment.png
+11 其他资源\契灵大全\图片\六级，瓦努斯 受诅者 Vanus, The Reviled One.png
+11 其他资源\契灵大全\图片\六级，纱克丝 海的姐妹 Shax, Sea Sister.png
+11 其他资源\契灵大全\图片\六级，艾珀斯 愚者之王 Ipos, Prince of Fools.png
+11 其他资源\契灵大全\图片\六级，荷瑞斯 睡梦公爵 Haures, The Dreaming Duke.png
+11 其他资源\契灵大全\图片\六级，赞西莉亚 星群 Zceryll, The Star Spawn.jpg
+11 其他资源\契灵大全\图片\六级，赞西莉亚 星群 Zceryll, The Star Spawn（2）.png
+11 其他资源\契灵大全\图片\四级，亚斯塔罗斯 不义的放逐 Astaroth, Unjustly Fallen.png
+11 其他资源\契灵大全\图片\四级，亚斯塔罗斯 巴托的迪亚波罗 Astaroth, Diabolus of Baator.png
+11 其他资源\契灵大全\图片\四级，凯斯 血手 Kas, The Bloody Handed.png
+11 其他资源\契灵大全\图片\四级，卡皮里 观察之主 Cabiri, The Watching Master.png
+11 其他资源\契灵大全\图片\四级，奥雷特 最初的厄兰 Arete, The First Elan.png
+11 其他资源\契灵大全\图片\四级，安卓斯 灰骑士 Andras, The Gray Knight.png
+11 其他资源\契灵大全\图片\四级，布尔 猎手老妪 Buer, Grandmother Huntress.png
+11 其他资源\契灵大全\图片\四级，欧律诺墨 万有之母 Eurynome, Mother of The Material.png
+11 其他资源\契灵大全\图片\四级，阴晦 影之为物 Tenebrous, The Shadow That Was.png
+11 其他资源\契灵大全\图片\四级，阿加雷斯 真实的背叛 Agares, Truth Betrayed.png
+11 其他资源\契灵大全\图片\四级，阿加雷斯 真实的背叛 Agares, Truth Betrayed（2）.png
+11 其他资源\契灵大全\_template.css
 [ALIAS]
 #include contexts.ali
 
 [MAP]
 #include contexts.h
-
