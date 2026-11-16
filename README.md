@@ -1,9 +1,11 @@
 # 龙与地下城3R扩展规则大全
-总而言之，现在3版也开始用github来为扩展大不全做版本控制了。
+总而言之，现在3R也开始用github来为扩展大不全做版本控制了。
 
 我们推荐阅读5版不全书的[readme.md](https://github.com/DND5eChm/DND5e_chm/blob/main/README.md)
 
 如果您对本文件有任何问题或希望做出贡献也可以通过QQ联系刹那风华/胖虎 (1654738532)
+
+3R大不全维护使用的软件分别为每个参与者自己选用的代码编辑器 (如 VSCode ) 用于对具体的chm页面进行 html 修改，以及最终编译时使用的是 Precision Helper ，一个免费的chm编辑器。
 
 ## CHM "前言" 部分
 
