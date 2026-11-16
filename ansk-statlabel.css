@@ -82,16 +82,15 @@ h6 { font-size: 1em;   color: #000; margin: 0.1em 0 0.3em; }
 /* ---- 斜体风味描述 ------------------------------------------------------ */
 p.flavor { font-style: italic; text-indent: 0; margin: 0.1em 0 0.3em; }
 
+/* ---- 校注：灰色小字、斜体、不缩进 ---- */
+p.note { color:#777; font-size:0.9em; font-style:italic; text-indent:0; margin:0.2em 2em 0.6em; }
+
 /* ---- 表格版式：全行缩进 2em ----------------------------- */
-table { margin: 0.4em 2em 0.4em 2em; width: auto; }
+table { margin: 0.4em 2em 0.4em 2em; width: auto; min-width: 12em; }
 /* 数据块：隐线表格 */
 table.statblock { margin: 0.4em 0; }
 table th, table td { padding: 0.1em 0.6em; text-align: left; }
 table th { vertical-align: top; }
-/* 有限表格：两列都设宽度下限 */
-table.statblock td, table.statblock th,
-table td, table th { min-width: 5.5em; }
-
 /* ---- 多列对比表：横向缩进交给外层，表宽占满，列宽等分 ------------------ */
 div.cols-wrap { margin: 0.4em 2em; }
 div.cols-wrap table { width: 100%; table-layout: fixed; margin: 0; }
